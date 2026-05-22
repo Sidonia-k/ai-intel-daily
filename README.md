@@ -25,6 +25,13 @@ $env:PYTHONPATH="src"
 python -m ai_intel_daily.main
 ```
 
+To generate reports for a specific date:
+
+```powershell
+$env:PYTHONPATH="src"
+python -m ai_intel_daily.main --date 2026-05-22
+```
+
 Generated reports are written to:
 
 ```text

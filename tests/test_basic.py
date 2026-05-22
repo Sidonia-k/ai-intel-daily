@@ -1,6 +1,8 @@
 from datetime import date
+from pathlib import Path
 
 import ai_intel_daily
+import ai_intel_daily.main as main_module
 from ai_intel_daily.main import generate_reports
 
 
@@ -24,6 +26,34 @@ def test_generate_reports_creates_fake_markdown_reports(tmp_path):
     assert "研究辅助" in stock_report
     assert "不构成投资建议" in stock_report
     assert "不提供买入、卖出或持有建议" in stock_report
+
+
+def test_main_uses_default_date_logic_when_date_is_not_provided(monkeypatch):
+    calls = []
+
+    def fake_generate_reports(output_dir=None, report_date=None):
+        calls.append((output_dir, report_date))
+        return Path("ai-report.md"), Path("stock-report.md")
+
+    monkeypatch.setattr(main_module, "generate_reports", fake_generate_reports)
+
+    main_module.main([])
+
+    assert calls == [(None, None)]
+
+
+def test_main_passes_cli_date_to_generate_reports(monkeypatch):
+    calls = []
+
+    def fake_generate_reports(output_dir=None, report_date=None):
+        calls.append((output_dir, report_date))
+        return Path("ai-report.md"), Path("stock-report.md")
+
+    monkeypatch.setattr(main_module, "generate_reports", fake_generate_reports)
+
+    main_module.main(["--date", "2026-05-22"])
+
+    assert calls == [(None, date(2026, 5, 22))]
 
 
 def test_ai_report_contains_required_sections(tmp_path):

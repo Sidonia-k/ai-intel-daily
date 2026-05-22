@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 from datetime import date
 from pathlib import Path
 
@@ -126,8 +127,19 @@ def generate_reports(output_dir: str | Path | None = None, report_date: date | N
     return ai_path, stock_path
 
 
-def main() -> None:
-    ai_path, stock_path = generate_reports()
+def _parse_report_date(value: str) -> date:
+    try:
+        return date.fromisoformat(value)
+    except ValueError as exc:
+        raise argparse.ArgumentTypeError("expected date in YYYY-MM-DD format") from exc
+
+
+def main(argv: list[str] | None = None) -> None:
+    parser = argparse.ArgumentParser(description="Generate local AI intelligence Markdown reports.")
+    parser.add_argument("--date", type=_parse_report_date, help="Report date in YYYY-MM-DD format.")
+    args = parser.parse_args(argv)
+
+    ai_path, stock_path = generate_reports(report_date=args.date)
     print(f"Generated AI report: {ai_path}")
     print(f"Generated stock research report: {stock_path}")
 
