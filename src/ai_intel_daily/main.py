@@ -10,7 +10,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 TEMPLATES_DIR = PROJECT_ROOT / "templates"
 DEFAULT_REPORTS_DIR = PROJECT_ROOT / "data" / "reports"
 
-FINANCIAL_DISCLAIMER = "仅供研究辅助，不构成投资建议，不提供买入、卖出或持有建议。"
+FINANCIAL_DISCLAIMER = "本报告仅用于信息整理和研究辅助，不构成投资建议，不提供买入、卖出或持有建议，不承诺收益。"
 
 
 def _bullet_list(items: list[str]) -> str:

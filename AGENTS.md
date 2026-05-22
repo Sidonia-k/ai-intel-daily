@@ -9,7 +9,8 @@ This project is in Stage 0. Keep changes small, local, and easy to inspect.
 - Do not create n8n workflows or automated schedules.
 - Do not add databases, vector stores, external caches, or external storage.
 - Do not write API keys, passwords, tokens, or credentials into the repository.
-- Do not provide stock buy, sell, or hold recommendations.
+- Do not provide deterministic stock trading recommendations, such as advising users to buy, sell, hold, overweight, or expect guaranteed returns.
+- Required safety disclaimers may mention buy, sell, or hold in a negative form, such as stating that the report does not provide buy, sell, or hold recommendations.
 - Keep stock-related reports strictly as research assistance and not investment advice.
 
 ## Preferred Approach

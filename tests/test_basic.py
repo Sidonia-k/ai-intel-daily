@@ -53,7 +53,7 @@ def test_stock_report_contains_required_sections_and_disclaimer(tmp_path):
     ]
     for section in required_sections:
         assert section in stock_report
-    assert "仅供研究辅助，不构成投资建议，不提供买入、卖出或持有建议。" in stock_report
+    assert "本报告仅用于信息整理和研究辅助，不构成投资建议，不提供买入、卖出或持有建议，不承诺收益。" in stock_report
 
 
 def test_stock_report_avoids_deterministic_investment_advice(tmp_path):
@@ -64,9 +64,16 @@ def test_stock_report_avoids_deterministic_investment_advice(tmp_path):
         "建议买入",
         "可以买入",
         "强烈买入",
+        "应该买入",
         "建议卖出",
         "应该卖出",
         "建议持有",
+        "可以重仓",
+        "保证盈利",
+        "保证赚钱",
+        "稳赚不赔",
+        "一定上涨",
+        "必然上涨",
     ]
     for phrase in banned_phrases:
         assert phrase not in stock_report
