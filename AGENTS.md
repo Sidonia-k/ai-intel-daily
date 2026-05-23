@@ -19,3 +19,11 @@ This project is in Stage 0. Keep changes small, local, and easy to inspect.
 - Keep generated reports as Markdown files.
 - Keep tests focused on the Stage 0 contract.
 - Document future ideas in `docs/roadmap.md` instead of implementing them early.
+
+## Codex Working Rules
+
+- Before each change, understand the goal of the current branch.
+- Do not develop directly on the default primary branch `main` or `master`; create a separate feature branch for each stage.
+- After making changes, run the test suite when the local environment supports it.
+- When working with secrets, never write real API keys, passwords, tokens, or credentials into the repository.
+- Keep stock-related reports strictly as research assistance and not investment advice.
