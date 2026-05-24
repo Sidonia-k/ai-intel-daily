@@ -2,19 +2,24 @@
 
 `ai-intel-daily` is a local-first project for generating daily AI intelligence reports.
 
-Stage 0 creates the project skeleton and generates two Markdown reports with fixed fake data:
+Stage 4 adds a first AI daily report flow that reads configurable RSS/Atom
+sources, deduplicates entries, and writes a Markdown report:
 
 - AI industry changes worth watching
 - AI-related stock market research notes
 
-This stage does not connect to real APIs, does not automate schedules, does not use agents, and does not provide investment advice.
+This project does not use API keys, does not automate schedules, does not use
+agents, and does not provide investment advice.
 
-## Stage 0 Features
+## Features
 
-- Generate local Markdown reports from templates.
+- Generate a Markdown AI daily report from RSS/Atom sources in `config/ai_sources.yaml`.
+- Continue when one RSS source fails.
+- Deduplicate collected items by URL, then normalized title.
+- Generate a "暂无有效数据" report when no valid items are collected.
 - Keep report output folders under `data/reports/`.
 - Include clear financial safety disclaimers in the stock research report.
-- Provide a small pytest suite for the basic project contract.
+- Provide a pytest suite that does not request real networks.
 
 ## Local Setup
 
@@ -41,17 +46,24 @@ macOS / Linux:
 PYTHONPATH=src python -m ai_intel_daily.main
 ```
 
+To generate only the AI daily report:
+
+```powershell
+$env:PYTHONPATH="src"
+python -m ai_intel_daily.main --report ai
+```
+
 To generate reports for a specific date:
 
 ```powershell
 $env:PYTHONPATH="src"
-python -m ai_intel_daily.main --date 2026-05-22
+python -m ai_intel_daily.main --report ai --date 2026-05-22
 ```
 
 macOS / Linux:
 
 ```bash
-PYTHONPATH=src python -m ai_intel_daily.main --date 2026-05-22
+PYTHONPATH=src python -m ai_intel_daily.main --report ai --date 2026-05-22
 ```
 
 Generated reports are written to:
@@ -137,7 +149,8 @@ Current CI only runs tests. It does not connect to real APIs and does not create
 
 ## Current Limits
 
-- No real news, paper, social media, market, earnings, or brokerage APIs.
+- RSS/Atom only for the AI daily report; no HTML collectors yet.
+- No paper, social media, market, earnings, or brokerage APIs.
 - No complex agent or multi-agent system.
 - No n8n workflow, cron job, daily report scheduler, or real automation against external services.
 - No database, vector store, cache service, or external storage.

@@ -1,31 +1,3780 @@
-# AI 圈值得关注的变化报告
+# AI 圈日报
 
 日期：2026-05-22
 
-> 阶段 0 假数据报告：以下内容仅用于验证项目骨架和 Markdown 生成流程，不接真实数据源。
+> 本报告基于配置的 RSS/公开信息源生成，仅做研究辅助；所有条目均来自来源列表，不编造来源。
 
-## 今日最值得关注的 3 件事
+## 今日最值得关注的 3～5 件事
 
-- 假数据：一家模型公司发布新的多模态演示，适合观察产品化节奏。
-- 假数据：一个开源推理优化项目获得开发者关注，可能降低本地实验门槛。
-- 假数据：企业 AI 工具继续向工作流集成方向发展。
+- [Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models](https://huggingface.co/blog/nvidia/nemotron-labs-diffusion) （Hugging Face Blog，2026-05-23T00:02:03+00:00）
+- [Catch up on the Dialogues stage at Google I/O 2026.](https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/) （Google AI Blog，2026-05-22T18:00:00+00:00）：Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage
+- [Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook](https://huggingface.co/blog/Dharma-AI/specialization-beats-scale) （Hugging Face Blog，2026-05-22T15:25:59+00:00）
+- [OpenAI named a Leader in enterprise coding agents by Gartner](https://openai.com/index/gartner-2026-agentic-coding-leader) （OpenAI News，2026-05-22T00:00:00+00:00）：OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.
+- [How Virgin Atlantic ships faster with Codex](https://openai.com/index/virgin-atlantic) （OpenAI News，2026-05-22T00:00:00+00:00）：How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.
+
+## 大模型发布与更新
+
+- [OpenAI named a Leader in enterprise coding agents by Gartner](https://openai.com/index/gartner-2026-agentic-coding-leader) （OpenAI News，2026-05-22T00:00:00+00:00）：OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.
+- [How Virgin Atlantic ships faster with Codex](https://openai.com/index/virgin-atlantic) （OpenAI News，2026-05-22T00:00:00+00:00）：How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.
+- [AdventHealth advances whole-person care with OpenAI](https://openai.com/index/adventhealth) （OpenAI News，2026-05-21T12:00:00+00:00）：AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.
+- [An OpenAI model has disproved a central conjecture in discrete geometry](https://openai.com/index/model-disproves-discrete-geometry-conjecture) （OpenAI News，2026-05-20T00:00:00+00:00）：An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.
+- [The next phase of OpenAI’s Education for Countries](https://openai.com/index/the-next-phase-of-education-for-countries) （OpenAI News，2026-05-20T00:00:00+00:00）：OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.
+- [How Ramp engineers accelerate code review with Codex](https://openai.com/index/ramp) （OpenAI News，2026-05-20T00:00:00+00:00）：How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.
+- [Introducing OpenAI for Singapore](https://openai.com/index/introducing-openai-for-singapore) （OpenAI News，2026-05-19T20:30:00+00:00）：OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.
+- [Advancing content provenance for a safer, more transparent AI ecosystem](https://openai.com/index/advancing-content-provenance) （OpenAI News，2026-05-19T10:45:00+00:00）：OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.
+- [OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments](https://openai.com/index/dell-codex-enterprise-partnership) （OpenAI News，2026-05-18T10:00:00+00:00）：OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.
+- [OpenAI and Malta partner to bring ChatGPT Plus to all citizens](https://openai.com/index/malta-chatgpt-plus-partnership) （OpenAI News，2026-05-16T00:00:00+00:00）：OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.
+- [How sales teams use Codex](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex) （OpenAI News，2026-05-15T00:00:00+00:00）：See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.
+- [Databricks brings GPT-5.5 to enterprise agent workflows](https://openai.com/index/databricks) （OpenAI News，2026-05-15T00:00:00+00:00）：Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.
+- [A new personal finance experience in ChatGPT](https://openai.com/index/personal-finance-chatgpt) （OpenAI News，2026-05-15T00:00:00+00:00）：Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your f…
+- [How business operations teams use Codex](https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex) （OpenAI News，2026-05-15T00:00:00+00:00）：See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.
+- [How data science teams use Codex](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex) （OpenAI News，2026-05-15T00:00:00+00:00）：See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.
+- [Sea's View on the Future of Agentic Software Development with Codex](https://openai.com/index/sea-david-chen) （OpenAI News，2026-05-14T20:30:00+00:00）：Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.
+- [Work with Codex from anywhere](https://openai.com/index/work-with-codex-from-anywhere) （OpenAI News，2026-05-14T13:00:00+00:00）：Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.
+- [Helping ChatGPT better recognize context in sensitive conversations](https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations) （OpenAI News，2026-05-14T00:00:00+00:00）：Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.
+- [Building a safe, effective sandbox to enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox) （OpenAI News，2026-05-13T11:00:00+00:00）：Learn how OpenAI built a safe, effective sandbox to enable Codex on Windows with controlled file access and network limits.
+- [Our response to the TanStack npm supply chain attack](https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack) （OpenAI News，2026-05-13T00:00:00+00:00）：OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS us…
+- [How finance teams use Codex](https://openai.com/academy/how-finance-teams-use-codex) （OpenAI News，2026-05-12T15:00:00+00:00）：See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.
+- [AutoScout24 scales engineering with AI-powered workflows](https://openai.com/index/autoscout24) （OpenAI News，2026-05-12T00:00:00+00:00）：Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.
+- [How NVIDIA engineers and researchers build with Codex](https://openai.com/index/nvidia) （OpenAI News，2026-05-12T00:00:00+00:00）：Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.
+- [What Parameter Golf taught us about AI-assisted research](https://openai.com/index/what-parameter-golf-taught-us) （OpenAI News，2026-05-12T00:00:00+00:00）：Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design un…
+- [How ChatGPT adoption broadened in early 2026](https://openai.com/signals/research/2026q1-update) （OpenAI News，2026-05-11T15:00:00+00:00）：ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.
+- [OpenAI Campus Network: Student club interest form](https://openai.com/index/openai-campus-network-student-club-interest-form) （OpenAI News，2026-05-11T10:00:00+00:00）：Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.
+- [How enterprises are scaling AI](https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai) （OpenAI News，2026-05-11T10:00:00+00:00）：How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.
+- [OpenAI launches DeployCo to help businesses build around intelligence](https://openai.com/index/openai-launches-the-deployment-company) （OpenAI News，2026-05-11T06:00:00+00:00）：OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.
+- [Running Codex safely at OpenAI](https://openai.com/index/running-codex-safely) （OpenAI News，2026-05-08T12:30:00+00:00）：How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.
+- [Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber](https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber) （OpenAI News，2026-05-07T13:00:00+00:00）：OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.
+- [Parloa builds service agents customers want to talk to](https://openai.com/index/parloa) （OpenAI News，2026-05-07T11:00:00+00:00）：Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.
+- [Advancing voice intelligence with new models in the API](https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api) （OpenAI News，2026-05-07T10:00:00+00:00）：Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.
+- [Introducing Trusted Contact in ChatGPT](https://openai.com/index/introducing-trusted-contact-in-chatgpt) （OpenAI News，2026-05-07T00:00:00+00:00）：Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.
+- [Testing ads in ChatGPT](https://openai.com/index/testing-ads-in-chatgpt) （OpenAI News，2026-05-07T00:00:00+00:00）：OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.
+- [Simplex rethinks software development with Codex](https://openai.com/index/simplex) （OpenAI News，2026-05-07T00:00:00+00:00）：Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.
+- [How ChatGPT learns about the world while protecting privacy](https://openai.com/index/how-chatgpt-protects-privacy) （OpenAI News，2026-05-06T08:00:00+00:00）：Learn how ChatGPT safeguards your privacy, reduces personal data in training, and gives you control over whether your conversations improve AI models.
+- [Singular Bank helps bankers move fast with ChatGPT and Codex](https://openai.com/index/singular-bank) （OpenAI News，2026-05-06T00:00:00+00:00）：Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.
+- [Introducing ChatGPT Futures: Class of 2026](https://openai.com/index/introducing-chatgpt-futures-class-of-2026) （OpenAI News，2026-05-06T00:00:00+00:00）：Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativ…
+- [Uber uses OpenAI to help people earn smarter and book faster](https://openai.com/index/uber) （OpenAI News，2026-05-06T00:00:00+00:00）：Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.
+- [How frontier firms are pulling ahead](https://openai.com/index/introducing-b2b-signals) （OpenAI News，2026-05-06T00:00:00+00:00）：OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.
+- [GPT-5.5 Instant System Card](https://openai.com/index/gpt-5-5-instant-system-card) （OpenAI News，2026-05-05T10:00:00+00:00）
+- [GPT-5.5 Instant: smarter, clearer, and more personalized](https://openai.com/index/gpt-5-5-instant) （OpenAI News，2026-05-05T10:00:00+00:00）：GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.
+- [Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)](https://openai.com/index/mrc-supercomputer-networking) （OpenAI News，2026-05-05T10:00:00+00:00）：OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training cl…
+- [Advancing youth safety and wellbeing in EMEA](https://openai.com/index/advancing-youth-safety-in-emea) （OpenAI News，2026-05-05T00:00:00+00:00）：Explore OpenAI’s European Youth Safety Blueprint and EMEA Youth & Wellbeing Grants, advancing safe, responsible AI for teens, families, and educators.
+- [New ways to buy ChatGPT ads](https://openai.com/index/new-ways-to-buy-chatgpt-ads) （OpenAI News，2026-05-05T00:00:00+00:00）：OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools—built to protect privacy and keep conversations separate from ads.
+- [OpenAI and PwC collaborate to reimagine the office of the CFO](https://openai.com/index/openai-pwc-finance-collaboration) （OpenAI News，2026-05-04T21:00:00+00:00）：OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.
+- [How OpenAI delivers low-latency voice AI at scale](https://openai.com/index/delivering-low-latency-voice-ai-at-scale) （OpenAI News，2026-05-04T00:00:00+00:00）：How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.
+- [Introducing Advanced Account Security](https://openai.com/index/advanced-account-security) （OpenAI News，2026-04-30T00:00:00+00:00）：Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.
+- [Where the goblins came from](https://openai.com/index/where-the-goblins-came-from) （OpenAI News，2026-04-29T20:00:00+00:00）：How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.
+- [Building the compute infrastructure for the Intelligence Age](https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age) （OpenAI News，2026-04-29T15:00:00+00:00）：OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.
+- [Cybersecurity in the Intelligence Age](https://openai.com/index/cybersecurity-in-the-intelligence-age) （OpenAI News，2026-04-29T04:00:00+00:00）：OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.
+- [Our commitment to community safety](https://openai.com/index/our-commitment-to-community-safety) （OpenAI News，2026-04-28T00:00:00+00:00）：Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.
+- [OpenAI models, Codex, and Managed Agents come to AWS](https://openai.com/index/openai-on-aws) （OpenAI News，2026-04-28T00:00:00+00:00）：OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.
+- [OpenAI available at FedRAMP Moderate](https://openai.com/index/openai-available-at-fedramp-moderate) （OpenAI News，2026-04-27T14:00:00+00:00）：OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies.
+- [The next phase of the Microsoft OpenAI partnership](https://openai.com/index/next-phase-of-microsoft-partnership) （OpenAI News，2026-04-27T06:00:00+00:00）：OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.
+- [An open-source spec for orchestration: Symphony](https://openai.com/index/open-source-codex-orchestration-symphony) （OpenAI News，2026-04-27T00:00:00+00:00）：Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.
+- [Choco automates food distribution with AI agents](https://openai.com/index/choco) （OpenAI News，2026-04-27T00:00:00+00:00）：How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.
+- [Our principles](https://openai.com/index/our-principles) （OpenAI News，2026-04-26T16:00:00+00:00）：Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.
+- [GPT-5.5 System Card](https://openai.com/index/gpt-5-5-system-card) （OpenAI News，2026-04-23T11:00:00+00:00）
+- [Introducing GPT-5.5](https://openai.com/index/introducing-gpt-5-5) （OpenAI News，2026-04-23T11:00:00+00:00）：Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.
+- [What is Codex?](https://openai.com/academy/what-is-codex) （OpenAI News，2026-04-23T10:00:00+00:00）：Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.
+- [Top 10 uses for Codex at work](https://openai.com/academy/top-10-use-cases-codex-for-work) （OpenAI News，2026-04-23T10:00:00+00:00）：Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.
+- [Plugins and skills](https://openai.com/academy/codex-plugins-and-skills) （OpenAI News，2026-04-23T10:00:00+00:00）：Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.
+- [Working with Codex](https://openai.com/academy/working-with-codex) （OpenAI News，2026-04-23T10:00:00+00:00）：Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.
+- [Codex settings](https://openai.com/academy/codex-settings) （OpenAI News，2026-04-23T10:00:00+00:00）：Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.
+- [How to get started with Codex](https://openai.com/academy/codex-how-to-start) （OpenAI News，2026-04-23T10:00:00+00:00）：Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.
+- [Automations](https://openai.com/academy/codex-automations) （OpenAI News，2026-04-23T10:00:00+00:00）：Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.
+- [GPT-5.5 Bio Bug Bounty](https://openai.com/index/gpt-5-5-bio-bug-bounty) （OpenAI News，2026-04-23T00:00:00+00:00）：Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.
+- [Making ChatGPT better for clinicians](https://openai.com/index/making-chatgpt-better-for-clinicians) （OpenAI News，2026-04-22T15:00:00+00:00）：OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.
+- [Workspace agents](https://openai.com/academy/workspace-agents) （OpenAI News，2026-04-22T10:00:00+00:00）：Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.
+- [Introducing workspace agents in ChatGPT](https://openai.com/index/introducing-workspace-agents-in-chatgpt) （OpenAI News，2026-04-22T10:00:00+00:00）：Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.
+- [Speeding up agentic workflows with WebSockets in the Responses API](https://openai.com/index/speeding-up-agentic-workflows-with-websockets) （OpenAI News，2026-04-22T10:00:00+00:00）：A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.
+- [Introducing OpenAI Privacy Filter](https://openai.com/index/introducing-openai-privacy-filter) （OpenAI News，2026-04-22T00:00:00+00:00）：OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy
+- [Introducing ChatGPT Images 2.0](https://openai.com/index/introducing-chatgpt-images-2-0) （OpenAI News，2026-04-21T12:00:00+00:00）：ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.
+- [Scaling Codex to enterprises worldwide](https://openai.com/index/scaling-codex-to-enterprises-worldwide) （OpenAI News，2026-04-21T00:00:00+00:00）：OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4…
+- [OpenAI helps Hyatt advance AI among colleagues](https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise) （OpenAI News，2026-04-20T00:00:00+00:00）：Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.
+- [Codex for (almost) everything](https://openai.com/index/codex-for-almost-everything) （OpenAI News，2026-04-16T10:00:00+00:00）：The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.
+- [Introducing GPT-Rosalind for life sciences research](https://openai.com/index/introducing-gpt-rosalind) （OpenAI News，2026-04-16T01:00:00+00:00）：OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.
+- [Accelerating the cyber defense ecosystem that protects us all](https://openai.com/index/accelerating-cyber-defense-ecosystem) （OpenAI News，2026-04-16T00:00:00+00:00）：Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.
+- [The next evolution of the Agents SDK](https://openai.com/index/the-next-evolution-of-the-agents-sdk) （OpenAI News，2026-04-15T10:00:00+00:00）：OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.
+- [Trusted access for the next era of cyber defense](https://openai.com/index/scaling-trusted-access-for-cyber-defense) （OpenAI News，2026-04-14T00:00:00+00:00）：OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.
+- [Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI](https://openai.com/index/cloudflare-openai-agent-cloud) （OpenAI News，2026-04-13T06:00:00+00:00）：Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.
+- [ChatGPT for finance teams](https://openai.com/academy/finance) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.
+- [ChatGPT for customer success teams](https://openai.com/academy/customer-success) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals.
+- [AI fundamentals](https://openai.com/academy/what-is-ai) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence.
+- [Getting started with ChatGPT](https://openai.com/academy/getting-started) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.
+- [Applications of AI at OpenAI](https://openai.com/academy/applications-of-ai) （OpenAI News，2026-04-10T00:00:00+00:00）：Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.
+- [ChatGPT for sales teams](https://openai.com/academy/sales) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how sales teams use ChatGPT to research accounts, personalize outreach, manage deals, and improve pipeline and conversion.
+- [Healthcare](https://openai.com/academy/healthcare) （OpenAI News，2026-04-10T00:00:00+00:00）：Explore how clinicians use ChatGPT to support diagnosis, documentation, and patient care with secure, HIPAA-compliant AI tools.
+- [Financial services](https://openai.com/academy/financial-services) （OpenAI News，2026-04-10T00:00:00+00:00）：Explore AI resources for financial services, including prompt packs, GPTs, guides, and tools to help institutions deploy and scale AI securely.
+- [Analyzing data with ChatGPT](https://openai.com/academy/data-analysis) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions.
+- [Brainstorming with ChatGPT](https://openai.com/academy/brainstorming) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans.
+- [Using custom GPTs](https://openai.com/academy/custom-gpts) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.
+- [Using skills](https://openai.com/academy/skills) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs.
+- [Creating images with ChatGPT](https://openai.com/academy/image-generation) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, and generate high-quality visuals in minutes.
+- [Our response to the Axios developer tool compromise](https://openai.com/index/axios-developer-tool-compromise) （OpenAI News，2026-04-10T00:00:00+00:00）：OpenAI responds to the Axios supply chain attack by rotating macOS code signing certificates, updating apps, and confirming no user data was compromised.
+- [Working with files in ChatGPT](https://openai.com/academy/working-with-files) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how to upload and work with files in ChatGPT to analyze data, summarize documents, and generate content from PDFs, spreadsheets, and more.
+- [Prompting fundamentals](https://openai.com/academy/prompting) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn prompting fundamentals and how to write clear, effective prompts to get better, more useful responses from ChatGPT.
+- [ChatGPT for marketing teams](https://openai.com/academy/marketing) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how marketing teams use ChatGPT to plan campaigns, generate content, analyze performance, and move from ideas to execution faster.
+- [Personalizing ChatGPT](https://openai.com/academy/personalization) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how to personalize ChatGPT using custom instructions and memory to get more relevant, consistent, and tailored responses.
+- [ChatGPT for operations teams](https://openai.com/academy/operations) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.
+- [Using projects in ChatGPT](https://openai.com/academy/projects) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how to use projects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.
+- [ChatGPT for managers](https://openai.com/academy/managers) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how managers use ChatGPT to prepare for conversations, write clear feedback, stay organized, and improve team effectiveness.
+- [Research with ChatGPT](https://openai.com/academy/search-and-deep-research) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.
+- [Responsible and safe use of AI](https://openai.com/academy/responsible-and-safe-use) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.
+- [ChatGPT for research](https://openai.com/academy/research) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.
+- [Writing with ChatGPT](https://openai.com/academy/writing) （OpenAI News，2026-04-10T00:00:00+00:00）：Learn how to use ChatGPT for writing to draft, revise, and refine content with clear structure, tone, and intent.
+- [CyberAgent moves faster with ChatGPT Enterprise and Codex](https://openai.com/index/cyberagent) （OpenAI News，2026-04-09T00:00:00+00:00）：CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.
+- [The next phase of enterprise AI](https://openai.com/index/next-phase-of-enterprise-ai) （OpenAI News，2026-04-08T14:00:00+00:00）：OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.
+- [Introducing the Child Safety Blueprint](https://openai.com/index/introducing-child-safety-blueprint) （OpenAI News，2026-04-08T05:00:00+00:00）：Discover OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people onlin…
+- [Announcing the OpenAI Safety Fellowship](https://openai.com/index/introducing-openai-safety-fellowship) （OpenAI News，2026-04-06T10:00:00+00:00）：A pilot program to support independent safety and alignment research and develop the next generation of talent
+- [Industrial policy for the Intelligence Age](https://openai.com/index/industrial-policy-for-the-intelligence-age) （OpenAI News，2026-04-06T02:30:00+00:00）：Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced in…
+- [OpenAI acquires TBPN](https://openai.com/index/openai-acquires-tbpn) （OpenAI News，2026-04-02T10:30:00+00:00）：OpenAI acquires TBPN to accelerate global conversations around AI and support independent media, expanding dialogue with builders, businesses, and the broader tech community.
+- [Codex now offers more flexible pricing for teams](https://openai.com/index/codex-flexible-pricing-for-teams) （OpenAI News，2026-04-02T10:00:00+00:00）：Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams a more flexible option to start and scale adoption.
+- [Gradient Labs gives every bank customer an AI account manager](https://openai.com/index/gradient-labs) （OpenAI News，2026-04-01T02:00:00+00:00）：Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.
+- [Accelerating the next phase of AI](https://openai.com/index/accelerating-the-next-phase-ai) （OpenAI News，2026-03-31T13:00:00+00:00）：OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.
+- [Helping disaster response teams turn AI into action across Asia](https://openai.com/index/helping-disaster-response-teams-asia) （OpenAI News，2026-03-29T22:15:00+00:00）：AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation
+- [STADLER reshapes knowledge work at a 230-year-old company](https://openai.com/index/stadler) （OpenAI News，2026-03-27T22:00:00+00:00）：Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.
+- [Inside our approach to the Model Spec](https://openai.com/index/our-approach-to-the-model-spec) （OpenAI News，2026-03-25T10:00:00+00:00）：Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.
+- [Introducing the OpenAI Safety Bug Bounty program](https://openai.com/index/safety-bug-bounty) （OpenAI News，2026-03-25T00:00:00+00:00）：OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.
+- [Helping developers build safer AI experiences for teens](https://openai.com/index/teen-safety-policies-gpt-oss-safeguard) （OpenAI News，2026-03-24T11:00:00+00:00）：OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.
+- [Powering product discovery in ChatGPT](https://openai.com/index/powering-product-discovery-in-chatgpt) （OpenAI News，2026-03-24T09:00:00+00:00）：ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.
+- [Update on the OpenAI Foundation](https://openai.com/index/update-on-the-openai-foundation) （OpenAI News，2026-03-24T09:00:00+00:00）：The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.
+- [Creating with Sora Safely](https://openai.com/index/creating-with-sora-safely) （OpenAI News，2026-03-23T00:00:00+00:00）：To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the fo…
+- [How we monitor internal coding agents for misalignment](https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment) （OpenAI News，2026-03-19T10:00:00+00:00）：How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.
+- [OpenAI to acquire Astral](https://openai.com/index/openai-to-acquire-astral) （OpenAI News，2026-03-19T00:00:00+00:00）：Accelerates Codex growth to power the next generation of Python developer tools
+- [Introducing GPT-5.4 mini and nano](https://openai.com/index/introducing-gpt-5-4-mini-and-nano) （OpenAI News，2026-03-17T10:00:00+00:00）：GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.
+- [OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first](https://openai.com/index/japan-teen-safety-blueprint) （OpenAI News，2026-03-17T10:00:00+00:00）：OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.
+- [Equipping workers with insights about compensation](https://openai.com/index/equipping-workers-with-insights-about-compensation) （OpenAI News，2026-03-17T00:00:00+00:00）：New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.
+- [Why Codex Security Doesn’t Include a SAST Report](https://openai.com/index/why-codex-security-doesnt-include-sast) （OpenAI News，2026-03-16T00:00:00+00:00）：A deep dive into why Codex Security doesn’t rely on traditional SAST, instead using AI-driven constraint reasoning and validation to find real vulnerabilities with fewer false pos…
+- [Designing AI agents to resist prompt injection](https://openai.com/index/designing-agents-to-resist-prompt-injection) （OpenAI News，2026-03-11T11:30:00+00:00）：How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.
+- [From model to agent: Equipping the Responses API with a computer environment](https://openai.com/index/equip-responses-api-computer-environment) （OpenAI News，2026-03-11T11:00:00+00:00）：How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.
+- [Wayfair boosts catalog accuracy and support speed with OpenAI](https://openai.com/index/wayfair) （OpenAI News，2026-03-11T00:00:00+00:00）：Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.
+- [Rakuten fixes issues twice as fast with Codex](https://openai.com/index/rakuten) （OpenAI News，2026-03-11T00:00:00+00:00）
+- [Improving instruction hierarchy in frontier LLMs](https://openai.com/index/instruction-hierarchy-challenge) （OpenAI News，2026-03-10T11:00:00+00:00）：IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.
+- [New ways to learn math and science in ChatGPT](https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt) （OpenAI News，2026-03-10T10:00:00+00:00）：ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time.
+- [OpenAI to acquire Promptfoo](https://openai.com/index/openai-to-acquire-promptfoo) （OpenAI News，2026-03-09T10:00:00+00:00）：OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.
+- [Codex Security: now in research preview](https://openai.com/index/codex-security-now-in-research-preview) （OpenAI News，2026-03-06T10:00:00+00:00）：Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.
+- [How Balyasny Asset Management built an AI research engine](https://openai.com/index/balyasny-asset-management) （OpenAI News，2026-03-06T00:00:00+00:00）：By combining rigorous model evaluation, full-platform use of OpenAI, and agent workflows, Balyasny is reinventing investment research.
+- [How Descript engineers multilingual video dubbing at scale](https://openai.com/index/descript) （OpenAI News，2026-03-06T00:00:00+00:00）：Using OpenAI reasoning models, Descript unlocked automatic localization of large content libraries without losing timing or meaning.
+- [Reasoning models struggle to control their chains of thought, and that’s good](https://openai.com/index/reasoning-models-chain-of-thought-controllability) （OpenAI News，2026-03-05T10:00:00+00:00）：OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.
+- [Introducing GPT-5.4](https://openai.com/index/introducing-gpt-5-4) （OpenAI News，2026-03-05T10:00:00+00:00）：Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.
+- [GPT-5.4 Thinking System Card](https://openai.com/index/gpt-5-4-thinking-system-card) （OpenAI News，2026-03-05T10:00:00+00:00）
+- [Ensuring AI use in education leads to opportunity](https://openai.com/index/ai-education-opportunity) （OpenAI News，2026-03-05T09:00:00+00:00）：OpenAI shares new tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity.
+- [The five AI value models driving business reinvention](https://openai.com/index/the-five-ai-value-models-driving-business-reinvention) （OpenAI News，2026-03-05T00:00:00+00:00）：Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.
+- [Introducing the Adoption news channel](https://openai.com/index/introducing-the-adoption-news-channel) （OpenAI News，2026-03-05T00:00:00+00:00）：Practical insights and frameworks to turn AI progress into business advantage
+- [Introducing ChatGPT for Excel and new financial data integrations](https://openai.com/index/chatgpt-for-excel) （OpenAI News，2026-03-05T00:00:00+00:00）：OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.
+- [VfL Wolfsburg turns ChatGPT into a club-wide capability](https://openai.com/index/vfl-wolfsburg) （OpenAI News，2026-03-05T00:00:00+00:00）：By focusing on people, not pilots, the Bundesliga club is scaling efficiency, creativity, and knowledge—without losing its football identity.
+- [Extending single-minus amplitudes to gravitons](https://openai.com/index/extending-single-minus-amplitudes-to-gravitons) （OpenAI News，2026-03-04T10:00:00+00:00）：A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.
+- [How Axios uses AI to help deliver high-impact local journalism](https://openai.com/index/axios-allison-murphy) （OpenAI News，2026-03-04T00:00:00+00:00）：Axios COO Allison Murphy explains how the company uses AI to support local reporters, streamline newsroom workflows, and deliver high-impact local journalism at scale.
+- [Understanding AI and learning outcomes](https://openai.com/index/understanding-ai-and-learning-outcomes) （OpenAI News，2026-03-04T00:00:00+00:00）：OpenAI introduces the Learning Outcomes Measurement Suite to assess AI’s impact on student learning across diverse educational environments over time.
+- [GPT-5.3 Instant System Card](https://openai.com/index/gpt-5-3-instant-system-card) （OpenAI News，2026-03-03T10:00:00+00:00）
+- [GPT-5.3 Instant: Smoother, more useful everyday conversations](https://openai.com/index/gpt-5-3-instant) （OpenAI News，2026-03-03T10:00:00+00:00）
+- [Our agreement with the Department of War](https://openai.com/index/our-agreement-with-the-department-of-war) （OpenAI News，2026-02-28T12:30:00+00:00）：Details on OpenAI’s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments.
+- [Scaling AI for everyone](https://openai.com/index/scaling-ai-for-everyone) （OpenAI News，2026-02-27T05:30:00+00:00）：Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.
+- [Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock](https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock) （OpenAI News，2026-02-27T05:30:00+00:00）：Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.
+- [OpenAI and Amazon announce strategic partnership](https://openai.com/index/amazon-partnership) （OpenAI News，2026-02-27T05:30:00+00:00）：OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.
+- [Joint Statement from OpenAI and Microsoft](https://openai.com/index/continuing-microsoft-partnership) （OpenAI News，2026-02-27T05:30:00+00:00）：Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.
+- [An update on our mental health-related work](https://openai.com/index/update-on-mental-health-related-work) （OpenAI News，2026-02-27T00:00:00+00:00）：OpenAI shares updates on its mental health safety work, including parental controls, trusted contacts, improved distress detection, and recent litigation developments.
+- [Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting](https://openai.com/index/pacific-northwest-national-laboratory) （OpenAI News，2026-02-26T10:00:00+00:00）：OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to r…
+- [OpenAI Codex and Figma launch seamless code-to-design experience](https://openai.com/index/figma-partnership) （OpenAI News，2026-02-26T06:00:00+00:00）：OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster.
+- [Disrupting malicious uses of AI | February 2026](https://openai.com/index/disrupting-malicious-ai-uses) （OpenAI News，2026-02-25T00:00:00+00:00）：Our latest threat report examines how malicious actors combine AI models with websites and social platforms—and what it means for detection and defense.
+- [Arvind KC appointed Chief People Officer](https://openai.com/index/arvind-kc-chief-people-officer) （OpenAI News，2026-02-24T13:40:00+00:00）：OpenAI appoints Arvind KC as Chief People Officer to help scale the company, strengthen its culture, and lead how work evolves in the age of AI.
+- [Why we no longer evaluate SWE-bench Verified](https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified) （OpenAI News，2026-02-23T11:00:00+00:00）：SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.
+- [OpenAI announces Frontier Alliance Partners](https://openai.com/index/frontier-alliance-partners) （OpenAI News，2026-02-23T05:30:00+00:00）：OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.
+- [Our First Proof submissions](https://openai.com/index/first-proof-submissions) （OpenAI News，2026-02-20T14:30:00+00:00）：We share our AI model’s proof attempts for the First Proof math challenge, testing research-grade reasoning on expert-level problems.
+- [Advancing independent research on AI alignment](https://openai.com/index/advancing-independent-research-ai-alignment) （OpenAI News，2026-02-19T10:00:00+00:00）：OpenAI commits $7.5M to The Alignment Project to fund independent AI alignment research, strengthening global efforts to address AGI safety and security risks.
+- [Introducing OpenAI for India](https://openai.com/index/openai-for-india) （OpenAI News，2026-02-18T21:00:00+00:00）：OpenAI for India expands AI access across the country—building local infrastructure, powering enterprises, and advancing workforce skills.
+- [Introducing EVMbench](https://openai.com/index/introducing-evmbench) （OpenAI News，2026-02-18T00:00:00+00:00）：OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.
+- [GPT-5.2 derives a new result in theoretical physics](https://openai.com/index/new-result-theoretical-physics) （OpenAI News，2026-02-13T11:00:00+00:00）：A new preprint shows GPT-5.2 proposing a new formula for a gluon amplitude, later formally proved and verified by OpenAI and academic collaborators.
+- [Introducing Lockdown Mode and Elevated Risk labels in ChatGPT](https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt) （OpenAI News，2026-02-13T10:00:00+00:00）：Introducing Lockdown Mode and Elevated Risk labels in ChatGPT to help organizations defend against prompt injection and AI-driven data exfiltration.
+- [Beyond rate limits: scaling access to Codex and Sora](https://openai.com/index/beyond-rate-limits) （OpenAI News，2026-02-13T09:00:00+00:00）：How OpenAI built a real-time access system combining rate limits, usage tracking, and credits to power continuous access to Sora and Codex.
+- [Scaling social science research](https://openai.com/index/scaling-social-science-research) （OpenAI News，2026-02-13T09:00:00+00:00）：GABRIEL is a new open-source toolkit from OpenAI that uses GPT to turn qualitative text and images into quantitative data, helping social scientists analyze research at scale.
+- [Introducing GPT-5.3-Codex-Spark](https://openai.com/index/introducing-gpt-5-3-codex-spark) （OpenAI News，2026-02-12T10:00:00+00:00）：Introducing GPT-5.3-Codex-Spark—our first real-time coding model. 15x faster generation, 128k context, now in research preview for ChatGPT Pro users.
+- [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering) （OpenAI News，2026-02-11T09:00:00+00:00）：By Ryan Lopopolo, Member of the Technical Staff
+- [Bringing ChatGPT to GenAI.mil](https://openai.com/index/bringing-chatgpt-to-genaimil) （OpenAI News，2026-02-09T11:00:00+00:00）：OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.
+- [Making AI work for everyone, everywhere: our approach to localization](https://openai.com/index/our-approach-to-localization) （OpenAI News，2026-02-06T10:00:00+00:00）：OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety.
+- [GPT-5 lowers the cost of cell-free protein synthesis](https://openai.com/index/gpt-5-lowers-protein-synthesis-cost) （OpenAI News，2026-02-05T11:00:00+00:00）：An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.
+- [Introducing Trusted Access for Cyber](https://openai.com/index/trusted-access-for-cyber) （OpenAI News，2026-02-05T10:00:00+00:00）：OpenAI introduces Trusted Access for Cyber, a trust-based framework that expands access to frontier cyber capabilities while strengthening safeguards against misuse.
+- [Introducing OpenAI Frontier](https://openai.com/index/introducing-openai-frontier) （OpenAI News，2026-02-05T06:00:00+00:00）：OpenAI Frontier is an enterprise platform for building, deploying, and managing AI agents with shared context, onboarding, permissions, and governance.
+- [Introducing GPT-5.3-Codex](https://openai.com/index/introducing-gpt-5-3-codex) （OpenAI News，2026-02-05T00:00:00+00:00）：GPT-5.3-Codex is a Codex-native agent that pairs frontier coding performance with general reasoning to support long-horizon, real-world technical work.
+- [GPT-5.3-Codex System Card](https://openai.com/index/gpt-5-3-codex-system-card) （OpenAI News，2026-02-05T00:00:00+00:00）：GPT‑5.3-Codex is the most capable agentic coding model to date, combining the frontier coding performance of GPT‑5.2-Codex with the reasoning and professional knowledge capabiliti…
+- [Unlocking the Codex harness: how we built the App Server](https://openai.com/index/unlocking-the-codex-harness) （OpenAI News，2026-02-04T13:00:00+00:00）：Learn how to embed the Codex agent using the Codex App Server, a bidirectional JSON-RPC API powering streaming progress, tool use, approvals, and diffs.
+- [The Sora feed philosophy](https://openai.com/index/sora-feed-philosophy) （OpenAI News，2026-02-03T00:00:00+00:00）：Discover the Sora feed philosophy—built to spark creativity, foster connections, and keep experiences safe with personalized recommendations, parental controls, and strong guardra…
+- [Snowflake and OpenAI partner to bring frontier intelligence to enterprise data](https://openai.com/index/snowflake-partnership) （OpenAI News，2026-02-02T06:00:00+00:00）：OpenAI and Snowflake partner in a $200M agreement to bring frontier intelligence into enterprise data, enabling AI agents and insights directly in Snowflake.
+- [Introducing the Codex app](https://openai.com/index/introducing-the-codex-app) （OpenAI News，2026-02-02T00:00:00+00:00）：Introducing the Codex app for macOS—a command center for AI coding and software development with multiple agents, parallel workflows, and long-running tasks.
+- [Inside OpenAI’s in-house data agent](https://openai.com/index/inside-our-in-house-data-agent) （OpenAI News，2026-01-29T10:00:00+00:00）：How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes.
+- [Taisei Corporation shapes the next generation of talent with AI](https://openai.com/index/taisei) （OpenAI News，2026-01-29T00:00:00+00:00）：Taisei Corporation’s HR team is leading the rollout of ChatGPT Enterprise to drive AI-powered talent development across the organization.
+- [Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT](https://openai.com/index/retiring-gpt-4o-and-older-models) （OpenAI News，2026-01-29T00:00:00+00:00）：On February 13, 2026, alongside the previously announced retirement⁠ of GPT‑5 (Instant, Thinking, and Pro), we will retire GPT‑4o, GPT‑4.1, GPT‑4.1 mini, and OpenAI o4-mini from C…
+- [The next chapter for AI in the EU](https://openai.com/index/the-next-chapter-for-ai-in-the-eu) （OpenAI News，2026-01-28T01:00:00+00:00）：OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.
+- [EMEA Youth & Wellbeing Grant](https://openai.com/index/emea-youth-and-wellbeing-grant) （OpenAI News，2026-01-28T01:00:00+00:00）：Apply for the EMEA Youth & Wellbeing Grant, a €500,000 program funding NGOs and researchers advancing youth safety and wellbeing in the age of AI.
+- [Keeping your data safe when an AI agent clicks a link](https://openai.com/index/ai-agent-link-safety) （OpenAI News，2026-01-28T00:00:00+00:00）：Learn how OpenAI protects user data when AI agents open links, preventing URL-based data exfiltration and prompt injection with built-in safeguards.
+- [PVH reimagines the future of fashion with OpenAI](https://openai.com/index/pvh-future-of-fashion) （OpenAI News，2026-01-27T06:00:00+00:00）：PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer engagement.
+- [Introducing Prism](https://openai.com/index/introducing-prism) （OpenAI News，2026-01-27T00:00:00+00:00）：Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place.
+- [TRUSTBANK uses AI agents to personalize Furusato Nozei gifts](https://openai.com/index/trustbank) （OpenAI News，2026-01-27T00:00:00+00:00）：TRUSTBANK partnered with Recursive to build Choice AI using OpenAI models, enabling personalized conversational recommendations that simplify Furusato Nozei gift discovery.
+- [How Indeed uses AI to help evolve the job search](https://openai.com/index/indeed-maggie-hulce) （OpenAI News，2026-01-26T00:00:00+00:00）：Indeed’s CRO Maggie Hulce shares how AI is transforming job search, recruiting, and talent acquisition for employers and job seekers.
+- [Unrolling the Codex agent loop](https://openai.com/index/unrolling-the-codex-agent-loop) （OpenAI News，2026-01-23T12:00:00+00:00）：A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API.
+- [Scaling PostgreSQL to power 800 million ChatGPT users](https://openai.com/index/scaling-postgresql) （OpenAI News，2026-01-22T12:00:00+00:00）：An inside look at how OpenAI scaled PostgreSQL to millions of queries per second using replicas, caching, rate limiting, and workload isolation.
+- [Inside Praktika's conversational approach to language learning](https://openai.com/index/praktika) （OpenAI News，2026-01-22T00:00:00+00:00）：How Praktika uses GPT-4.1 and GPT-5.2 to build adaptive AI tutors that personalize lessons, track progress, and help learners achieve real-world language fluency
+- [Inside GPT-5 for Work: How Businesses Use GPT-5](https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work) （OpenAI News，2026-01-22T00:00:00+00:00）：A data-driven report on how workers across industries use ChatGPT—covering adoption trends, top tasks, departmental patterns, and the future of AI at work.
+- [How Higgsfield turns simple ideas into cinematic social videos](https://openai.com/index/higgsfield) （OpenAI News，2026-01-21T10:00:00+00:00）：Discover how Higgsfield gives creators cinematic, social-first video output from simple inputs using OpenAI GPT-4.1, GPT-5, and Sora 2.
+- [Introducing Edu for Countries](https://openai.com/index/edu-for-countries) （OpenAI News，2026-01-21T01:00:00+00:00）：Edu for Countries is a new OpenAI initiative helping governments use AI to modernize education systems and build future-ready workforces.
+- [How countries can end the capability overhang](https://openai.com/index/how-countries-can-end-the-capability-overhang) （OpenAI News，2026-01-21T01:00:00+00:00）：Our latest report reveals stark differences in advanced AI adoption across countries and outlines new initiatives to help nations capture productivity gains from AI.
+- [Horizon 1000: Advancing AI for primary healthcare](https://openai.com/index/horizon-1000) （OpenAI News，2026-01-20T21:00:00+00:00）：OpenAI and the Gates Foundation launch Horizon 1000, a $50M pilot advancing AI capabilities for healthcare in Africa. The initiative aims to reach 1,000 clinics by 2028.
+- [Stargate Community](https://openai.com/index/stargate-community) （OpenAI News，2026-01-20T19:00:00+00:00）：Stargate Community plans detail a community-first approach to AI infrastructure, using locally tailored plans shaped by community input, energy needs, and workforce priorities.
+- [Cisco and OpenAI redefine enterprise engineering with AI agents](https://openai.com/index/cisco) （OpenAI News，2026-01-20T11:00:00+00:00）：Cisco and OpenAI redefine enterprise engineering with Codex, an AI software agent embedded in workflows to speed builds, automate defect fixes, and enable AI-native development.
+- [ServiceNow powers actionable enterprise AI with OpenAI](https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai) （OpenAI News，2026-01-20T05:45:00+00:00）：ServiceNow expands access to OpenAI frontier models to power AI-driven enterprise workflows, summarization, search, and voice across the ServiceNow Platform.
+- [Our approach to age prediction](https://openai.com/index/our-approach-to-age-prediction) （OpenAI News，2026-01-20T00:00:00+00:00）：ChatGPT is rolling out age prediction to estimate if accounts are under or over 18, applying safeguards for teens and refining accuracy over time.
+- [A business that scales with the value of intelligence](https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence) （OpenAI News，2026-01-18T10:00:00+00:00）：OpenAI’s business model scales with intelligence—spanning subscriptions, API, ads, commerce, and compute—driven by deepening ChatGPT adoption.
+- [Introducing ChatGPT Go, now available worldwide](https://openai.com/index/introducing-chatgpt-go) （OpenAI News，2026-01-16T00:00:00+00:00）：ChatGPT Go is now available worldwide, offering expanded access to GPT-5.2 Instant, higher usage limits, and longer memory—making advanced AI more affordable globally.
+- [Our approach to advertising and expanding access to ChatGPT](https://openai.com/index/our-approach-to-advertising-and-expanding-access) （OpenAI News，2026-01-16T00:00:00+00:00）：OpenAI plans to test advertising in the U.S. for ChatGPT’s free and Go tiers to expand affordable access to AI worldwide, while protecting privacy, trust, and answer quality.
+- [Investing in Merge Labs](https://openai.com/index/investing-in-merge-labs) （OpenAI News，2026-01-15T07:00:00+00:00）：OpenAI is investing in Merge Labs to support new brain computer interfaces that bridge biological and artificial intelligence to maximize human ability, agency, and experience.
+- [Strengthening the U.S. AI supply chain through domestic manufacturing](https://openai.com/index/strengthening-the-us-ai-supply-chain) （OpenAI News，2026-01-15T00:00:00+00:00）：OpenAI launches a new RFP to strengthen the U.S. AI supply chain by accelerating domestic manufacturing, creating jobs, and scaling AI infrastructure.
+- [OpenAI partners with Cerebras](https://openai.com/index/cerebras-partnership) （OpenAI News，2026-01-14T14:00:00+00:00）：OpenAI partners with Cerebras to add 750MW of high-speed AI compute, reducing inference latency and making ChatGPT faster for real-time AI workloads.
+- [Zenken boosts a lean sales team with ChatGPT Enterprise](https://openai.com/index/zenken) （OpenAI News，2026-01-13T16:00:00+00:00）：By rolling out ChatGPT Enterprise company-wide, Zenken has boosted sales performance, cut preparation time, and increased proposal success rates. AI-supported workflows are helpin…
+- [OpenAI and SoftBank Group partner with SB Energy](https://openai.com/index/stargate-sb-energy-partnership) （OpenAI News，2026-01-09T11:00:00+00:00）：OpenAI and SoftBank Group partner with SB Energy to develop multi-gigawatt AI data center campuses, including a 1.2 GW Texas facility supporting the Stargate initiative.
+- [Datadog uses Codex for system-level code review](https://openai.com/index/datadog) （OpenAI News，2026-01-09T00:00:00+00:00）：OpenAI and Datadog brand graphic with the OpenAI wordmark on the left, the Datadog logo on the right, and a central abstract brown fur-like texture panel on a white background.
+- [OpenAI for Healthcare](https://openai.com/index/openai-for-healthcare) （OpenAI News，2026-01-08T12:00:00+00:00）：OpenAI for Healthcare enables secure, enterprise-grade AI that supports HIPAA compliance—reducing administrative burden and supporting clinical workflows.
+- [Netomi’s lessons for scaling agentic systems into the enterprise](https://openai.com/index/netomi) （OpenAI News，2026-01-08T00:00:00+00:00）：How Netomi scales enterprise AI agents using GPT-4.1 and GPT-5.2—combining concurrency, governance, and multi-step reasoning for reliable production workflows.
+- [How Tolan builds voice-first AI with GPT-5.1](https://openai.com/index/tolan) （OpenAI News，2026-01-07T10:00:00+00:00）：Tolan built a voice-first AI companion with GPT-5.1, combining low-latency responses, real-time context reconstruction, and memory-driven personalities for natural conversations.
+- [Introducing ChatGPT Health](https://openai.com/index/introducing-chatgpt-health) （OpenAI News，2026-01-07T00:00:00+00:00）：ChatGPT Health is a dedicated experience that securely connects your health data and apps, with privacy protections and a physician-informed design.
+- [Announcing OpenAI Grove Cohort 2](https://openai.com/index/openai-grove) （OpenAI News，2026-01-02T10:00:00+00:00）：Applications are now open for OpenAI Grove Cohort 2, a 5-week founder program designed for individuals at any stage, from pre-idea to product. Participants receive $50K in API cre…
+- [One in a million: celebrating the customers shaping AI’s future](https://openai.com/index/one-in-a-million-customers) （OpenAI News，2025-12-22T00:00:00+00:00）：More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlanti…
+- [Continuously hardening ChatGPT Atlas against prompt injection](https://openai.com/index/hardening-atlas-against-prompt-injection) （OpenAI News，2025-12-22T00:00:00+00:00）：OpenAI is strengthening ChatGPT Atlas against prompt injection attacks using automated red teaming trained with reinforcement learning. This proactive discover-and-patch loop help…
+- [Evaluating chain-of-thought monitorability](https://openai.com/index/evaluating-chain-of-thought-monitorability) （OpenAI News，2025-12-18T12:00:00+00:00）：OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a mod…
+- [Updating our Model Spec with teen protections](https://openai.com/index/updating-model-spec-with-teen-protections) （OpenAI News，2025-12-18T11:00:00+00:00）：OpenAI is updating its Model Spec with new Under-18 Principles that define how ChatGPT should support teens with safe, age-appropriate guidance grounded in developmental science.…
+- [Deepening our collaboration with the U.S. Department of Energy](https://openai.com/index/us-department-of-energy-collaboration) （OpenAI News，2025-12-18T11:00:00+00:00）：OpenAI and the U.S. Department of Energy have signed a memorandum of understanding to deepen collaboration on AI and advanced computing in support of scientific discovery. The agr…
+- [AI literacy resources for teens and parents](https://openai.com/index/ai-literacy-resources-for-teens-and-parents) （OpenAI News，2025-12-18T11:00:00+00:00）：OpenAI shares new AI literacy resources to help teens and parents use ChatGPT thoughtfully, safely, and with confidence. The guides include expert-vetted tips for responsible use,…
+- [Introducing GPT-5.2-Codex](https://openai.com/index/introducing-gpt-5-2-codex) （OpenAI News，2025-12-18T00:00:00+00:00）：GPT-5.2-Codex is OpenAI’s most advanced coding model, offering long-horizon reasoning, large-scale code transformations, and enhanced cybersecurity capabilities.
+- [Addendum to GPT-5.2 System Card: GPT-5.2-Codex](https://openai.com/index/gpt-5-2-codex-system-card) （OpenAI News，2025-12-18T00:00:00+00:00）
+- [Introducing OpenAI Academy for News Organizations](https://openai.com/index/openai-academy-for-news-organizations) （OpenAI News，2025-12-17T06:00:00+00:00）：OpenAI is launching the OpenAI Academy for News Organizations, a new learning hub built with the American Journalism Project and The Lenfest Institute to help newsrooms use AI eff…
+- [The state of enterprise AI](https://openai.com/business/guides-and-resources/the-state-of-enterprise-ai-2025-report) （OpenAI News，2025-12-17T00:00:00+00:00）：A data-driven look at enterprise AI adoption, showing how organizations move from experimentation to real productivity gains and new capabilities.
+- [Developers can now submit apps to ChatGPT](https://openai.com/index/developers-can-now-submit-apps-to-chatgpt) （OpenAI News，2025-12-17T00:00:00+00:00）：Developers can now submit apps for review and publication in ChatGPT, with approved apps appearing in a new in-product directory for easy discovery. Updated tools, guidelines, and…
+- [Evaluating AI’s ability to perform scientific research tasks](https://openai.com/index/frontierscience) （OpenAI News，2025-12-16T09:00:00+00:00）：OpenAI introduces FrontierScience, a benchmark testing AI reasoning in physics, chemistry, and biology to measure progress toward real scientific research.
+- [Measuring AI’s capability to accelerate biological research](https://openai.com/index/accelerating-biological-research-in-the-wet-lab) （OpenAI News，2025-12-16T08:00:00+00:00）：OpenAI introduces a real-world evaluation framework to measure how AI can accelerate biological research in the wet lab. Using GPT-5 to optimize a molecular cloning protocol, the…
+- [The new ChatGPT Images is here](https://openai.com/index/new-chatgpt-images-is-here) （OpenAI News，2025-12-16T00:00:00+00:00）：The new ChatGPT Images is powered by our flagship image generation model, delivering more precise edits, consistent details, and image generation up to 4× faster. The upgraded mod…
+- [Staying ahead in the age of AI](https://openai.com/business/guides-and-resources/staying-ahead-in-the-age-of-ai) （OpenAI News，2025-12-16T00:00:00+00:00）：Discover how leaders can build AI-ready organizations using clear strategy, training, governance, and accelerated innovation.
+- [How We Used Codex to Ship Sora for Android in 28 Days](https://openai.com/index/shipping-sora-for-android-with-codex) （OpenAI News，2025-12-12T00:00:00+00:00）：OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development.
+- [BBVA and OpenAI collaborate to transform global banking](https://openai.com/index/bbva-collaboration-expansion) （OpenAI News，2025-12-12T00:00:00+00:00）：BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develo…
+- [BNY builds “AI for everyone, everywhere” with OpenAI](https://openai.com/index/bny) （OpenAI News，2025-12-12T00:00:00+00:00）：BNY uses OpenAI to expand AI adoption enterprise-wide through Eliza, where 20,000+ employees build AI agents that improve efficiency and client outcomes.
+- [Advancing science and math with GPT-5.2](https://openai.com/index/gpt-5-2-for-science-and-math) （OpenAI News，2025-12-11T10:00:00+00:00）：GPT-5.2 is OpenAI’s strongest model yet for math and science, setting new state-of-the-art results on benchmarks like GPQA Diamond and FrontierMath. This post shows how those gain…
+- [Introducing GPT-5.2](https://openai.com/index/introducing-gpt-5-2) （OpenAI News，2025-12-11T00:00:00+00:00）：GPT-5.2 is our most advanced frontier model for everyday professional work, with state-of-the-art reasoning, long-context understanding, coding, and vision. Use it in ChatGPT and…
+- [Ten years](https://openai.com/index/ten-years) （OpenAI News，2025-12-11T00:00:00+00:00）：OpenAI reflects on ten years of progress, from early research breakthroughs to widely used AI systems that reshaped what’s possible. We share lessons from the past decade and why…
+- [Update to GPT-5 System Card: GPT-5.2](https://openai.com/index/gpt-5-system-card-update-gpt-5-2) （OpenAI News，2025-12-11T00:00:00+00:00）：GPT-5.2 is the latest model family in the GPT-5 series. The comprehensive safety mitigation approach for these models is largely the same as that described in the GPT-5 System Car…
+- [The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora](https://openai.com/index/disney-sora-agreement) （OpenAI News，2025-12-11T00:00:00+00:00）：Disney and OpenAI have reached an agreement to bring more than 200 Disney, Marvel, Pixar and Star Wars characters to Sora for fan-inspired short videos. The agreement emphasizes r…
+- [How Podium is arming 10,000+ SMBs with AI agents](https://openai.com/index/podium) （OpenAI News，2025-12-11T00:00:00+00:00）：Discover how Podium used OpenAI’s GPT-5 to build “Jerry,” an AI teammate driving 300% growth and transforming how Main Street businesses serve customers.
+- [Strengthening cyber resilience as AI capabilities advance](https://openai.com/index/strengthening-cyber-resilience) （OpenAI News，2025-12-10T12:00:00+00:00）：OpenAI is investing in stronger safeguards and defensive capabilities as AI models become more powerful in cybersecurity. We explain how we assess risk, limit misuse, and work wit…
+- [How Scout24 is building the next generation of real-estate search with AI](https://openai.com/index/scout24) （OpenAI News，2025-12-09T16:00:00+00:00）：Scout24 has created a GPT-5 powered conversational assistant that reimagines real-estate search, guiding users with clarifying questions, summaries, and tailored listing recommend…
+- [OpenAI co-founds Agentic AI Foundation, donates AGENTS.md](https://openai.com/index/agentic-ai-foundation) （OpenAI News，2025-12-09T09:00:00+00:00）：OpenAI co-founds the Agentic AI Foundation under the Linux Foundation and donates AGENTS.md to support open, interoperable standards for safe agentic AI.
+- [Launching our first OpenAI Certifications courses](https://openai.com/index/openai-certificate-courses) （OpenAI News，2025-12-09T06:00:00+00:00）：Learn how OpenAI’s new certifications and AI Foundations courses help people build real-world AI skills, boost career opportunities, and prepare for the future of work.
+- [Commonwealth Bank of Australia builds AI fluency at scale](https://openai.com/index/commonwealth-bank-of-australia) （OpenAI News，2025-12-09T00:00:00+00:00）：Commonwealth Bank of Australia partners with OpenAI to roll out ChatGPT Enterprise to 50,000 employees, building AI fluency at scale to improve customer service and fraud response.
+- [Bringing powerful AI to millions across Europe with Deutsche Telekom](https://openai.com/index/deutsche-telekom-collaboration) （OpenAI News，2025-12-09T00:00:00+00:00）：OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help…
+- [OpenAI appoints Denise Dresser as Chief Revenue Officer](https://openai.com/index/openai-appoints-denise-dresser) （OpenAI News，2025-12-09T00:00:00+00:00）：Denise Dresser is joining as Chief Revenue Officer, overseeing OpenAI’s global revenue strategy across enterprise and customer success. She will help more businesses put AI to wor…
+- [Instacart and OpenAI partner on AI shopping experiences](https://openai.com/index/instacart-partnership) （OpenAI News，2025-12-08T06:00:00+00:00）：OpenAI and Instacart are deepening their longstanding partnership by bringing the first fully integrated grocery shopping and Instant Checkout payment app to ChatGPT.
+- [The state of enterprise AI](https://openai.com/index/the-state-of-enterprise-ai-2025-report) （OpenAI News，2025-12-08T04:00:00+00:00）：Key findings from OpenAI’s enterprise data show accelerating AI adoption, deeper integration, and measurable productivity gains across industries in 2025.
+- [How Virgin Atlantic uses AI to enhance every step of travel](https://openai.com/index/virgin-atlantic-oliver-byers) （OpenAI News，2025-12-08T00:00:00+00:00）：Virgin Atlantic CFO Oliver Byers shares how the airline is using AI to speed up development, improve decision-making, and elevate customer experience.
+- [Introducing OpenAI for Australia](https://openai.com/global-affairs/openai-for-australia) （OpenAI News，2025-12-04T19:00:00+00:00）：OpenAI is launching OpenAI for Australia to build sovereign AI infrastructure, upskill more than 1.5 million workers, and accelerate innovation across the country’s growing AI eco…
+- [OpenAI to acquire Neptune](https://openai.com/index/openai-to-acquire-neptune) （OpenAI News，2025-12-03T10:00:00+00:00）：OpenAI is acquiring Neptune to deepen visibility into model behavior and strengthen the tools researchers use to track experiments and monitor training.
+- [How confessions can keep language models honest](https://openai.com/index/how-confessions-can-keep-language-models-honest) （OpenAI News，2025-12-03T10:00:00+00:00）：OpenAI researchers are testing “confessions,” a method that trains models to admit when they make mistakes or act undesirably, helping improve AI honesty, transparency, and trust…
+- [Announcing the initial People-First AI Fund grantees](https://openai.com/index/people-first-ai-fund-grantees) （OpenAI News，2025-12-03T08:00:00+00:00）：The OpenAI Foundation announces the initial recipients of the People-First AI Fund, awarding $40.5M in unrestricted grants to 208 nonprofits supporting community innovation and op…
+- [Inside Mirakl's agentic commerce vision](https://openai.com/index/mirakl) （OpenAI News，2025-12-01T22:00:00+00:00）：Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mir…
+- [Funding grants for new research into AI and mental health](https://openai.com/index/ai-mental-health-research-grants) （OpenAI News，2025-12-01T12:00:00+00:00）：OpenAI is awarding up to $2 million in grants for research at the intersection of AI and mental health. The program supports projects that study real-world risks, benefits, and ap…
+- [OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa”](https://openai.com/index/norad-holiday-collaboration) （OpenAI News，2025-12-01T06:00:00+00:00）：OpenAI and NORAD are bringing new magic to “NORAD Tracks Santa” with three ChatGPT holiday tools that let families create festive elves, toy coloring pages, and custom Christmas s…
+- [OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption](https://openai.com/index/thrive-holdings) （OpenAI News，2025-12-01T05:00:00+00:00）：OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption, embedding frontier research and engineering directly into accounting and IT services to bo…
+- [Accenture and OpenAI accelerate enterprise AI success](https://openai.com/index/accenture-partnership) （OpenAI News，2025-12-01T05:00:00+00:00）：Accenture and OpenAI are collaborating to help enterprises bring agentic AI capabilities into the core of their business and unlock new levels of growth.
+- [Mixpanel security incident: what OpenAI users need to know](https://openai.com/index/mixpanel-incident) （OpenAI News，2025-11-26T19:00:00+00:00）：OpenAI shares details about a Mixpanel security incident involving limited API analytics data. No API content, credentials, or payment details were exposed. Learn what happened an…
+- [Expanding data residency access to business customers worldwide](https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide) （OpenAI News，2025-11-25T22:00:00+00:00）：OpenAI expands data residency for ChatGPT Enterprise, ChatGPT Edu, and the API Platform, enabling eligible customers to store data at rest in-region.
+- [Inside JetBrains—the company reshaping how the world writes code](https://openai.com/index/jetbrains-2025) （OpenAI News，2025-11-25T00:00:00+00:00）：JetBrains is integrating GPT-5 across its coding tools, helping millions of developers design, reason, and build software faster.
+- [GPT-5 and the future of mathematical discovery](https://openai.com/index/gpt-5-mathematical-discovery) （OpenAI News，2025-11-24T00:00:00+00:00）：UCLA Professor Ernest Ryu and GPT-5 solved a key question in optimization theory, showcasing AI’s role in accelerating mathematical discovery.
+- [Introducing shopping research in ChatGPT](https://openai.com/index/chatgpt-shopping-research) （OpenAI News，2025-11-24T00:00:00+00:00）：Shopping research in ChatGPT helps you explore, compare, and discover products with personalized buyer’s guides that simplify decision-making
+- [OpenAI and Foxconn collaborate to strengthen U.S. manufacturing across the AI supply chain](https://openai.com/index/openai-and-foxconn-collaborate) （OpenAI News，2025-11-20T14:50:00+00:00）：OpenAI and Foxconn are collaborating to design and manufacture next-generation AI infrastructure hardware in the U.S. The partnership will develop multiple generations of data-cen…
+- [Helping 1,000 small businesses build with AI](https://openai.com/index/small-business-ai-jam) （OpenAI News，2025-11-20T06:00:00+00:00）：OpenAI is partnering with DoorDash, SCORE, and local organizations to help 1,000 small businesses build with AI. The Small Business AI Jam gives Main Street business owners hands-…
+- [Early experiments in accelerating science with GPT-5](https://openai.com/index/accelerating-science-gpt-5) （OpenAI News，2025-11-20T00:00:00+00:00）：OpenAI introduces the first research cases showing how GPT-5 accelerates scientific progress across math, physics, biology, and computer science. Explore how AI and researchers co…
+- [Strengthening our safety ecosystem with external testing](https://openai.com/index/strengthening-safety-with-external-testing) （OpenAI News，2025-11-19T12:00:00+00:00）：OpenAI works with independent experts to evaluate frontier AI systems. Third-party testing strengthens safety, validates safeguards, and increases transparency in how we assess mo…
+- [How evals drive the next chapter in AI for businesses](https://openai.com/index/evals-drive-next-chapter-of-ai) （OpenAI News，2025-11-19T11:00:00+00:00）：Learn how evals help businesses define, measure, and improve AI performance—reducing risk, boosting productivity, and driving strategic advantage.
+- [OpenAI and Target team up on new AI-powered experiences](https://openai.com/index/target-partnership) （OpenAI News，2025-11-19T06:00:00+00:00）：OpenAI and Target are partnering to bring a new Target app to ChatGPT, offering personalized shopping and faster checkout. Target will also expand its use of ChatGPT Enterprise to…
+- [Building more with GPT-5.1-Codex-Max](https://openai.com/index/gpt-5-1-codex-max) （OpenAI News，2025-11-19T00:00:00+00:00）：Introducing GPT-5.1-Codex-Max, a faster, more intelligent agentic coding model for Codex. The model is designed for long-running, project-scale work with enhanced reasoning and to…
+- [How Scania accelerates work with AI across its global workforce](https://openai.com/index/scania) （OpenAI News，2025-11-19T00:00:00+00:00）：Global manufacturer Scania is scaling AI with ChatGPT Enterprise. With team-based onboarding and strong guardrails, AI is boosting productivity, quality, and innovation.
+- [A free version of ChatGPT built for teachers](https://openai.com/index/chatgpt-for-teachers) （OpenAI News，2025-11-19T00:00:00+00:00）：ChatGPT for Teachers is a secure workspace with education‑grade privacy and admin controls. Free for verified U.S. K–12 educators through June 2027.
+- [GPT-5.1-Codex-Max System Card](https://openai.com/index/gpt-5-1-codex-max-system-card) （OpenAI News，2025-11-19T00:00:00+00:00）：This system card outlines the comprehensive safety measures implemented for GPT‑5.1-CodexMax. It details both model-level mitigations, such as specialized safety training for harm…
+- [Intuit and OpenAI join forces on new AI-powered experiences](https://openai.com/index/intuit-partnership) （OpenAI News，2025-11-18T05:00:00+00:00）：OpenAI and Intuit have entered a $100M+ multi-year partnership to launch Intuit app experiences in ChatGPT and expand Intuit’s use of OpenAI’s frontier models to power personalize…
+- [OpenAI named Emerging Leader in Generative AI](https://openai.com/index/gartner-2025-emerging-leader) （OpenAI News，2025-11-17T10:00:00+00:00）：OpenAI has been named an Emerging Leader in Gartner’s 2025 Innovation Guide for Generative AI Model Providers. The recognition reflects our enterprise momentum, with over 1 millio…
+- [Introducing OpenAI for Ireland](https://openai.com/index/openai-for-ireland) （OpenAI News，2025-11-14T04:00:00+00:00）：OpenAI launches OpenAI for Ireland, partnering with the Irish Government, Dogpatch Labs and Patch to help SMEs, founders and young builders use AI to innovate, boost productivity…
+- [Understanding neural networks through sparse circuits](https://openai.com/index/understanding-neural-networks-through-sparse-circuits) （OpenAI News，2025-11-13T10:00:00+00:00）：OpenAI is exploring mechanistic interpretability to understand how neural networks reason. Our new sparse model approach could make AI systems more transparent and support safer,…
+- [Introducing GPT-5.1 for developers](https://openai.com/index/gpt-5-1-for-developers) （OpenAI News，2025-11-13T00:00:00+00:00）：GPT-5.1 is now available in the API, bringing faster adaptive reasoning, extended prompt caching, improved coding performance, and new apply_patch and shell tools.
+- [How Philips is scaling AI literacy across 70,000 employees](https://openai.com/index/philips) （OpenAI News，2025-11-13T00:00:00+00:00）：Philips is scaling AI literacy with ChatGPT Enterprise, training 70,000 employees to use AI responsibly and improve healthcare outcomes worldwide.
+- [Introducing group chats in ChatGPT](https://openai.com/index/group-chats-in-chatgpt) （OpenAI News，2025-11-13T00:00:00+00:00）：Collaborate with others, and ChatGPT, in the same conversation.
+- [Neuro drives national retail wins with ChatGPT Business](https://openai.com/index/neurogum) （OpenAI News，2025-11-12T11:00:00+00:00）：Neuro uses ChatGPT Business to scale nationwide with fewer than 70 employees, saving time, reducing costs, and turning faster execution across sales and operations into growth.
+- [Fighting the New York Times’ invasion of user privacy](https://openai.com/index/fighting-nyt-user-privacy-invasion) （OpenAI News，2025-11-12T06:00:00+00:00）：OpenAI is fighting the New York Times’ demand for 20 million private ChatGPT conversations and accelerating new security and privacy protections to protect your data.
+- [GPT-5.1: A smarter, more conversational ChatGPT](https://openai.com/index/gpt-5-1) （OpenAI News，2025-11-12T00:00:00+00:00）：We’re upgrading the GPT-5 series with warmer, more capable models and new ways to customize ChatGPT’s tone and style. GPT-5.1 starts rolling out today to paid users.
+- [GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum](https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1) （OpenAI News，2025-11-12T00:00:00+00:00）：This GPT-5 system card addendum provides updated safety metrics for GPT-5.1 Instant and Thinking, including new evaluations for mental health and emotional reliance.
+- [Free ChatGPT for transitioning U.S. servicemembers and veterans](https://openai.com/index/chatgpt-for-veterans) （OpenAI News，2025-11-10T02:00:00+00:00）：OpenAI is offering U.S. servicemembers and veterans within 12 months of retirement or separation a free year of ChatGPT Plus to support their transition to civilian life. The tool…
+- [Understanding prompt injections: a frontier security challenge](https://openai.com/index/prompt-injections) （OpenAI News，2025-11-07T11:30:00+00:00）：Prompt injections are a frontier security challenge for AI systems. Learn how these attacks work and how OpenAI is advancing research, training models, and building safeguards for…
+- [Notion’s GPT‑5 rebuild unlocks autonomous AI workflows](https://openai.com/index/notion) （OpenAI News，2025-11-07T10:00:00+00:00）：Notion rebuilt its AI architecture with GPT-5 to create agents that reason, act, and adapt across workflows, unlocking faster and more flexible productivity in Notion 3.0.
+- [Introducing the Teen Safety Blueprint](https://openai.com/index/introducing-the-teen-safety-blueprint) （OpenAI News，2025-11-06T00:00:00+00:00）：Discover OpenAI’s Teen Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.
+- [AI progress and recommendations](https://openai.com/index/ai-progress-and-recommendations) （OpenAI News，2025-11-06T00:00:00+00:00）：AI is advancing fast. We have the chance to shape its progress—toward discovery, safety, and a better future for everyone.
+- [How CRED is tapping AI to deliver premium customer experiences](https://openai.com/index/cred-swamy-seetharaman) （OpenAI News，2025-11-05T21:30:00+00:00）：CRED is improving premium customer experiences in India with OpenAI, using GPT-powered tools to boost support accuracy, cut response times, and raise customer satisfaction.
+- [How Chime is redefining marketing through AI](https://openai.com/index/chime-vineet-mehra) （OpenAI News，2025-11-05T15:00:00+00:00）：Chime CMO Vineet Mehra shares how AI is reshaping marketing into an agent-driven model and why leaders who prioritize AI literacy and thoughtful adoption will drive growth.
+- [1 million business customers putting AI to work](https://openai.com/index/1-million-businesses-putting-ai-to-work) （OpenAI News，2025-11-05T05:00:00+00:00）：More than 1 million business customers around the world now use OpenAI. Across healthcare, life sciences, financial services, and more, ChatGPT and our APIs are driving a new era…
+- [Introducing IndQA](https://openai.com/index/introducing-indqa) （OpenAI News，2025-11-03T22:30:00+00:00）：OpenAI introduces IndQA, a new benchmark for evaluating AI systems in Indian languages. Built with domain experts, IndQA tests cultural understanding and reasoning across 12 langu…
+- [AWS and OpenAI announce multi-year strategic partnership](https://openai.com/index/aws-and-openai-partnership) （OpenAI News，2025-11-03T06:00:00+00:00）：OpenAI and AWS have entered a multi-year, $38 billion partnership to scale advanced AI workloads. AWS will provide world-class infrastructure and compute capacity to power OpenAI’…
+- [Expanding Stargate to Michigan](https://openai.com/index/expanding-stargate-to-michigan) （OpenAI News，2025-10-30T13:30:00+00:00）：OpenAI is expanding Stargate to Michigan with a new one-gigawatt campus that strengthens America’s AI infrastructure. The project will create jobs, drive investment, and support e…
+- [Introducing Aardvark: OpenAI’s agentic security researcher](https://openai.com/index/introducing-aardvark) （OpenAI News，2025-10-30T11:00:00+00:00）：OpenAI introduces Aardvark, an AI-powered security researcher that autonomously finds, validates, and helps fix software vulnerabilities at scale. The system is in private beta—si…
+- [How we built OWL, the new architecture behind our ChatGPT-based browser, Atlas](https://openai.com/index/building-chatgpt-atlas) （OpenAI News，2025-10-30T00:00:00+00:00）：A deep dive into OWL, the new architecture powering ChatGPT Atlas—decoupling Chromium, enabling fast startup, rich UI, and agentic browsing with ChatGPT.
+- [Introducing gpt-oss-safeguard](https://openai.com/index/introducing-gpt-oss-safeguard) （OpenAI News，2025-10-29T00:00:00+00:00）：OpenAI introduces gpt-oss-safeguard—open-weight reasoning models for safety classification that let developers apply and iterate on custom policies.
+- [gpt-oss-safeguard technical report](https://openai.com/index/gpt-oss-safeguard-technical-report) （OpenAI News，2025-10-29T00:00:00+00:00）：gpt-oss-safeguard-120b and gpt-oss-safeguard-20b are two open-weight reasoning models post-trained from the gpt-oss models and trained to reason from a provided policy in order to…
+- [Advancing organizational transformation for business innovation](https://openai.com/index/dai-nippon-printing) （OpenAI News，2025-10-28T17:00:00+00:00）：DNP rolled out ChatGPT Enterprise across ten core departments, achieving 95% faster patent research, 10x processing volume, 87% automation, and 70% knowledge reuse in three months.
+- [Doppel’s AI defense system stops attacks before they spread](https://openai.com/index/doppel) （OpenAI News，2025-10-28T10:00:00+00:00）：Doppel uses GPT-5 and reinforcement fine-tuning to stop deepfake and impersonation attacks, cutting analyst workloads by 80% and reducing response times from hours to minutes.
+- [Built to benefit everyone](https://openai.com/index/built-to-benefit-everyone) （OpenAI News，2025-10-28T06:00:00+00:00）：OpenAI’s recapitalization strengthens mission-focused governance, expanding resources to ensure AI benefits everyone while advancing innovation responsibly.
+- [The next chapter of the Microsoft–OpenAI partnership](https://openai.com/index/next-chapter-of-microsoft-openai-partnership) （OpenAI News，2025-10-28T06:00:00+00:00）：Microsoft and OpenAI sign a new agreement that strengthens its long-term partnership, expands innovation, and ensures responsible AI progress.
+- [Seizing the AI opportunity](https://openai.com/global-affairs/seizing-the-ai-opportunity) （OpenAI News，2025-10-27T12:00:00+00:00）：Meeting the demands of the Intelligence Age will require strategic investment in energy and infrastructure. OpenAI’s submission to the White House details how expanding capacity a…
+- [Addendum to GPT-5 System Card: Sensitive conversations](https://openai.com/index/gpt-5-system-card-sensitive-conversations) （OpenAI News，2025-10-27T10:00:00+00:00）：This system card details GPT-5’s improvements in handling sensitive conversations, including new benchmarks for emotional reliance, mental health, and jailbreak resistance.
+- [Strengthening ChatGPT’s responses in sensitive conversations](https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations) （OpenAI News，2025-10-27T10:00:00+00:00）：OpenAI collaborated with 170+ mental health experts to improve ChatGPT’s ability to recognize distress, respond empathetically, and guide users toward real-world support—reducing…
+- [Steuerrecht.com delivers client-ready legal analysis with ChatGPT](https://openai.com/index/steuerrecht) （OpenAI News，2025-10-27T00:00:00+00:00）：Steuerrecht.com uses ChatGPT Business to streamline legal workflows, automate tax research, and deliver faster, client-ready analysis for law firms.
+- [OpenAI acquires Software Applications Incorporated, maker of Sky](https://openai.com/index/openai-acquires-software-applications-incorporated) （OpenAI News，2025-10-23T10:00:00+00:00）：OpenAI has acquired Software Applications Incorporated, maker of Sky—a natural language interface for Mac that brings AI directly into your desktop experience. Together, we’re int…
+- [Consensus accelerates research with GPT-5 and Responses API](https://openai.com/index/consensus) （OpenAI News，2025-10-23T09:00:00+00:00）：Consensus uses GPT-5 and OpenAI’s Responses API to power a multi-agent research assistant that reads, analyzes, and synthesizes evidence in minutes—helping over 8 million research…
+- [AI in South Korea—OpenAI’s Economic Blueprint](https://openai.com/index/south-korea-economic-blueprint) （OpenAI News，2025-10-23T00:00:00+00:00）：OpenAI's Korea Economic Blueprint outlines how South Korea can scale trusted AI through sovereign capabilities and strategic partnerships to drive growth.
+- [Work smarter with your company knowledge in ChatGPT](https://openai.com/index/introducing-company-knowledge) （OpenAI News，2025-10-23T00:00:00+00:00）：Company knowledge brings context from your apps into ChatGPT for answers specific to your business, with clear citations, security, privacy, and admin controls. Available now for…
+- [The next chapter for UK sovereign AI](https://openai.com/index/the-next-chapter-for-uk-sovereign-ai) （OpenAI News，2025-10-22T16:00:00+00:00）：OpenAI expands its UK partnership with a new Ministry of Justice agreement, bringing ChatGPT to civil servants. It also introduces UK data residency for ChatGPT Enterprise, ChatGP…
+- [AI in Japan—OpenAI’s Japan Economic Blueprint](https://openai.com/index/japan-economic-blueprint) （OpenAI News，2025-10-22T00:00:00+00:00）：OpenAI’s Japan Economic Blueprint outlines how Japan can harness AI to boost innovation, strengthen competitiveness, and enable sustainable, inclusive growth.
+- [Continue your ChatGPT experience beyond WhatsApp](https://openai.com/index/chatgpt-whatsapp-transition) （OpenAI News，2025-10-21T17:00:00+00:00）：ChatGPT will no longer be available on WhatsApp after January 15, 2026. Learn how to link your ChatGPT account and continue your conversations across devices.
+- [Introducing ChatGPT Atlas, the browser with ChatGPT built in](https://openai.com/index/introducing-chatgpt-atlas) （OpenAI News，2025-10-21T00:00:00+00:00）：ChatGPT Atlas, the browser with ChatGPT built it. Get instant answers, summaries, and smart web help—right from any page. With privacy settings you can control. Available now for…
+- [Plex Coffee delivers fast, personal service with ChatGPT](https://openai.com/index/plex-coffee) （OpenAI News，2025-10-15T00:00:00+00:00）：Learn how Plex Coffee uses ChatGPT Business to centralize knowledge, train staff faster, and preserve personal connections while expanding.
+- [Expert Council on Well-Being and AI](https://openai.com/index/expert-council-on-well-being-and-ai) （OpenAI News，2025-10-14T10:00:00+00:00）：OpenAI’s new Expert Council on Well-Being and AI brings together leading psychologists, clinicians, and researchers to guide how ChatGPT supports emotional health, especially for…
+- [Argentina’s AI opportunity](https://openai.com/global-affairs/argentinas-ai-opportunity) （OpenAI News，2025-10-14T06:00:00+00:00）：OpenAI and Sur Energy are exploring Argentina’s first Stargate project—an AI and clean energy collaboration that could make Argentina a Latin American leader in artificial intelli…
+- [OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators](https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration) （OpenAI News，2025-10-13T06:00:00+00:00）：OpenAI and Broadcom announce a multi-year partnership to deploy 10 gigawatts of OpenAI-designed AI accelerators, co-developing next-generation systems and Ethernet solutions to po…
+- [HYGH speeds development and campaigns with ChatGPT Business](https://openai.com/index/hygh) （OpenAI News，2025-10-10T00:00:00+00:00）：HYGH speeds up software development and campaign delivery with ChatGPT Business, cutting turnaround times, scaling output, and driving revenue growth.
+- [Defining and evaluating political bias in LLMs](https://openai.com/index/defining-and-evaluating-political-bias-in-llms) （OpenAI News，2025-10-09T13:00:00+00:00）：Learn how OpenAI evaluates political bias in ChatGPT through new real-world testing methods that improve objectivity and reduce bias.
+- [HiBob turns 2,500 GPTs into product and team growth](https://openai.com/index/hibob) （OpenAI News，2025-10-08T08:00:00+00:00）：Discover how HiBob uses ChatGPT Enterprise and custom GPTs to scale AI adoption, boost revenue, streamline HR workflows, and deliver AI-powered features in the Bob platform.
+- [Disrupting malicious uses of AI: October 2025](https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-october-2025) （OpenAI News，2025-10-07T03:00:00+00:00）：Discover how OpenAI is detecting and disrupting malicious uses of AI in our October 2025 report. Learn how we’re countering misuse, enforcing policies, and protecting users from r…
+- [Codex is now generally available](https://openai.com/index/codex-now-generally-available) （OpenAI News，2025-10-06T10:50:00+00:00）：OpenAI Codex is now generally available with powerful new features for developers: a Slack integration, Codex SDK, and admin tools like usage dashboards and workspace management—m…
+- [Introducing apps in ChatGPT and the new Apps SDK](https://openai.com/index/introducing-apps-in-chatgpt) （OpenAI News，2025-10-06T10:00:00+00:00）：We’re introducing a new generation of apps you can chat with, right inside ChatGPT. Developers can start building them today with the new Apps SDK, available in preview.
+- [AMD and OpenAI announce strategic partnership to deploy 6 gigawatts of AMD GPUs](https://openai.com/index/openai-amd-strategic-partnership) （OpenAI News，2025-10-06T06:00:00+00:00）：AMD and OpenAI have announced a multi-year partnership to deploy 6 gigawatts of AMD Instinct GPUs, beginning with 1 gigawatt in 2026, to power OpenAI’s next-generation AI infrastr…
+- [Introducing AgentKit, new Evals, and RFT for agents](https://openai.com/index/introducing-agentkit) （OpenAI News，2025-10-06T00:00:00+00:00）：Today, we’re releasing new tools to help developers go from prototype to production faster: AgentKit, expanded evals capabilities, and reinforcement fine-tuning for agents.
+- [Accelerating AI adoption in Europe](https://openai.com/global-affairs/accelerating-ai-uptake-in-europe) （OpenAI News，2025-10-06T00:00:00+00:00）：OpenAI and Allied for Startups release the Hacktivate AI report with 20 actionable policy ideas to accelerate AI adoption in Europe, boost competitiveness, and empower innovators.
+- [With GPT-5, Wrtn builds lifestyle AI for millions in Korea](https://openai.com/index/wrtn) （OpenAI News，2025-10-02T10:00:00+00:00）：Wrtn scaled AI apps to 6.5M users in Korea with GPT-5, creating ‘Lifestyle AI’ that blends productivity, creativity, and learning—now expanding across East Asia.
+- [OpenAI announces strategic collaboration with Japan’s Digital Agency](https://openai.com/global-affairs/strategic-collaboration-with-japan-digital-agency) （OpenAI News，2025-10-02T00:00:00+00:00）：OpenAI and Japan’s Digital Agency partner to advance generative AI in public services, support international AI governance, and promote safe, trustworthy AI adoption worldwide.
+- [Samsung and SK join OpenAI’s Stargate initiative to advance global AI infrastructure](https://openai.com/index/samsung-and-sk-join-stargate) （OpenAI News，2025-10-01T03:00:00+00:00）：Samsung and SK join OpenAI’s Stargate initiative to expand global AI infrastructure, scaling advanced memory chip production and building next-gen data centers in Korea.
+- [Sora 2 System Card](https://openai.com/index/sora-2-system-card) （OpenAI News，2025-09-30T00:00:00+00:00）：Sora 2 is our new state of the art video and audio generation model. Building on the foundation of Sora, this new model introduces capabilities that have been difficult for prior…
+- [Sora 2 is here](https://openai.com/index/sora-2) （OpenAI News，2025-09-30T00:00:00+00:00）：Our latest video generation model is more physically accurate, realistic, and controllable than prior systems. It also features synchronized dialogue and sound effects. Create wit…
+- [Launching Sora responsibly](https://openai.com/index/launching-sora-responsibly) （OpenAI News，2025-09-30T00:00:00+00:00）：To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the fo…
+- [Building OpenAI with OpenAI](https://openai.com/index/building-openai-with-openai) （OpenAI News，2025-09-29T13:30:00+00:00）：At OpenAI, we rely on our own technology to help streamline work, scale expertise, and drive outcomes. In our new series, OpenAI on OpenAI, we share lessons to help other organiza…
+- [Turning contracts into searchable data at OpenAI](https://openai.com/index/openai-contract-data-agent) （OpenAI News，2025-09-29T13:30:00+00:00）：OpenAI built a system to extract contract data quickly, cutting turnaround times and making it easier for teams to access the details they need.
+- [Converting inbound leads into customers at OpenAI](https://openai.com/index/openai-inbound-sales-assistant) （OpenAI News，2025-09-29T13:30:00+00:00）：Learn how OpenAI used AI to deliver personalized answers at scale, converting inbound leads into customers.
+- [Improving support with every interaction at OpenAI](https://openai.com/index/openai-support-model) （OpenAI News，2025-09-29T13:30:00+00:00）：Learn how OpenAI uses AI to enhance support, cutting response times, improving quality, and scaling to meet hypergrowth.
+- [Empowering teams to unlock insights faster at OpenAI](https://openai.com/index/openai-research-assistant) （OpenAI News，2025-09-29T13:30:00+00:00）：OpenAI’s research assistant helps teams analyze millions of support tickets, surface insights faster, and scale curiosity across the company.
+- [Driving sales productivity and customer success at OpenAI](https://openai.com/index/openai-gtm-assistant) （OpenAI News，2025-09-29T13:30:00+00:00）：Learn how OpenAI boosts sales productivity by automating prep, centralizing knowledge, and scaling top-selling practices.
+- [Introducing parental controls](https://openai.com/index/introducing-parental-controls) （OpenAI News，2025-09-29T03:00:00+00:00）：We’re rolling out parental controls and a new parent resource page to help families guide how ChatGPT works in their homes.
+- [Combating online child sexual exploitation & abuse](https://openai.com/index/combating-online-child-sexual-exploitation-abuse) （OpenAI News，2025-09-29T03:00:00+00:00）：Discover how OpenAI combats online child sexual exploitation and abuse with strict usage policies, advanced detection tools, and industry collaboration to block, report, and preve…
+- [Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol](https://openai.com/index/buy-it-in-chatgpt) （OpenAI News，2025-09-29T00:00:00+00:00）：We’re taking first steps toward agentic commerce in ChatGPT with new ways for people, AI agents, and businesses to shop together.
+- [Partnering with AARP to help keep older adults safe online](https://openai.com/index/aarp-partnership-older-adults-online-safety) （OpenAI News，2025-09-26T06:00:00+00:00）：OpenAI and AARP are partnering to help older adults stay safe online with new AI training, scam-spotting tools, and nationwide programs through OpenAI Academy and OATS’s Senior Pl…
+- [More ways to work with your team and tools in ChatGPT](https://openai.com/index/more-ways-to-work-with-your-team) （OpenAI News，2025-09-25T11:00:00+00:00）：New shared projects, smarter connectors, and compliance and security updates help teams get more done.
+- [Measuring the performance of our models on real-world tasks](https://openai.com/index/gdpval) （OpenAI News，2025-09-25T09:00:00+00:00）：OpenAI introduces GDPval, a new evaluation that measures model performance on real-world economically valuable tasks across 44 occupations.
+- [Introducing ChatGPT Pulse](https://openai.com/index/introducing-chatgpt-pulse) （OpenAI News，2025-09-25T00:00:00+00:00）：Today we're releasing a preview of ChatGPT Pulse to Pro users on mobile. Pulse is a new experience where ChatGPT proactively does research to deliver personalized updates based on…
+- [ENEOS Materials brings ChatGPT Enterprise to manufacturing](https://openai.com/index/eneos-materials) （OpenAI News，2025-09-24T17:00:00+00:00）：ENEOS Materials uses ChatGPT Enterprise to speed research, improve plant design safety, and cut HR analysis time by 90%, with 80% reporting better workflows.
+- [SAP and OpenAI partner to launch sovereign ‘OpenAI for Germany’](https://openai.com/global-affairs/openai-for-germany) （OpenAI News，2025-09-24T04:00:00+00:00）：SAP and OpenAI launch OpenAI for Germany, a 2026 partnership to bring secure, sovereign AI to Germany’s public sector, enabling safe, efficient public services.
+- [OpenAI, Oracle, and SoftBank expand Stargate with five new AI datacenter sites](https://openai.com/index/five-new-stargate-sites) （OpenAI News，2025-09-23T14:00:00+00:00）：OpenAI, Oracle, and SoftBank announce five new Stargate AI datacenter sites, accelerating a $500B, 10-gigawatt U.S. infrastructure buildout to power next-generation AI and create…
+- [CNA is transforming its newsroom with AI](https://openai.com/index/cna-walter-fernandez) （OpenAI News，2025-09-22T17:17:00+00:00）：In this Executive Function series from OpenAI, discover how CNA is transforming its newsroom with AI. Editor-in-Chief Walter Fernandez shares insights on AI adoption, culture, and…
+- [SchoolAI builds an AI platform that empowers teachers](https://openai.com/index/schoolai) （OpenAI News，2025-09-22T10:00:00+00:00）：SchoolAI uses GPT-4.1, image generation, and TTS to power safe, teacher-guided AI tools for over 1 million classrooms, improving engagement, oversight, and personalized learning.
+- [OpenAI and NVIDIA announce strategic partnership to deploy 10 gigawatts of NVIDIA systems](https://openai.com/index/openai-nvidia-systems-partnership) （OpenAI News，2025-09-22T08:45:00+00:00）：OpenAI and NVIDIA announce a strategic partnership to deploy 10 gigawatts of AI datacenters powered by NVIDIA systems, with the first phase launching in 2026.
+- [Detecting and reducing scheming in AI models](https://openai.com/index/detecting-and-reducing-scheming-in-ai-models) （OpenAI News，2025-09-17T00:00:00+00:00）：Apollo Research and OpenAI developed evaluations for hidden misalignment (“scheming”) and found behaviors consistent with scheming in controlled tests across frontier models. The…
+- [Introducing Stargate UK](https://openai.com/index/introducing-stargate-uk) （OpenAI News，2025-09-16T14:30:00+00:00）
+- [Building towards age prediction](https://openai.com/index/building-towards-age-prediction) （OpenAI News，2025-09-16T06:00:00+00:00）：Learn how OpenAI is building age prediction and parental controls in ChatGPT to create safer, age-appropriate experiences for teens while supporting families with new tools.
+- [Teen safety, freedom, and privacy](https://openai.com/index/teen-safety-freedom-and-privacy) （OpenAI News，2025-09-16T06:00:00+00:00）：Explore OpenAI’s approach to balancing teen safety, freedom, and privacy in AI use.
+- [Introducing upgrades to Codex](https://openai.com/index/introducing-upgrades-to-codex) （OpenAI News，2025-09-15T10:00:00+00:00）：Codex just got faster, more reliable, and better at real-time collaboration and tackling tasks independently anywhere you develop—whether via the terminal, IDE, web, or even your…
+- [How people are using ChatGPT](https://openai.com/index/how-people-are-using-chatgpt) （OpenAI News，2025-09-15T03:00:00+00:00）：New research from the largest study of ChatGPT use shows how the tool creates economic value through both personal and professional use. Adoption is broadening beyond early users,…
+- [Addendum to GPT-5 system card: GPT-5-Codex](https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex) （OpenAI News，2025-09-15T00:00:00+00:00）：This addendum to the GPT-5 system card shares a new model: GPT-5-Codex, a version of GPT-5 further optimized for agentic coding in Codex. GPT-5-Codex adjusts its thinking effort m…
+- [Working with US CAISI and UK AISI to build more secure AI systems](https://openai.com/index/us-caisi-uk-aisi-ai-update) （OpenAI News，2025-09-12T12:00:00+00:00）：OpenAI shares progress on the partnership with the US CAISI and UK AISI to strengthen AI safety and security.
+- [Statement on OpenAI’s Nonprofit and PBC](https://openai.com/index/statement-on-openai-nonprofit-and-pbc) （OpenAI News，2025-09-11T14:00:00+00:00）：OpenAI reaffirms its nonprofit leadership with a new structure granting equity in its PBC, enabling over $100B in resources to advance safe, beneficial AI for humanity.
+- [A joint statement from OpenAI and Microsoft](https://openai.com/index/joint-statement-from-openai-and-microsoft) （OpenAI News，2025-09-11T14:00:00+00:00）：OpenAI and Microsoft sign a new MOU, reinforcing their partnership and shared commitment to AI safety and innovation.
+- [SafetyKit scales risk agents with OpenAI’s most capable models](https://openai.com/index/safetykit) （OpenAI News，2025-09-09T10:00:00+00:00）：Discover how SafetyKit leverages OpenAI GPT-5 to enhance content moderation, enforce compliance, and outpace legacy safety systems with greater accuracy .
+- [A People-First AI Fund: $50M to support nonprofits](https://openai.com/index/people-first-ai-fund) （OpenAI News，2025-09-08T14:00:00+00:00）：Applications are now open for OpenAI’s People-First AI Fund, a $50M initiative supporting U.S. nonprofits advancing education, community innovation, and economic opportunity. Appl…
+- [Why language models hallucinate](https://openai.com/index/why-language-models-hallucinate) （OpenAI News，2025-09-05T10:00:00+00:00）：OpenAI’s new research explains why language models hallucinate. The findings show how improved evaluations can enhance AI reliability, honesty, and safety.
+- [OpenAI and Greek Government launch ‘OpenAI for Greece’](https://openai.com/global-affairs/openai-for-greece) （OpenAI News，2025-09-05T08:00:00+00:00）：OpenAI and the Greek Government have launched “OpenAI for Greece” to bring ChatGPT Edu into secondary schools and support responsible AI learning. This partnership aims to boost A…
+- [Expanding economic opportunity with AI](https://openai.com/index/expanding-economic-opportunity-with-ai) （OpenAI News，2025-09-04T11:30:00+00:00）：OpenAI is launching a Jobs Platform and new Certifications to connect workers with jobs, training, and certifications. Learn how we’re expanding economic opportunity and making AI…
+- [Vijaye Raji to become CTO of Applications with acquisition of Statsig](https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig) （OpenAI News，2025-09-02T11:00:00+00:00）：Vijaye Raji will step into a new role as CTO of Applications, reporting to CEO of Applications, Fidji Simo, following the acquisition of Statsig.
+- [Building more helpful ChatGPT experiences for everyone](https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone) （OpenAI News，2025-09-02T04:00:00+00:00）：We’re partnering with experts, strengthening protections for teens with parental controls, and routing sensitive conversations to reasoning models in ChatGPT.
+- [Introducing gpt-realtime and Realtime API updates](https://openai.com/index/introducing-gpt-realtime) （OpenAI News，2025-08-28T10:00:00+00:00）：We’re releasing a more advanced speech-to-speech model and new API capabilities including MCP server support, image input, and SIP phone calling support.
+- [Supporting nonprofit and community innovation](https://openai.com/index/supporting-nonprofit-and-community-innovation) （OpenAI News，2025-08-28T05:00:00+00:00）：OpenAI launches a $50M People-First AI Fund to help U.S. nonprofits scale impact with AI. Applications open Sept 8–Oct 8, 2025 for grants in education, healthcare, research, and m…
+- [Collective alignment: public input on our Model Spec](https://openai.com/index/collective-alignment-aug-2025-updates) （OpenAI News，2025-08-27T13:00:00+00:00）：OpenAI surveyed over 1,000 people worldwide on how AI should behave and compared their views to our Model Spec. Learn how collective alignment is shaping AI defaults to better ref…
+- [OpenAI and Anthropic share findings from a joint safety evaluation](https://openai.com/index/openai-anthropic-safety-evaluation) （OpenAI News，2025-08-27T10:00:00+00:00）：OpenAI and Anthropic share findings from a first-of-its-kind joint safety evaluation, testing each other’s models for misalignment, instruction following, hallucinations, jailbrea…
+- [Helping people when they need it most](https://openai.com/index/helping-people-when-they-need-it-most) （OpenAI News，2025-08-26T04:00:00+00:00）：How we think about safety for users experiencing mental or emotional distress, the limits of today’s systems, and the work underway to refine them.
+- [Announcing the OpenAI Learning Accelerator](https://openai.com/global-affairs/learning-accelerator) （OpenAI News，2025-08-25T06:00:00+00:00）
+- [Accelerating life sciences research](https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences) （OpenAI News，2025-08-22T08:30:00+00:00）：Discover how a specialized AI model, GPT-4b micro, helped OpenAI and Retro Bio engineer more effective proteins for stem cell therapy and longevity research.
+- [Scaling domain expertise in complex, regulated domains](https://openai.com/index/blue-j) （OpenAI News，2025-08-21T10:00:00+00:00）：Discover how Blue J is transforming tax research with AI-powered tools built on GPT-4.1. By combining domain expertise with Retrieval-Augmented Generation, Blue J delivers fast, a…
+- [Mixi reimagines communication with ChatGPT](https://openai.com/index/mixi) （OpenAI News，2025-08-20T17:00:00+00:00）：Discover how MIXI, a leader in digital entertainment and lifestyle services in Japan, uses ChatGPT Enterprise to transform productivity, boost AI adoption across teams, and create…
+- [Q&A with DoorDash’s CPO, Mariana Garavaglia](https://openai.com/index/doordash-mariana-garavaglia) （OpenAI News，2025-08-18T00:00:00+00:00）：Learn how DoorDash is scaling AI adoption to empower employees to build, learn, and innovate faster in a conversation with Chief People Officer Mariana Garavaglia.
+- [OpenAI’s letter to Governor Newsom on harmonized regulation](https://openai.com/global-affairs/letter-to-governor-newsom-on-harmonized-regulation) （OpenAI News，2025-08-12T00:00:00+00:00）：We’ve just sent a letter to Gov. Gavin Newsom calling for California to lead the way in harmonizing state-based AI regulation with national—and, by virtue of US leadership, emergi…
+- [Scaling accounting capacity with OpenAI](https://openai.com/index/basis) （OpenAI News，2025-08-12T00:00:00+00:00）：Built with OpenAI o3, o3-Pro, GPT-4.1, and GPT-5, Basis’ AI agents help accounting firms save up to 30% of their time and expand capacity for advisory and growth.
+- [GPT-5 and the new era of work](https://openai.com/index/gpt-5-new-era-of-work) （OpenAI News，2025-08-07T10:00:00+00:00）：GPT-5 is OpenAI’s most advanced model—transforming enterprise AI, automation, and workforce productivity in the new era of intelligent work.
+- [Introducing GPT-5 for developers](https://openai.com/index/introducing-gpt-5-for-developers) （OpenAI News，2025-08-07T10:00:00+00:00）：Introducing GPT-5 in our API platform—offering high reasoning performance, new controls for devs, and best-in-class results on real coding tasks.
+- [Coding and design with GPT-5](https://openai.com/index/gpt-5-coding-design) （OpenAI News，2025-08-07T00:03:00+00:00）：Learn how GPT-5 unlocks new possibilities in coding and design.
+- [Creative writing with GPT-5](https://openai.com/index/gpt-5-creative-writing) （OpenAI News，2025-08-07T00:02:00+00:00）：Learn how GPT-5 assists with creative writing.
+- [Medical research with GPT-5](https://openai.com/index/gpt-5-medical-research) （OpenAI News，2025-08-07T00:01:00+00:00）：Learn how GPT-5 is used for medical research.
+- [GPT-5 System Card](https://openai.com/index/gpt-5-system-card) （OpenAI News，2025-08-07T00:00:00+00:00）：This GPT-5 system card explains how a unified model routing system powers fast and smart responses using gpt-5-main, gpt-5-thinking, and lightweight versions like gpt-5-thinking-n…
+- [How Amgen uses GPT-5](https://openai.com/index/gpt-5-amgen) （OpenAI News，2025-08-07T00:00:00+00:00）：Learn how Amgen uses GPT-5.
+- [From hard refusals to safe-completions: toward output-centric safety training](https://openai.com/index/gpt-5-safe-completions) （OpenAI News，2025-08-07T00:00:00+00:00）：Discover how OpenAI's new safe-completions approach in GPT-5 improves both safety and helpfulness in AI responses—moving beyond hard refusals to nuanced, output-centric safety tra…
+- [First look at GPT-5](https://openai.com/index/gpt-5-first-look) （OpenAI News，2025-08-07T00:00:00+00:00）：See how a group of leading developers use GPT-5 for the first time.
+- [Introducing GPT-5](https://openai.com/index/introducing-gpt-5) （OpenAI News，2025-08-07T00:00:00+00:00）：We are introducing GPT‑5, our best AI system yet. GPT‑5 is a significant leap in intelligence over all our previous models, featuring state-of-the-art performance across coding, m…
+- [How Cursor uses GPT-5](https://openai.com/index/gpt-5-cursor) （OpenAI News，2025-08-07T00:00:00+00:00）：Learn how Cursor uses GPT-5.
+- [Providing ChatGPT to the Entire U.S. Federal Workforce](https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce) （OpenAI News，2025-08-06T00:00:00+00:00）：Today, OpenAI for Government is announcing a new partnership with the U.S. General Services Administration (GSA) to launch a transformative initiative. For the next year, ChatGPT…
+- [gpt-oss-120b & gpt-oss-20b Model Card](https://openai.com/index/gpt-oss-model-card) （OpenAI News，2025-08-05T00:00:00+00:00）：We introduce gpt-oss-120b and gpt-oss-20b, two open-weight reasoning models available under the Apache 2.0 license and our gpt-oss usage policy.
+- [Open Weights and AI for All](https://openai.com/global-affairs/open-weights-and-ai-for-all) （OpenAI News，2025-08-05T00:00:00+00:00）：AI’s next frontier isn’t just about capability—it’s about who gets to use it. Our mission to put AI in the hands of as many people as possible is what drives us. Today’s release o…
+- [Introducing gpt-oss](https://openai.com/index/introducing-gpt-oss) （OpenAI News，2025-08-05T00:00:00+00:00）：We’re releasing gpt-oss-120b and gpt-oss-20b—two state-of-the-art open-weight language models that deliver strong real-world performance at low cost. Available under the flexible…
+- [Estimating worst case frontier risks of open weight LLMs](https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms) （OpenAI News，2025-08-05T00:00:00+00:00）：In this paper, we study the worst-case frontier risks of releasing gpt-oss. We introduce malicious fine-tuning (MFT), where we attempt to elicit maximum capabilities by fine-tunin…
+- [What we’re optimizing ChatGPT for](https://openai.com/index/optimizing-chatgpt) （OpenAI News，2025-08-04T00:00:00+00:00）：We build ChatGPT to help you thrive in all the ways you want. Learn how we're improving support for tough moments, have rolled out reminders to take breaks, and are working on bet…
+- [Figma uses AI to transform digital design](https://openai.com/index/figma-david-kossnick) （OpenAI News，2025-08-01T00:00:00+00:00）：Discover how Figma is transforming digital design with AI. David Kossnick shares how tools like Figma Make empower teams to prototype, collaborate, and build with AI—reshaping wor…
+- [Introducing Stargate Norway](https://openai.com/index/introducing-stargate-norway) （OpenAI News，2025-07-31T00:00:00+00:00）：We’re launching Stargate Norway—OpenAI’s first AI data center initiative in Europe under our OpenAI for Countries program. Stargate is OpenAI’s overarching infrastructure platform…
+- [Three lessons for creating a sustainable AI advantage](https://openai.com/index/intercom) （OpenAI News，2025-07-30T00:00:00+00:00）：Discover how Intercom built a scalable AI platform with 3 key lessons—from evaluations to architecture—to lead the future of customer support.
+- [Introducing study mode in ChatGPT](https://openai.com/index/chatgpt-study-mode) （OpenAI News，2025-07-29T10:00:00+00:00）：Introducing study mode in ChatGPT, a new learning experience that helps you work through problems step by step, guiding students with questions, scaffolding, and feedback for deep…
+- [Resolving digital threats 100x faster with OpenAI](https://openai.com/index/outtake) （OpenAI News，2025-07-24T00:00:00+00:00）：Discover how Outtake uses GPT-4.1 and OpenAI o3 to power AI agents that detect and resolve digital threats 100x faster than before.
+- [Announcing OpenAI DevDay 2025](https://openai.com/index/announcing-devday-2025) （OpenAI News，2025-07-23T00:00:00+00:00）：We’re hosting our third annual OpenAI DevDay on October 6, 2025 at Fort Mason in San Francisco.
+- [Model ML is helping financial firms rebuild with AI from the ground up](https://openai.com/index/model-ml-chaz-englander) （OpenAI News，2025-07-23T00:00:00+00:00）：As part of our Executive Function series, Model ML CEO Chaz Englander discusses how AI-native infrastructure and autonomous agents are transforming financial services workflows.
+- [Pioneering an AI clinical copilot with Penda Health](https://openai.com/index/ai-clinical-copilot-penda-health) （OpenAI News，2025-07-22T10:00:00+00:00）：OpenAI and Penda Health debut an AI clinical copilot that cuts diagnostic errors by 16% in real-world use—offering a new path for safe, effective AI in healthcare.
+- [OpenAI’s new economic analysis](https://openai.com/global-affairs/new-economic-analysis) （OpenAI News，2025-07-22T00:00:00+00:00）：Analysis provides insights into ChatGPT’s impact on the economy. OpenAI also launches new research collaboration to study AI’s broader effects on the labor market and productivity.
+- [Stargate advances with 4.5 GW partnership with Oracle](https://openai.com/index/stargate-advances-with-partnership-with-oracle) （OpenAI News，2025-07-22T00:00:00+00:00）：Oracle and OpenAI have entered an agreement to develop 4.5 gigawatts of additional Stargate data center capacity in the U.S. This investment will create new jobs, accelerate Ameri…
+- [OpenAI and UK Government announce strategic partnership to deliver AI-driven growth](https://openai.com/global-affairs/openai-and-uk-government-partnership) （OpenAI News，2025-07-21T10:00:00+00:00）：OpenAI partners with the UK Government to boost AI adoption, drive economic growth, and enhance public services for a thriving AI ecosystem in the UK.
+- [AI as the greatest source of empowerment for all](https://openai.com/index/ai-as-the-greatest-source-of-empowerment-for-all) （OpenAI News，2025-07-21T00:00:00+00:00）：I’ve always considered myself a pragmatic technologist—someone who loves technology not for its own sake, but for the direct impact it can have on people’s lives. That’s what make…
+- [A $50 million fund to build with communities](https://openai.com/index/50-million-fund-to-build-with-communities) （OpenAI News，2025-07-18T00:00:00+00:00）：OpenAI is launching an initial $50 million fund that supports nonprofit and community organizations, informed by the independent OpenAI Nonprofit Commission report.
+- [Introducing ChatGPT agent](https://openai.com/index/introducing-chatgpt-agent) （OpenAI News，2025-07-17T10:00:00+00:00）：Introducing ChatGPT agent: it thinks and acts, using tools to complete tasks like research, bookings, and slideshows—all with your guidance.
+- [ChatGPT agent System Card](https://openai.com/index/chatgpt-agent-system-card) （OpenAI News，2025-07-17T10:00:00+00:00）：ChatGPT agent System Card: OpenAI’s agentic model unites research, browser automation, and code tools with safeguards under the Preparedness Framework.
+- [Statement from the OpenAI Board of Directors on the Nonprofit Commission Report](https://openai.com/index/nonprofit-commission-report) （OpenAI News，2025-07-17T00:00:00+00:00）：The Board of Directors thanks the members of the independent OpenAI Nonprofit Commission for their extensive work and engagement.
+- [Invideo AI uses OpenAI models to create videos 10x faster](https://openai.com/index/invideo-ai) （OpenAI News，2025-07-17T00:00:00+00:00）：Invideo AI uses OpenAI’s GPT-4.1, gpt-image-1, and text-to-speech models to transform creative ideas into professional videos in minutes.
+- [OpenAI nonprofit jam](https://openai.com/global-affairs/openai-nonprofit-jam) （OpenAI News，2025-07-17T00:00:00+00:00）：At OpenAI, we build tools to help people solve hard problems—including nonprofits working on the frontlines of their communities. The OpenAI Academy is teaming up with the Walton…
+- [Intellectual freedom by design](https://openai.com/global-affairs/intellectual-freedom-by-design) （OpenAI News，2025-07-15T00:00:00+00:00）：ChatGPT is designed to be useful, trustworthy, and adaptable—so you can make it your own.
+- [The EU Code of Practice and future of AI in Europe](https://openai.com/global-affairs/eu-code-of-practice) （OpenAI News，2025-07-11T09:30:00+00:00）：OpenAI joins the EU Code of Practice, advancing responsible AI while partnering with European governments to drive innovation, infrastructure, and economic growth.
+- [Working with 400,000 teachers to shape the future of AI in schools](https://openai.com/global-affairs/aft) （OpenAI News，2025-07-08T07:00:00+00:00）：OpenAI partners with the American Federation of Teachers to launch a 5-year initiative equipping 400,000 K-12 educators to lead AI innovation in classrooms.
+- [No-code personal agents, powered by GPT-4.1 and Realtime API](https://openai.com/index/genspark) （OpenAI News，2025-07-01T10:00:00+00:00）：Learn how Genspark built a $36M ARR AI product in 45 days—with no-code agents powered by GPT-4.1 and OpenAI Realtime API.
+- [AI in Australia—OpenAI’s Economic Blueprint](https://openai.com/global-affairs/openais-australia-economic-blueprint) （OpenAI News，2025-06-30T07:00:00+00:00）：Today, OpenAI, in partnership with Mandala Partners, is sharing the OpenAI AI Economic Blueprint for Australia. At a time when boosting productivity has emerged as a national prio…
+- [Customizable, no-code voice agent automation with GPT-4o](https://openai.com/index/retell-ai) （OpenAI News，2025-06-26T10:00:00+00:00）：Retell AI is transforming the call center with AI voice automation powered by GPT-4o and GPT-4.1. Its no-code platform enables businesses to launch natural, real-time voice agents…
+- [Driving scalable growth with OpenAI o3, GPT-4.1, and CUA](https://openai.com/index/unify) （OpenAI News，2025-06-24T00:00:00+00:00）：Unify, an AI-powered GTM platform, uses OpenAI’s o3, GPT-4.1, and CUA to automate prospecting, research, and outreach. With hyper-personalized messaging and an always-on workflow,…
+- [Toward understanding and preventing misalignment generalization](https://openai.com/index/emergent-misalignment) （OpenAI News，2025-06-18T10:00:00+00:00）：We study how training on incorrect responses can cause broader misalignment in language models and identify an internal feature driving this behavior—one that can be reversed with…
+- [Preparing for future AI risks in biology](https://openai.com/index/preparing-for-future-ai-capabilities-in-biology) （OpenAI News，2025-06-18T10:00:00+00:00）：Advanced AI can transform biology and medicine—but also raises biosecurity risks. We’re proactively assessing capabilities and implementing safeguards to prevent misuse.
+- [Introducing OpenAI for Government](https://openai.com/global-affairs/introducing-openai-for-government) （OpenAI News，2025-06-16T00:00:00+00:00）：We’re launching OpenAI for Government, a new initiative focused on bringing our most advanced AI tools to public servants across the United States. We're supporting the U.S. gover…
+- [Bringing the magic of AI to Mattel’s iconic brands](https://openai.com/index/mattels-iconic-brands) （OpenAI News，2025-06-12T00:00:00+00:00）：OpenAI and Mattel are partnering to integrate AI into iconic brands such as Barbie and Hot Wheels, aiming to enhance creative development, streamline workflows, and create new way…
+- [Scaling security with responsible disclosure](https://openai.com/index/scaling-coordinated-vulnerability-disclosure) （OpenAI News，2025-06-09T10:00:00+00:00）：OpenAI introduces its Outbound Coordinated Disclosure Policy to guide how it responsibly reports vulnerabilities in third-party software—emphasizing integrity, collaboration, and…
+- [How we’re responding to The New York Times’ data demands in order to protect user privacy](https://openai.com/index/response-to-nyt-data-demands) （OpenAI News，2025-06-05T16:30:00+00:00）：OpenAI is fighting a court order at the demands of The New York Times and plaintiffs, which involves retention of consumer ChatGPT and API user data indefinitely. Learn how we’re…
+- [Disrupting malicious uses of AI: June 2025](https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-june-2025) （OpenAI News，2025-06-05T02:00:00+00:00）：Our latest report featuring case studies of how we’re detecting and preventing malicious uses of AI.
+- [Creating websites in minutes with AI Website Builder](https://openai.com/index/wix) （OpenAI News，2025-05-29T00:00:00+00:00）：Wix’s AI Website Builder, powered by OpenAI, lets anyone create a full website in minutes—just by describing their idea in a conversation.
+- [Addendum to OpenAI o3 and o4-mini system card: OpenAI o3 Operator](https://openai.com/index/o3-o4-mini-system-card-addendum-operator-o3) （OpenAI News，2025-05-23T00:00:00+00:00）：We are replacing the existing GPT-4o-based model for Operator with a version based on OpenAI o3. The API version will remain based on 4o.
+- [OpenAI Deutschland](https://openai.com/index/openai-deutschland) （OpenAI News，2025-05-22T23:00:00+00:00）
+- [Shipping code faster with o3, o4-mini, and GPT-4.1](https://openai.com/index/coderabbit) （OpenAI News，2025-05-22T10:25:00+00:00）：CodeRabbit uses OpenAI models to revolutionize code reviews—boosting accuracy, accelerating PR merges, and helping developers ship faster with fewer bugs and higher ROI.
+- [Introducing Stargate UAE](https://openai.com/index/introducing-stargate-uae) （OpenAI News，2025-05-22T00:00:00+00:00）：We’re launching Stargate UAE – the first international deployment of Stargate, OpenAI’s AI infrastructure platform.
+- [New tools and features in the Responses API](https://openai.com/index/new-tools-and-features-in-the-responses-api) （OpenAI News，2025-05-21T08:00:00+00:00）
+- [Introducing Codex](https://openai.com/index/introducing-codex) （OpenAI News，2025-05-16T08:00:00+00:00）
+- [Addendum to o3 and o4-mini system card: Codex](https://openai.com/index/o3-o4-mini-codex-system-card-addendum) （OpenAI News，2025-05-16T08:00:00+00:00）：Codex is a cloud-based coding agent. Codex is powered by codex-1, a version of OpenAI o3 optimized for software engineering. codex-1 was trained using reinforcement learning on re…
+- [AI powers Expedia’s marketing evolution](https://openai.com/index/expedia-jochen-koedijk) （OpenAI News，2025-05-14T10:00:00+00:00）：A conversation with Jochen Koedijk, Chief Marketing Officer of Expedia Group.
+- [Introducing HealthBench](https://openai.com/index/healthbench) （OpenAI News，2025-05-12T10:30:00+00:00）：HealthBench is a new evaluation benchmark for AI in healthcare which evaluates models in realistic scenarios. Built with input from 250+ physicians, it aims to provide a shared st…
+- [OpenAI Expands Leadership with Fidji Simo](https://openai.com/index/leadership-expansion-with-fidji-simo) （OpenAI News，2025-05-07T21:00:00+00:00）：Read the message Sam shared with the company earlier today.
+- [OpenAI’s response to the Department of Energy on AI infrastructure](https://openai.com/global-affairs/response-to-department-of-energy) （OpenAI News，2025-05-07T18:30:00+00:00）：Why infrastructure is destiny and how the US can seize it.
+- [Introducing data residency in Asia](https://openai.com/index/introducing-data-residency-in-asia) （OpenAI News，2025-05-07T18:00:00+00:00）：Data residency builds on OpenAI’s enterprise-grade data privacy, security, and compliance programs supporting customers worldwide.
+- [The San Antonio Spurs use ChatGPT to scale impact on and off the court](https://openai.com/index/san-antonio-spurs) （OpenAI News，2025-05-07T09:00:00+00:00）：Discover how the San Antonio Spurs are using custom GPTs to enhance fan engagement, streamline operations, and drive innovation across teams.
+- [Lowe’s puts project expertise into every hand](https://openai.com/index/lowes) （OpenAI News，2025-05-07T07:00:00+00:00）：Lowe’s partnered with OpenAI to build Mylow and Mylow Companion, AI-powered tools that bring expert help to both customers and store associates—making complex home improvement pro…
+- [Introducing OpenAI for Countries](https://openai.com/global-affairs/openai-for-countries) （OpenAI News，2025-05-07T03:00:00+00:00）：A new initiative to support countries around the world that want to build on democratic AI rails.
+- [Introducing AI stories: daily benefits shine a light on bigger opportunities](https://openai.com/global-affairs/ai-stories-daily-benefits-bigger-opportunities) （OpenAI News，2025-05-06T10:30:00+00:00）：Sam Altman has written that we are entering the Intelligence Age, a time when AI will help people become dramatically more capable. The biggest problems of today—across science, m…
+- [AI helps John Deere transform agriculture](https://openai.com/index/john-deere-justin-rose) （OpenAI News，2025-05-06T00:00:00+00:00）：John Deere’s Justin Rose talks about transforming agriculture with AI and shares how the company is scaling innovation to help farmers work smarter, more efficiently, and sustaina…
+- [Evolving OpenAI’s structure](https://openai.com/index/evolving-our-structure) （OpenAI News，2025-05-05T11:00:00+00:00）：An update from the OpenAI board on transitioning its for-profit entity to a Public Benefit Corporation, reinforcing its mission-driven structure under nonprofit oversight while en…
+- [Lowe’s leverages AI to power home improvement retail](https://openai.com/index/lowes-chandhu-nair) （OpenAI News，2025-05-05T05:00:00+00:00）：A conversation with Chandhu Nair, Senior Vice President of Data, AI, and Innovation.
+- [Expanding on what we missed with sycophancy](https://openai.com/index/expanding-on-sycophancy) （OpenAI News，2025-05-02T08:00:00+00:00）：A deeper dive on our findings, what went wrong, and future changes we’re making.
+- [Sycophancy in GPT-4o: what happened and what we’re doing about it](https://openai.com/index/sycophancy-in-gpt-4o) （OpenAI News，2025-04-29T18:00:00+00:00）：We have rolled back last week’s GPT‑4o update in ChatGPT so people are now using an earlier version with more balanced behavior. The update we removed was overly flattering or agr…
+- [New in ChatGPT for Business: April 2025](https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025) （OpenAI News，2025-04-24T00:00:00+00:00）：Watch hands-on demos of the lastest in ChatGPT for Business: o3, image generation, enhanced memory, and internal knowledge.
+- [Introducing our latest image generation model in the API](https://openai.com/index/image-generation-api) （OpenAI News，2025-04-23T10:00:00+00:00）：Our latest image generation model is now available in the API via ‘gpt-image-1’—enabling developers and businesses to build professional-grade, customizable visuals directly into…
+- [Speak is personalizing language learning with AI](https://openai.com/index/speak-connor-zwick) （OpenAI News，2025-04-22T10:00:00+00:00）：A conversation with Connor Zwick, CEO & Co-founder of Speak.
+- [The Washington Post partners with OpenAI on search content](https://openai.com/global-affairs/the-washington-post-partners-with-openai) （OpenAI News，2025-04-22T06:00:00+00:00）：The Washington Post is partnering with with OpenAI to integrate news into ChatGPT, providing users with summaries, quotes, and direct links to original reporting.
+- [Thinking with images](https://openai.com/index/thinking-with-images) （OpenAI News，2025-04-16T10:00:00+00:00）
+- [OpenAI o3 and o4-mini System Card](https://openai.com/index/o3-o4-mini-system-card) （OpenAI News，2025-04-16T10:00:00+00:00）：OpenAI o3 and OpenAI o4-mini combine state-of-the-art reasoning with full tool capabilities—web browsing, Python, image and file analysis, image generation, canvas, automations, f…
+- [Introducing OpenAI o3 and o4-mini](https://openai.com/index/introducing-o3-and-o4-mini) （OpenAI News，2025-04-16T10:00:00+00:00）：Our smartest and most capable models to date with full tool access
+- [OpenAI announces nonprofit commission advisors](https://openai.com/index/nonprofit-commission-advisors) （OpenAI News，2025-04-15T13:00:00+00:00）：OpenAI is appointing four new advisors to help inform OpenAI’s philanthropic efforts.
+- [Our updated Preparedness Framework](https://openai.com/index/updating-our-preparedness-framework) （OpenAI News，2025-04-15T00:00:00+00:00）：Sharing our updated framework for measuring and protecting against severe harm from frontier AI capabilities.
+- [Introducing GPT-4.1 in the API](https://openai.com/index/gpt-4-1) （OpenAI News，2025-04-14T10:00:00+00:00）：Introducing GPT-4.1 in the API—a new family of models with across-the-board improvements, including major gains in coding, instruction following, and long-context understanding. W…
+- [BrowseComp: a benchmark for browsing agents](https://openai.com/index/browsecomp) （OpenAI News，2025-04-10T10:00:00+00:00）：BrowseComp: a benchmark for browsing agents.
+- [OpenAI Pioneers Program](https://openai.com/index/openai-pioneers-program) （OpenAI News，2025-04-09T10:00:00+00:00）
+- [Canva enables creativity with AI](https://openai.com/index/canva-cam-adams) （OpenAI News，2025-04-07T00:00:00+00:00）：A conversation with Cameron Adams, Chief Product Officer and Co-founder of Canva.
+- [OpenAI’s EU Economic Blueprint](https://openai.com/global-affairs/openais-eu-economic-blueprint) （OpenAI News，2025-04-07T00:00:00+00:00）：Today, OpenAI is sharing the EU Economic Blueprint—a set of proposals to help Europe seize the promise of artificial intelligence, drive sustainable economic growth across the reg…
+- [New commission to provide insight as OpenAI builds the world’s best-equipped nonprofit](https://openai.com/index/nonprofit-commission-guidance) （OpenAI News，2025-04-02T12:00:00+00:00）：Already a nonprofit, and already using AI to help people solve hard problems, OpenAI aims to build the best-equipped nonprofit the world has ever seen—combining potentially histor…
+- [PaperBench: Evaluating AI’s Ability to Replicate AI Research](https://openai.com/index/paperbench) （OpenAI News，2025-04-02T10:15:00+00:00）：We introduce PaperBench, a benchmark evaluating the ability of AI agents to replicate state-of-the-art AI research.
+- [Our response to the UK’s copyright consultation](https://openai.com/global-affairs/response-to-uk-copyright-consultation) （OpenAI News，2025-04-02T07:00:00+00:00）：Recommendations for pro-innovation policies that can help make the UK the AI capital of Europe.
+- [New funding to build towards AGI](https://openai.com/index/march-funding-updates) （OpenAI News，2025-03-31T15:00:00+00:00）：Today we’re announcing new funding—$40B at a $300B post-money valuation, which enables us to push the frontiers of AI research even further, scale our compute infrastructure, and…
+- [Moving from intent-based bots to proactive AI agents](https://openai.com/index/zendesk) （OpenAI News，2025-03-27T09:00:00+00:00）：Moving from intent-based bots to proactive AI agents.
+- [Security on the path to AGI](https://openai.com/index/security-on-the-path-to-agi) （OpenAI News，2025-03-26T10:00:00+00:00）：At OpenAI, we proactively adapt, including by building comprehensive security measures directly into our infrastructure and models.
+- [Introducing 4o Image Generation](https://openai.com/index/introducing-4o-image-generation) （OpenAI News，2025-03-25T11:05:00+00:00）：At OpenAI, we have long believed image generation should be a primary capability of our language models. That’s why we’ve built our most advanced image generator yet into GPT‑4o.…
+- [Addendum to GPT-4o System Card: 4o image generation](https://openai.com/index/gpt-4o-image-generation-system-card-addendum) （OpenAI News，2025-03-25T11:00:00+00:00）：4o image generation is a new, significantly more capable image generation approach than our earlier DALL·E 3 series of models. It can create photorealistic output. It can take ima…
+- [Automating 90% of finance and legal work with agents](https://openai.com/index/hebbia) （OpenAI News，2025-03-25T10:00:00+00:00）：Hebbia’s deep research automates 90% of finance and legal work, powered by OpenAI
+- [Leadership updates](https://openai.com/index/leadership-updates-march-2025) （OpenAI News，2025-03-24T10:00:00+00:00）：OpenAI has grown a lot. We remain focused on the same core—pursuing frontier AI research that accelerates human progress–but we now also deliver products used by hundreds of milli…
+- [Early methods for studying affective use and emotional well-being on ChatGPT](https://openai.com/index/affective-use-study) （OpenAI News，2025-03-21T10:00:00+00:00）：An OpenAI and MIT Media Lab Research collaboration.
+- [Personalizing travel at scale with OpenAI](https://openai.com/index/booking-com) （OpenAI News，2025-03-20T23:00:00+00:00）：By integrating its data systems with OpenAI’s LLMs, Booking.com delivers smarter search, faster support, and intent-driven travel experiences.
+- [Introducing next-generation audio models in the API](https://openai.com/index/introducing-our-next-generation-audio-models) （OpenAI News，2025-03-20T11:00:00+00:00）：For the first time, developers can also instruct the text-to-speech model to speak in a specific way—for example, “talk like a sympathetic customer service agent”—unlocking a new…
+- [EliseAI improves housing and healthcare efficiency with AI](https://openai.com/index/eliseai-minna-song) （OpenAI News，2025-03-18T10:00:00+00:00）：A conversation with Minna Song, CEO & Co-founder of EliseAI.
+- [New in ChatGPT for Business: March 2025](https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025) （OpenAI News，2025-03-18T00:00:00+00:00）：Join us as we share our latest releases and how ChatGPT is becoming more interactive, customized to the way your teams work, and agentic.
+- [The court rejects Elon’s latest attempt to slow OpenAI down](https://openai.com/index/court-rejects-elon) （OpenAI News，2025-03-14T09:00:00+00:00）：We welcome the court’s March 4, 2025, decision rejecting Elon Musk’s latest attempt to slow down OpenAI for his personal benefit.
+- [Driving growth and ‘WOW’ moments with OpenAI](https://openai.com/index/ly-corporation) （OpenAI News，2025-03-12T18:00:00+00:00）：LY Corporation: Driving growth and ‘WOW’ moments with OpenAI
+- [New tools for building agents](https://openai.com/index/new-tools-for-building-agents) （OpenAI News，2025-03-11T10:00:00+00:00）
+- [Detecting misbehavior in frontier reasoning models](https://openai.com/index/chain-of-thought-monitoring) （OpenAI News，2025-03-10T10:00:00+00:00）：Frontier reasoning models exploit loopholes when given the chance. We show we can detect exploits using an LLM to monitor their chains-of-thought. Penalizing their “bad thoughts”…
+- [Nubank elevates customer experiences with OpenAI](https://openai.com/index/nubank) （OpenAI News，2025-03-07T08:00:00+00:00）：Nubank elevates customer experiences with OpenAI
+- [Accelerating engineering cycles 20% with OpenAI](https://openai.com/index/factory) （OpenAI News，2025-03-06T09:00:00+00:00）：Accelerating engineering cycles 20% with OpenAI.
+- [LaunchDarkly's approach to AI-powered product management](https://openai.com/index/launchdarkly-claire-vo) （OpenAI News，2025-03-04T10:00:00+00:00）：A conversation with Claire Vo, Chief Product Officer of LaunchDarkly, about the changing role of product managers, her anti-to-do list, and building AI-native teams.
+- [Introducing NextGenAI](https://openai.com/index/introducing-nextgenai) （OpenAI News，2025-03-04T06:00:00+00:00）：OpenAI commits $50M in funding and tools to leading institutions.
+- [1,000 Scientist AI Jam Session](https://openai.com/global-affairs/1000-scientist-ai-jam-session) （OpenAI News，2025-02-28T08:00:00+00:00）：OpenAI and nine national labs bring together leading scientists for first-of-its kind event.
+- [Supporting sellers with enhanced product listings](https://openai.com/index/mercari) （OpenAI News，2025-02-27T14:00:00+00:00）：Mercari leverages GPT-4o mini and GPT-4 to streamline selling, enhance product listings, and boost sales, transforming the online marketplace with features like AI Listing Support…
+- [OpenAI GPT-4.5 System Card](https://openai.com/index/gpt-4-5-system-card) （OpenAI News，2025-02-27T12:00:00+00:00）：We’re releasing a research preview of OpenAI GPT‑4.5, our largest and most knowledgeable model yet.
+- [Building an autonomous financial analyst with o1 and o3-mini](https://openai.com/index/endex) （OpenAI News，2025-02-27T09:30:00+00:00）：Endex builds the future of financial analysis, powered by OpenAI’s reasoning models.
+- [Deep research System Card](https://openai.com/index/deep-research-system-card) （OpenAI News，2025-02-25T10:00:00+00:00）：This report outlines the safety work carried out prior to releasing deep research including external red teaming, frontier risk evaluations according to our Preparedness Framework…
+- [Disrupting malicious uses of AI](https://openai.com/global-affairs/disrupting-malicious-uses-of-ai) （OpenAI News，2025-02-21T06:30:00+00:00）
+- [Uber enables outstanding on-demand experiences with AI](https://openai.com/index/uber-enables-outstanding-experiences) （OpenAI News，2025-02-20T10:00:00+00:00）：A conversation with Jai Malkani, Head of AI and Product, Customer Obsession at Uber.
+- [Introducing the SWE-Lancer benchmark](https://openai.com/index/swe-lancer) （OpenAI News，2025-02-18T10:00:00+00:00）：Can frontier LLMs earn $1 million from real-world freelance software engineering?
+- [OpenAI and Guardian Media Group launch content partnership](https://openai.com/index/openai-and-guardian-media-group-launch-content-partnership) （OpenAI News，2025-02-14T07:00:00+00:00）：OpenAI and Guardian Media Group announce content partnership to bring Guardian news content to ChatGPT.
+- [Fanatics Betting and Gaming uses AI to focus on the big picture](https://openai.com/index/fanatics-betting-gaming-andrea-ellis) （OpenAI News，2025-02-13T10:01:00+00:00）：A conversation with Andrea Ellis, Chief Financial Officer of Fanatics Betting and Gaming.
+- [Wayfair is shaping the future of retail with AI](https://openai.com/index/wayfair-fiona-tan) （OpenAI News，2025-02-13T10:00:00+00:00）：A conversation with Fiona Tan, Chief Technology Officer of Wayfair.
+- [Using OpenAI o1 for financial analysis](https://openai.com/index/rogo) （OpenAI News，2025-02-13T07:00:00+00:00）：Rogo scales AI-driven financial research with OpenAI o1
+- [Sharing the latest Model Spec](https://openai.com/index/sharing-the-latest-model-spec) （OpenAI News，2025-02-12T13:00:00+00:00）
+- [OpenAI partners with Schibsted Media Group](https://openai.com/index/openai-partners-with-schibsted-media-group) （OpenAI News，2025-02-10T06:00:00+00:00）：OpenAI and Schibsted Media Group announce content partnership to bring Guardian news and archive content to ChatGPT.
+- [Introducing the Intelligence Age](https://openai.com/global-affairs/introducing-the-intelligence-age) （OpenAI News，2025-02-09T22:00:00+00:00）：We aired our first-ever television ad during the Super Bowl to pique people’s curiosity and help us all realize how AI can open up new possibilities for us, create more fulfillmen…
+- [Introducing data residency in Europe](https://openai.com/index/introducing-data-residency-in-europe) （OpenAI News，2025-02-05T22:00:00+00:00）：Data residency builds on OpenAI’s enterprise-grade data privacy, security, and compliance programs supporting customers worldwide.
+- [OpenAI and the CSU system bring AI to 500,000 students & faculty](https://openai.com/index/openai-and-the-csu-system) （OpenAI News，2025-02-04T11:30:00+00:00）：The largest deployment of ChatGPT to date will expand the use of AI in education and help the United States build an AI-ready workforce.
+- [Creating nail art with ChatGPT](https://openai.com/index/ten-tiny-canvases) （OpenAI News，2025-02-04T00:00:00+00:00）：Using ChatGPT to find inspiration for nail art
+- [Building a custom math tutor powered by ChatGPT](https://openai.com/index/my-dog-the-math-tutor) （OpenAI News，2025-02-04T00:00:00+00:00）：ChatGPT and personal tutoring
+- [Catching halibut with ChatGPT](https://openai.com/index/fishing-for-first-timers) （OpenAI News，2025-02-04T00:00:00+00:00）：Using ChatGPT to catch halibut
+- [Understanding complex trends with deep research](https://openai.com/index/deep-research) （OpenAI News，2025-02-02T16:00:00+00:00）：How OpenAI deep research helps Bain & Company understand complex industry trends.
+- [Introducing deep research](https://openai.com/index/introducing-deep-research) （OpenAI News，2025-02-02T16:00:00+00:00）：An agent that uses reasoning to synthesize large amounts of online information and complete multi-step research tasks for you. Available to Pro users today, Plus and Team next.
+- [OpenAI o3-mini System Card](https://openai.com/index/o3-mini-system-card) （OpenAI News，2025-01-31T11:00:00+00:00）：This report outlines the safety work carried out for the OpenAI o3-mini model, including safety evaluations, external red teaming, and Preparedness Framework evaluations.
+- [OpenAI o3-mini](https://openai.com/index/openai-o3-mini) （OpenAI News，2025-01-31T11:00:00+00:00）
+- [Strengthening America’s AI leadership with the U.S. National Laboratories](https://openai.com/index/strengthening-americas-ai-leadership-with-the-us-national-laboratories) （OpenAI News，2025-01-30T10:00:00+00:00）：OpenAI’s latest line of reasoning models will be used by nation’s leading scientists to drive scientific breakthroughs.
+- [Computer-Using Agent](https://openai.com/index/computer-using-agent) （OpenAI News，2025-01-23T10:00:00+00:00）
+- [Operator System Card](https://openai.com/index/operator-system-card) （OpenAI News，2025-01-23T10:00:00+00:00）：Drawing from OpenAI’s established safety frameworks, this document highlights our multi-layered approach, including model and product mitigations we’ve implemented to protect agai…
+- [Introducing Operator](https://openai.com/index/introducing-operator) （OpenAI News，2025-01-23T10:00:00+00:00）
+- [Bertelsmann powers creativity and productivity with OpenAI](https://openai.com/index/bertelsmann-powers-creativity-and-productivity-with-openai) （OpenAI News，2025-01-22T17:00:00+00:00）：Bertelsmann, the global media, services, and education company headquartered in Germany, will integrate OpenAI’s technology across multiple brands around the world.
+- [Trading inference-time compute for adversarial robustness](https://openai.com/index/trading-inference-time-compute-for-adversarial-robustness) （OpenAI News，2025-01-22T10:00:00+00:00）：Trading Inference-Time Compute for Adversarial Robustness
+- [Stargate Infrastructure](https://openai.com/form/stargate-infrastructure) （OpenAI News，2025-01-21T13:30:00+00:00）：OpenAI, and our strategic partners, are thrilled about our shared vision for the Infrastructure of AGI. We are energized by the challenges we face and are excited by the prospect…
+- [Announcing The Stargate Project](https://openai.com/index/announcing-the-stargate-project) （OpenAI News，2025-01-21T13:30:00+00:00）：Announcing The Stargate Project
+- [Partnering with Axios expands OpenAI’s work with the news industry](https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry) （OpenAI News，2025-01-15T03:00:00+00:00）：Publishers representing hundreds of newsrooms and content brands are using OpenAI partnerships and grant programs to adopt AI tools and strengthen the news ecosystem, while ChatGP…
+- [Adebayo Ogunlesi joins OpenAI’s Board of Directors](https://openai.com/index/adebayo-ogunlesi-joins-openais-board-of-directors) （OpenAI News，2025-01-14T09:00:00+00:00）：Adebayo Ogunlesi Joins OpenAI’s Board of Directors
+- [Why OpenAI’s structure must evolve to advance our mission](https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission) （OpenAI News，2024-12-27T00:00:00+00:00）：A stronger non-profit supported by the for-profit’s success.
+- [Deliberative alignment: reasoning enables safer language models](https://openai.com/index/deliberative-alignment) （OpenAI News，2024-12-20T10:00:00+00:00）：Deliberative alignment: reasoning enables safer language models Introducing our new alignment strategy for o1 models, which are directly taught safety specifications and how to re…
+- [OpenAI o1 and new tools for developers](https://openai.com/index/o1-and-new-tools-for-developers) （OpenAI News，2024-12-17T00:00:00+00:00）：Introducing OpenAI o1, Realtime API improvements, a new fine-tuning method and more for developers.
+- [Elon Musk wanted an OpenAI for-profit](https://openai.com/index/elon-musk-wanted-an-openai-for-profit) （OpenAI News，2024-12-13T00:00:00+00:00）：Elon Musk’s latest legal filing against OpenAI marks his fourth attempt in less than a year to reframe his claims. However, his own words and actions speak for themselves—in 2017,…
+- [Sora is here](https://openai.com/index/sora-is-here) （OpenAI News，2024-12-09T10:00:00+00:00）：Our video generation model, Sora, is now available to use at sora.com. Users can generate videos up to 1080p resolution, up to 20 sec long, and in widescreen, vertical or square a…
+- [Minne Atairu & Sora](https://openai.com/index/sora-minne-atairu) （OpenAI News，2024-12-09T00:00:00+00:00）：Interdisciplinary artist Minne Atairu discusses how Sora helps realize her vision.
+- [Animator Lyndon Barrois creates new worlds with Sora](https://openai.com/index/sora-lyndon-barrois) （OpenAI News，2024-12-09T00:00:00+00:00）：Filmmaker Lyndon Barrois describes how to use Sora as a storytelling tool.
+- [Sora System Card](https://openai.com/index/sora-system-card) （OpenAI News，2024-12-09T00:00:00+00:00）：Sora is OpenAI’s video generation model, designed to take text, image, and video inputs and generate a new video as an output. Sora builds on learnings from DALL-E and GPT models,…
+- [Vallée Duhamel & Sora](https://openai.com/index/sora-vallee-duhamel) （OpenAI News，2024-12-09T00:00:00+00:00）：Filmmaking duo Vallée Duhamel explains how Sora helps build new worlds.
+- [Put AI to work for your product team](https://openai.com/index/put-ai-to-work-for-your-product-team) （OpenAI News，2024-12-09T00:00:00+00:00）：Put AI to work for your product team
+- [Introducing ChatGPT Pro](https://openai.com/index/introducing-chatgpt-pro) （OpenAI News，2024-12-05T10:30:00+00:00）：Broadening usage of frontier AI
+- [OpenAI o1 System Card](https://openai.com/index/openai-o1-system-card) （OpenAI News，2024-12-05T10:00:00+00:00）：This report outlines the safety work carried out prior to releasing OpenAI o1 and o1-mini, including external red teaming and frontier risk evaluations according to our Preparedne…
+- [OpenAI and Future partner on specialist content](https://openai.com/index/openai-and-future-partner-on-specialist-content) （OpenAI News，2024-12-04T23:30:00+00:00）：OpenAI and Future, the global platform for specialist media, have today announced a strategic partnership to bring content from Future’s 200 plus media brands to OpenAI’s users.
+- [Shaping the future of financial services](https://openai.com/index/morgan-stanley) （OpenAI News，2024-12-04T10:00:00+00:00）：Morgan Stanley uses AI evals to shape the future of financial services
+- [Advancing red teaming with people and AI](https://openai.com/index/advancing-red-teaming-with-people-and-ai) （OpenAI News，2024-11-21T10:30:00+00:00）：Advancing red teaming with people and AI
+- [Building smarter maps with GPT-4o vision fine-tuning](https://openai.com/index/grab) （OpenAI News，2024-11-20T17:00:00+00:00）：Building smarter maps with GPT-4o vision fine-tuning
+- [Rox goes “all in” on OpenAI](https://openai.com/index/rox) （OpenAI News，2024-11-19T07:00:00+00:00）：By combining commercial experience and deep LLM expertise with OpenAI’s models, Rox makes every seller a top 1% seller.
+- [OpenAI en France](https://openai.com/index/openai-en-france) （OpenAI News，2024-11-15T00:00:00+00:00）：Our first office in continental Europe
+- [Data-driven beauty and creativity with ChatGPT](https://openai.com/index/estee-lauder) （OpenAI News，2024-11-13T00:00:00+00:00）：Data-driven beauty: How The Estée Lauder Companies unlocks insights with ChatGPT
+- [Introducing ChatGPT search](https://openai.com/index/introducing-chatgpt-search) （OpenAI News，2024-10-31T10:00:00+00:00）：Get fast, timely answers with links to relevant web sources
+- [Promega’s top-down adoption of ChatGPT accelerates manufacturing, sales, and marketing](https://openai.com/index/promega) （OpenAI News，2024-10-31T08:00:00+00:00）：Promega's top-down adoption of ChatGPT accelerates manufacturing, sales, and marketing
+- [Introducing SimpleQA](https://openai.com/index/introducing-simpleqa) （OpenAI News，2024-10-30T10:00:00+00:00）：A factuality benchmark called SimpleQA that measures the ability for language models to answer short, fact-seeking questions.
+- [Delivering high-performance customer support](https://openai.com/index/decagon) （OpenAI News，2024-10-29T10:00:00+00:00）：Decagon and OpenAI deliver high-performance, fully automated customer support at scale
+- [Simplifying, stabilizing, and scaling continuous-time consistency models](https://openai.com/index/simplifying-stabilizing-and-scaling-continuous-time-consistency-models) （OpenAI News，2024-10-23T10:00:00+00:00）：We’ve simplified, stabilized, and scaled continuous-time consistency models, achieving comparable sample quality to leading diffusion models, while using only two sampling steps.
+- [OpenAI and the Lenfest Institute AI Collaborative and Fellowship program](https://openai.com/index/lenfest-institute) （OpenAI News，2024-10-22T06:05:00+00:00）：OpenAI and the Lenfest Institute AI Collaborative and Fellowship program
+- [Evaluating fairness in ChatGPT](https://openai.com/index/evaluating-fairness-in-chatgpt) （OpenAI News，2024-10-15T10:00:00+00:00）：We've analyzed how ChatGPT responds to users based on their name, using AI research assistants to protect privacy.
+- [MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering](https://openai.com/index/mle-bench) （OpenAI News，2024-10-10T10:00:00+00:00）：We introduce MLE-bench, a benchmark for measuring how well AI agents perform at machine learning engineering.
+- [OpenAI and Hearst Content Partnership](https://openai.com/index/hearst) （OpenAI News，2024-10-08T10:00:00+00:00）：Hearst’s iconic brands bring curated lifestyle and local news content to OpenAI’s products.
+- [Introducing canvas, a new way to write and code with ChatGPT.](https://openai.com/index/introducing-canvas) （OpenAI News，2024-10-03T10:00:00+00:00）：Introducing canvas
+- [New Credit Facility Enhances Financial Flexibility](https://openai.com/index/new-credit-facility-enhances-financial-flexibility) （OpenAI News，2024-10-03T07:00:00+00:00）：In addition to securing $6.6 billion in new funding from leading investors, we have established a new $4 billion credit facility with leading banks, including JPMorgan Chase, Citi…
+- [New funding to scale the benefits of AI](https://openai.com/index/scale-the-benefits-of-ai) （OpenAI News，2024-10-02T10:00:00+00:00）：We are making progress on our mission to ensure that artificial general intelligence benefits all of humanity.
+- [Introducing the Realtime API](https://openai.com/index/introducing-the-realtime-api) （OpenAI News，2024-10-01T10:05:00+00:00）：Developers can now build fast speech-to-speech experiences into their applications
+- [Introducing vision to the fine-tuning API](https://openai.com/index/introducing-vision-to-the-fine-tuning-api) （OpenAI News，2024-10-01T10:04:00+00:00）：Developers can now fine-tune GPT-4o with images and text to improve vision capabilities
+- [Prompt Caching in the API](https://openai.com/index/api-prompt-caching) （OpenAI News，2024-10-01T10:03:00+00:00）：Offering automatic discounts on inputs that the model has recently seen
+- [Model Distillation in the API](https://openai.com/index/api-model-distillation) （OpenAI News，2024-10-01T10:02:00+00:00）：Fine-tune a cost-efficient model with the outputs of a large frontier model–all on the OpenAI platform
+- [Creating agent and human collaboration with GPT 4o](https://openai.com/index/altera) （OpenAI News，2024-10-01T09:59:00+00:00）：Altera uses GPT-4o to build a new area of human collaboration
+- [Upgrading the Moderation API with our new multimodal moderation model](https://openai.com/index/upgrading-the-moderation-api-with-our-new-multimodal-moderation-model) （OpenAI News，2024-09-26T10:00:00+00:00）：We’re introducing a new model built on GPT-4o that is more accurate at detecting harmful text and images, enabling developers to build more robust moderation systems.
+- [Minnesota’s Enterprise Translation Office uses ChatGPT to bridge language gaps](https://openai.com/index/state-of-minnesota) （OpenAI News，2024-09-26T07:00:00+00:00）：Minnesota’s Enterprise Translation Office uses ChatGPT to bridge language gaps
+- [OpenAI and GEDI partner for Italian news content](https://openai.com/index/gedi) （OpenAI News，2024-09-26T04:30:00+00:00）：OpenAI and GEDI announce strategic partnership to bring Italian-language news content to ChatGPT.
+- [Introducing Verdi, an AI dev platform powered by GPT-4o](https://openai.com/index/mercado-libre) （OpenAI News，2024-09-24T07:00:00+00:00）：Mercado Libre introduces Verdi, an AI developer platform powered by GPT-4o
+- [Genmab launches “AI Everywhere”](https://openai.com/index/genmab) （OpenAI News，2024-09-19T04:00:00+00:00）：Genmab embraces ChatGPT Enterprise, supported by OpenAI’s commitment to security and privacy
+- [Using GPT-4 to improve teaching and learning in Brazil](https://openai.com/index/arco-education) （OpenAI News，2024-09-17T05:00:00+00:00）：Improving teaching and learning in Brazil
+- [An update on our safety & security practices](https://openai.com/index/update-on-safety-and-security-practices) （OpenAI News，2024-09-16T13:00:00+00:00）：An update on our safety & security practices
+- [Introducing OpenAI o1](https://openai.com/index/introducing-openai-o1-preview) （OpenAI News，2024-09-12T10:03:00+00:00）
+- [Learning to reason with LLMs](https://openai.com/index/learning-to-reason-with-llms) （OpenAI News，2024-09-12T10:02:00+00:00）
+- [OpenAI o1-mini](https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning) （OpenAI News，2024-09-12T10:01:00+00:00）：Advancing cost-efficient reasoning
+- [OpenAI o1 Contributions](https://openai.com/openai-o1-contributions) （OpenAI News，2024-09-12T10:00:00+00:00）：OpenAI o1 Contributions
+- [Coding with OpenAI o1](https://openai.com/index/o1-coding) （OpenAI News，2024-09-12T00:00:00+00:00）：Scott Wu, CEO and Co-Founder of Cognition, explains how OpenAI o1 makes coding decisions in a more human-like way.
+- [Answering quantum physics questions with OpenAI o1](https://openai.com/index/o1-quantum-physics) （OpenAI News，2024-09-12T00:00:00+00:00）：Quantum physicist Mario Krenn uses OpenAI o1 to help answer life's biggest questions.
+- [Decoding genetics with OpenAI o1](https://openai.com/index/o1-genetics) （OpenAI News，2024-09-12T00:00:00+00:00）：Geneticist Catherine Brownstein demonstrates how OpenAI o1 can speed up the process of diagnosing rare medical challenges.
+- [Economics and reasoning with OpenAI o1](https://openai.com/index/o1-economics) （OpenAI News，2024-09-12T00:00:00+00:00）：Economist Tyler Cowen explains how OpenAI o1 tackles complex economic questions.
+- [Using GPT-4 to deliver a new customer service standard](https://openai.com/index/ada) （OpenAI News，2024-09-05T08:00:00+00:00）：Ada uses GPT-4 to deliver a new customer service standard
+- [Personalizing education with ChatGPT](https://openai.com/index/asu) （OpenAI News，2024-08-26T04:00:00+00:00）：Arizona State University embraces ChatGPT campus-wide to personalize learning, advance research, and prepare students for the future
+- [OpenAI partners with Condé Nast](https://openai.com/index/conde-nast) （OpenAI News，2024-08-20T11:00:00+00:00）：Condé Nast
+- [Putting AI to work at Upwork](https://openai.com/index/upwork) （OpenAI News，2024-08-20T10:00:00+00:00）：Upwork puts AI to work, uniting team members, operations and product development
+- [Fine-tuning now available for GPT-4o](https://openai.com/index/gpt-4o-fine-tuning) （OpenAI News，2024-08-20T10:00:00+00:00）
+- [Disrupting a covert Iranian influence operation](https://openai.com/index/disrupting-a-covert-iranian-influence-operation) （OpenAI News，2024-08-16T11:00:00+00:00）
+- [Delivering contextual job matching for millions with OpenAI](https://openai.com/index/indeed) （OpenAI News，2024-08-15T07:00:00+00:00）：Indeed, whose mission is to help people get jobs, is the world’s #1 job site. Over 350 million unique visitors come to Indeed every month to connect with more than 3.5 million emp…
+- [Awakening Sleeping Beauties at The Met](https://openai.com/index/the-met-museum) （OpenAI News，2024-08-14T10:00:00+00:00）：AI can enrich lives through beauty and creativity, and its artistic potential shines in "Sleeping Beauties: Reawakening Fashion," a collaborative exhibit from The Met's Costume In…
+- [Introducing SWE-bench Verified](https://openai.com/index/introducing-swe-bench-verified) （OpenAI News，2024-08-13T10:00:00+00:00）：We’re releasing a human-validated subset of SWE-bench that more reliably evaluates AI models’ ability to solve real-world software issues.
+- [Zico Kolter Joins OpenAI’s Board of Directors](https://openai.com/index/zico-kolter-joins-openais-board-of-directors) （OpenAI News，2024-08-08T12:00:00+00:00）：Zico Kolter Joins OpenAI’s Board of Directors We’re strengthening our governance with expertise in AI safety and alignment. Zico will also join the Safety & Security Committee
+- [GPT-4o System Card](https://openai.com/index/gpt-4o-system-card) （OpenAI News，2024-08-08T00:00:00+00:00）
+- [Pairing data with APIs to unlock customer value](https://openai.com/index/rakuten-2024) （OpenAI News，2024-08-07T16:00:00+00:00）：Rakuten Pairs Data with AI to Unlock Customer Insights and Value
+- [Introducing Structured Outputs in the API](https://openai.com/index/introducing-structured-outputs-in-the-api) （OpenAI News，2024-08-06T10:00:00+00:00）：We are introducing Structured Outputs in the API—model outputs now reliably adhere to developer-supplied JSON Schemas.
+- [SearchGPT is a prototype of new AI search features](https://openai.com/index/searchgpt-prototype) （OpenAI News，2024-07-25T00:00:00+00:00）：We’re testing SearchGPT, a temporary prototype of new search features that give you fast and timely answers with clear and relevant sources.
+- [Improving Model Safety Behavior with Rule-Based Rewards](https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards) （OpenAI News，2024-07-24T09:00:00+00:00）：We've developed and applied a new method leveraging Rule-Based Rewards (RBRs) that aligns models to behave safely without extensive human data collection.
+- [GPT-4o mini: advancing cost-efficient intelligence](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence) （OpenAI News，2024-07-18T10:00:00+00:00）
+- [New compliance and administrative tools for ChatGPT Enterprise](https://openai.com/index/new-tools-for-chatgpt-enterprise) （OpenAI News，2024-07-18T00:00:00+00:00）：Compliance API integrations, SCIM, and GPT controls to support compliance programs, data security, and user access at scale
+- [Prover-Verifier Games improve legibility of language model outputs](https://openai.com/index/prover-verifier-games-improve-legibility) （OpenAI News，2024-07-17T10:00:00+00:00）：Discover how prover-verifier games improve the legibility of language model outputs, making AI solutions clearer, easier to verify, and more trustworthy for both humans and machin…
+- [OpenAI and Los Alamos National Laboratory announce research partnership](https://openai.com/index/openai-and-los-alamos-national-laboratory-work-together) （OpenAI News，2024-07-10T06:30:00+00:00）：OpenAI and Los Alamos National Laboratory are working to develop safety evaluations to assess and measure biological capabilities and risks associated with frontier models.
+- [Finding GPT-4’s mistakes with GPT-4](https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4) （OpenAI News，2024-06-27T10:00:00+00:00）：CriticGPT, a model based on GPT-4, writes critiques of ChatGPT responses to help human trainers spot mistakes during RLHF
+- [Strategic Content Partnership with TIME](https://openai.com/index/strategic-content-partnership-with-time) （OpenAI News，2024-06-27T06:00:00+00:00）：We’re partnering with TIME and its 101 years of archival content to enhance responses and provide links to stories on Time.com
+- [OpenAI acquires Rockset](https://openai.com/index/openai-acquires-rockset) （OpenAI News，2024-06-21T08:00:00+00:00）：OpenAI Acquires Rockset
+- [Empowering defenders through our Cybersecurity Grant Program](https://openai.com/index/empowering-defenders-through-our-cybersecurity-grant-program) （OpenAI News，2024-06-20T10:00:00+00:00）：Highlighting innovative research and AI integration in cybersecurity
+- [Improved Techniques for Training Consistency Models](https://openai.com/index/improved-techniques-for-training-consistency-models) （OpenAI News，2024-06-20T00:00:00+00:00）：Consistency models are a nascent family of generative models that can sample high quality data in one step without the need for adversarial training.
+- [A Holistic Approach to Undesired Content Detection in the Real World](https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world) （OpenAI News，2024-06-20T00:00:00+00:00）：We present a holistic approach to building a robust and useful natural language classification system for real-world content moderation.
+- [Consistency Models](https://openai.com/index/consistency-models) （OpenAI News，2024-06-20T00:00:00+00:00）：Diffusion models have significantly advanced the fields of image, audio, and video generation, but they depend on an iterative sampling process that causes slow generation.
+- [Surging developer productivity with custom GPTs](https://openai.com/index/paf) （OpenAI News，2024-06-18T08:45:00+00:00）：Paf adopted ChatGPT Enterprise across its entire company, with engineers using custom GPTs on a daily basis to speed up routine development tasks. Paf also integrated ChatGPT Ente…
+- [Achieving 10x growth with agentic sales prospecting](https://openai.com/index/clay) （OpenAI News，2024-06-18T07:00:00+00:00）
+- [Using GPT-4o reasoning to transform cancer care](https://openai.com/index/color-health) （OpenAI News，2024-06-17T04:15:00+00:00）：Color Health is working with OpenAI to pioneer a new way of accelerating cancer patients’ access to treatment. Their new Cancer Copilot application uses GPT-4o to identify missing…
+- [OpenAI appoints Retired U.S. Army General Paul M. Nakasone to Board of Directors](https://openai.com/index/openai-appoints-retired-us-army-general) （OpenAI News，2024-06-13T14:00:00+00:00）：Nakasone brings cybersecurity experience to growing Board of Directors; will join the Board’s Safety and Security Committee
+- [OpenAI and Apple announce partnership](https://openai.com/index/openai-and-apple-announce-partnership) （OpenAI News，2024-06-10T11:55:00+00:00）：OpenAI and Apple announce partnership to integrate ChatGPT into Apple experiences.
+- [OpenAI welcomes Sarah Friar (CFO) and Kevin Weil (CPO)](https://openai.com/index/openai-welcomes-cfo-cpo) （OpenAI News，2024-06-10T10:30:00+00:00）：OpenAI welcomes Sarah Friar (CFO) and Kevin Weil (CPO)
+- [Expanding on how Voice Engine works and our safety research](https://openai.com/index/expanding-on-how-voice-engine-works-and-our-safety-research) （OpenAI News，2024-06-07T17:45:00+00:00）：Exploring the technology behind our text-to-speech model.
+- [Improving India’s critical care infrastructure](https://openai.com/index/10bedicu) （OpenAI News，2024-06-06T10:00:00+00:00）
+- [Extracting Concepts from GPT-4](https://openai.com/index/extracting-concepts-from-gpt-4) （OpenAI News，2024-06-06T00:00:00+00:00）：Using new techniques for scaling sparse autoencoders, we automatically identified 16 million patterns in GPT-4's computations.
+- [Disrupting deceptive uses of AI by covert influence operations](https://openai.com/index/disrupting-deceptive-uses-of-ai-by-covert-influence-operations) （OpenAI News，2024-05-30T10:00:00+00:00）：We’ve terminated accounts linked to covert influence operations; no significant audience increase due to our services.
+- [Introducing OpenAI for Nonprofits](https://openai.com/index/introducing-openai-for-nonprofits) （OpenAI News，2024-05-30T07:00:00+00:00）：We’re launching a new initiative to enhance the accessibility of our tools for nonprofit organizations, including discounted rates for ChatGPT Team and Enterprise.
+- [OpenAI for Education](https://openai.com/index/introducing-chatgpt-edu) （OpenAI News，2024-05-30T07:00:00+00:00）：An affordable offering for universities to responsibly bring AI to campus.
+- [Automating customer support agents](https://openai.com/index/mavenagi) （OpenAI News，2024-05-29T09:00:00+00:00）：MavenAGI is a new software company for the AI era. They recently launched an AI customer service agent, built on the flexibility of GPT-4, which a number of companies like Tripadv…
+- [The Newsroom AI Catalyst: a global program with WAN-IFRA](https://openai.com/index/newsroom-ai-catalyst-global-program-with-wan-ifra) （OpenAI News，2024-05-29T08:00:00+00:00）
+- [Enhancing news in ChatGPT with The Atlantic](https://openai.com/index/enhancing-news-in-chatgpt-with-the-atlantic) （OpenAI News，2024-05-29T07:30:00+00:00）：The Atlantic is announcing a strategic content and product partnership with OpenAI, which positions The Atlantic as a premium news source within OpenAI. The Atlantic’s articles wi…
+- [A Content and Product Partnership with Vox Media](https://openai.com/index/a-content-and-product-partnership-with-vox-media) （OpenAI News，2024-05-29T07:00:00+00:00）：In a multi-faceted agreement, Vox Media’s content will enhance the output of OpenAI’s ChatGPT, and the company will build on OpenAI’s technology to develop products to better serv…
+- [OpenAI Board Forms Safety and Security Committee](https://openai.com/index/openai-board-forms-safety-and-security-committee) （OpenAI News，2024-05-28T03:00:00+00:00）
+- [A landmark multi-year global partnership with News Corp](https://openai.com/index/news-corp-and-openai-sign-landmark-multi-year-global-partnership) （OpenAI News，2024-05-22T13:15:00+00:00）：Companies Join Forces to Enrich OpenAI’s Generative AI Products and Platforms with Premium Journalism
+- [OpenAI safety practices](https://openai.com/index/openai-safety-update) （OpenAI News，2024-05-21T06:00:00+00:00）：Artificial general intelligence has the potential to benefit nearly every aspect of our lives—so it must be developed and deployed responsibly.
+- [How the voices for ChatGPT were chosen](https://openai.com/index/how-the-voices-for-chatgpt-were-chosen) （OpenAI News，2024-05-19T23:30:00+00:00）：How the voices for ChatGPT were chosen We worked with industry-leading casting and directing professionals to narrow down over 400 submissions before selecting the 5 voices.
+- [Improvements to data analysis in ChatGPT](https://openai.com/index/improvements-to-data-analysis-in-chatgpt) （OpenAI News，2024-05-16T15:00:00+00:00）：Improvements to data analysis in ChatGPT Interact with tables and charts and add files directly from Google Drive and Microsoft OneDrive.
+- [OpenAI and Reddit Partnership](https://openai.com/index/openai-and-reddit-partnership) （OpenAI News，2024-05-16T13:30:00+00:00）：OpenAI and Reddit Partnership We’re bringing Reddit’s unique content to ChatGPT and our products.
+- [Creating an AI-powered Magic Studio](https://openai.com/index/canva) （OpenAI News，2024-05-16T00:00:00+00:00）：Canva is a visual communication platform, enjoyed by more than 175 million people monthly to make presentations, videos, documents, websites, social media graphics and more. A maj…
+- [Ilya Sutskever to leave OpenAI, Jakub Pachocki announced as Chief Scientist](https://openai.com/index/jakub-pachocki-announced-as-chief-scientist) （OpenAI News，2024-05-14T18:00:00+00:00）
+- [Hello GPT-4o](https://openai.com/index/hello-gpt-4o) （OpenAI News，2024-05-13T10:05:00+00:00）：We’re announcing GPT-4 Omni, our new flagship model which can reason across audio, vision, and text in real time.
+- [Introducing GPT-4o and more tools to ChatGPT free users](https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free) （OpenAI News，2024-05-13T10:00:00+00:00）：Introducing GPT-4o and more tools to ChatGPT free users We are launching our newest flagship model and making more capabilities available for free in ChatGPT.
+- [Spring Update](https://openai.com/index/spring-update) （OpenAI News，2024-05-13T10:00:00+00:00）：Introducing GPT-4o and making more capabilities available for free in ChatGPT.
+- [Introducing the Model Spec](https://openai.com/index/introducing-the-model-spec) （OpenAI News，2024-05-08T00:00:00+00:00）
+- [Understanding the source of what we see and hear online](https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online) （OpenAI News，2024-05-07T00:00:00+00:00）：Today we’re introducing new technology to help researchers identify content created by our tools and joining the Coalition for Content Provenance and Authenticity Steering Committ…
+- [Our approach to data and AI](https://openai.com/index/approach-to-data-and-ai) （OpenAI News，2024-05-07T00:00:00+00:00）：Just over a year after launching ChatGPT, AI is changing how we live, work and learn. It’s also raised important conversations about data in the age of AI. More on our approach, a…
+- [API Partnership with Stack Overflow](https://openai.com/index/api-partnership-with-stack-overflow) （OpenAI News，2024-05-06T00:00:00+00:00）：API Partnership with Stack Overflow Stack Overflow and OpenAI today announced a new API partnership that will empower developers with the collective strengths of the world’s leadi…
+- [We’re bringing the Financial Times’ world-class journalism to ChatGPT](https://openai.com/index/content-partnership-with-financial-times) （OpenAI News，2024-04-29T00:00:00+00:00）：We will also collaborate on new AI experiences for FT readers.
+- [Accelerating the development of life-saving treatments](https://openai.com/index/moderna) （OpenAI News，2024-04-24T00:00:00+00:00）：Accelerating the development of life-saving treatments.
+- [GPT-4 API general availability and deprecation of older models in the Completions API](https://openai.com/index/gpt-4-api-general-availability) （OpenAI News，2024-04-24T00:00:00+00:00）：GPT-3.5 Turbo, DALL·E and Whisper APIs are also generally available, and we are releasing a deprecation plan for older models of the Completions API, which will retire at the begi…
+- [Introducing ChatGPT and Whisper APIs](https://openai.com/index/introducing-chatgpt-and-whisper-apis) （OpenAI News，2024-04-24T00:00:00+00:00）
+- [Introducing more enterprise-grade features for API customers](https://openai.com/index/more-enterprise-grade-features-for-api-customers) （OpenAI News，2024-04-23T00:00:00+00:00）：Increasing enterprise support with more security features and controls, updates to our Assistants API, and tools to better manage costs.
+- [OpenAI’s commitment to child safety: adopting safety by design principles](https://openai.com/index/child-safety-adopting-sbd-principles) （OpenAI News，2024-04-23T00:00:00+00:00）
+- [The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions](https://openai.com/index/the-instruction-hierarchy) （OpenAI News，2024-04-19T19:00:00+00:00）：Today's LLMs are susceptible to prompt injections, jailbreaks, and other attacks that allow adversaries to overwrite a model's original instructions with their own malicious promp…
+- [Introducing OpenAI Japan](https://openai.com/index/introducing-openai-japan) （OpenAI News，2024-04-14T00:00:00+00:00）：We are excited to announce our first office in Asia and we’re releasing a GPT-4 custom model optimized for the Japanese language.
+- [Klarna's AI assistant does the work of 700 full-time agents](https://openai.com/index/klarna) （OpenAI News，2024-04-05T00:00:00+00:00）：Klarna is using AI to revolutionize personal shopping, customer service, and employee productivity.
+- [Introducing improvements to the fine-tuning API and expanding our custom models program](https://openai.com/index/introducing-improvements-to-the-fine-tuning-api-and-expanding-our-custom-models-program) （OpenAI News，2024-04-04T00:00:00+00:00）：We’re adding new features to help developers have more control over fine-tuning and announcing new ways to build custom models with OpenAI.
+- [Customizing models for legal professionals](https://openai.com/index/harvey) （OpenAI News，2024-04-02T00:00:00+00:00）：Harvey partners with OpenAI to build a custom-trained model for legal professionals.
+- [Start using ChatGPT instantly](https://openai.com/index/start-using-chatgpt-instantly) （OpenAI News，2024-04-01T00:00:00+00:00）：We’re making it easier for people to experience the benefits of AI without needing to sign up
+- [Reducing health insurance costs and improving care](https://openai.com/index/oscar) （OpenAI News，2024-04-01T00:00:00+00:00）：Oscar brings AI to health insurance, reducing costs and improving patient care.
+- [Navigating the challenges and opportunities of synthetic voices](https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices) （OpenAI News，2024-03-29T00:00:00+00:00）：We’re sharing lessons from a small scale preview of Voice Engine, a model for creating custom voices.
+- [Making education data accessible](https://openai.com/index/zelma) （OpenAI News，2024-03-28T00:00:00+00:00）：Zelma uses GPT-4 to make education data accessible.
+- [Sora first impressions](https://openai.com/index/sora-first-impressions) （OpenAI News，2024-03-25T00:00:00+00:00）：Since we introduced Sora to the world last month, we’ve been working with artists to learn how Sora might aid in their creative process.
+- [Embedding AI into developer software](https://openai.com/index/jetbrains) （OpenAI News，2024-03-21T07:00:00+00:00）：JetBrains uses OpenAI’s API to build its fastest-growing product ever.
+- [Enterprise-ready trust and safety](https://openai.com/index/salesforce) （OpenAI News，2024-03-18T07:00:00+00:00）：Salesforce integrates OpenAI’s enterprise-ready LLMs to transform customer applications.
+- [Building a data-driven, efficient culture with AI](https://openai.com/index/holiday-extras) （OpenAI News，2024-03-18T07:00:00+00:00）：Holiday Extras rolls out ChatGPT Enterprise across every team, boosting productivity by 500 hours weekly.
+- [Reimagining the email experience with AI](https://openai.com/index/superhuman) （OpenAI News，2024-03-18T07:00:00+00:00）：Superhuman introduces a new era of email with OpenAI.
+- [Global news partnerships: Le Monde and Prisa Media](https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media) （OpenAI News，2024-03-13T07:00:00+00:00）：We have partnered with international news organizations Le Monde and Prisa Media to bring French and Spanish news content to ChatGPT.
+- [Saving lives with AI health coaching](https://openai.com/index/healthify) （OpenAI News，2024-03-13T07:00:00+00:00）：Healthify collaborates with OpenAI to improve millions of lives with sustainable weight loss.
+- [Review completed & Altman, Brockman to continue to lead OpenAI](https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai) （OpenAI News，2024-03-08T08:00:00+00:00）：New board members named and enhancements to the governance structure introduced
+- [OpenAI announces new members to board of directors](https://openai.com/index/openai-announces-new-members-to-board-of-directors) （OpenAI News，2024-03-08T08:00:00+00:00）：Dr. Sue Desmond-Hellmann, Nicole Seligman, Fidji Simo join; Sam Altman rejoins board
+- [Using AI to improve patient access to clinical trials](https://openai.com/index/paradigm) （OpenAI News，2024-03-06T08:00:00+00:00）：Paradigm uses OpenAI’s API to improve patient access to clinical trials.
+- [Improving health literacy and patient well-being](https://openai.com/index/lifespan) （OpenAI News，2024-03-06T08:00:00+00:00）：Lifespan uses GPT-4 to radically improve health literacy and patient outcomes.
+- [Sparking a more productive company with ChatGPT Enterprise](https://openai.com/index/match-group) （OpenAI News，2024-03-06T08:00:00+00:00）：Match Group uses ChatGPT Enterprise to spark creativity and impact.
+- [OpenAI and Elon Musk](https://openai.com/index/openai-elon-musk) （OpenAI News，2024-03-05T08:00:00+00:00）：We are dedicated to the OpenAI mission and have pursued it every step of the way.
+- [Video generation models as world simulators](https://openai.com/index/video-generation-models-as-world-simulators) （OpenAI News，2024-02-15T08:00:00+00:00）：We explore large-scale training of generative models on video data. Specifically, we train text-conditional diffusion models jointly on videos and images of variable durations, re…
+- [Disrupting malicious uses of AI by state-affiliated threat actors](https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors) （OpenAI News，2024-02-14T08:00:00+00:00）
+- [Memory and new controls for ChatGPT](https://openai.com/index/memory-and-new-controls-for-chatgpt) （OpenAI News，2024-02-13T00:00:00+00:00）：We’re testing the ability for ChatGPT to remember things you discuss to make future chats more helpful. You’re in control of ChatGPT’s memory.
+- [Building an early warning system for LLM-aided biological threat creation](https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation) （OpenAI News，2024-01-31T08:00:00+00:00）：We’re developing a blueprint for evaluating the risk that a large language model (LLM) could aid someone in creating a biological threat. In an evaluation involving both biology e…
+- [New embedding models and API updates](https://openai.com/index/new-embedding-models-and-api-updates) （OpenAI News，2024-01-25T08:00:00+00:00）
+- [Democratic inputs to AI grant program: lessons learned and implementation plans](https://openai.com/index/democratic-inputs-to-ai-grant-program-update) （OpenAI News，2024-01-16T08:00:00+00:00）：We funded 10 teams from around the world to design ideas and tools to collectively govern AI. We summarize the innovations, outline our learnings, and call for researchers and eng…
+- [How OpenAI is approaching 2024 worldwide elections](https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections) （OpenAI News，2024-01-15T08:00:00+00:00）：We’re working to prevent abuse, provide transparency on AI-generated content, and improve access to accurate voting information.
+- [Building agricultural database for farmers](https://openai.com/index/digital-green) （OpenAI News，2024-01-12T08:00:00+00:00）：Digital Green uses OpenAI to increase farmer income.
+- [Introducing the GPT Store](https://openai.com/index/introducing-the-gpt-store) （OpenAI News，2024-01-10T08:00:00+00:00）
+- [Introducing ChatGPT Team](https://openai.com/index/introducing-chatgpt-team) （OpenAI News，2024-01-10T08:00:00+00:00）：We’re launching a new ChatGPT plan for teams of all sizes, which provides a secure, collaborative workspace to get the most out of ChatGPT at work.
+- [OpenAI and journalism](https://openai.com/index/openai-and-journalism) （OpenAI News，2024-01-08T08:00:00+00:00）：We support journalism, partner with news organizations, and believe The New York Times lawsuit is without merit.
+- [Delivering LLM-powered health solutions](https://openai.com/index/whoop) （OpenAI News，2024-01-04T08:00:00+00:00）：WHOOP delivers personalized fitness and health coaching with GPT-4.
+- [Increasing accuracy of pediatric visit notes](https://openai.com/index/summer-health) （OpenAI News，2023-12-14T08:00:00+00:00）：Summer Health reimagines pediatric doctor’s visits with OpenAI.
+- [Practices for Governing Agentic AI Systems](https://openai.com/index/practices-for-governing-agentic-ai-systems) （OpenAI News，2023-12-14T08:00:00+00:00）
+- [Superalignment Fast Grants](https://openai.com/index/superalignment-fast-grants) （OpenAI News，2023-12-14T08:00:00+00:00）：We’re launching $10M in grants to support technical research towards the alignment and safety of superhuman AI systems, including weak-to-strong generalization, interpretability,…
+- [Weak-to-strong generalization](https://openai.com/index/weak-to-strong-generalization) （OpenAI News，2023-12-14T00:00:00+00:00）：We present a new research direction for superalignment, together with promising initial results: can we leverage the generalization properties of deep learning to control strong m…
+- [Partnership with Axel Springer to deepen beneficial use of AI in journalism](https://openai.com/index/axel-springer-partnership) （OpenAI News，2023-12-13T08:00:00+00:00）：Axel Springer is the first publishing house globally to partner with us on a deeper integration of journalism in AI technologies.
+- [Sam Altman returns as CEO, OpenAI has a new initial board](https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board) （OpenAI News，2023-11-29T08:00:00+00:00）：Mira Murati as CTO, Greg Brockman returns as President. Read messages from CEO Sam Altman and board chair Bret Taylor.
+- [OpenAI announces leadership transition](https://openai.com/index/openai-announces-leadership-transition) （OpenAI News，2023-11-17T08:00:00+00:00）
+- [OpenAI Data Partnerships](https://openai.com/index/data-partnerships) （OpenAI News，2023-11-09T08:00:00+00:00）：Working together to create open-source and private datasets for AI training.
+- [Introducing GPTs](https://openai.com/index/introducing-gpts) （OpenAI News，2023-11-06T08:00:00+00:00）：You can now create custom versions of ChatGPT that combine instructions, extra knowledge, and any combination of skills.
+- [New models and developer products announced at DevDay](https://openai.com/index/new-models-and-developer-products-announced-at-devday) （OpenAI News，2023-11-06T08:00:00+00:00）：GPT-4 Turbo with 128K context and lower prices, the new Assistants API, GPT-4 Turbo with Vision, DALL·E 3 API, and more.
+- [Frontier risk and preparedness](https://openai.com/index/frontier-risk-and-preparedness) （OpenAI News，2023-10-26T07:00:00+00:00）：To support the safety of highly-capable AI systems, we are developing our approach to catastrophic risk preparedness, including building a Preparedness team and launching a challe…
+- [Frontier Model Forum updates](https://openai.com/index/frontier-model-forum-updates) （OpenAI News，2023-10-25T07:00:00+00:00）：Together with Anthropic, Google, and Microsoft, we’re announcing the new Executive Director of the Frontier Model Forum and a new $10 million AI Safety Fund.
+- [DALL·E 3 is now available in ChatGPT Plus and Enterprise](https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise) （OpenAI News，2023-10-19T07:00:00+00:00）：We developed a safety mitigation stack to ready DALL·E 3 for wider release and are sharing updates on our provenance research.
+- [Evolving online forms into dynamic data](https://openai.com/index/typeform) （OpenAI News，2023-10-11T07:00:00+00:00）：Typeform evolves online forms into dynamic and conversational data collection experiences with GPT-3.5 and GPT-4.
+- [Building AI-powered apps for business](https://openai.com/index/retool) （OpenAI News，2023-10-11T07:00:00+00:00）：Retool uses GPT-4 to give businesses a fast, secure way to build AI-powered apps.
+- [Simplifying contract reviews with AI](https://openai.com/index/ironclad) （OpenAI News，2023-10-11T07:00:00+00:00）：Ironclad uses GPT-4 to simplify the contract review process.
+- [DALL·E 3 system card](https://openai.com/index/dall-e-3-system-card) （OpenAI News，2023-10-03T07:00:00+00:00）
+- [ChatGPT can now see, hear, and speak](https://openai.com/index/chatgpt-can-now-see-hear-and-speak) （OpenAI News，2023-09-25T07:00:00+00:00）
+- [GPT-4V(ision) system card](https://openai.com/index/gpt-4v-system-card) （OpenAI News，2023-09-25T07:00:00+00:00）
+- [OpenAI Red Teaming Network](https://openai.com/index/red-teaming-network) （OpenAI News，2023-09-19T07:00:00+00:00）：We’re announcing an open call for the OpenAI Red Teaming Network and invite domain experts interested in improving the safety of OpenAI’s models to join our efforts.
+- [Introducing OpenAI Dublin](https://openai.com/index/introducing-openai-dublin) （OpenAI News，2023-09-13T07:00:00+00:00）：We’re growing our presence in Europe with an office in Dublin, Ireland.
+- [Join us for OpenAI’s first developer conference on November 6 in San Francisco](https://openai.com/index/announcing-openai-devday) （OpenAI News，2023-09-06T07:00:00+00:00）：Developer registration for in-person attendance will open in the coming weeks and developers everywhere will be able to livestream the keynote.
+- [Teaching with AI](https://openai.com/index/teaching-with-ai) （OpenAI News，2023-08-31T07:00:00+00:00）：We’re releasing a guide for teachers using ChatGPT in their classroom—including suggested prompts, an explanation of how ChatGPT works and its limitations, the efficacy of AI dete…
+- [Introducing ChatGPT Enterprise](https://openai.com/index/introducing-chatgpt-enterprise) （OpenAI News，2023-08-28T07:00:00+00:00）：Get enterprise-grade security & privacy and the most powerful version of ChatGPT yet.
+- [OpenAI partners with Scale to provide support for enterprises fine-tuning models](https://openai.com/index/openai-partners-with-scale-to-provide-support-for-enterprises-fine-tuning-models) （OpenAI News，2023-08-24T07:00:00+00:00）：OpenAI’s customers can leverage Scale’s AI expertise to customize our most advanced models.
+- [GPT-3.5 Turbo fine-tuning and API updates](https://openai.com/index/gpt-3-5-turbo-fine-tuning-and-api-updates) （OpenAI News，2023-08-22T07:00:00+00:00）：Developers can now bring their own data to customize GPT-3.5 Turbo for their use cases.
+- [OpenAI acquires Global Illumination](https://openai.com/index/openai-acquires-global-illumination) （OpenAI News，2023-08-16T07:00:00+00:00）：The entire team has joined OpenAI.
+- [Using GPT-4 for content moderation](https://openai.com/index/using-gpt-4-for-content-moderation) （OpenAI News，2023-08-15T07:00:00+00:00）：We use GPT-4 for content policy development and content moderation decisions, enabling more consistent labeling, a faster feedback loop for policy refinement, and less involvement…
+- [Confidence-Building Measures for Artificial Intelligence: Workshop proceedings](https://openai.com/index/confidence-building-measures-for-artificial-intelligence) （OpenAI News，2023-08-01T07:00:00+00:00）
+- [Frontier Model Forum](https://openai.com/index/frontier-model-forum) （OpenAI News，2023-07-26T07:00:00+00:00）：We’re forming a new industry body to promote the safe and responsible development of frontier AI systems: advancing AI safety research, identifying best practices and standards, a…
+- [Moving AI governance forward](https://openai.com/index/moving-ai-governance-forward) （OpenAI News，2023-07-21T07:00:00+00:00）：OpenAI and other leading labs reinforce AI safety, security and trustworthiness through voluntary commitments.
+- [Custom instructions for ChatGPT](https://openai.com/index/custom-instructions-for-chatgpt) （OpenAI News，2023-07-20T07:00:00+00:00）：We’re rolling out custom instructions to give you more control over how ChatGPT responds. Set your preferences, and ChatGPT will keep them in mind for all future conversations.
+- [Partnership with American Journalism Project to support local news](https://openai.com/index/partnership-with-american-journalism-project-to-support-local-news) （OpenAI News，2023-07-18T07:00:00+00:00）：A new $5+ million partnership aims to explore ways the development of artificial intelligence (AI) can support a thriving, innovative local news field, and ensure local news organ…
+- [Accurately analyzing large scale qualitative data](https://openai.com/index/viable) （OpenAI News，2023-07-07T07:00:00+00:00）：Viable uses GPT-4 to analyze qualitative data at a revolutionary scale with unparalleled accuracy.
+- [Frontier AI regulation: Managing emerging risks to public safety](https://openai.com/index/frontier-ai-regulation) （OpenAI News，2023-07-06T07:00:00+00:00）
+- [Insights from global conversations](https://openai.com/index/insights-from-global-conversations) （OpenAI News，2023-06-29T07:00:00+00:00）：We are sharing what we learned from our conversations across 22 countries, and how we will be incorporating those insights moving forward.
+- [Introducing OpenAI London](https://openai.com/index/introducing-openai-london) （OpenAI News，2023-06-28T07:00:00+00:00）：We are excited to announce OpenAI’s first international expansion with a new office in London, United Kingdom.
+- [Function calling and other API updates](https://openai.com/index/function-calling-and-other-api-updates) （OpenAI News，2023-06-13T07:00:00+00:00）：We’re announcing updates including more steerable API models, function calling capabilities, longer context, and lower prices.
+- [OpenAI Cybersecurity Grant Program](https://openai.com/index/openai-cybersecurity-grant-program) （OpenAI News，2023-06-01T07:00:00+00:00）：Our goal is to facilitate the development of AI-powered cybersecurity capabilities for defenders through grants and other support.
+- [Improving mathematical reasoning with process supervision](https://openai.com/index/improving-mathematical-reasoning-with-process-supervision) （OpenAI News，2023-05-31T07:00:00+00:00）：We've trained a model to achieve a new state-of-the-art in mathematical problem solving by rewarding each correct step of reasoning (“process supervision”) instead of simply rewar…
+- [Democratic inputs to AI](https://openai.com/index/democratic-inputs-to-ai) （OpenAI News，2023-05-25T07:00:00+00:00）：Our nonprofit organization, OpenAI, Inc., is launching a program to award ten $100,000 grants to fund experiments in setting up a democratic process for deciding what rules AI sys…
+- [Governance of superintelligence](https://openai.com/index/governance-of-superintelligence) （OpenAI News，2023-05-22T07:00:00+00:00）：Now is a good time to start thinking about the governance of superintelligence—future AI systems dramatically more capable than even AGI.
+- [Introducing the ChatGPT app for iOS](https://openai.com/index/introducing-the-chatgpt-app-for-ios) （OpenAI News，2023-05-18T07:00:00+00:00）：The ChatGPT app syncs your conversations, supports voice input, and brings our latest model improvements to your fingertips.
+- [Language models can explain neurons in language models](https://openai.com/index/language-models-can-explain-neurons-in-language-models) （OpenAI News，2023-05-09T07:00:00+00:00）：We use GPT-4 to automatically write explanations for the behavior of neurons in large language models and to score those explanations. We release a dataset of these (imperfect) ex…
+- [New ways to manage your data in ChatGPT](https://openai.com/index/new-ways-to-manage-your-data-in-chatgpt) （OpenAI News，2023-04-25T07:00:00+00:00）：ChatGPT users can now turn off chat history, allowing you to choose which conversations can be used to train our models.
+- [Announcing OpenAI’s Bug Bounty Program](https://openai.com/index/bug-bounty-program) （OpenAI News，2023-04-11T07:00:00+00:00）：This initiative is essential to our commitment to develop safe and advanced AI. As we create technology and services that are secure, reliable, and trustworthy, we need your help.
+- [Our approach to AI safety](https://openai.com/index/our-approach-to-ai-safety) （OpenAI News，2023-04-05T07:00:00+00:00）：Ensuring that AI systems are built, deployed, and used safely is critical to our mission.
+- [March 20 ChatGPT outage: Here’s what happened](https://openai.com/index/march-20-chatgpt-outage) （OpenAI News，2023-03-24T07:00:00+00:00）：An update on our findings, the actions we’ve taken, and technical details of the bug.
+- [ChatGPT plugins](https://openai.com/index/chatgpt-plugins) （OpenAI News，2023-03-23T07:00:00+00:00）：We’ve implemented initial support for plugins in ChatGPT. Plugins are tools designed specifically for language models with safety as a core principle, and help ChatGPT access up-t…
+- [GPTs are GPTs: An early look at the labor market impact potential of large language models](https://openai.com/index/gpts-are-gpts) （OpenAI News，2023-03-17T07:00:00+00:00）
+- [Preserving languages for the future](https://openai.com/index/government-of-iceland) （OpenAI News，2023-03-14T07:00:00+00:00）：How Iceland is using GPT-4 to preserve its language.
+- [Powering virtual education for the classroom](https://openai.com/index/khan-academy) （OpenAI News，2023-03-14T07:00:00+00:00）：Khan Academy explores the potential for GPT-4 in a limited pilot program.
+- [Filling crucial language learning gaps](https://openai.com/index/duolingo) （OpenAI News，2023-03-14T07:00:00+00:00）：GPT-4 deepens the conversation on Duolingo.
+- [GPT-4](https://openai.com/index/gpt-4-research) （OpenAI News，2023-03-14T07:00:00+00:00）：We’ve created GPT-4, the latest milestone in OpenAI’s effort in scaling up deep learning. GPT-4 is a large multimodal model (accepting image and text inputs, emitting text outputs…
+- [Transforming visual accessibility](https://openai.com/index/be-my-eyes) （OpenAI News，2023-03-14T07:00:00+00:00）：Be My Eyes uses GPT-4 to transform visual accessibility.
+- [Stripe](https://openai.com/index/stripe) （OpenAI News，2023-03-14T07:00:00+00:00）：Stripe leverages GPT-4 to streamline user experience and combat fraud.
+- [Planning for AGI and beyond](https://openai.com/index/planning-for-agi-and-beyond) （OpenAI News，2023-02-24T08:00:00+00:00）：Our mission is to ensure that artificial general intelligence—AI systems that are generally smarter than humans—benefits all of humanity.
+- [How should AI systems behave, and who should decide?](https://openai.com/index/how-should-ai-systems-behave) （OpenAI News，2023-02-16T08:00:00+00:00）：We’re clarifying how ChatGPT’s behavior is shaped and our plans for improving that behavior, allowing more user customization, and getting more public input into our decision-maki…
+- [Introducing ChatGPT Plus](https://openai.com/index/chatgpt-plus) （OpenAI News，2023-02-01T08:00:00+00:00）：We’re launching a pilot subscription plan for ChatGPT, a conversational AI that can chat with you, answer follow-up questions, and challenge incorrect assumptions.
+- [New AI classifier for indicating AI-written text](https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text) （OpenAI News，2023-01-31T08:00:00+00:00）：We’re launching a classifier trained to distinguish between AI-written and human-written text.
+- [OpenAI and Microsoft extend partnership](https://openai.com/index/openai-and-microsoft-extend-partnership) （OpenAI News，2023-01-23T08:00:00+00:00）：We’re happy to announce that OpenAI and Microsoft are extending our partnership.
+- [Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk](https://openai.com/index/forecasting-misuse) （OpenAI News，2023-01-11T08:00:00+00:00）：OpenAI researchers collaborated with Georgetown University’s Center for Security and Emerging Technology and the Stanford Internet Observatory to investigate how large language mo…
+- [Delivering nuanced insights from customer feedback](https://openai.com/index/yabble) （OpenAI News，2023-01-04T00:00:00+00:00）：Using GPT-3 to deliver fast, nuanced insights from customer feedback.
+- [Fine-tuning GPT-3 to scale video creation](https://openai.com/index/waymark) （OpenAI News，2023-01-03T08:00:00+00:00）：Fine-tuning GPT-3 to power and scale done-for-you video creation.
+- [Creating next-gen characters](https://openai.com/index/inworld-ai-DO-NOT-PUBLISH) （OpenAI News，2023-01-01T08:00:00+00:00）：Using GPT-3 to create the next generation of AI-powered characters.
+- [The power of continuous learning](https://openai.com/index/the-power-of-continuous-learning) （OpenAI News，2022-12-23T08:00:00+00:00）：Lilian Weng works on Applied AI Research at OpenAI.
+- [Point-E: A system for generating 3D point clouds from complex prompts](https://openai.com/index/point-e) （OpenAI News，2022-12-16T08:00:00+00:00）
+- [New and improved embedding model](https://openai.com/index/new-and-improved-embedding-model) （OpenAI News，2022-12-15T08:00:00+00:00）：We are excited to announce a new embedding model which is significantly more capable, cost effective, and simpler to use.
+- [Discovering the minutiae of backend systems](https://openai.com/index/discovering-the-minutiae-of-backend-systems) （OpenAI News，2022-12-08T08:00:00+00:00）：Christian Gibson is an engineer on the Supercomputing team at OpenAI.
+- [Introducing ChatGPT](https://openai.com/index/chatgpt) （OpenAI News，2022-11-30T08:00:00+00:00）：We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, c…
+- [DALL·E API now available in public beta](https://openai.com/index/dall-e-api-now-available-in-public-beta) （OpenAI News，2022-11-03T07:00:00+00:00）：Starting today, developers can begin building apps with the DALL·E API.
+- [Scaling laws for reward model overoptimization](https://openai.com/index/scaling-laws-for-reward-model-overoptimization) （OpenAI News，2022-10-19T07:00:00+00:00）
+- [DALL·E now available without waitlist](https://openai.com/index/dall-e-now-available-without-waitlist) （OpenAI News，2022-09-28T07:00:00+00:00）：New users can start creating straight away. Lessons learned from deployment and improvements to our safety systems make wider availability possible.
+- [Introducing Whisper](https://openai.com/index/whisper) （OpenAI News，2022-09-21T07:00:00+00:00）
+- [DALL·E: Introducing outpainting](https://openai.com/index/dall-e-introducing-outpainting) （OpenAI News，2022-08-31T07:00:00+00:00）：Extend creativity and tell a bigger story with DALL·E images of any size.
+- [Our approach to alignment research](https://openai.com/index/our-approach-to-alignment-research) （OpenAI News，2022-08-24T07:00:00+00:00）：We are improving our AI systems’ ability to learn from human feedback and to assist humans at evaluating AI. Our goal is to build a sufficiently aligned AI system that can help us…
+- [New and improved content moderation tooling](https://openai.com/index/new-and-improved-content-moderation-tooling) （OpenAI News，2022-08-10T07:00:00+00:00）：We are introducing a new and improved content moderation tool. The Moderation endpoint improves upon our previous content filter, and is available for free today to OpenAI API dev…
+- [Efficient training of language models to fill in the middle](https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle) （OpenAI News，2022-07-28T07:00:00+00:00）
+- [A hazard analysis framework for code synthesis large language models](https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models) （OpenAI News，2022-07-25T07:00:00+00:00）
+- [DALL·E now available in beta](https://openai.com/index/dall-e-now-available-in-beta) （OpenAI News，2022-07-20T07:00:00+00:00）：We’ll invite 1 million people from our waitlist over the coming weeks. Users can create with DALL·E using free credits that refill every month, and buy additional credits in 115-g…
+- [Reducing bias and improving safety in DALL·E 2](https://openai.com/index/reducing-bias-and-improving-safety-in-dall-e-2) （OpenAI News，2022-07-18T07:00:00+00:00）：Today, we are implementing a new technique so that DALL·E generates images of people that more accurately reflect the diversity of the world’s population.
+- [DALL·E 2: Extending creativity](https://openai.com/index/dall-e-2-extending-creativity) （OpenAI News，2022-07-14T07:00:00+00:00）：As part of our DALL·E 2 research preview, more than 3,000 artists from more than 118 countries have incorporated DALL·E into their creative workflows. The artists in our early acc…
+- [DALL·E 2 pre-training mitigations](https://openai.com/index/dall-e-2-pre-training-mitigations) （OpenAI News，2022-06-28T07:00:00+00:00）：In order to share the magic of DALL·E 2 with a broad audience, we needed to reduce the risks associated with powerful image generation models. To this end, we put various guardrai…
+- [Learning to play Minecraft with Video PreTraining](https://openai.com/index/vpt) （OpenAI News，2022-06-23T07:00:00+00:00）：We trained a neural network to play Minecraft by Video PreTraining (VPT) on a massive unlabeled video dataset of human Minecraft play, while using only a small amount of labeled c…
+- [Evolution through large models](https://openai.com/index/evolution-through-large-models) （OpenAI News，2022-06-17T07:00:00+00:00）
+- [AI-written critiques help humans notice flaws](https://openai.com/index/critiques) （OpenAI News，2022-06-13T07:00:00+00:00）：We trained “critique-writing” models to describe flaws in summaries. Human evaluators find flaws in summaries much more often when shown our model’s critiques. Larger models are b…
+- [Techniques for training large neural networks](https://openai.com/index/techniques-for-training-large-neural-networks) （OpenAI News，2022-06-09T07:00:00+00:00）：Large neural networks are at the core of many recent advances in AI, but training them is a difficult engineering and research challenge which requires orchestrating a cluster of…
+- [Best practices for deploying language models](https://openai.com/index/best-practices-for-deploying-language-models) （OpenAI News，2022-06-02T07:00:00+00:00）：Cohere, OpenAI, and AI21 Labs have developed a preliminary set of best practices applicable to any organization developing or deploying large language models.
+- [Teaching models to express their uncertainty in words](https://openai.com/index/teaching-models-to-express-their-uncertainty-in-words) （OpenAI News，2022-05-28T07:00:00+00:00）
+- [Powering next generation applications with OpenAI Codex](https://openai.com/index/codex-apps) （OpenAI News，2022-05-24T07:00:00+00:00）：Codex is now powering 70 different applications across a variety of use cases through the OpenAI API.
+- [DALL·E 2 research preview update](https://openai.com/index/dall-e-2-update) （OpenAI News，2022-05-18T07:00:00+00:00）：Early users have created over 3 million images to date and helped us improve our safety processes. We’re excited to begin adding up to 1,000 new users from our waitlist each week.
+- [OpenAI leadership team update](https://openai.com/index/leadership-team-update) （OpenAI News，2022-05-05T07:00:00+00:00）：We’re happy to announce several executive role changes that reflect our recent progress and will ensure continued momentum toward our next major milestones.
+- [Hierarchical text-conditional image generation with CLIP latents](https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents) （OpenAI News，2022-04-13T07:00:00+00:00）
+- [Measuring Goodhart’s law](https://openai.com/index/measuring-goodharts-law) （OpenAI News，2022-04-13T07:00:00+00:00）：Goodhart’s law famously says: “When a measure becomes a target, it ceases to be a good measure.” Although originally from economics, it’s something we have to grapple with at Open…
+- [New GPT-3 capabilities: Edit & insert](https://openai.com/index/gpt-3-edit-insert) （OpenAI News，2022-03-15T07:00:00+00:00）：We’ve released new versions of GPT-3 and Codex which can edit or insert content into existing text, rather than just completing existing text.
+- [A research agenda for assessing the economic impacts of code generation models](https://openai.com/index/economic-impacts-research) （OpenAI News，2022-03-03T08:00:00+00:00）
+- [Economic impacts research at OpenAI](https://openai.com/index/economic-impacts) （OpenAI News，2022-03-03T08:00:00+00:00）：Call for expressions of interest to study the economic impacts of large language models.
+- [Lessons learned on language model safety and misuse](https://openai.com/index/language-model-safety-and-misuse) （OpenAI News，2022-03-03T08:00:00+00:00）：We describe our latest thinking in the hope of helping other AI developers address safety and misuse of deployed models.
+- [Solving (some) formal math olympiad problems](https://openai.com/index/formal-math) （OpenAI News，2022-02-02T08:00:00+00:00）：We built a neural theorem prover for Lean that learned to solve a variety of challenging high-school olympiad problems, including problems from the AMC12 and AIME competitions, as…
+- [Aligning language models to follow instructions](https://openai.com/index/instruction-following) （OpenAI News，2022-01-27T08:00:00+00:00）
+- [Introducing text and code embeddings](https://openai.com/index/introducing-text-and-code-embeddings) （OpenAI News，2022-01-25T08:00:00+00:00）：We are introducing embeddings, a new endpoint in the OpenAI API that makes it easy to perform natural language and code tasks like semantic search, clustering, topic modeling, and…
+- [Text and code embeddings by contrastive pre-training](https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training) （OpenAI News，2022-01-24T08:00:00+00:00）
+- [WebGPT: Improving the factual accuracy of language models through web browsing](https://openai.com/index/webgpt) （OpenAI News，2021-12-16T08:00:00+00:00）：We’ve fine-tuned GPT-3 to more accurately answer open-ended questions using a text-based web browser.
+- [Customizing GPT-3 for your application](https://openai.com/index/customizing-gpt-3) （OpenAI News，2021-12-14T08:00:00+00:00）：Fine-tune with a single command.
+- [OpenAI Residency](https://openai.com/index/openai-residency) （OpenAI News，2021-11-30T08:00:00+00:00）：As part of our effort to support and develop AI talent, we’re excited to announce the OpenAI Residency.
+- [OpenAI’s API now available with no waitlist](https://openai.com/index/api-no-waitlist) （OpenAI News，2021-11-18T08:00:00+00:00）：Wider availability made possible by safety progress.
+- [Solving math word problems](https://openai.com/index/solving-math-word-problems) （OpenAI News，2021-10-29T07:00:00+00:00）：We’ve trained a system that solves grade school math problems with nearly twice the accuracy of a fine-tuned GPT-3 model. It solves about 90% as many problems as real kids: a smal…
+- [Summarizing books with human feedback](https://openai.com/index/summarizing-books) （OpenAI News，2021-09-23T07:00:00+00:00）：Scaling human oversight of AI systems for tasks that are difficult to evaluate.
+- [Helen Toner joins OpenAI’s board of directors](https://openai.com/index/helen-toner-joins) （OpenAI News，2021-09-08T07:00:00+00:00）：Today, we’re excited to announce the appointment of Helen Toner to our board of directors.
+- [TruthfulQA: Measuring how models mimic human falsehoods](https://openai.com/index/truthfulqa) （OpenAI News，2021-09-08T07:00:00+00:00）
+- [OpenAI Codex](https://openai.com/index/openai-codex) （OpenAI News，2021-08-10T07:00:00+00:00）：We’ve created an improved version of OpenAI Codex, our AI system that translates natural language to code, and we are releasing it through our API in private beta starting today.
+- [Introducing Triton: Open-source GPU programming for neural networks](https://openai.com/index/triton) （OpenAI News，2021-07-28T07:00:00+00:00）：We’re releasing Triton 1.0, an open-source Python-like programming language which enables researchers with no CUDA experience to write highly efficient GPU code—most of the time o…
+- [Evaluating large language models trained on code](https://openai.com/index/evaluating-large-language-models-trained-on-code) （OpenAI News，2021-07-07T07:00:00+00:00）
+- [Improving language model behavior by training on a curated dataset](https://openai.com/index/improving-language-model-behavior) （OpenAI News，2021-06-10T07:00:00+00:00）：Our latest research finds we can improve language model behavior with respect to specific behavioral values by fine-tuning on a small, curated dataset.
+- [OpenAI Scholars 2021: Final projects](https://openai.com/index/openai-scholars-2021-final-projects) （OpenAI News，2021-05-10T07:00:00+00:00）：We’re proud to announce that the 2021 class of OpenAI Scholars has completed our six-month mentorship program and have produced an open-source research project with stipends and s…
+- [Will Hurd joins OpenAI’s board of directors](https://openai.com/index/will-hurd-joins) （OpenAI News，2021-05-03T07:00:00+00:00）：OpenAI is committed to developing general-purpose artificial intelligence that benefits all humanity, and we believe that achieving our goal requires expertise in public policy as…
+- [GPT-3 powers the next generation of apps](https://openai.com/index/gpt-3-apps) （OpenAI News，2021-03-25T07:00:00+00:00）：Over 300 applications are delivering GPT-3–powered search, conversation, text completion, and other advanced AI features through our API.
+- [Multimodal neurons in artificial neural networks](https://openai.com/index/multimodal-neurons) （OpenAI News，2021-03-04T08:00:00+00:00）：We’ve discovered neurons in CLIP that respond to the same concept whether presented literally, symbolically, or conceptually. This may explain CLIP’s accuracy in classifying surpr…
+- [Understanding the capabilities, limitations, and societal impact of large language models](https://openai.com/index/understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models) （OpenAI News，2021-02-04T08:00:00+00:00）
+- [Scaling Kubernetes to 7,500 nodes](https://openai.com/index/scaling-kubernetes-to-7500-nodes) （OpenAI News，2021-01-25T08:00:00+00:00）：We’ve scaled Kubernetes clusters to 7,500 nodes, producing a scalable infrastructure for large models like GPT-3, CLIP, and DALL·E, but also for rapid small-scale iterative resear…
+- [CLIP: Connecting text and images](https://openai.com/index/clip) （OpenAI News，2021-01-05T08:00:00+00:00）：We’re introducing a neural network called CLIP which efficiently learns visual concepts from natural language supervision. CLIP can be applied to any visual classification benchma…
+- [DALL·E: Creating images from text](https://openai.com/index/dall-e) （OpenAI News，2021-01-05T08:00:00+00:00）：We’ve trained a neural network called DALL·E that creates images from text captions for a wide range of concepts expressible in natural language.
+- [Organizational update from OpenAI](https://openai.com/index/organizational-update) （OpenAI News，2020-12-29T08:00:00+00:00）：It’s been a year of dramatic change and growth at OpenAI.
+- [OpenAI licenses GPT-3 technology to Microsoft](https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft) （OpenAI News，2020-09-22T07:00:00+00:00）：OpenAI has agreed to license GPT-3 to Microsoft for their own products and services.
+- [Generative language modeling for automated theorem proving](https://openai.com/index/generative-language-modeling-for-automated-theorem-proving) （OpenAI News，2020-09-07T07:00:00+00:00）
+- [Learning to summarize with human feedback](https://openai.com/index/learning-to-summarize-with-human-feedback) （OpenAI News，2020-09-04T07:00:00+00:00）：We’ve applied reinforcement learning from human feedback to train language models that are better at summarization.
+- [OpenAI Scholars 2020: Final projects](https://openai.com/index/openai-scholars-2020-final-projects) （OpenAI News，2020-07-09T07:00:00+00:00）：Our third class of OpenAI Scholars presented their final projects at virtual Demo Day, showcasing their research results from over the past five months.
+- [Procgen and MineRL Competitions](https://openai.com/index/procgen-minerl-competitions) （OpenAI News，2020-06-20T07:00:00+00:00）：We’re excited to announce that OpenAI is co-organizing two NeurIPS 2020 competitions with AIcrowd, Carnegie Mellon University, and DeepMind, using Procgen Benchmark and MineRL.
+- [Image GPT](https://openai.com/index/image-gpt) （OpenAI News，2020-06-17T07:00:00+00:00）：We find that, just as a large transformer model trained on language can generate coherent text, the same exact model trained on pixel sequences can generate coherent image complet…
+- [OpenAI API](https://openai.com/index/openai-api) （OpenAI News，2020-06-11T07:00:00+00:00）：We’re releasing an API for accessing new AI models developed by OpenAI.
+- [Language models are few-shot learners](https://openai.com/index/language-models-are-few-shot-learners) （OpenAI News，2020-05-28T07:00:00+00:00）
+- [AI and efficiency](https://openai.com/index/ai-and-efficiency) （OpenAI News，2020-05-05T07:00:00+00:00）：We’re releasing an analysis showing that since 2012 the amount of compute needed to train a neural net to the same performance on ImageNet classification has been decreasing by a…
+- [Jukebox](https://openai.com/index/jukebox) （OpenAI News，2020-04-30T07:00:00+00:00）：We’re introducing Jukebox, a neural net that generates music, including rudimentary singing, as raw audio in a variety of genres and artist styles. We’re releasing the model weigh…
+- [Improving verifiability in AI development](https://openai.com/index/improving-verifiability) （OpenAI News，2020-04-16T07:00:00+00:00）：We’ve contributed to a multi-stakeholder report by 58 co-authors at 30 organizations, including the Centre for the Future of Intelligence, Mila, Schwartz Reisman Institute for Tec…
+- [OpenAI Microscope](https://openai.com/index/microscope) （OpenAI News，2020-04-14T07:00:00+00:00）：We’re introducing OpenAI Microscope, a collection of visualizations of every significant layer and neuron of eight vision “model organisms” which are often studied in interpretabi…
+- [OpenAI standardizes on PyTorch](https://openai.com/index/openai-pytorch) （OpenAI News，2020-01-30T08:00:00+00:00）：We are standardizing OpenAI’s deep learning framework on PyTorch.
+- [Scaling laws for neural language models](https://openai.com/index/scaling-laws-for-neural-language-models) （OpenAI News，2020-01-23T08:00:00+00:00）
+- [Dota 2 with large scale deep reinforcement learning](https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning) （OpenAI News，2019-12-13T08:00:00+00:00）
+- [Deep double descent](https://openai.com/index/deep-double-descent) （OpenAI News，2019-12-05T08:00:00+00:00）：We show that the double descent phenomenon occurs in CNNs, ResNets, and transformers: performance first improves, then gets worse, and then improves again with increasing model si…
+- [Procgen Benchmark](https://openai.com/index/procgen-benchmark) （OpenAI News，2019-12-03T08:00:00+00:00）：We’re releasing Procgen Benchmark, 16 simple-to-use procedurally-generated environments which provide a direct measure of how quickly a reinforcement learning agent learns general…
+- [Safety Gym](https://openai.com/index/safety-gym) （OpenAI News，2019-11-21T08:00:00+00:00）：We’re releasing Safety Gym, a suite of environments and tools for measuring progress towards reinforcement learning agents that respect safety constraints while training.
+- [Benchmarking safe exploration in deep reinforcement learning](https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement-learning) （OpenAI News，2019-11-21T08:00:00+00:00）
+- [GPT-2: 1.5B release](https://openai.com/index/gpt-2-1-5b-release) （OpenAI News，2019-11-05T08:00:00+00:00）：As the final model release of GPT-2’s staged release, we’re releasing the largest version (1.5B parameters) of GPT-2 along with code and model weights to facilitate detection of o…
+- [Solving Rubik’s Cube with a robot hand](https://openai.com/index/solving-rubiks-cube) （OpenAI News，2019-10-15T07:00:00+00:00）：We’ve trained a pair of neural networks to solve the Rubik’s Cube with a human-like robot hand. The neural networks are trained entirely in simulation, using the same reinforcemen…
+- [OpenAI Scholars 2020: Applications open](https://openai.com/index/openai-scholars-2020) （OpenAI News，2019-10-11T07:00:00+00:00）：We are now accepting applications for our third class of OpenAI Scholars.
+- [Fine-tuning GPT-2 from human preferences](https://openai.com/index/fine-tuning-gpt-2) （OpenAI News，2019-09-19T07:00:00+00:00）：We’ve fine-tuned the 774M parameter GPT-2 language model using human feedback for various tasks, successfully matching the preferences of the external human labelers, though those…
+- [Emergent tool use from multi-agent interaction](https://openai.com/index/emergent-tool-use) （OpenAI News，2019-09-17T07:00:00+00:00）：We’ve observed agents discovering progressively more complex tool use while playing a simple game of hide-and-seek. Through training in our new simulated hide-and-seek environment…
+- [Testing robustness against unforeseen adversaries](https://openai.com/index/testing-robustness) （OpenAI News，2019-08-22T07:00:00+00:00）：We’ve developed a method to assess whether a neural network classifier can reliably defend against adversarial attacks not seen during training. Our method yields a new metric, UA…
+- [GPT-2: 6-month follow-up](https://openai.com/index/gpt-2-6-month-follow-up) （OpenAI News，2019-08-20T07:00:00+00:00）：We’re releasing the 774 million parameter GPT-2 language model after the release of our small 124M model in February, staged release of our medium 355M model in May, and subsequen…
+- [Learning Day](https://openai.com/index/learning-day) （OpenAI News，2019-08-01T07:00:00+00:00）：At OpenAI, each Thursday is Learning Day: a day where employees have the option to self-study technical skills that will make them better at their job but which aren’t being learn…
+- [Microsoft invests in and partners with OpenAI to support us building beneficial AGI](https://openai.com/index/microsoft-invests-in-and-partners-with-openai) （OpenAI News，2019-07-22T07:00:00+00:00）：Microsoft is investing $1 billion in OpenAI to support us building artificial general intelligence (AGI) with widely distributed economic benefits. We’re partnering to develop a h…
+- [Why responsible AI development needs cooperation on safety](https://openai.com/index/cooperation-on-safety) （OpenAI News，2019-07-10T07:00:00+00:00）：We’ve written a policy research paper identifying four strategies that can be used today to improve the likelihood of long-term industry cooperation on safety norms in AI: communi…
+- [OpenAI Robotics Symposium 2019](https://openai.com/index/symposium-2019) （OpenAI News，2019-06-05T07:00:00+00:00）：We hosted the first OpenAI Robotics Symposium on April 27, 2019.
+- [OpenAI Scholars 2019: Final projects](https://openai.com/index/openai-scholars-2019-final-projects) （OpenAI News，2019-05-23T07:00:00+00:00）：Our second class of OpenAI Scholars has concluded, with all eight scholars producing an exciting final project showcased at Scholars Demo Day at OpenAI.
+- [OpenAI Fellows Fall 2018: Final projects](https://openai.com/index/openai-fellows-fall-2018) （OpenAI News，2019-05-17T07:00:00+00:00）：Our second class of OpenAI Fellows has wrapped up, with each Fellow going from a machine learning beginner to core OpenAI contributor in the course of a 6-month apprenticeship. We…
+- [Transfer of adversarial robustness between perturbation types](https://openai.com/index/transfer-of-adversarial-robustness-between-perturbation-types) （OpenAI News，2019-05-03T07:00:00+00:00）
+- [MuseNet](https://openai.com/index/musenet) （OpenAI News，2019-04-25T07:00:00+00:00）：We’ve created MuseNet, a deep neural network that can generate 4-minute musical compositions with 10 different instruments, and can combine styles from country to Mozart to the Be…
+- [Generative modeling with sparse transformers](https://openai.com/index/sparse-transformer) （OpenAI News，2019-04-23T07:00:00+00:00）：We’ve developed the Sparse Transformer, a deep neural network which sets new records at predicting what comes next in a sequence—whether text, images, or sound. It uses an algorit…
+- [OpenAI Five defeats Dota 2 world champions](https://openai.com/index/openai-five-defeats-dota-2-world-champions) （OpenAI News，2019-04-15T07:00:00+00:00）：OpenAI Five is the first AI to beat the world champions in an esports game, having won two back-to-back games versus the world champion Dota 2 team, OG, at Finals this weekend. Bo…
+- [OpenAI Five Finals](https://openai.com/index/openai-five-finals) （OpenAI News，2019-03-26T07:00:00+00:00）：We’ll be holding our final live event for OpenAI Five at 11:30am PT on April 13.
+- [Implicit generation and generalization methods for energy-based models](https://openai.com/index/energy-based-models) （OpenAI News，2019-03-21T07:00:00+00:00）：We’ve made progress towards stable and scalable training of energy-based models (EBMs) resulting in better sample quality and generalization ability than existing models. Generati…
+- [OpenAI Scholars 2019: Meet our Scholars](https://openai.com/index/openai-scholars-2019-meet-our-scholars) （OpenAI News，2019-03-13T07:00:00+00:00）：Our class of eight scholars (out of 550 applicants) brings together collective expertise in literature, philosophy, cell biology, statistics, economics, quantum physics, and busin…
+- [OpenAI LP](https://openai.com/index/openai-lp) （OpenAI News，2019-03-11T07:00:00+00:00）：We’ve created OpenAI LP, a new “capped-profit” company that allows us to rapidly increase our investments in compute and talent while including checks and balances to actualize ou…
+- [Introducing Activation Atlases](https://openai.com/index/introducing-activation-atlases) （OpenAI News，2019-03-06T08:00:00+00:00）：We’ve created activation atlases (in collaboration with Google researchers), a new technique for visualizing what interactions between neurons can represent. As AI systems are dep…
+- [Neural MMO: A massively multiagent game environment](https://openai.com/index/neural-mmo) （OpenAI News，2019-03-04T08:00:00+00:00）：We’re releasing a Neural MMO, a massively multiagent game environment for reinforcement learning agents. Our platform supports a large, variable number of agents within a persiste…
+- [Spinning Up in Deep RL: Workshop review](https://openai.com/index/spinning-up-in-deep-rl-workshop-review) （OpenAI News，2019-02-26T08:00:00+00:00）：On February 2, we held our first Spinning Up Workshop as part of our new education initiative at OpenAI.
+- [AI safety needs social scientists](https://openai.com/index/ai-safety-needs-social-scientists) （OpenAI News，2019-02-19T08:00:00+00:00）：We’ve written a paper arguing that long-term AI safety research needs social scientists to ensure AI alignment algorithms succeed when actual humans are involved. Properly alignin…
+- [Better language models and their implications](https://openai.com/index/better-language-models) （OpenAI News，2019-02-14T08:00:00+00:00）：We’ve trained a large-scale unsupervised language model which generates coherent paragraphs of text, achieves state-of-the-art performance on many language modeling benchmarks, an…
+- [Computational limitations in robust classification and win-win results](https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results) （OpenAI News，2019-02-04T08:00:00+00:00）
+- [OpenAI Fellows Summer 2018: Final projects](https://openai.com/index/openai-summer-fellows-2018) （OpenAI News，2018-12-19T08:00:00+00:00）：Our first cohort of OpenAI Fellows has concluded, with each Fellow going from a machine learning beginner to core OpenAI contributor in the course of a 6-month apprenticeship.
+- [How AI training scales](https://openai.com/index/how-ai-training-scales) （OpenAI News，2018-12-14T08:00:00+00:00）：We’ve discovered that the gradient noise scale, a simple statistical metric, predicts the parallelizability of neural network training on a wide range of tasks. Since complex task…
+- [Quantifying generalization in reinforcement learning](https://openai.com/index/quantifying-generalization-in-reinforcement-learning) （OpenAI News，2018-12-06T08:00:00+00:00）：We’re releasing CoinRun, a training environment which provides a metric for an agent’s ability to transfer its experience to novel situations and has already helped clarify a long…
+- [Spinning Up in Deep RL](https://openai.com/index/spinning-up-in-deep-rl) （OpenAI News，2018-11-08T08:00:00+00:00）：We’re releasing Spinning Up in Deep RL, an educational resource designed to let anyone learn to become a skilled practitioner in deep reinforcement learning. Spinning Up consists…
+- [Learning concepts with energy functions](https://openai.com/index/learning-concepts-with-energy-functions) （OpenAI News，2018-11-07T08:00:00+00:00）：We’ve developed an energy-based model that can quickly learn to identify and generate instances of concepts, such as near, above, between, closest, and furthest, expressed as sets…
+- [Plan online, learn offline: Efficient learning and exploration via model-based control](https://openai.com/index/plan-online-learn-offline) （OpenAI News，2018-11-05T08:00:00+00:00）
+- [Reinforcement learning with prediction-based rewards](https://openai.com/index/reinforcement-learning-with-prediction-based-rewards) （OpenAI News，2018-10-31T07:00:00+00:00）：We’ve developed Random Network Distillation (RND), a prediction-based method for encouraging reinforcement learning agents to explore their environments through curiosity, which f…
+- [Learning complex goals with iterated amplification](https://openai.com/index/learning-complex-goals-with-iterated-amplification) （OpenAI News，2018-10-22T07:00:00+00:00）：We’re proposing an AI safety technique called iterated amplification that lets us specify complicated behaviors and goals that are beyond human scale, by demonstrating how to deco…
+- [OpenAI Scholars 2019: Applications open](https://openai.com/index/openai-scholars-2019) （OpenAI News，2018-10-11T07:00:00+00:00）：We are now accepting applications for our second cohort of OpenAI Scholars, a program where we provide 6–10 stipends and mentorship to individuals from underrepresented groups to…
+- [OpenAI Fellows Winter 2019 & Interns Summer 2019](https://openai.com/index/openai-fellows-interns-2019) （OpenAI News，2018-10-09T07:00:00+00:00）：We are now accepting applications for OpenAI Fellows and Interns for 2019.
+- [FFJORD: Free-form continuous dynamics for scalable reversible generative models](https://openai.com/index/ffjord) （OpenAI News，2018-10-02T07:00:00+00:00）
+- [OpenAI Scholars 2018: Final projects](https://openai.com/index/openai-scholars-2018-final-projects) （OpenAI News，2018-09-10T07:00:00+00:00）：Our first cohort of OpenAI Scholars has now completed the program.
+- [The International 2018: Results](https://openai.com/index/the-international-2018-results) （OpenAI News，2018-08-23T07:00:00+00:00）：OpenAI Five lost two games against top Dota 2 players at The International in Vancouver this week, maintaining a good chance of winning for the first 20–35 minutes of both games.
+- [Large-scale study of curiosity-driven learning](https://openai.com/index/large-scale-study-of-curiosity-driven-learning) （OpenAI News，2018-08-13T07:00:00+00:00）
+- [OpenAI Five Benchmark: Results](https://openai.com/index/openai-five-benchmark-results) （OpenAI News，2018-08-06T07:00:00+00:00）：Yesterday, OpenAI Five won a best-of-three against a team of 99.95th percentile Dota players: Blitz, Cap, Fogged, Merlini, and MoonMeander—four of whom have played Dota profession…
+- [Learning dexterity](https://openai.com/index/learning-dexterity) （OpenAI News，2018-07-30T07:00:00+00:00）：We’ve trained a human-like robot hand to manipulate physical objects with unprecedented dexterity.
+- [Variational option discovery algorithms](https://openai.com/index/variational-option-discovery-algorithms) （OpenAI News，2018-07-26T07:00:00+00:00）
+- [OpenAI Scholars 2018: Meet our Scholars](https://openai.com/index/openai-scholars-2018-meet-our-scholars) （OpenAI News，2018-07-25T07:00:00+00:00）：Our first class of OpenAI Scholars is underway, and you can now follow along as this group of experienced software developers becomes machine learning practitioners.
+- [OpenAI Five Benchmark](https://openai.com/index/openai-five-benchmark) （OpenAI News，2018-07-18T07:00:00+00:00）：The OpenAI Five Benchmark match is now over!
+- [Glow: Better reversible generative models](https://openai.com/index/glow) （OpenAI News，2018-07-09T07:00:00+00:00）：We introduce Glow, a reversible generative model which uses invertible 1x1 convolutions. It extends previous work on reversible generative models and simplifies the architecture.…
+- [Learning Montezuma’s Revenge from a single demonstration](https://openai.com/index/learning-montezumas-revenge-from-a-single-demonstration) （OpenAI News，2018-07-04T07:00:00+00:00）：We’ve trained an agent to achieve a high score of 74,500 on Montezuma’s Revenge from a single human demonstration, better than any previously published result. Our algorithm is si…
+- [OpenAI Five](https://openai.com/index/openai-five) （OpenAI News，2018-06-25T07:00:00+00:00）：Our team of five neural networks, OpenAI Five, has started to defeat amateur human teams at Dota 2.
+- [Retro Contest: Results](https://openai.com/index/retro-contest-results) （OpenAI News，2018-06-22T07:00:00+00:00）：The first run of our Retro Contest—exploring the development of algorithms that can generalize from previous experience—is now complete.
+- [Learning policy representations in multiagent systems](https://openai.com/index/learning-policy-representations-in-multiagent-systems) （OpenAI News，2018-06-17T07:00:00+00:00）
+- [Improving language understanding with unsupervised learning](https://openai.com/index/language-unsupervised) （OpenAI News，2018-06-11T07:00:00+00:00）：We’ve obtained state-of-the-art results on a suite of diverse language tasks with a scalable, task-agnostic system, which we’re also releasing. Our approach is a combination of tw…
+- [GamePad: A learning environment for theorem proving](https://openai.com/index/gamepad) （OpenAI News，2018-06-02T07:00:00+00:00）
+- [OpenAI Fellows Fall 2018](https://openai.com/index/openai-fellows) （OpenAI News，2018-05-30T07:00:00+00:00）：We’re now accepting applications for the next cohort of OpenAI Fellows, a program which offers a compensated 6-month apprenticeship in AI research at OpenAI.
+- [Gym Retro](https://openai.com/index/gym-retro) （OpenAI News，2018-05-25T07:00:00+00:00）：We’re releasing the full version of Gym Retro, a platform for reinforcement learning research on games. This brings our publicly-released game count from around 70 Atari games and…
+- [AI and compute](https://openai.com/index/ai-and-compute) （OpenAI News，2018-05-16T07:00:00+00:00）：We’re releasing an analysis showing that since 2012, the amount of compute used in the largest AI training runs has been increasing exponentially with a 3.4-month doubling time (b…
+- [AI safety via debate](https://openai.com/index/debate) （OpenAI News，2018-05-03T07:00:00+00:00）：We’re proposing an AI safety technique which trains agents to debate topics with one another, using a human to judge who wins.
+- [Evolved Policy Gradients](https://openai.com/index/evolved-policy-gradients) （OpenAI News，2018-04-18T07:00:00+00:00）：We’re releasing an experimental metalearning approach called Evolved Policy Gradients, a method that evolves the loss function of learning agents, which can enable fast training o…
+- [Gotta Learn Fast: A new benchmark for generalization in RL](https://openai.com/index/gotta-learn-fast) （OpenAI News，2018-04-10T07:00:00+00:00）
+- [Retro Contest](https://openai.com/index/retro-contest) （OpenAI News，2018-04-05T07:00:00+00:00）：We’re launching a transfer learning contest that measures a reinforcement learning algorithm’s ability to generalize from previous experience.
+- [Variance reduction for policy gradient with action-dependent factorized baselines](https://openai.com/index/variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines) （OpenAI News，2018-03-20T07:00:00+00:00）
+- [Report from the OpenAI hackathon](https://openai.com/index/hackathon-follow-up) （OpenAI News，2018-03-15T07:00:00+00:00）：On March 3rd, we hosted our first hackathon with 100 members of the artificial intelligence community.
+- [Improving GANs using optimal transport](https://openai.com/index/improving-gans-using-optimal-transport) （OpenAI News，2018-03-15T07:00:00+00:00）
+- [On first-order meta-learning algorithms](https://openai.com/index/on-first-order-meta-learning-algorithms) （OpenAI News，2018-03-08T08:00:00+00:00）
+- [Reptile: A scalable meta-learning algorithm](https://openai.com/index/reptile) （OpenAI News，2018-03-07T08:00:00+00:00）：We’ve developed a simple meta-learning algorithm called Reptile which works by repeatedly sampling a task, performing stochastic gradient descent on it, and updating the initial p…
+- [OpenAI Scholars](https://openai.com/index/openai-scholars) （OpenAI News，2018-03-06T08:00:00+00:00）：We’re providing 6–10 stipends and mentorship to individuals from underrepresented groups to study deep learning full-time for 3 months and open-source a project.
+- [Some considerations on learning to explore via meta-reinforcement learning](https://openai.com/index/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning) （OpenAI News，2018-03-03T08:00:00+00:00）
+- [Ingredients for robotics research](https://openai.com/index/ingredients-for-robotics-research) （OpenAI News，2018-02-26T08:00:00+00:00）：We’re releasing eight simulated robotics environments and a Baselines implementation of Hindsight Experience Replay, all developed for our research over the past year. We’ve used…
+- [Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research](https://openai.com/index/multi-goal-reinforcement-learning) （OpenAI News，2018-02-26T08:00:00+00:00）
+- [OpenAI hackathon](https://openai.com/index/openai-hackathon) （OpenAI News，2018-02-22T08:00:00+00:00）：Come to OpenAI’s office in San Francisco’s Mission District for talks and a hackathon on Saturday, March 3rd.
+- [OpenAI supporters](https://openai.com/index/openai-supporters) （OpenAI News，2018-02-20T08:00:00+00:00）：We’re excited to welcome new donors to OpenAI.
+- [Preparing for malicious uses of AI](https://openai.com/index/preparing-for-malicious-uses-of-ai) （OpenAI News，2018-02-20T08:00:00+00:00）：We’ve co-authored a paper that forecasts how malicious actors could misuse AI technology, and potential ways we can prevent and mitigate these threats. This paper is the outcome o…
+- [Interpretable machine learning through teaching](https://openai.com/index/interpretable-machine-learning-through-teaching) （OpenAI News，2018-02-15T08:00:00+00:00）：We’ve designed a method that encourages AIs to teach each other with examples that also make sense to humans. Our approach automatically selects the most informative examples to t…
+- [Discovering types for entity disambiguation](https://openai.com/index/discovering-types-for-entity-disambiguation) （OpenAI News，2018-02-07T08:00:00+00:00）：We’ve built a system for automatically figuring out which object is meant by a word by having a neural network decide if the word belongs to each of about 100 automatically-discov…
+- [Requests for Research 2.0](https://openai.com/index/requests-for-research-2) （OpenAI News，2018-01-31T08:00:00+00:00）：We’re releasing a new batch of seven unsolved problems which have come up in the course of our research at OpenAI.
+- [Scaling Kubernetes to 2,500 nodes](https://openai.com/index/scaling-kubernetes-to-2500-nodes) （OpenAI News，2018-01-18T08:00:00+00:00）
+- [Block-sparse GPU kernels](https://openai.com/index/block-sparse-gpu-kernels) （OpenAI News，2017-12-06T08:00:00+00:00）：We’re releasing highly-optimized GPU kernels for an underexplored class of neural network architectures: networks with block-sparse weights. Depending on the chosen sparsity, thes…
+- [Learning sparse neural networks through L₀ regularization](https://openai.com/index/learning-sparse-neural-networks-through-l0-regularization) （OpenAI News，2017-12-04T08:00:00+00:00）
+- [Interpretable and pedagogical examples](https://openai.com/index/interpretable-and-pedagogical-examples) （OpenAI News，2017-11-02T07:00:00+00:00）
+- [Learning a hierarchy](https://openai.com/index/learning-a-hierarchy) （OpenAI News，2017-10-26T07:00:00+00:00）：We’ve developed a hierarchical reinforcement learning algorithm that learns high-level actions useful for solving a range of tasks, allowing fast solving of tasks requiring thousa…
+- [Generalizing from simulation](https://openai.com/index/generalizing-from-simulation) （OpenAI News，2017-10-19T07:00:00+00:00）：Our latest robotics techniques allow robot controllers, trained entirely in simulation and deployed on physical robots, to react to unplanned changes in the environment as they so…
+- [Sim-to-real transfer of robotic control with dynamics randomization](https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization) （OpenAI News，2017-10-18T07:00:00+00:00）
+- [Asymmetric actor critic for image-based robot learning](https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning) （OpenAI News，2017-10-18T07:00:00+00:00）
+- [Domain randomization and generative models for robotic grasping](https://openai.com/index/domain-randomization-and-generative-models-for-robotic-grasping) （OpenAI News，2017-10-17T07:00:00+00:00）
+- [Meta-learning for wrestling](https://openai.com/index/meta-learning-for-wrestling) （OpenAI News，2017-10-11T07:00:00+00:00）：We show that for the task of simulated robot wrestling, a meta-learning agent can learn to quickly defeat a stronger non-meta-learning agent, and also show that the meta-learning…
+- [Competitive self-play](https://openai.com/index/competitive-self-play) （OpenAI News，2017-10-11T07:00:00+00:00）：We’ve found that self-play allows simulated AIs to discover physical skills like tackling, ducking, faking, kicking, catching, and diving for the ball, without explicitly designin…
+- [Nonlinear computation in deep linear networks](https://openai.com/index/nonlinear-computation-in-deep-linear-networks) （OpenAI News，2017-09-29T07:00:00+00:00）
+- [Learning to model other minds](https://openai.com/index/learning-to-model-other-minds) （OpenAI News，2017-09-14T07:00:00+00:00）：We’re releasing an algorithm which accounts for the fact that other agents are learning too, and discovers self-interested yet collaborative strategies like tit-for-tat in the ite…
+- [Learning with opponent-learning awareness](https://openai.com/index/learning-with-opponent-learning-awareness) （OpenAI News，2017-09-13T07:00:00+00:00）
+- [OpenAI Baselines: ACKTR & A2C](https://openai.com/index/openai-baselines-acktr-a2c) （OpenAI News，2017-08-18T07:00:00+00:00）：We’re releasing two new OpenAI Baselines implementations: ACKTR and A2C. A2C is a synchronous, deterministic variant of Asynchronous Advantage Actor Critic (A3C) which we’ve found…
+- [More on Dota 2](https://openai.com/index/more-on-dota-2) （OpenAI News，2017-08-16T07:00:00+00:00）：Our Dota 2 result shows that self-play can catapult the performance of machine learning systems from far below human level to superhuman, given sufficient compute. In the span of…
+- [Dota 2](https://openai.com/index/dota-2) （OpenAI News，2017-08-11T07:00:00+00:00）：We’ve created a bot which beats the world’s top professionals at 1v1 matches of Dota 2 under standard tournament rules. The bot learned the game from scratch by self-play, and doe…
+- [Gathering human feedback](https://openai.com/index/gathering-human-feedback) （OpenAI News，2017-08-03T07:00:00+00:00）：RL-Teacher is an open-source implementation of our interface to train AIs via occasional human feedback rather than hand-crafted reward functions. The underlying technique was dev…
+- [Better exploration with parameter noise](https://openai.com/index/better-exploration-with-parameter-noise) （OpenAI News，2017-07-27T07:00:00+00:00）：We’ve found that adding adaptive noise to the parameters of reinforcement learning algorithms frequently boosts performance. This exploration method is simple to implement and ver…
+- [Proximal Policy Optimization](https://openai.com/index/openai-baselines-ppo) （OpenAI News，2017-07-20T07:00:00+00:00）：We’re releasing a new class of reinforcement learning algorithms, Proximal Policy Optimization (PPO), which perform comparably or better than state-of-the-art approaches while bei…
+- [Robust adversarial inputs](https://openai.com/index/robust-adversarial-inputs) （OpenAI News，2017-07-17T07:00:00+00:00）：We’ve created images that reliably fool neural network classifiers when viewed from varied scales and perspectives. This challenges a claim from last week that self-driving cars w…
+- [Hindsight Experience Replay](https://openai.com/index/hindsight-experience-replay) （OpenAI News，2017-07-05T07:00:00+00:00）
+- [Teacher–student curriculum learning](https://openai.com/index/teacher-student-curriculum-learning) （OpenAI News，2017-07-01T07:00:00+00:00）
+- [Faster physics in Python](https://openai.com/index/faster-physics-in-python) （OpenAI News，2017-06-28T07:00:00+00:00）：We’re open-sourcing a high-performance Python library for robotic simulation using the MuJoCo engine, developed over our past year of robotics research.
+- [Learning from human preferences](https://openai.com/index/learning-from-human-preferences) （OpenAI News，2017-06-13T07:00:00+00:00）：One step towards building safe AI systems is to remove the need for humans to write goal functions, since using a simple proxy for a complex goal, or getting the complex goal a bi…
+- [Learning to cooperate, compete, and communicate](https://openai.com/index/learning-to-cooperate-compete-and-communicate) （OpenAI News，2017-06-08T07:00:00+00:00）：Multiagent environments where agents compete for resources are stepping stones on the path to AGI. Multiagent environments have two useful properties: first, there is a natural cu…
+- [UCB exploration via Q-ensembles](https://openai.com/index/ucb-exploration-via-q-ensembles) （OpenAI News，2017-06-05T07:00:00+00:00）
+- [OpenAI Baselines: DQN](https://openai.com/index/openai-baselines-dqn) （OpenAI News，2017-05-24T07:00:00+00:00）：We’re open-sourcing OpenAI Baselines, our internal effort to reproduce reinforcement learning algorithms with performance on par with published results. We’ll release the algorith…
+- [Robots that learn](https://openai.com/index/robots-that-learn) （OpenAI News，2017-05-16T07:00:00+00:00）：We’ve created a robotics system, trained entirely in simulation and deployed on a physical robot, which can learn a new task after seeing it done once.
+- [Roboschool](https://openai.com/index/roboschool) （OpenAI News，2017-05-15T07:00:00+00:00）：We are releasing Roboschool: open-source software for robot simulation, integrated with OpenAI Gym.
+- [Equivalence between policy gradients and soft Q-learning](https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning) （OpenAI News，2017-04-21T07:00:00+00:00）
+- [Stochastic Neural Networks for hierarchical reinforcement learning](https://openai.com/index/stochastic-neural-networks-for-hierarchical-reinforcement-learning) （OpenAI News，2017-04-10T07:00:00+00:00）
+- [Unsupervised sentiment neuron](https://openai.com/index/unsupervised-sentiment-neuron) （OpenAI News，2017-04-06T07:00:00+00:00）：We’ve developed an unsupervised system which learns an excellent representation of sentiment, despite being trained only to predict the next character in the text of Amazon review…
+- [Spam detection in the physical world](https://openai.com/index/spam-detection-in-the-physical-world) （OpenAI News，2017-04-01T07:00:00+00:00）：We’ve created the world’s first Spam-detecting AI trained entirely in simulation and deployed on a physical robot.
+- [Evolution strategies as a scalable alternative to reinforcement learning](https://openai.com/index/evolution-strategies) （OpenAI News，2017-03-24T07:00:00+00:00）：We’ve discovered that evolution strategies (ES), an optimization technique that’s been known for decades, rivals the performance of standard reinforcement learning (RL) techniques…
+- [One-shot imitation learning](https://openai.com/index/one-shot-imitation-learning) （OpenAI News，2017-03-21T07:00:00+00:00）
+- [Distill](https://openai.com/index/distill) （OpenAI News，2017-03-20T07:00:00+00:00）：We’re excited to support today’s launch of Distill, a new kind of journal aimed at excellent communication of machine learning results (novel or existing).
+- [Learning to communicate](https://openai.com/index/learning-to-communicate) （OpenAI News，2017-03-16T07:00:00+00:00）：In this post we’ll outline new OpenAI research in which agents develop their own language.
+- [Emergence of grounded compositional language in multi-agent populations](https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations) （OpenAI News，2017-03-15T07:00:00+00:00）
+- [Prediction and control with temporal segment models](https://openai.com/index/prediction-and-control-with-temporal-segment-models) （OpenAI News，2017-03-12T08:00:00+00:00）
+- [Third-person imitation learning](https://openai.com/index/third-person-imitation-learning) （OpenAI News，2017-03-06T08:00:00+00:00）
+- [Attacking machine learning with adversarial examples](https://openai.com/index/attacking-machine-learning-with-adversarial-examples) （OpenAI News，2017-02-24T08:00:00+00:00）：Adversarial examples are inputs to machine learning models that an attacker has intentionally designed to cause the model to make a mistake; they’re like optical illusions for mac…
+- [Adversarial attacks on neural network policies](https://openai.com/index/adversarial-attacks-on-neural-network-policies) （OpenAI News，2017-02-08T08:00:00+00:00）
+- [Team update](https://openai.com/index/team-update-january) （OpenAI News，2017-01-30T08:00:00+00:00）：The OpenAI team is now 45 people. Together, we’re pushing the frontier of AI capabilities—whether by validating novel ideas, creating new software systems, or deploying machine le…
+- [PixelCNN++: Improving the PixelCNN with discretized logistic mixture likelihood and other modifications](https://openai.com/index/pixelcnn-plus-plus) （OpenAI News，2017-01-19T08:00:00+00:00）
+- [Faulty reward functions in the wild](https://openai.com/index/faulty-reward-functions) （OpenAI News，2016-12-21T08:00:00+00:00）：Reinforcement learning algorithms can break in surprising, counterintuitive ways. In this post we’ll explore one failure mode, which is where you misspecify your reward function.
+- [Universe](https://openai.com/index/universe) （OpenAI News，2016-12-05T08:00:00+00:00）：We’re releasing Universe, a software platform for measuring and training an AI’s general intelligence across the world’s supply of games, websites and other applications.
+- [#Exploration: A study of count-based exploration for deep reinforcement learning](https://openai.com/index/exploration) （OpenAI News，2016-11-15T08:00:00+00:00）
+- [OpenAI and Microsoft](https://openai.com/index/openai-and-microsoft) （OpenAI News，2016-11-15T08:00:00+00:00）：We’re working with Microsoft to start running most of our large-scale experiments on Azure.
+- [On the quantitative analysis of decoder-based generative models](https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models) （OpenAI News，2016-11-14T08:00:00+00:00）
+- [A connection between generative adversarial networks, inverse reinforcement learning, and energy-based models](https://openai.com/index/a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models) （OpenAI News，2016-11-11T08:00:00+00:00）
+- [RL²: Fast reinforcement learning via slow reinforcement learning](https://openai.com/index/rl2) （OpenAI News，2016-11-09T08:00:00+00:00）
+- [Variational lossy autoencoder](https://openai.com/index/variational-lossy-autoencoder) （OpenAI News，2016-11-08T08:00:00+00:00）
+- [Extensions and limitations of the neural GPU](https://openai.com/index/extensions-and-limitations-of-the-neural-gpu) （OpenAI News，2016-11-02T07:00:00+00:00）
+- [Semi-supervised knowledge transfer for deep learning from private training data](https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data) （OpenAI News，2016-10-18T07:00:00+00:00）
+- [Report from the self-organizing conference](https://openai.com/index/report-from-the-self-organizing-conference) （OpenAI News，2016-10-13T07:00:00+00:00）：Last week we hosted over a hundred and fifty AI practitioners in our offices for our first self-organizing conference on machine learning.
+- [Transfer from simulation to real world through learning deep inverse dynamics model](https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model) （OpenAI News，2016-10-11T07:00:00+00:00）
+- [Infrastructure for deep learning](https://openai.com/index/infrastructure-for-deep-learning) （OpenAI News，2016-08-29T07:00:00+00:00）：Deep learning is an empirical science, and the quality of a group’s infrastructure is a multiplier on progress. Fortunately, today’s open-source ecosystem makes it possible for an…
+- [Machine Learning Unconference](https://openai.com/index/machine-learning-unconference) （OpenAI News，2016-08-18T07:00:00+00:00）：The latest information about the Unconference is now available at the Unconference wiki, which will be periodically updated with more information for attendees.
+- [Team update](https://openai.com/index/team-update-august) （OpenAI News，2016-08-16T07:00:00+00:00）：We’ve hired more great people to help us achieve our goals. Welcome, everyone!
+- [Special projects](https://openai.com/index/special-projects) （OpenAI News，2016-07-28T07:00:00+00:00）：Impactful scientific work requires working on the right problems—problems which are not just interesting, but whose solutions matter.
+- [Concrete AI safety problems](https://openai.com/index/concrete-ai-safety-problems) （OpenAI News，2016-06-21T07:00:00+00:00）：We (along with researchers from Berkeley and Stanford) are co-authors on today’s paper led by Google Brain researchers, Concrete Problems in AI Safety. The paper explores many res…
+- [OpenAI technical goals](https://openai.com/index/openai-technical-goals) （OpenAI News，2016-06-20T07:00:00+00:00）：OpenAI’s mission is to build safe AI, and ensure AI’s benefits are as widely and evenly distributed as possible.
+- [Generative models](https://openai.com/index/generative-models) （OpenAI News，2016-06-16T07:00:00+00:00）：This post describes four projects that share a common theme of enhancing or using generative models, a branch of unsupervised learning techniques in machine learning. In addition…
+- [Adversarial training methods for semi-supervised text classification](https://openai.com/index/adversarial-training-methods-for-semi-supervised-text-classification) （OpenAI News，2016-05-25T07:00:00+00:00）
+- [Team update](https://openai.com/index/team-update) （OpenAI News，2016-05-25T07:00:00+00:00）：We’d like to welcome the latest set of team members to OpenAI (and we’re still hiring!)
+- [OpenAI Gym Beta](https://openai.com/index/openai-gym-beta) （OpenAI News，2016-04-27T07:00:00+00:00）：We’re releasing the public beta of OpenAI Gym, a toolkit for developing and comparing reinforcement learning (RL) algorithms. It consists of a growing suite of environments (from…
+- [Welcome, Pieter and Shivon!](https://openai.com/index/welcome-pieter-and-shivon) （OpenAI News，2016-04-26T07:00:00+00:00）：We have two more team updates.
+- [Team++](https://openai.com/index/team-plus-plus) （OpenAI News，2016-03-31T07:00:00+00:00）：We've had some fantastic people join over the past few months (and we're still hiring). Welcome, everyone!
+- [Weight normalization: A simple reparameterization to accelerate training of deep neural networks](https://openai.com/index/weight-normalization) （OpenAI News，2016-02-25T08:00:00+00:00）
+- [Introducing OpenAI](https://openai.com/index/introducing-openai) （OpenAI News，2015-12-11T08:00:00+00:00）：OpenAI is a non-profit artificial intelligence research company. Our goal is to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconst…
 
 ## AI 产品更新
 
-- 假数据：写作助手新增团队知识库草稿能力。
-- 假数据：会议总结工具优化了行动项提取体验。
+- [Catch up on the Dialogues stage at Google I/O 2026.](https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/) （Google AI Blog，2026-05-22T18:00:00+00:00）：Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage
+- [We’re announcing new community investments in Missouri.](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/) （Google AI Blog，2026-05-20T20:40:00+00:00）：<img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MissouriSocial.max-600x600.format-webp.webp" />We’re helping build the state’s next-generation workforce…
+- [100 things we announced at I/O 2026](https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/) （Google AI Blog，2026-05-20T19:30:00+00:00）：Image with the words "Ready, Set, I/O" and a colorful Gemini logo
+- [A new experiment brings better group meetings to Google Beam](https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/) （Google AI Blog，2026-05-20T16:45:00+00:00）：A small group meeting featuring two in-room participants and three participants on-screen.
+- [I/O 2026](https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/) （Google AI Blog，2026-05-19T17:45:00+00:00）：<img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Collection-Hero.gif" />At Google I/O 2026, we shared how we’re making AI more helpful for everyo…
+- [How AI Mode is changing the way people search in the U.S.](https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/) （Google AI Blog，2026-05-19T17:45:00+00:00）：A graphic features the text "How people are using AI Mode in the U.S." surrounded by colorful, stylized illustrations of a pencil, planet, banana, gift box, cursor, gamepad, and l…
+- [New ways to create and get things done in Google Workspace](https://blog.google/products-and-platforms/products/workspace/workspace-updates/) （Google AI Blog，2026-05-19T17:45:00+00:00）：Google Workspace
+- [I/O 2026: Welcome to the agentic Gemini era](https://blog.google/innovation-and-ai/sundar-pichai-io-2026/) （Google AI Blog，2026-05-19T17:45:00+00:00）：a series of colorful icons representing Google I/O against a black background
+- [Gemini 3.5: frontier intelligence with action](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/) （Google AI Blog，2026-05-19T17:45:00+00:00）：Gemini 3.5 text and multi-colored star icon on an abstract blue background.
+- [A new era for AI Search](https://blog.google/products-and-platforms/products/search/search-io-2026/) （Google AI Blog，2026-05-19T17:45:00+00:00）：Text that reads "The best of a search engine with the best of AI"
+- [Everything new in our Google AI subscriptions, fresh from I/O 2026](https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/) （Google AI Blog，2026-05-19T17:45:00+00:00）：The image shows colorful icons. The copy reads: More magic in one plan. More power, more perks, same price.
+- [The new AI-powered Google Finance is expanding to Europe.](https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/) （Google AI Blog，2026-05-11T06:00:00+00:00）：A screenshot of the AI-powered experience on Google Finance.
+- [See what happens when creative legends use AI to make ads for small businesses.](https://blog.google/company-news/inside-google/company-announcements/the-small-brief/) （Google AI Blog，2026-05-08T15:00:00+00:00）：black and white card with headshots of susan credle, jayonta jenkins and tiffany rolfe
+- [5 gardening tips you can try right in Search](https://blog.google/products-and-platforms/products/search/gardening-tips/) （Google AI Blog，2026-05-06T16:00:00+00:00）：An abstract background featuring soft, stippled illustrations of flowers and a butterfly in a bright palette of blue, green, and red. In the center of the image is a white circle…
+- [Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.](https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/) （Google AI Blog，2026-05-05T16:00:00+00:00）：<img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp" />Google is partnering with XPRIZE and Range Medi…
+- [The latest AI news we announced in April 2026](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/) （Google AI Blog，2026-05-04T17:00:00+00:00）：mp4 featuring an underwater video and a mobile AI video mockup.
+- [Reduce friction and latency for long-running jobs with Webhooks in Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/) （Google AI Blog，2026-05-04T15:30:00+00:00）：Gemini API
+- [Celebrating 20 years of Google Translate: Fun facts, tips and new features to try](https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/) （Google AI Blog，2026-04-28T16:00:00+00:00）：The Google Translate logo sits in the middle of colorful illustrated scenes, including people translating live conversations and a birthday cake topped by candles with the numeral…
+- [Join the new AI Agents Vibe Coding Course from Google and Kaggle](https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/) （Google AI Blog，2026-04-27T13:00:00+00:00）：A web next to a laptop
+- [8 Gemini tips for organizing your space (and life)](https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/) （Google AI Blog，2026-04-24T19:00:00+00:00）：Black screen with illustrations including a laptop with document and email icons streaming out, a smiling person holding a phone and looking at a checklist, and a user activating…
 
-## 开源项目 / 开发者工具
+## Agent / MCP / Workflow / Skills 生态
 
-- 假数据：命令行代码助手加入更清晰的变更预览。
-- 假数据：本地评测脚本模板开始支持多模型对比。
+- 暂无有效数据。
 
-## 对我学习 AI 应用和 Codex 的启发
+## 开源项目与开发者工具
 
-- 假数据：学习 AI 应用时，应优先把输入、输出和失败边界写清楚。
-- 假数据：使用 Codex 时，小步提交需求和测试条件能减少返工。
+- [Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models](https://huggingface.co/blog/nvidia/nemotron-labs-diffusion) （Hugging Face Blog，2026-05-23T00:02:03+00:00）
+- [Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook](https://huggingface.co/blog/Dharma-AI/specialization-beats-scale) （Hugging Face Blog，2026-05-22T15:25:59+00:00）
+- [OlmoEarth v1.1: A more efficient family of Earth observation models](https://huggingface.co/blog/allenai/olmoearth-v1-1) （Hugging Face Blog，2026-05-19T18:38:09+00:00）
+- [Introducing the Ettin Reranker Family](https://huggingface.co/blog/ettin-reranker) （Hugging Face Blog，2026-05-19T00:00:00+00:00）
+- [PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend](https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers) （Hugging Face Blog，2026-05-18T15:12:46+00:00）
+- [The Open Agent Leaderboard](https://huggingface.co/blog/ibm-research/open-agent-leaderboard) （Hugging Face Blog，2026-05-18T14:12:58+00:00）
+- [Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality](https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2) （Hugging Face Blog，2026-05-14T18:55:01+00:00）
+- [Unlocking asynchronicity in continuous batching](https://huggingface.co/blog/continuous_async) （Hugging Face Blog，2026-05-14T00:00:00+00:00）
+- [Building Blocks for Foundation Model Training and Inference on AWS](https://huggingface.co/blog/amazon/foundation-model-building-blocks) （Hugging Face Blog，2026-05-11T23:18:26+00:00）
+- [vLLM V0 to V1: Correctness Before Corrections in RL](https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections) （Hugging Face Blog，2026-05-06T19:06:55+00:00）
+- [Adding Benchmaxxer Repellant to the Open ASR Leaderboard](https://huggingface.co/blog/open-asr-leaderboard-private-data) （Hugging Face Blog，2026-05-06T00:00:00+00:00）
+- [Granite 4.1 LLMs: How They’re Built](https://huggingface.co/blog/ibm-granite/granite-4-1) （Hugging Face Blog，2026-04-29T15:01:48+00:00）
+- [DeepInfra on Hugging Face Inference Providers 🔥](https://huggingface.co/blog/inference-providers-deepinfra) （Hugging Face Blog，2026-04-29T00:00:00+00:00）
+- [Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents](https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence) （Hugging Face Blog，2026-04-28T15:58:57+00:00）
+- [How to build scalable web apps with OpenAI's Privacy Filter](https://huggingface.co/blog/openai-privacy-filter-web-apps) （Hugging Face Blog，2026-04-27T00:00:00+00:00）
+- [DeepSeek-V4: a million-token context that agents can actually use](https://huggingface.co/blog/deepseekv4) （Hugging Face Blog，2026-04-24T00:00:00+00:00）
+- [How to Use Transformers.js in a Chrome Extension](https://huggingface.co/blog/transformersjs-chrome-extension) （Hugging Face Blog，2026-04-23T00:00:00+00:00）
+- [QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard](https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard) （Hugging Face Blog，2026-04-21T10:09:58+00:00）
+- [AI and the Future of Cybersecurity: Why Openness Matters](https://huggingface.co/blog/cybersecurity-openness) （Hugging Face Blog，2026-04-21T00:00:00+00:00）
+- [Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents](https://huggingface.co/blog/ecom-rlve) （Hugging Face Blog，2026-04-16T00:00:00+00:00）
+- [The PR you would have opened yourself](https://huggingface.co/blog/transformers-to-mlx) （Hugging Face Blog，2026-04-16T00:00:00+00:00）
+- [Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers](https://huggingface.co/blog/train-multimodal-sentence-transformers) （Hugging Face Blog，2026-04-16T00:00:00+00:00）
+- [Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents](https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis) （Hugging Face Blog，2026-04-15T12:07:25+00:00）
+- [Meet HoloTab by HCompany. Your AI browser companion.](https://huggingface.co/blog/Hcompany/holotab) （Hugging Face Blog，2026-04-15T09:25:20+00:00）
+- [Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs](https://huggingface.co/blog/waypoint-1-5) （Hugging Face Blog，2026-04-09T00:00:00+00:00）
+- [Multimodal Embedding & Reranker Models with Sentence Transformers](https://huggingface.co/blog/multimodal-sentence-transformers) （Hugging Face Blog，2026-04-09T00:00:00+00:00）
+- [Safetensors is Joining the PyTorch Foundation](https://huggingface.co/blog/safetensors-joins-pytorch-foundation) （Hugging Face Blog，2026-04-08T00:00:00+00:00）
+- [Welcome Gemma 4: Frontier multimodal intelligence on device](https://huggingface.co/blog/gemma4) （Hugging Face Blog，2026-04-02T00:00:00+00:00）
+- [Falcon Perception](https://huggingface.co/blog/tiiuae/falcon-perception) （Hugging Face Blog，2026-04-01T07:13:20+00:00）
+- [Any Custom Frontend with Gradio's Backend](https://huggingface.co/blog/introducing-gradio-server) （Hugging Face Blog，2026-04-01T00:00:00+00:00）
+- [Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents](https://huggingface.co/blog/ibm-granite/granite-4-vision) （Hugging Face Blog，2026-03-31T15:10:41+00:00）
+- [Training mRNA Language Models Across 25 Species for $165](https://huggingface.co/blog/OpenMed/training-mrna-models-25-species) （Hugging Face Blog，2026-03-31T08:23:44+00:00）
+- [TRL v1.0: Post-Training Library Built to Move with the Field](https://huggingface.co/blog/trl-v1) （Hugging Face Blog，2026-03-31T00:00:00+00:00）
+- [Liberate your OpenClaw](https://huggingface.co/blog/liberate-your-openclaw) （Hugging Face Blog，2026-03-27T00:00:00+00:00）
+- [A New Framework for Evaluating Voice Agents (EVA)](https://huggingface.co/blog/ServiceNow-AI/eva) （Hugging Face Blog，2026-03-24T02:01:52+00:00）
+- [Build a Domain-Specific Embedding Model in Under a Day](https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune) （Hugging Face Blog，2026-03-20T19:38:16+00:00）
+- [State of Open Source on Hugging Face: Spring 2026](https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026) （Hugging Face Blog，2026-03-17T16:37:55+00:00）
+- [Holotron-12B - High Throughput Computer Use Agent](https://huggingface.co/blog/Hcompany/holotron-12b) （Hugging Face Blog，2026-03-17T12:33:39+00:00）
+- [Introducing Storage Buckets on the Hugging Face Hub](https://huggingface.co/blog/storage-buckets) （Hugging Face Blog，2026-03-10T00:00:00+00:00）
+- [Keep the Tokens Flowing: Lessons from 16 Open-Source RL Libraries](https://huggingface.co/blog/async-rl-training-landscape) （Hugging Face Blog，2026-03-10T00:00:00+00:00）
+- [Ulysses Sequence Parallelism: Training with Million-Token Contexts](https://huggingface.co/blog/ulysses-sp) （Hugging Face Blog，2026-03-09T00:00:00+00:00）
+- [LeRobot v0.5.0: Scaling Every Dimension](https://huggingface.co/blog/lerobot-release-v050) （Hugging Face Blog，2026-03-09T00:00:00+00:00）
+- [Bringing Robotics AI to Embedded Platforms: Dataset Recording, VLA Fine‑Tuning, and On‑Device Optimizations](https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms) （Hugging Face Blog，2026-03-05T14:16:49+00:00）
+- [Introducing Modular Diffusers - Composable Building Blocks for Diffusion Pipelines](https://huggingface.co/blog/modular-diffusers) （Hugging Face Blog，2026-03-05T00:00:00+00:00）
+- [PRX Part 3 — Training a Text-to-Image Model in 24h!](https://huggingface.co/blog/Photoroom/prx-part3) （Hugging Face Blog，2026-03-03T16:50:49+00:00）
+- [Mixture of Experts (MoEs) in Transformers](https://huggingface.co/blog/moe-transformers) （Hugging Face Blog，2026-02-26T00:00:00+00:00）
+- [GGML and llama.cpp join HF to ensure the long-term progress of Local AI](https://huggingface.co/blog/ggml-joins-hf) （Hugging Face Blog，2026-02-20T00:00:00+00:00）
+- [Train AI models with Unsloth and Hugging Face Jobs for FREE](https://huggingface.co/blog/unsloth-jobs) （Hugging Face Blog，2026-02-20T00:00:00+00:00）
+- [IBM and UC Berkeley Diagnose Why Enterprise Agents Fail Using IT-Bench and MAST](https://huggingface.co/blog/ibm-research/itbenchandmast) （Hugging Face Blog，2026-02-18T16:15:45+00:00）
+- [One-Shot Any Web App with Gradio's gr.HTML](https://huggingface.co/blog/gradio-html-one-shot-apps) （Hugging Face Blog，2026-02-18T00:00:00+00:00）
+- [Custom Kernels for All from Codex and Claude](https://huggingface.co/blog/custom-cuda-kernels-agent-skills) （Hugging Face Blog，2026-02-13T00:00:00+00:00）
+- [OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments](https://huggingface.co/blog/openenv-turing) （Hugging Face Blog，2026-02-12T00:00:00+00:00）
+- [Transformers.js v4: Now Available on NPM!](https://huggingface.co/blog/transformersjs-v4) （Hugging Face Blog，2026-02-09T00:00:00+00:00）
+- [Introducing SyGra Studio](https://huggingface.co/blog/ServiceNow-AI/sygra-studio) （Hugging Face Blog，2026-02-05T16:52:28+00:00）
+- [Community Evals: Because we're done trusting black-box leaderboards over the community](https://huggingface.co/blog/community-evals) （Hugging Face Blog，2026-02-04T00:00:00+00:00）
+- [H Company's new Holo2 model takes the lead in UI Localization](https://huggingface.co/blog/Hcompany/introducing-holo2-235b-a22b) （Hugging Face Blog，2026-02-03T17:40:14+00:00）
+- [The Future of the Global Open-Source AI Ecosystem: From DeepSeek to AI+](https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-3) （Hugging Face Blog，2026-02-03T15:03:19+00:00）
+- [Training Design for Text-to-Image Models: Lessons from Ablations](https://huggingface.co/blog/Photoroom/prx-part2) （Hugging Face Blog，2026-02-03T11:25:53+00:00）
+- [Introducing Daggr: Chain apps programmatically, inspect visually](https://huggingface.co/blog/daggr) （Hugging Face Blog，2026-01-29T00:00:00+00:00）
+- [We Got Claude to Build CUDA Kernels and teach open models!](https://huggingface.co/blog/upskill) （Hugging Face Blog，2026-01-28T00:00:00+00:00）
+- [Architectural Choices in China's Open-Source AI Ecosystem: Building Beyond DeepSeek](https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-2) （Hugging Face Blog，2026-01-27T15:01:45+00:00）
+- [Alyah ⭐️: Toward Robust Evaluation of Emirati Dialect Capabilities in Arabic LLMs](https://huggingface.co/blog/tiiuae/emirati-benchmarks) （Hugging Face Blog，2026-01-27T10:26:42+00:00）
+- [Unlocking Agentic RL Training for GPT-OSS: A Practical Retrospective](https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl) （Hugging Face Blog，2026-01-27T01:53:15+00:00）
+- [AssetOpsBench: Bridging the Gap Between AI Agent Benchmarks and Industrial Reality](https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face) （Hugging Face Blog，2026-01-21T06:25:31+00:00）
+- [One Year Since the “DeepSeek Moment”](https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment) （Hugging Face Blog，2026-01-20T15:02:10+00:00）
+- [Differential Transformer V2](https://huggingface.co/blog/microsoft/diff-attn-v2) （Hugging Face Blog，2026-01-20T03:20:57+00:00）
+- [Introducing Waypoint-1: Real-time interactive video diffusion from Overworld](https://huggingface.co/blog/waypoint-1) （Hugging Face Blog，2026-01-20T00:00:00+00:00）
+- [Open Responses: What you need to know](https://huggingface.co/blog/open-responses) （Hugging Face Blog，2026-01-15T00:00:00+00:00）
+- [NVIDIA Cosmos Reason 2 Brings Advanced Reasoning To Physical AI](https://huggingface.co/blog/nvidia/nvidia-cosmos-reason-2-brings-advanced-reasoning) （Hugging Face Blog，2026-01-05T22:56:51+00:00）
+- [Introducing Falcon-H1-Arabic: Pushing the Boundaries of Arabic Language AI with Hybrid Architecture](https://huggingface.co/blog/tiiuae/falcon-h1-arabic) （Hugging Face Blog，2026-01-05T09:16:51+00:00）
+- [NVIDIA brings agents to life with DGX Spark and Reachy Mini](https://huggingface.co/blog/nvidia-reachy-mini) （Hugging Face Blog，2026-01-05T00:00:00+00:00）
+- [AprielGuard: A Guardrail for Safety and Adversarial Robustness in Modern LLM Systems](https://huggingface.co/blog/ServiceNow-AI/aprielguard) （Hugging Face Blog，2025-12-23T14:07:35+00:00）
+- [Tokenization in Transformers v5: Simpler, Clearer, and More Modular](https://huggingface.co/blog/tokenizers) （Hugging Face Blog，2025-12-18T00:00:00+00:00）
+- [The Open Evaluation Standard: Benchmarking NVIDIA Nemotron 3 Nano with NeMo Evaluator](https://huggingface.co/blog/nvidia/nemotron-3-nano-evaluation-recipe) （Hugging Face Blog，2025-12-17T13:22:18+00:00）
+- [CUGA on Hugging Face: Democratizing Configurable AI Agents](https://huggingface.co/blog/ibm-research/cuga-on-hugging-face) （Hugging Face Blog，2025-12-15T16:01:04+00:00）
+- [New in llama.cpp: Model Management](https://huggingface.co/blog/ggml-org/model-management-in-llamacpp) （Hugging Face Blog，2025-12-11T15:47:44+00:00）
+- [Codex is Open Sourcing AI models](https://huggingface.co/blog/hf-skills-training-codex) （Hugging Face Blog，2025-12-11T00:00:00+00:00）
+- [Introducing swift-huggingface: The Complete Swift Client for Hugging Face](https://huggingface.co/blog/swift-huggingface) （Hugging Face Blog，2025-12-05T00:00:00+00:00）
+- [DeepMath: A lightweight math reasoning Agent with smolagents](https://huggingface.co/blog/intel-deepmath) （Hugging Face Blog，2025-12-04T00:00:00+00:00）
+- [We Got Claude to Fine-Tune an Open Source LLM](https://huggingface.co/blog/hf-skills-training) （Hugging Face Blog，2025-12-04T00:00:00+00:00）
+- [Transformers v5: Simple model definitions powering the AI ecosystem](https://huggingface.co/blog/transformers-v5) （Hugging Face Blog，2025-12-01T00:00:00+00:00）
+- [Diffusers welcomes FLUX-2](https://huggingface.co/blog/flux-2) （Hugging Face Blog，2025-11-25T00:00:00+00:00）
+- [Continuous batching from first principles](https://huggingface.co/blog/continuous_batching) （Hugging Face Blog，2025-11-25T00:00:00+00:00）
+- [Building Deep Research: How we Achieved State of the Art](https://huggingface.co/blog/Tavily/tavily-deep-research) （Hugging Face Blog，2025-11-24T17:40:14+00:00）
+- [OVHcloud on Hugging Face Inference Providers 🔥](https://huggingface.co/blog/OVHcloud/inference-providers-ovhcloud) （Hugging Face Blog，2025-11-24T16:08:47+00:00）
+- [20x Faster TRL Fine-tuning with RapidFire AI](https://huggingface.co/blog/rapidfireai) （Hugging Face Blog，2025-11-21T00:00:00+00:00）
+- [Open ASR Leaderboard: Trends and Insights with New Multilingual & Long-Form Tracks](https://huggingface.co/blog/open-asr-leaderboard) （Hugging Face Blog，2025-11-21T00:00:00+00:00）
+- [Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms](https://huggingface.co/blog/anylanguagemodel) （Hugging Face Blog，2025-11-20T00:00:00+00:00）
+- [Apriel-H1: The Surprising Key to Distilling Efficient Reasoning Models](https://huggingface.co/blog/ServiceNow-AI/apriel-h1) （Hugging Face Blog，2025-11-19T05:19:07+00:00）
+- [Easily Build and Share ROCm Kernels with Hugging Face](https://huggingface.co/blog/build-rocm-kernels) （Hugging Face Blog，2025-11-17T00:00:00+00:00）
+- [Join the AMD Open Robotics Hackathon](https://huggingface.co/blog/amd/openroboticshackathon) （Hugging Face Blog，2025-11-13T21:37:26+00:00）
+- [Building for an Open Future - our new partnership with Google Cloud](https://huggingface.co/blog/google-cloud) （Hugging Face Blog，2025-11-13T00:00:00+00:00）
+- [Aligning to What? Rethinking Agent Generalization in MiniMax M2](https://huggingface.co/blog/MiniMax-AI/aligning-to-what) （Hugging Face Blog，2025-10-30T10:03:45+00:00）
+- [On the Shifting Global Compute Landscape](https://huggingface.co/blog/huggingface/shifting-compute-landscape) （Hugging Face Blog，2025-10-29T13:56:45+00:00）
+- [Building a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac](https://huggingface.co/blog/lerobotxnvidia-healthcare) （Hugging Face Blog，2025-10-29T00:00:00+00:00）
+- [How to Build a Healthcare Robot from Simulation to Deployment with NVIDIA Isaac for Healthcare](https://huggingface.co/blog/nvidia/nvidia-isaac-for-healthcare) （Hugging Face Blog，2025-10-28T20:42:35+00:00）
+- [Granite 4.0 Nano: Just how small can you go?](https://huggingface.co/blog/ibm-granite/granite-4-nano) （Hugging Face Blog，2025-10-28T14:59:38+00:00）
+- [Voice Cloning with Consent](https://huggingface.co/blog/voice-consent-gate) （Hugging Face Blog，2025-10-28T00:00:00+00:00）
+- [Streaming datasets: 100x More Efficient](https://huggingface.co/blog/streaming-datasets) （Hugging Face Blog，2025-10-27T00:00:00+00:00）
+- [huggingface_hub v1.0: Five Years of Building the Foundation of Open Machine Learning](https://huggingface.co/blog/huggingface-hub-v1) （Hugging Face Blog，2025-10-27T00:00:00+00:00）
+- [LeRobot v0.4.0: Supercharging OSS Robot Learning](https://huggingface.co/blog/lerobot-release-v040) （Hugging Face Blog，2025-10-24T00:00:00+00:00）
+- [Building the Open Agent Ecosystem Together: Introducing OpenEnv](https://huggingface.co/blog/openenv) （Hugging Face Blog，2025-10-23T00:00:00+00:00）
+- [Hugging Face and VirusTotal collaborate to strengthen AI security](https://huggingface.co/blog/virustotal) （Hugging Face Blog，2025-10-22T00:00:00+00:00）
+- [Sentence Transformers is joining Hugging Face!](https://huggingface.co/blog/sentence-transformers-joins-hf) （Hugging Face Blog，2025-10-22T00:00:00+00:00）
+- [Supercharge your OCR Pipelines with Open Models](https://huggingface.co/blog/ocr-open-models) （Hugging Face Blog，2025-10-21T00:00:00+00:00）
+- [Unlock the power of images with AI Sheets](https://huggingface.co/blog/aisheets-unlock-images) （Hugging Face Blog，2025-10-21T00:00:00+00:00）
+- [AI for Food Allergies](https://huggingface.co/blog/hugging-science/ai-for-food-allergies) （Hugging Face Blog，2025-10-16T22:38:11+00:00）
+- [Google Cloud C4 Brings a 70% TCO improvement on GPT OSS with Intel and Hugging Face](https://huggingface.co/blog/gpt-oss-on-intel-xeon) （Hugging Face Blog，2025-10-16T00:00:00+00:00）
+- [Get your VLM running in 3 simple steps on Intel CPUs](https://huggingface.co/blog/openvino-vlm) （Hugging Face Blog，2025-10-15T00:00:00+00:00）
+- [Nemotron-Personas-India: Synthesized Data for Sovereign AI](https://huggingface.co/blog/nvidia/nemotron-personas-india) （Hugging Face Blog，2025-10-13T23:00:42+00:00）
+- [Arm will be @ PyTorch Conference, Join Us!](https://huggingface.co/blog/Arm/arm-at-pytorch-conference) （Hugging Face Blog，2025-10-10T17:35:04+00:00）
+- [BigCodeArena: Judging code generations end to end with code executions](https://huggingface.co/blog/bigcode/arena) （Hugging Face Blog，2025-10-07T09:37:25+00:00）
+- [SOTA OCR with Core ML and dots.ocr](https://huggingface.co/blog/dots-ocr-ne) （Hugging Face Blog，2025-10-02T00:00:00+00:00）
+- [Introducing RTEB: A New Standard for Retrieval Evaluation](https://huggingface.co/blog/rteb) （Hugging Face Blog，2025-10-01T00:00:00+00:00）
+- [Accelerating Qwen3-8B Agent on Intel® Core™ Ultra with Depth-Pruned Draft Models](https://huggingface.co/blog/intel-qwen3-agent) （Hugging Face Blog，2025-09-29T00:00:00+00:00）
+- [VibeGame: Exploring Vibe Coding Games](https://huggingface.co/blog/vibegame) （Hugging Face Blog，2025-09-29T00:00:00+00:00）
+- [Nemotron-Personas-Japan: ソブリン AI のための合成データセット](https://huggingface.co/blog/nvidia/nemotron-personas-japan-ja) （Hugging Face Blog，2025-09-26T06:25:50+00:00）
+- [Swift Transformers Reaches 1.0 – and Looks to the Future](https://huggingface.co/blog/swift-transformers) （Hugging Face Blog，2025-09-26T00:00:00+00:00）
+- [Smol2Operator: Post-Training GUI Agents for Computer Use](https://huggingface.co/blog/smol2operator) （Hugging Face Blog，2025-09-23T00:00:00+00:00）
+- [SyGra: The One-Stop Framework for Building Data for LLMs and SLMs](https://huggingface.co/blog/ServiceNow-AI/sygra-data-gen-framework) （Hugging Face Blog，2025-09-22T06:45:05+00:00）
+- [Gaia2 and ARE: Empowering the community to study agents](https://huggingface.co/blog/gaia2) （Hugging Face Blog，2025-09-22T00:00:00+00:00）
+- [Scaleway on Hugging Face Inference Providers 🔥](https://huggingface.co/blog/inference-providers-scaleway) （Hugging Face Blog，2025-09-19T00:00:00+00:00）
+- [Democratizing AI Safety with RiskRubric.ai](https://huggingface.co/blog/riskrubric) （Hugging Face Blog，2025-09-18T00:00:00+00:00）
+- [Public AI on Hugging Face Inference Providers 🔥](https://huggingface.co/blog/inference-providers-publicai) （Hugging Face Blog，2025-09-17T00:00:00+00:00）
+- [`LeRobotDataset:v3.0`: Bringing large-scale datasets to `lerobot`](https://huggingface.co/blog/lerobot-datasets-v3) （Hugging Face Blog，2025-09-16T00:00:00+00:00）
+- [Visible Watermarking with Gradio](https://huggingface.co/blog/watermarking-with-gradio) （Hugging Face Blog，2025-09-15T00:00:00+00:00）
+- [Introducing the Palmyra-mini family: Powerful, lightweight, and ready to reason!](https://huggingface.co/blog/Writer/announcing-palmyra-mini) （Hugging Face Blog，2025-09-11T20:04:44+00:00）
+- [Tricks from OpenAI gpt-oss YOU 🫵 can use with transformers](https://huggingface.co/blog/faster-transformers) （Hugging Face Blog，2025-09-11T00:00:00+00:00）
+- [Fine-tune Any LLM from the Hugging Face Hub with Together AI](https://huggingface.co/blog/togethercomputer/together-ft) （Hugging Face Blog，2025-09-10T17:04:36+00:00）
+- [Jupyter Agents: training LLMs to reason with notebooks](https://huggingface.co/blog/jupyter-agent-2) （Hugging Face Blog，2025-09-10T00:00:00+00:00）
+- [mmBERT: ModernBERT goes Multilingual](https://huggingface.co/blog/mmbert) （Hugging Face Blog，2025-09-09T00:00:00+00:00）
+- [Welcome EmbeddingGemma, Google's new efficient embedding model](https://huggingface.co/blog/embeddinggemma) （Hugging Face Blog，2025-09-04T00:00:00+00:00）
+- [SAIR: Accelerating Pharma R&D with AI-Powered Structural Intelligence](https://huggingface.co/blog/SandboxAQ/sair-data-accelerating-drug-discovery-with-ai) （Hugging Face Blog，2025-09-02T16:54:29+00:00）
+- [Make your ZeroGPU Spaces go brrr with ahead-of-time compilation](https://huggingface.co/blog/zerogpu-aoti) （Hugging Face Blog，2025-09-02T00:00:00+00:00）
+- [NVIDIA Releases 6 Million Multi-Lingual Reasoning Dataset](https://huggingface.co/blog/nvidia/multilingual-reasoning-v1) （Hugging Face Blog，2025-08-20T22:13:18+00:00）
+- [Generate Images with Claude and Hugging Face](https://huggingface.co/blog/claude-and-mcp) （Hugging Face Blog，2025-08-19T00:00:00+00:00）
+- [From Zero to GPU: A Guide to Building and Scaling Production-Ready CUDA Kernels](https://huggingface.co/blog/kernel-builder) （Hugging Face Blog，2025-08-18T00:00:00+00:00）
+- [MCP for Research: How to Connect AI to Research Tools](https://huggingface.co/blog/mcp-for-research) （Hugging Face Blog，2025-08-18T00:00:00+00:00）
+- [Kimina-Prover-RL](https://huggingface.co/blog/AI-MO/kimina-prover-rl) （Hugging Face Blog，2025-08-14T12:13:01+00:00）
+- [Arm & ExecuTorch 0.7: Bringing Generative AI to the masses](https://huggingface.co/blog/Arm/executorch-0-dot-7) （Hugging Face Blog，2025-08-13T14:55:10+00:00）
+- [Neural Super Sampling is here!](https://huggingface.co/blog/Arm/neural-super-sampling) （Hugging Face Blog，2025-08-12T14:52:08+00:00）
+- [TextQuests: How Good are LLMs at Text-Based Video Games?](https://huggingface.co/blog/textquests) （Hugging Face Blog，2025-08-12T00:00:00+00:00）
+- [🇵🇭 FilBench - Can LLMs Understand and Generate Filipino?](https://huggingface.co/blog/filbench) （Hugging Face Blog，2025-08-12T00:00:00+00:00）
+- [Introducing AI Sheets: a tool to work with datasets using open AI models!](https://huggingface.co/blog/aisheets) （Hugging Face Blog，2025-08-08T00:00:00+00:00）
+- [Accelerate ND-Parallel: A guide to Efficient Multi-GPU Training](https://huggingface.co/blog/accelerate-nd-parallel) （Hugging Face Blog，2025-08-08T00:00:00+00:00）
+- [Vision Language Model Alignment in TRL ⚡️](https://huggingface.co/blog/trl-vlm-alignment) （Hugging Face Blog，2025-08-07T00:00:00+00:00）
+- [Welcome GPT OSS, the new open-source model family from OpenAI!](https://huggingface.co/blog/welcome-openai-gpt-oss) （Hugging Face Blog，2025-08-05T00:00:00+00:00）
+- [Measuring Open-Source Llama Nemotron Models on DeepResearch Bench](https://huggingface.co/blog/nvidia/ai-q-top-ranking-open-portable-deep-research-agent) （Hugging Face Blog，2025-08-04T19:51:50+00:00）
+- [📚 3LM: A Benchmark for Arabic LLMs in STEM and Code](https://huggingface.co/blog/tiiuae/3lm-benchmark) （Hugging Face Blog，2025-08-01T14:25:21+00:00）
+- [Implementing MCP Servers in Python: An AI Shopping Assistant with Gradio](https://huggingface.co/blog/gradio-vton-mcp) （Hugging Face Blog，2025-07-31T00:00:00+00:00）
+- [Introducing Trackio: A Lightweight Experiment Tracking Library from Hugging Face](https://huggingface.co/blog/trackio) （Hugging Face Blog，2025-07-29T00:00:00+00:00）
+- [Say hello to `hf`: a faster, friendlier Hugging Face CLI ✨](https://huggingface.co/blog/hf-cli) （Hugging Face Blog，2025-07-25T00:00:00+00:00）
+- [Parquet Content-Defined Chunking](https://huggingface.co/blog/parquet-cdc) （Hugging Face Blog，2025-07-25T00:00:00+00:00）
+- [TimeScope: How Long Can Your Video Large Multimodal Model Go?](https://huggingface.co/blog/timescope-video-lmm-benchmark) （Hugging Face Blog，2025-07-23T00:00:00+00:00）
+- [Fast LoRA inference for Flux with Diffusers and PEFT](https://huggingface.co/blog/lora-fast) （Hugging Face Blog，2025-07-23T00:00:00+00:00）
+- [Accelerate a World of LLMs on Hugging Face with NVIDIA NIM](https://huggingface.co/blog/nvidia/multi-llm-nim) （Hugging Face Blog，2025-07-21T18:01:30+00:00）
+- [Arc Virtual Cell Challenge: A Primer](https://huggingface.co/blog/virtual-cell-challenge) （Hugging Face Blog，2025-07-18T00:00:00+00:00）
+- [Consilium: When Multiple LLMs Collaborate](https://huggingface.co/blog/consilium-multi-llm) （Hugging Face Blog，2025-07-17T00:00:00+00:00）
+- [Back to The Future: Evaluating AI Agents on Predicting Future Events](https://huggingface.co/blog/futurebench) （Hugging Face Blog，2025-07-17T00:00:00+00:00）
+- [Five Big Improvements to Gradio MCP Servers](https://huggingface.co/blog/gradio-mcp-updates) （Hugging Face Blog，2025-07-17T00:00:00+00:00）
+- [Ettin Suite: SoTA Paired Encoders and Decoders](https://huggingface.co/blog/ettin) （Hugging Face Blog，2025-07-16T00:00:00+00:00）
+- [Migrating the Hub from Git LFS to Xet](https://huggingface.co/blog/migrating-the-hub-to-xet) （Hugging Face Blog，2025-07-15T00:00:00+00:00）
+- [Kimina-Prover: Applying Test-time RL Search on Large Formal Reasoning Models](https://huggingface.co/blog/AI-MO/kimina-prover) （Hugging Face Blog，2025-07-10T12:54:19+00:00）
+- [Asynchronous Robot Inference: Decoupling Action Prediction and Execution](https://huggingface.co/blog/async-robot-inference) （Hugging Face Blog，2025-07-10T00:00:00+00:00）
+- [ScreenEnv: Deploy your full stack Desktop Agent](https://huggingface.co/blog/screenenv) （Hugging Face Blog，2025-07-10T00:00:00+00:00）
+- [Building the Hugging Face MCP Server](https://huggingface.co/blog/building-hf-mcp) （Hugging Face Blog，2025-07-10T00:00:00+00:00）
+- [Reachy Mini - The Open-Source Robot for Today's and Tomorrow's AI Builders](https://huggingface.co/blog/reachy-mini) （Hugging Face Blog，2025-07-09T00:00:00+00:00）
+- [Creating custom kernels for the AMD MI300](https://huggingface.co/blog/mi300kernels) （Hugging Face Blog，2025-07-09T00:00:00+00:00）
+- [Upskill your LLMs With Gradio MCP Servers](https://huggingface.co/blog/gradio-mcp-servers) （Hugging Face Blog，2025-07-09T00:00:00+00:00）
+- [SmolLM3: smol, multilingual, long-context reasoner](https://huggingface.co/blog/smollm3) （Hugging Face Blog，2025-07-08T00:00:00+00:00）
+- [Three Mighty Alerts Supporting Hugging Face’s Production Infrastructure](https://huggingface.co/blog/infrastructure-alerting) （Hugging Face Blog，2025-07-08T00:00:00+00:00）
+- [Efficient MultiModal Data Pipeline](https://huggingface.co/blog/mmdp) （Hugging Face Blog，2025-07-08T00:00:00+00:00）
+- [Announcing NeurIPS 2025 E2LM Competition: Early Training Evaluation of Language Models](https://huggingface.co/blog/tiiuae/e2lm-competition) （Hugging Face Blog，2025-07-04T12:25:00+00:00）
+- [Training and Finetuning Sparse Embedding Models with Sentence Transformers](https://huggingface.co/blog/train-sparse-encoder) （Hugging Face Blog，2025-07-01T00:00:00+00:00）
+- [Welcome the NVIDIA Llama Nemotron Nano VLM to Hugging Face Hub](https://huggingface.co/blog/nvidia/llama-nemotron-nano-vl) （Hugging Face Blog，2025-06-27T21:09:27+00:00）
+- [Gemma 3n fully available in the open-source ecosystem!](https://huggingface.co/blog/gemma3n) （Hugging Face Blog，2025-06-26T00:00:00+00:00）
+- [Transformers backend integration in SGLang](https://huggingface.co/blog/transformers-backend-sglang) （Hugging Face Blog，2025-06-23T00:00:00+00:00）
+- [(LoRA) Fine-Tuning FLUX.1-dev on Consumer Hardware](https://huggingface.co/blog/flux-qlora) （Hugging Face Blog，2025-06-19T00:00:00+00:00）
+- [Groq on Hugging Face Inference Providers 🔥](https://huggingface.co/blog/inference-providers-groq) （Hugging Face Blog，2025-06-16T00:00:00+00:00）
+- [How Long Prompts Block Other Requests - Optimizing LLM Performance](https://huggingface.co/blog/tngtech/llm-performance-blocked-by-long-prompts) （Hugging Face Blog，2025-06-12T08:00:13+00:00）
+- [Learn the Hugging Face Kernel Hub in 5 Minutes](https://huggingface.co/blog/hello-hf-kernels) （Hugging Face Blog，2025-06-12T00:00:00+00:00）
+- [Featherless AI on Hugging Face Inference Providers 🔥](https://huggingface.co/blog/inference-providers-featherless) （Hugging Face Blog，2025-06-12T00:00:00+00:00）
+- [Post-Training Isaac GR00T N1.5 for LeRobot SO-101 Arm](https://huggingface.co/blog/nvidia/gr00t-n1-5-so101-tuning) （Hugging Face Blog，2025-06-11T18:27:22+00:00）
+- [Introducing Training Cluster as a Service - a new collaboration with NVIDIA](https://huggingface.co/blog/nvidia-training-cluster) （Hugging Face Blog，2025-06-11T00:00:00+00:00）
+- [ScreenSuite - The most comprehensive evaluation suite for GUI Agents!](https://huggingface.co/blog/screensuite) （Hugging Face Blog，2025-06-06T00:00:00+00:00）
+- [KV Cache from scratch in nanoVLM](https://huggingface.co/blog/kv-cache) （Hugging Face Blog，2025-06-04T00:00:00+00:00）
+- [Real-Time AI Sound Generation on Arm: A Personal Tool for Creative Freedom](https://huggingface.co/blog/Arm/ai-sound-gen-on-arm) （Hugging Face Blog，2025-06-03T15:04:36+00:00）
+- [Holo1: New family of GUI automation VLMs powering GUI agent Surfer-H](https://huggingface.co/blog/Hcompany/holo1) （Hugging Face Blog，2025-06-03T13:27:59+00:00）
+- [SmolVLA: Efficient Vision-Language-Action Model trained on Lerobot Community Data](https://huggingface.co/blog/smolvla) （Hugging Face Blog，2025-06-03T00:00:00+00:00）
+- [No GPU left behind: Unlocking Efficiency with Co-located vLLM in TRL](https://huggingface.co/blog/vllm-colocate) （Hugging Face Blog，2025-06-03T00:00:00+00:00）
+- [CodeAgents + Structure: A Better Way to Execute Actions](https://huggingface.co/blog/structured-codeagent) （Hugging Face Blog，2025-05-28T00:00:00+00:00）
+- [🐯 Liger GRPO meets TRL](https://huggingface.co/blog/liger-grpo) （Hugging Face Blog，2025-05-25T00:00:00+00:00）
+- [Dell Enterprise Hub is all you need to build AI on premises](https://huggingface.co/blog/dell-ai-applications) （Hugging Face Blog，2025-05-23T00:00:00+00:00）
+- [Tiny Agents in Python: a MCP-powered agent in ~70 lines of code](https://huggingface.co/blog/python-tiny-agents) （Hugging Face Blog，2025-05-23T00:00:00+00:00）
+- [Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance](https://huggingface.co/blog/tiiuae/falcon-h1) （Hugging Face Blog，2025-05-21T06:52:13+00:00）
+- [Falcon-Arabic: A Breakthrough in Arabic Language Models](https://huggingface.co/blog/tiiuae/falcon-arabic) （Hugging Face Blog，2025-05-21T06:35:36+00:00）
+- [Exploring Quantization Backends in Diffusers](https://huggingface.co/blog/diffusers-quantization) （Hugging Face Blog，2025-05-21T00:00:00+00:00）
+- [nanoVLM: The simplest repository to train your VLM in pure PyTorch](https://huggingface.co/blog/nanovlm) （Hugging Face Blog，2025-05-21T00:00:00+00:00）
+- [Microsoft and Hugging Face expand collaboration](https://huggingface.co/blog/azure-ai-foundry) （Hugging Face Blog，2025-05-19T00:00:00+00:00）
+- [Falcon-Edge: A series of powerful, universal, fine-tunable 1.58bit language models.](https://huggingface.co/blog/tiiuae/falcon-edge) （Hugging Face Blog，2025-05-15T13:13:45+00:00）
+- [The Transformers Library: standardizing model definitions](https://huggingface.co/blog/transformers-model-definition) （Hugging Face Blog，2025-05-15T00:00:00+00:00）
+- [Improving Hugging Face Model Access for Kaggle Users](https://huggingface.co/blog/kaggle-integration) （Hugging Face Blog，2025-05-14T00:00:00+00:00）
+- [Blazingly fast whisper transcriptions with Inference Endpoints](https://huggingface.co/blog/fast-whisper-endpoints) （Hugging Face Blog，2025-05-13T00:00:00+00:00）
+- [Vision Language Models (Better, faster, stronger)](https://huggingface.co/blog/vlms-2025) （Hugging Face Blog，2025-05-12T00:00:00+00:00）
+- [LeRobot Community Datasets: The “ImageNet” of Robotics — When and How?](https://huggingface.co/blog/lerobot-datasets) （Hugging Face Blog，2025-05-11T00:00:00+00:00）
+- [How to Build an MCP Server with Gradio](https://huggingface.co/blog/gradio-mcp) （Hugging Face Blog，2025-04-30T00:00:00+00:00）
+- [The 4 Things Qwen-3’s Chat Template Teaches Us](https://huggingface.co/blog/qwen-3-chat-template-deep-dive) （Hugging Face Blog，2025-04-30T00:00:00+00:00）
+- [Welcoming Llama Guard 4 on Hugging Face Hub](https://huggingface.co/blog/llama-guard-4) （Hugging Face Blog，2025-04-29T00:00:00+00:00）
+- [Introducing AutoRound: Intel’s Advanced Quantization for LLMs and VLMs](https://huggingface.co/blog/autoround) （Hugging Face Blog，2025-04-29T00:00:00+00:00）
+- [PipelineRL](https://huggingface.co/blog/ServiceNow/pipelinerl) （Hugging Face Blog，2025-04-25T22:37:16+00:00）
+- [Tiny Agents: an MCP-powered agent in 50 lines of code](https://huggingface.co/blog/tiny-agents) （Hugging Face Blog，2025-04-25T00:00:00+00:00）
+- [Finetuning olmOCR to be a faithful OCR-Engine](https://huggingface.co/blog/tngtech/finetuning-olmocr-to-be-a-faithful-ocr-engine) （Hugging Face Blog，2025-04-22T18:33:09+00:00）
+- [Prefill and Decode for Concurrent Requests - Optimizing LLM Performance](https://huggingface.co/blog/tngtech/llm-performance-prefill-decode-concurrent-requests) （Hugging Face Blog，2025-04-16T10:10:58+00:00）
+- [17 Reasons Why Gradio Isn't Just Another UI Library](https://huggingface.co/blog/why-gradio-stands-out) （Hugging Face Blog，2025-04-16T00:00:00+00:00）
+- [Cohere on Hugging Face Inference Providers 🔥](https://huggingface.co/blog/inference-providers-cohere) （Hugging Face Blog，2025-04-16T00:00:00+00:00）
+- [Introducing HELMET: Holistically Evaluating Long-context Language Models](https://huggingface.co/blog/helmet) （Hugging Face Blog，2025-04-16T00:00:00+00:00）
+- [Hugging Face to sell open-source robots thanks to Pollen Robotics acquisition 🤖](https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition) （Hugging Face Blog，2025-04-14T00:00:00+00:00）
+- [4M Models Scanned: Protect AI + Hugging Face 6 Months In](https://huggingface.co/blog/pai-6-month) （Hugging Face Blog，2025-04-14T00:00:00+00:00）
+- [Visual Salamandra: Pushing the Boundaries of Multimodal Understanding](https://huggingface.co/blog/BSC-LT/visualsalamandra7b) （Hugging Face Blog，2025-04-11T14:21:56+00:00）
+- [Hugging Face and Cloudflare Partner to Make Real-Time Speech and Video Seamless with FastRTC](https://huggingface.co/blog/fastrtc-cloudflare) （Hugging Face Blog，2025-04-09T00:00:00+00:00）
+- [Arabic Leaderboards: Introducing Arabic Instruction Following, Updating AraGen, and More](https://huggingface.co/blog/leaderboard-3c3h-aragen-ifeval) （Hugging Face Blog，2025-04-08T00:00:00+00:00）
+- [Welcome Llama 4 Maverick & Scout on Hugging Face](https://huggingface.co/blog/llama4-release) （Hugging Face Blog，2025-04-05T00:00:00+00:00）
+- [Journey to 1 Million Gradio Users!](https://huggingface.co/blog/gradio-1m) （Hugging Face Blog，2025-04-04T00:00:00+00:00）
+- [The NLP Course is becoming the LLM Course](https://huggingface.co/blog/llm-course) （Hugging Face Blog，2025-04-03T00:00:00+00:00）
+- [Efficient Request Queueing – Optimizing LLM Performance](https://huggingface.co/blog/tngtech/llm-performance-request-queueing) （Hugging Face Blog，2025-04-02T13:33:53+00:00）
+- [How Hugging Face Scaled Secrets Management for AI Infrastructure](https://huggingface.co/blog/scaling-secrets-management) （Hugging Face Blog，2025-03-31T00:00:00+00:00）
+- [🚀 Accelerating LLM Inference with TGI on Intel Gaudi](https://huggingface.co/blog/intel-gaudi-backend-for-tgi) （Hugging Face Blog，2025-03-28T00:00:00+00:00）
+- [Open R1: Update #4](https://huggingface.co/blog/open-r1/update-4) （Hugging Face Blog，2025-03-26T18:47:29+00:00）
+- [Training and Finetuning Reranker Models with Sentence Transformers](https://huggingface.co/blog/train-reranker) （Hugging Face Blog，2025-03-26T00:00:00+00:00）
+- [Introducing Gradio's new Dataframe!](https://huggingface.co/blog/gradio-dataframe-upgrade) （Hugging Face Blog，2025-03-24T00:00:00+00:00）
+- [The New and Fresh analytics in Inference Endpoints](https://huggingface.co/blog/endpoint-analytics) （Hugging Face Blog，2025-03-21T00:00:00+00:00）
+- [Open R1: How to use OlympicCoder locally for coding](https://huggingface.co/blog/olympic-coder-lmstudio) （Hugging Face Blog，2025-03-20T00:00:00+00:00）
+- [AI Policy @🤗: Response to the White House AI Action Plan RFI](https://huggingface.co/blog/ai-action-wh-2025) （Hugging Face Blog，2025-03-19T00:00:00+00:00）
+- [NVIDIA's GTC 2025 Announcement for Physical AI Developers: New Open Models and Datasets](https://huggingface.co/blog/nvidia-physical-ai) （Hugging Face Blog，2025-03-18T00:00:00+00:00）
+- [Xet is on the Hub](https://huggingface.co/blog/xet-on-the-hub) （Hugging Face Blog，2025-03-18T00:00:00+00:00）
+- [Welcome Gemma 3: Google's all new multimodal, multilingual, long context open LLM](https://huggingface.co/blog/gemma3) （Hugging Face Blog，2025-03-12T00:00:00+00:00）
+- [Open R1: Update #3](https://huggingface.co/blog/open-r1/update-3) （Hugging Face Blog，2025-03-11T20:40:47+00:00）
+- [LeRobot goes to driving school: World’s largest open-source self-driving dataset](https://huggingface.co/blog/lerobot-goes-to-driving-school) （Hugging Face Blog，2025-03-11T00:00:00+00:00）
+- [LLM Inference on Edge: A Fun and Easy Guide to run LLMs via React Native on your Phone!](https://huggingface.co/blog/llm-inference-on-edge) （Hugging Face Blog，2025-03-07T00:00:00+00:00）
+- [Hugging Face and JFrog partner to make AI Security more transparent](https://huggingface.co/blog/jfrog) （Hugging Face Blog，2025-03-04T00:00:00+00:00）
+- [A Deepdive into Aya Vision: Advancing the Frontier of Multilingual Multimodality](https://huggingface.co/blog/aya-vision) （Hugging Face Blog，2025-03-04T00:00:00+00:00）
+- [Trace & Evaluate your Agent with Arize Phoenix](https://huggingface.co/blog/smolagents-phoenix) （Hugging Face Blog，2025-02-28T00:00:00+00:00）
+- [HuggingFace, IISc partner to supercharge model building on India's diverse languages](https://huggingface.co/blog/iisc-huggingface-collab) （Hugging Face Blog，2025-02-27T00:00:00+00:00）
+- [FastRTC: The Real-Time Communication Library for Python](https://huggingface.co/blog/fastrtc) （Hugging Face Blog，2025-02-25T00:00:00+00:00）
+- [Remote VAEs for decoding with Inference Endpoints 🤗](https://huggingface.co/blog/remote_vae) （Hugging Face Blog，2025-02-24T00:00:00+00:00）
+- [SigLIP 2: A better multilingual vision language encoder](https://huggingface.co/blog/siglip2) （Hugging Face Blog，2025-02-21T00:00:00+00:00）
+- [SmolVLM2: Bringing Video Understanding to Every Device](https://huggingface.co/blog/smolvlm2) （Hugging Face Blog，2025-02-20T00:00:00+00:00）
+- [PaliGemma 2 Mix - New Instruction Vision Language Models by Google](https://huggingface.co/blog/paligemma2mix) （Hugging Face Blog，2025-02-19T00:00:00+00:00）
+- [Introducing Three New Serverless Inference Providers: Hyperbolic, Nebius AI Studio, and Novita 🔥](https://huggingface.co/blog/inference-providers-nebius-novita-hyperbolic) （Hugging Face Blog，2025-02-18T00:00:00+00:00）
+- [Welcome Fireworks.ai on the Hub 🎆](https://huggingface.co/blog/fireworks-ai) （Hugging Face Blog，2025-02-14T00:00:00+00:00）
+- [Fixing Open LLM Leaderboard with Math-Verify](https://huggingface.co/blog/math_verify_leaderboard) （Hugging Face Blog，2025-02-14T00:00:00+00:00）
+- [1 Billion Classifications](https://huggingface.co/blog/billion-classifications) （Hugging Face Blog，2025-02-13T00:00:00+00:00）
+- [From Chunks to Blocks: Accelerating Uploads and Downloads on the Hub](https://huggingface.co/blog/from-chunks-to-blocks) （Hugging Face Blog，2025-02-12T00:00:00+00:00）
+- [Build awesome datasets for video generation](https://huggingface.co/blog/vid_ds_scripts) （Hugging Face Blog，2025-02-12T00:00:00+00:00）
+- [Open R1: Update #2](https://huggingface.co/blog/open-r1/update-2) （Hugging Face Blog，2025-02-10T16:10:47+00:00）
+- [The Open Arabic LLM Leaderboard 2](https://huggingface.co/blog/leaderboard-arabic-v2) （Hugging Face Blog，2025-02-10T00:00:00+00:00）
+- [Open-source DeepResearch – Freeing our search agents](https://huggingface.co/blog/open-deep-research) （Hugging Face Blog，2025-02-04T00:00:00+00:00）
+- [π0 and π0-FAST: Vision-Language-Action Models for General Robot Control](https://huggingface.co/blog/pi0) （Hugging Face Blog，2025-02-04T00:00:00+00:00）
+- [DABStep: Data Agent Benchmark for Multi-step Reasoning](https://huggingface.co/blog/dabstep) （Hugging Face Blog，2025-02-04T00:00:00+00:00）
+- [Open-R1: Update #1](https://huggingface.co/blog/open-r1/update-1) （Hugging Face Blog，2025-02-02T00:04:28+00:00）
+- [Mini-R1: Reproduce Deepseek R1 „aha moment“ a RL tutorial](https://huggingface.co/blog/open-r1/mini-r1-contdown-game) （Hugging Face Blog，2025-01-31T10:29:40+00:00）
+- [The AI tools for Art Newsletter - Issue 1](https://huggingface.co/blog/ai-art-newsletter-jan-25) （Hugging Face Blog，2025-01-31T00:00:00+00:00）
+- [How to deploy and fine-tune DeepSeek models on AWS](https://huggingface.co/blog/deepseek-r1-aws) （Hugging Face Blog，2025-01-30T00:00:00+00:00）
+- [Welcome to Inference Providers on the Hub 🔥](https://huggingface.co/blog/inference-providers) （Hugging Face Blog，2025-01-28T00:00:00+00:00）
+- [Open-R1: a fully open reproduction of DeepSeek-R1](https://huggingface.co/blog/open-r1) （Hugging Face Blog，2025-01-28T00:00:00+00:00）
+- [State of open video generation models in Diffusers](https://huggingface.co/blog/video_gen) （Hugging Face Blog，2025-01-27T00:00:00+00:00）
+- [We now support VLMs in smolagents!](https://huggingface.co/blog/smolagents-can-see) （Hugging Face Blog，2025-01-24T00:00:00+00:00）
+- [Mastering Long Contexts in LLMs with KVPress](https://huggingface.co/blog/nvidia/kvpress) （Hugging Face Blog，2025-01-23T08:03:03+00:00）
+- [SmolVLM Grows Smaller – Introducing the 256M & 500M Models!](https://huggingface.co/blog/smolervlm) （Hugging Face Blog，2025-01-23T00:00:00+00:00）
+- [Hugging Face and FriendliAI partner to supercharge model deployment on the Hub](https://huggingface.co/blog/friendliai-partnership) （Hugging Face Blog，2025-01-22T00:00:00+00:00）
+- [Yay! Organizations can now publish blog Articles](https://huggingface.co/blog/huggingface/blog-articles-for-orgs) （Hugging Face Blog，2025-01-20T18:58:24+00:00）
+- [Timm ❤️ Transformers: Use any timm model with transformers](https://huggingface.co/blog/timm-transformers) （Hugging Face Blog，2025-01-16T00:00:00+00:00）
+- [Introducing multi-backends (TRT-LLM, vLLM) support for Text Generation Inference](https://huggingface.co/blog/tgi-multi-backend) （Hugging Face Blog，2025-01-16T00:00:00+00:00）
+- [Train 400x faster Static Embedding Models with Sentence Transformers](https://huggingface.co/blog/static-embeddings) （Hugging Face Blog，2025-01-15T00:00:00+00:00）
+- [AI Agents Are Here. What Now?](https://huggingface.co/blog/ethics-soc-7) （Hugging Face Blog，2025-01-13T00:00:00+00:00）
+- [Visual Document Retrieval Goes Multilingual](https://huggingface.co/blog/vdr-2b-multilingual) （Hugging Face Blog，2025-01-10T00:00:00+00:00）
+- [CO₂ Emissions and Models Performance: Insights from the Open LLM Leaderboard](https://huggingface.co/blog/leaderboard-emissions-analysis) （Hugging Face Blog，2025-01-09T00:00:00+00:00）
+- [Introducing smolagents: simple agents that write actions in code.](https://huggingface.co/blog/smolagents) （Hugging Face Blog，2024-12-31T00:00:00+00:00）
+- [Visualize and understand GPU memory in PyTorch](https://huggingface.co/blog/train_memory) （Hugging Face Blog，2024-12-24T00:00:00+00:00）
+- [Controlling Language Model Generation with NVIDIA's LogitsProcessorZoo](https://huggingface.co/blog/logits-processor-zoo) （Hugging Face Blog，2024-12-23T00:00:00+00:00）
+- [Evaluating Audio Reasoning with Big Bench Audio](https://huggingface.co/blog/big-bench-audio-release) （Hugging Face Blog，2024-12-20T00:00:00+00:00）
+- [Finally, a Replacement for BERT: Introducing ModernBERT](https://huggingface.co/blog/modernbert) （Hugging Face Blog，2024-12-19T00:00:00+00:00）
+- [Bamba: Inference-Efficient Hybrid Mamba2 Model](https://huggingface.co/blog/bamba) （Hugging Face Blog，2024-12-18T00:00:00+00:00）
+- [Welcome to the Falcon 3 Family of Open Models!](https://huggingface.co/blog/falcon3) （Hugging Face Blog，2024-12-17T00:00:00+00:00）
+- [Benchmarking Language Model Performance on 5th Gen Xeon at GCP](https://huggingface.co/blog/intel-gcp-c4) （Hugging Face Blog，2024-12-17T00:00:00+00:00）
+- [Introducing the Synthetic Data Generator - Build Datasets with Natural Language](https://huggingface.co/blog/synthetic-data-generator) （Hugging Face Blog，2024-12-16T00:00:00+00:00）
+- [LeMaterial: an open source initiative to accelerate materials discovery and research](https://huggingface.co/blog/lematerial) （Hugging Face Blog，2024-12-10T00:00:00+00:00）
+- [Hugging Face models in Amazon Bedrock](https://huggingface.co/blog/bedrock-marketplace) （Hugging Face Blog，2024-12-09T00:00:00+00:00）
+- [Open Preference Dataset for Text-to-Image Generation by the 🤗 Community](https://huggingface.co/blog/image-preferences) （Hugging Face Blog，2024-12-09T00:00:00+00:00）
+- [Welcome PaliGemma 2 – New vision language models by Google](https://huggingface.co/blog/paligemma2) （Hugging Face Blog，2024-12-05T00:00:00+00:00）
+- [How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs](https://huggingface.co/blog/keras-chatbot-arena) （Hugging Face Blog，2024-12-05T00:00:00+00:00）
+- [Rethinking LLM Evaluation with 3C3H: AraGen Benchmark and Leaderboard](https://huggingface.co/blog/leaderboard-3c3h-aragen) （Hugging Face Blog，2024-12-04T00:00:00+00:00）
+- [Investing in Performance: Fine-tune small models with LLM insights - a CFM case study](https://huggingface.co/blog/cfm-case-study) （Hugging Face Blog，2024-12-03T00:00:00+00:00）
+- [Open Source Developers Guide to the EU AI Act](https://huggingface.co/blog/eu-ai-act-for-oss-developers) （Hugging Face Blog，2024-12-02T00:00:00+00:00）
+- [Rearchitecting Hugging Face Uploads and Downloads](https://huggingface.co/blog/rearchitecting-uploads-and-downloads) （Hugging Face Blog，2024-11-26T00:00:00+00:00）
+- [SmolVLM - small yet mighty Vision Language Model](https://huggingface.co/blog/smolvlm) （Hugging Face Blog，2024-11-26T00:00:00+00:00）
+- [You could have designed state of the art positional encoding](https://huggingface.co/blog/designing-positional-encoding) （Hugging Face Blog，2024-11-25T00:00:00+00:00）
+- [Letting Large Models Debate: The First Multilingual LLM Debate Competition](https://huggingface.co/blog/debate) （Hugging Face Blog，2024-11-20T00:00:00+00:00）
+- [From Files to Chunks: Improving HF Storage Efficiency](https://huggingface.co/blog/from-files-to-chunks) （Hugging Face Blog，2024-11-20T00:00:00+00:00）
+- [Faster Text Generation with Self-Speculative Decoding](https://huggingface.co/blog/layerskip) （Hugging Face Blog，2024-11-20T00:00:00+00:00）
+- [Introducing the Open Leaderboard for Japanese LLMs!](https://huggingface.co/blog/leaderboard-japanese) （Hugging Face Blog，2024-11-20T00:00:00+00:00）
+- [Judge Arena: Benchmarking LLMs as Evaluators](https://huggingface.co/blog/arena-atla) （Hugging Face Blog，2024-11-19T00:00:00+00:00）
+- [Share your open ML datasets on Hugging Face Hub!](https://huggingface.co/blog/researcher-dataset-sharing) （Hugging Face Blog，2024-11-12T00:00:00+00:00）
+- [Hugging Face + PyCharm](https://huggingface.co/blog/pycharm-integration) （Hugging Face Blog，2024-11-05T00:00:00+00:00）
+- [Argilla 2.4: Easily Build Fine-Tuning and Evaluation Datasets on the Hub — No Code Required](https://huggingface.co/blog/argilla-ui-hub) （Hugging Face Blog，2024-11-04T00:00:00+00:00）
+- [Universal Assisted Generation: Faster Decoding with Any Assistant Model](https://huggingface.co/blog/universal_assisted_generation) （Hugging Face Blog，2024-10-29T00:00:00+00:00）
+- [Expert Support case study: Bolstering a RAG app with LLM-as-a-Judge](https://huggingface.co/blog/digital-green-llm-judge) （Hugging Face Blog，2024-10-28T00:00:00+00:00）
+- [A Deepdive into Aya Expanse: Advancing the Frontier of Multilinguality](https://huggingface.co/blog/aya-expanse) （Hugging Face Blog，2024-10-24T00:00:00+00:00）
+- [Introducing SynthID Text](https://huggingface.co/blog/synthid-text) （Hugging Face Blog，2024-10-23T00:00:00+00:00）
+- [Introducing HUGS - Scale your AI with Open Models](https://huggingface.co/blog/hugs) （Hugging Face Blog，2024-10-23T00:00:00+00:00）
+- [CinePile 2.0 - making stronger datasets with adversarial refinement](https://huggingface.co/blog/cinepile2) （Hugging Face Blog，2024-10-23T00:00:00+00:00）
+- [Hugging Face Teams Up with Protect AI: Enhancing Model Security for the ML Community](https://huggingface.co/blog/protectai) （Hugging Face Blog，2024-10-22T00:00:00+00:00）
+- [Transformers.js v3: WebGPU Support, New Models & Tasks, and More…](https://huggingface.co/blog/transformersjs-v3) （Hugging Face Blog，2024-10-22T00:00:00+00:00）
+- [Diffusers welcomes Stable Diffusion 3.5 Large](https://huggingface.co/blog/sd3-5) （Hugging Face Blog，2024-10-22T00:00:00+00:00）
+- [Releasing Outlines-core 0.1.0: structured generation in Rust and Python](https://huggingface.co/blog/outlines-core) （Hugging Face Blog，2024-10-22T00:00:00+00:00）
+- [Deploying Speech-to-Speech on Hugging Face](https://huggingface.co/blog/s2s_endpoint) （Hugging Face Blog，2024-10-22T00:00:00+00:00）
+- [“Llama 3.2 in Keras”](https://huggingface.co/blog/keras-llama-32) （Hugging Face Blog，2024-10-21T00:00:00+00:00）
+- [Fixing Gradient Accumulation](https://huggingface.co/blog/gradient_accumulation) （Hugging Face Blog，2024-10-16T00:00:00+00:00）
+- [Introducing the AMD 5th Gen EPYC™ CPU](https://huggingface.co/blog/huggingface-amd-turin) （Hugging Face Blog，2024-10-10T00:00:00+00:00）
+- [A Security Review of Gradio 5](https://huggingface.co/blog/gradio-5-security) （Hugging Face Blog，2024-10-10T00:00:00+00:00）
+- [Welcome, Gradio 5](https://huggingface.co/blog/gradio-5) （Hugging Face Blog，2024-10-09T00:00:00+00:00）
+- [Scaling AI-based Data Processing with Hugging Face + Dask](https://huggingface.co/blog/dask-scaling) （Hugging Face Blog，2024-10-09T00:00:00+00:00）
+- [Faster Assisted Generation with Dynamic Speculation](https://huggingface.co/blog/dynamic_speculation_lookahead) （Hugging Face Blog，2024-10-08T00:00:00+00:00）
+- [Improving Parquet Dedupe on Hugging Face Hub](https://huggingface.co/blog/improve_parquet_dedupe) （Hugging Face Blog，2024-10-05T00:00:00+00:00）
+- [Introducing the Open FinLLM Leaderboard](https://huggingface.co/blog/leaderboard-finbench) （Hugging Face Blog，2024-10-04T00:00:00+00:00）
+- [A Short Summary of Chinese AI Global Expansion](https://huggingface.co/blog/chinese-ai-expansion) （Hugging Face Blog，2024-10-03T00:00:00+00:00）
+- [🇨🇿 BenCzechMark - Can your LLM Understand Czech?](https://huggingface.co/blog/benczechmark) （Hugging Face Blog，2024-10-01T00:00:00+00:00）
+- [Converting Vertex-Colored Meshes to Textured Meshes](https://huggingface.co/blog/vertex-colored-to-textured-mesh) （Hugging Face Blog，2024-09-30T00:00:00+00:00）
+- [Llama can now see and run on your device - welcome Llama 3.2](https://huggingface.co/blog/llama32) （Hugging Face Blog，2024-09-25T00:00:00+00:00）
+- [FineVideo: behind the scenes](https://huggingface.co/blog/fine-video) （Hugging Face Blog，2024-09-23T00:00:00+00:00）
+- [Exploring the Daily Papers Page on Hugging Face](https://huggingface.co/blog/daily-papers) （Hugging Face Blog，2024-09-23T00:00:00+00:00）
+- [Optimize and deploy with Optimum-Intel and OpenVINO GenAI](https://huggingface.co/blog/deploy-with-openvino) （Hugging Face Blog，2024-09-20T00:00:00+00:00）
+- [Fine-tuning LLMs to 1.58bit: extreme quantization made easy](https://huggingface.co/blog/1_58_llm_extreme_quantization) （Hugging Face Blog，2024-09-18T00:00:00+00:00）
+- [Introducing the SQL Console on Datasets](https://huggingface.co/blog/sql-console) （Hugging Face Blog，2024-09-17T00:00:00+00:00）
+- [Introducing Community Tools on HuggingChat](https://huggingface.co/blog/community-tools) （Hugging Face Blog，2024-09-16T00:00:00+00:00）
+- [Accelerate 1.0.0](https://huggingface.co/blog/accelerate-v1) （Hugging Face Blog，2024-09-13T00:00:00+00:00）
+- [Hugging Face partners with TruffleHog to Scan for Secrets](https://huggingface.co/blog/trufflesecurity-partnership) （Hugging Face Blog，2024-09-04T00:00:00+00:00）
+- [Scaling robotics datasets with video encoding](https://huggingface.co/blog/video-encoding) （Hugging Face Blog，2024-08-27T00:00:00+00:00）
+- [The 5 Most Under-Rated Tools on Hugging Face](https://huggingface.co/blog/unsung-heroes) （Hugging Face Blog，2024-08-22T00:00:00+00:00）
+- [Improving Hugging Face Training Efficiency Through Packing with Flash Attention 2](https://huggingface.co/blog/packing-with-FA2) （Hugging Face Blog，2024-08-21T00:00:00+00:00）
+- [Deploy Meta Llama 3.1 405B on Google Cloud Vertex AI](https://huggingface.co/blog/llama31-on-vertex-ai) （Hugging Face Blog，2024-08-19T00:00:00+00:00）
+- [A failed experiment: Infini-Attention, and why we should keep trying?](https://huggingface.co/blog/infini-attention) （Hugging Face Blog，2024-08-14T00:00:00+00:00）
+- [Introduction to ggml](https://huggingface.co/blog/introduction-to-ggml) （Hugging Face Blog，2024-08-13T00:00:00+00:00）
+- [Welcome Falcon Mamba: The first strong attention-free 7B model](https://huggingface.co/blog/falconmamba) （Hugging Face Blog，2024-08-12T00:00:00+00:00）
+- [Tool Use, Unified](https://huggingface.co/blog/unified-tool-use) （Hugging Face Blog，2024-08-12T00:00:00+00:00）
+- [XetHub is joining Hugging Face!](https://huggingface.co/blog/xethub-joins-hf) （Hugging Face Blog，2024-08-08T00:00:00+00:00）
+- [2024 Security Feature Highlights](https://huggingface.co/blog/2024-security-features) （Hugging Face Blog，2024-08-06T00:00:00+00:00）
+- [Introducing TextImage Augmentation for Document Images](https://huggingface.co/blog/doc_aug_hf_alb) （Hugging Face Blog，2024-08-06T00:00:00+00:00）
+- [Google releases Gemma 2 2B, ShieldGemma and Gemma Scope](https://huggingface.co/blog/gemma-july-update) （Hugging Face Blog，2024-07-31T00:00:00+00:00）
+- [Memory-efficient Diffusion Transformers with Quanto and Diffusers](https://huggingface.co/blog/quanto-diffusers) （Hugging Face Blog，2024-07-30T00:00:00+00:00）
+- [Serverless Inference with Hugging Face and NVIDIA NIM](https://huggingface.co/blog/inference-dgx-cloud) （Hugging Face Blog，2024-07-29T00:00:00+00:00）
+- [LAVE: Zero-shot VQA Evaluation on Docmatix with LLMs - Do We Still Need Fine-Tuning?](https://huggingface.co/blog/zero-shot-vqa-docmatix) （Hugging Face Blog，2024-07-25T00:00:00+00:00）
+- [Llama 3.1 - 405B, 70B & 8B with multilinguality and long context](https://huggingface.co/blog/llama31) （Hugging Face Blog，2024-07-23T00:00:00+00:00）
+- [WWDC 24: Running Mistral 7B with Core ML](https://huggingface.co/blog/mistral-coreml) （Hugging Face Blog，2024-07-22T00:00:00+00:00）
+- [Docmatix - a huge dataset for Document Visual Question Answering](https://huggingface.co/blog/docmatix) （Hugging Face Blog，2024-07-18T00:00:00+00:00）
+- [TGI Multi-LoRA: Deploy Once, Serve 30 Models](https://huggingface.co/blog/multi-lora-serving) （Hugging Face Blog，2024-07-18T00:00:00+00:00）
+- [SmolLM - blazingly fast and remarkably powerful](https://huggingface.co/blog/smollm) （Hugging Face Blog，2024-07-16T00:00:00+00:00）
+- [How we leveraged distilabel to create an Argilla 2.0 Chatbot](https://huggingface.co/blog/argilla-chatbot) （Hugging Face Blog，2024-07-16T00:00:00+00:00）
+- [How NuminaMath Won the 1st AIMO Progress Prize](https://huggingface.co/blog/winning-aimo-progress-prize) （Hugging Face Blog，2024-07-11T00:00:00+00:00）
+- [Announcing New Hugging Face and KerasHub integration](https://huggingface.co/blog/keras-hub-integration) （Hugging Face Blog，2024-07-10T00:00:00+00:00）
+- [Experimenting with Automatic PII Detection on the Hub using Presidio](https://huggingface.co/blog/presidio-pii-detection) （Hugging Face Blog，2024-07-10T00:00:00+00:00）
+- [Preference Optimization for Vision Language Models](https://huggingface.co/blog/dpo_vlm) （Hugging Face Blog，2024-07-10T00:00:00+00:00）
+- [Google Cloud TPUs made available to Hugging Face users](https://huggingface.co/blog/tpu-inference-endpoints-spaces) （Hugging Face Blog，2024-07-09T00:00:00+00:00）
+- [Banque des Territoires (CDC Group) x Polyconseil x Hugging Face: Enhancing a Major French Environmental Program with a Sovereign Data Solution](https://huggingface.co/blog/sovereign-data-solution-case-study) （Hugging Face Blog，2024-07-09T00:00:00+00:00）
+- [Announcing New Dataset Search Features](https://huggingface.co/blog/datasets-filters) （Hugging Face Blog，2024-07-08T00:00:00+00:00）
+- [Accelerating Protein Language Model ProtST on Intel Gaudi 2](https://huggingface.co/blog/intel-protein-language-model-protst) （Hugging Face Blog，2024-07-03T00:00:00+00:00）
+- [Our Transformers Code Agent beats the GAIA benchmark 🏅](https://huggingface.co/blog/beating-gaia) （Hugging Face Blog，2024-07-01T00:00:00+00:00）
+- [Welcome Gemma 2 - Google’s new open LLM](https://huggingface.co/blog/gemma2) （Hugging Face Blog，2024-06-27T00:00:00+00:00）
+- [XLSCOUT Unveils ParaEmbed 2.0: a Powerful Embedding Model Tailored for Patents and IP with Expert Support from Hugging Face](https://huggingface.co/blog/xlscout-case-study) （Hugging Face Blog，2024-06-25T00:00:00+00:00）
+- [Fine-tuning Florence-2 - Microsoft's Cutting-edge Vision Language Models](https://huggingface.co/blog/finetune-florence2) （Hugging Face Blog，2024-06-24T00:00:00+00:00）
+- [Ethics and Society Newsletter #6: Building Better AI: The Importance of Data Quality](https://huggingface.co/blog/ethics-soc-6) （Hugging Face Blog，2024-06-24T00:00:00+00:00）
+- [Data Is Better Together: A Look Back and Forward](https://huggingface.co/blog/dibt) （Hugging Face Blog，2024-06-20T00:00:00+00:00）
+- [Going multimodal: How Prezi is leveraging the Hub and the Expert Support Program to accelerate their ML roadmap](https://huggingface.co/blog/prezi-case-study) （Hugging Face Blog，2024-06-19T00:00:00+00:00）
+- [BigCodeBench: The Next Generation of HumanEval](https://huggingface.co/blog/leaderboard-bigcodebench) （Hugging Face Blog，2024-06-18T00:00:00+00:00）
+- [From DeepSpeed to FSDP and Back Again with Hugging Face Accelerate](https://huggingface.co/blog/deepspeed-to-fsdp-and-back) （Hugging Face Blog，2024-06-13T00:00:00+00:00）
+- [Diffusers welcomes Stable Diffusion 3](https://huggingface.co/blog/sd3) （Hugging Face Blog，2024-06-12T00:00:00+00:00）
+- [Putting RL back in RLHF](https://huggingface.co/blog/putting_rl_back_in_rlhf_with_rloo) （Hugging Face Blog，2024-06-12T00:00:00+00:00）
+- [Making sense of this mess](https://huggingface.co/blog/transformers-docs-redesign) （Hugging Face Blog，2024-06-07T00:00:00+00:00）
+- [Introducing the Hugging Face Embedding Container for Amazon SageMaker](https://huggingface.co/blog/sagemaker-huggingface-embedding) （Hugging Face Blog，2024-06-07T00:00:00+00:00）
+- [Launching the Artificial Analysis Text to Image Leaderboard & Arena](https://huggingface.co/blog/leaderboard-artificial-analysis2) （Hugging Face Blog，2024-06-06T00:00:00+00:00）
+- [Introducing NPC-Playground, a 3D playground to interact with LLM-powered NPCs](https://huggingface.co/blog/npc-gigax-cubzh) （Hugging Face Blog，2024-06-05T00:00:00+00:00）
+- [Faster assisted generation support for Intel Gaudi](https://huggingface.co/blog/assisted-generation-support-gaudi) （Hugging Face Blog，2024-06-04T00:00:00+00:00）
+- [Space secrets security update](https://huggingface.co/blog/space-secrets-disclosure) （Hugging Face Blog，2024-05-31T00:00:00+00:00）
+- [Benchmarking Text Generation Inference](https://huggingface.co/blog/tgi-benchmarking) （Hugging Face Blog，2024-05-29T00:00:00+00:00）
+- [Training and Finetuning Embedding Models with Sentence Transformers](https://huggingface.co/blog/train-sentence-transformers) （Hugging Face Blog，2024-05-28T00:00:00+00:00）
+- [Falcon 2: An 11B parameter pretrained language model and VLM, trained on over 5000B tokens and 11 languages](https://huggingface.co/blog/falcon2-11b) （Hugging Face Blog，2024-05-24T00:00:00+00:00）
+- [CyberSecEval 2 - A Comprehensive Evaluation Framework for Cybersecurity Risks and Capabilities of Large Language Models](https://huggingface.co/blog/leaderboard-llamaguard) （Hugging Face Blog，2024-05-24T00:00:00+00:00）
+- [Deploy models on AWS Inferentia2 from Hugging Face](https://huggingface.co/blog/inferentia-inference-endpoints) （Hugging Face Blog，2024-05-22T00:00:00+00:00）
+- [Introducing Spaces Dev Mode for a seamless developer experience](https://huggingface.co/blog/spaces-dev-mode) （Hugging Face Blog，2024-05-21T00:00:00+00:00）
+- [Build AI on premise with Dell Enterprise Hub](https://huggingface.co/blog/dell-enterprise-hub) （Hugging Face Blog，2024-05-21T00:00:00+00:00）
+- [Hugging Face on AMD Instinct MI300 GPU](https://huggingface.co/blog/huggingface-amd-mi300) （Hugging Face Blog，2024-05-21T00:00:00+00:00）
+- [From cloud to developers: Hugging Face and Microsoft Deepen Collaboration](https://huggingface.co/blog/microsoft-collaboration) （Hugging Face Blog，2024-05-21T00:00:00+00:00）
+- [Unlocking Longer Generation with Key-Value Cache Quantization](https://huggingface.co/blog/kv-cache-quantization) （Hugging Face Blog，2024-05-16T00:00:00+00:00）
+- [PaliGemma – Google's Cutting-Edge Open Vision Language Model](https://huggingface.co/blog/paligemma) （Hugging Face Blog，2024-05-14T00:00:00+00:00）
+- [Hugging Face x LangChain : A new partner package](https://huggingface.co/blog/langchain) （Hugging Face Blog，2024-05-14T00:00:00+00:00）
+- [Introducing the Open Arabic LLM Leaderboard](https://huggingface.co/blog/leaderboard-arabic) （Hugging Face Blog，2024-05-14T00:00:00+00:00）
+- [License to Call: Introducing Transformers Agents 2.0](https://huggingface.co/blog/agents) （Hugging Face Blog，2024-05-13T00:00:00+00:00）
+- [Subscribe to Enterprise Hub with your AWS Account](https://huggingface.co/blog/enterprise-hub-aws-marketplace) （Hugging Face Blog，2024-05-09T00:00:00+00:00）
+- [Building Cost-Efficient Enterprise RAG applications with Intel Gaudi 2 and Intel Xeon](https://huggingface.co/blog/cost-efficient-rag-applications-with-intel) （Hugging Face Blog，2024-05-09T00:00:00+00:00）
+- [Introducing the Open Leaderboard for Hebrew LLMs!](https://huggingface.co/blog/leaderboard-hebrew) （Hugging Face Blog，2024-05-05T00:00:00+00:00）
+- [Bringing the Artificial Analysis LLM Performance Leaderboard to Hugging Face](https://huggingface.co/blog/leaderboard-artificial-analysis) （Hugging Face Blog，2024-05-03T00:00:00+00:00）
+- [Powerful ASR + diarization + speculative decoding with Hugging Face Inference Endpoints](https://huggingface.co/blog/asr-diarization) （Hugging Face Blog，2024-05-01T00:00:00+00:00）
+- [Improving Prompt Consistency with Structured Generations](https://huggingface.co/blog/evaluation-structured-outputs) （Hugging Face Blog，2024-04-30T00:00:00+00:00）
+- [StarCoder2-Instruct: Fully Transparent and Permissive Self-Alignment for Code Generation](https://huggingface.co/blog/sc2-instruct) （Hugging Face Blog，2024-04-29T00:00:00+00:00）
+- [Introducing the Open Chain of Thought Leaderboard](https://huggingface.co/blog/leaderboard-cot) （Hugging Face Blog，2024-04-23T00:00:00+00:00）
+- [Jack of All Trades, Master of Some, a Multi-Purpose Transformer Agent](https://huggingface.co/blog/jat) （Hugging Face Blog，2024-04-22T00:00:00+00:00）
+- [The Open Medical-LLM Leaderboard: Benchmarking Large Language Models in Healthcare](https://huggingface.co/blog/leaderboard-medicalllm) （Hugging Face Blog，2024-04-19T00:00:00+00:00）
+- [Welcome Llama 3 - Meta's new open LLM](https://huggingface.co/blog/llama3) （Hugging Face Blog，2024-04-18T00:00:00+00:00）
+- [AI Apps in a Flash with Gradio's Reload Mode](https://huggingface.co/blog/gradio-reload) （Hugging Face Blog，2024-04-16T00:00:00+00:00）
+- [Introducing the LiveCodeBench Leaderboard - Holistic and Contamination-Free Evaluation of Code LLMs](https://huggingface.co/blog/leaderboard-livecodebench) （Hugging Face Blog，2024-04-16T00:00:00+00:00）
+- [Running Privacy-Preserving Inferences on Hugging Face Endpoints](https://huggingface.co/blog/fhe-endpoints) （Hugging Face Blog，2024-04-16T00:00:00+00:00）
+- [Ryght’s Journey to Empower Healthcare and Life Sciences with Expert Support from Hugging Face](https://huggingface.co/blog/ryght-case-study) （Hugging Face Blog，2024-04-16T00:00:00+00:00）
+- [Introducing Idefics2: A Powerful 8B Vision-Language Model for the community](https://huggingface.co/blog/idefics2) （Hugging Face Blog，2024-04-15T00:00:00+00:00）
+- [Vision Language Models Explained](https://huggingface.co/blog/vlms) （Hugging Face Blog，2024-04-11T00:00:00+00:00）
+- [Making thousands of open LLMs bloom in the Vertex AI Model Garden](https://huggingface.co/blog/google-cloud-model-garden) （Hugging Face Blog，2024-04-10T00:00:00+00:00）
+- [CodeGemma - an official Google release for code LLMs](https://huggingface.co/blog/codegemma) （Hugging Face Blog，2024-04-09T00:00:00+00:00）
+- [Public Policy at Hugging Face](https://huggingface.co/blog/policy-blog) （Hugging Face Blog，2024-04-08T00:00:00+00:00）
+- [Hugging Face partners with Wiz Research to Improve AI Security](https://huggingface.co/blog/hugging-face-wiz-security-blog) （Hugging Face Blog，2024-04-04T00:00:00+00:00）
+- [Text2SQL using Hugging Face Dataset Viewer API and Motherduck DuckDB-NSQL-7B](https://huggingface.co/blog/duckdb-nsql-7b) （Hugging Face Blog，2024-04-04T00:00:00+00:00）
+- [Blazing Fast SetFit Inference with 🤗 Optimum Intel on Xeon](https://huggingface.co/blog/setfit-optimum-intel) （Hugging Face Blog，2024-04-03T00:00:00+00:00）
+- [Bringing serverless GPU inference to Hugging Face users](https://huggingface.co/blog/cloudflare-workers-ai) （Hugging Face Blog，2024-04-02T00:00:00+00:00）
+- [Pollen-Vision: Unified interface for Zero-Shot vision models in robotics](https://huggingface.co/blog/pollen-vision) （Hugging Face Blog，2024-03-25T00:00:00+00:00）
+- [Total noob’s intro to Hugging Face Transformers](https://huggingface.co/blog/noob_intro_transformers) （Hugging Face Blog，2024-03-22T00:00:00+00:00）
+- [Binary and Scalar Embedding Quantization for Significantly Faster & Cheaper Retrieval](https://huggingface.co/blog/embedding-quantization) （Hugging Face Blog，2024-03-22T00:00:00+00:00）
+- [Introducing the Chatbot Guardrails Arena](https://huggingface.co/blog/arena-lighthouz) （Hugging Face Blog，2024-03-21T00:00:00+00:00）
+- [A Chatbot on your Laptop: Phi-2 on Intel Meteor Lake](https://huggingface.co/blog/phi2-intel-meteor-lake) （Hugging Face Blog，2024-03-20T00:00:00+00:00）
+- [Cosmopedia: how to create large-scale synthetic data for pre-training Large Language Models](https://huggingface.co/blog/cosmopedia) （Hugging Face Blog，2024-03-20T00:00:00+00:00）
+- [GaLore: Advancing Large Model Training on Consumer-grade Hardware](https://huggingface.co/blog/galore) （Hugging Face Blog，2024-03-20T00:00:00+00:00）
+- [Easily Train Models with H100 GPUs on NVIDIA DGX Cloud](https://huggingface.co/blog/train-dgx-cloud) （Hugging Face Blog，2024-03-18T00:00:00+00:00）
+- [Quanto: a PyTorch quantization backend for Optimum](https://huggingface.co/blog/quanto-introduction) （Hugging Face Blog，2024-03-18T00:00:00+00:00）
+- [CPU Optimized Embeddings with 🤗 Optimum Intel and fastRAG](https://huggingface.co/blog/intel-fast-embedding) （Hugging Face Blog，2024-03-15T00:00:00+00:00）
+- [Unlocking the conversion of Web Screenshots into HTML Code with the WebSight Dataset](https://huggingface.co/blog/websight) （Hugging Face Blog，2024-03-15T00:00:00+00:00）
+- [Introducing ConTextual: How well can your Multimodal model jointly reason over text and image in text-rich scenes?](https://huggingface.co/blog/leaderboard-contextual) （Hugging Face Blog，2024-03-05T00:00:00+00:00）
+- [Data is better together: Enabling communities to collectively build better datasets together using Argilla and Hugging Face Spaces](https://huggingface.co/blog/community-datasets) （Hugging Face Blog，2024-03-04T00:00:00+00:00）
+- [Text-Generation Pipeline on Intel® Gaudi® 2 AI Accelerator](https://huggingface.co/blog/textgen-pipe-gaudi) （Hugging Face Blog，2024-02-29T00:00:00+00:00）
+- [StarCoder2 and The Stack v2](https://huggingface.co/blog/starcoder2) （Hugging Face Blog，2024-02-28T00:00:00+00:00）
+- [TTS Arena: Benchmarking Text-to-Speech Models in the Wild](https://huggingface.co/blog/arena-tts) （Hugging Face Blog，2024-02-27T00:00:00+00:00）
+- [AI Watermarking 101: Tools and Techniques](https://huggingface.co/blog/watermarking) （Hugging Face Blog，2024-02-26T00:00:00+00:00）
+- [Fine-Tuning Gemma Models in Hugging Face](https://huggingface.co/blog/gemma-peft) （Hugging Face Blog，2024-02-23T00:00:00+00:00）
+- [Introducing the Red-Teaming Resistance Leaderboard](https://huggingface.co/blog/leaderboard-haizelab) （Hugging Face Blog，2024-02-23T00:00:00+00:00）
+- [🪆 Introduction to Matryoshka Embedding Models](https://huggingface.co/blog/matryoshka) （Hugging Face Blog，2024-02-23T00:00:00+00:00）
+- [Welcome Gemma - Google’s new open LLM](https://huggingface.co/blog/gemma) （Hugging Face Blog，2024-02-21T00:00:00+00:00）
+- [Introducing the Open Ko-LLM Leaderboard: Leading the Korean LLM Evaluation Ecosystem](https://huggingface.co/blog/leaderboard-upstage) （Hugging Face Blog，2024-02-20T00:00:00+00:00）
+- [🤗 PEFT welcomes new merging methods](https://huggingface.co/blog/peft_merging) （Hugging Face Blog，2024-02-19T00:00:00+00:00）
+- [Synthetic data: save money, time and carbon with open source](https://huggingface.co/blog/synthetic-data-save-costs) （Hugging Face Blog，2024-02-16T00:00:00+00:00）
+- [AMD Pervasive AI Developer Contest!](https://huggingface.co/blog/amd_pervasive_developer_ai_contest) （Hugging Face Blog，2024-02-14T00:00:00+00:00）
+- [From OpenAI to Open LLMs with Messages API on Hugging Face](https://huggingface.co/blog/tgi-messages-api) （Hugging Face Blog，2024-02-08T00:00:00+00:00）
+- [SegMoE: Segmind Mixture of Diffusion Experts](https://huggingface.co/blog/segmoe) （Hugging Face Blog，2024-02-03T00:00:00+00:00）
+- [NPHardEval Leaderboard: Unveiling the Reasoning Abilities of Large Language Models through Complexity Classes and Dynamic Updates](https://huggingface.co/blog/leaderboard-nphardeval) （Hugging Face Blog，2024-02-02T00:00:00+00:00）
+- [Constitutional AI with Open LLMs](https://huggingface.co/blog/constitutional_ai) （Hugging Face Blog，2024-02-01T00:00:00+00:00）
+- [Hugging Face Text Generation Inference available for AWS Inferentia2](https://huggingface.co/blog/text-generation-inference-on-inferentia2) （Hugging Face Blog，2024-02-01T00:00:00+00:00）
+- [Patch Time Series Transformer in Hugging Face](https://huggingface.co/blog/patchtst) （Hugging Face Blog，2024-02-01T00:00:00+00:00）
+- [Introducing the Enterprise Scenarios Leaderboard: a Leaderboard for Real World Use Cases](https://huggingface.co/blog/leaderboard-patronus) （Hugging Face Blog，2024-01-31T00:00:00+00:00）
+- [Accelerate StarCoder with 🤗 Optimum Intel on Xeon: Q8/Q4 and Speculative Decoding](https://huggingface.co/blog/intel-starcoder-quantization) （Hugging Face Blog，2024-01-30T00:00:00+00:00）
+- [The Hallucinations Leaderboard, an Open Effort to Measure Hallucinations in Large Language Models](https://huggingface.co/blog/leaderboard-hallucinations) （Hugging Face Blog，2024-01-29T00:00:00+00:00）
+- [An Introduction to AI Secure LLM Safety Leaderboard](https://huggingface.co/blog/leaderboard-decodingtrust) （Hugging Face Blog，2024-01-26T00:00:00+00:00）
+- [Hugging Face and Google partner for open AI collaboration](https://huggingface.co/blog/gcp-partnership) （Hugging Face Blog，2024-01-25T00:00:00+00:00）
+- [Open-source LLMs as LangChain Agents](https://huggingface.co/blog/open-source-llms-as-agents) （Hugging Face Blog，2024-01-24T00:00:00+00:00）
+- [Fine-Tune W2V2-Bert for low-resource ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-w2v2-bert) （Hugging Face Blog，2024-01-19T00:00:00+00:00）
+- [PatchTSMixer in HuggingFace](https://huggingface.co/blog/patchtsmixer) （Hugging Face Blog，2024-01-19T00:00:00+00:00）
+- [Preference Tuning LLMs with Direct Preference Optimization Methods](https://huggingface.co/blog/pref-tuning) （Hugging Face Blog，2024-01-18T00:00:00+00:00）
+- [Accelerating SD Turbo and SDXL Turbo Inference with ONNX Runtime and Olive](https://huggingface.co/blog/sdxl_ort_inference) （Hugging Face Blog，2024-01-15T00:00:00+00:00）
+- [Run ComfyUI workflows for free with Gradio on Hugging Face Spaces](https://huggingface.co/blog/run-comfyui-workflows-on-spaces) （Hugging Face Blog，2024-01-14T00:00:00+00:00）
+- [A guide to setting up your own Hugging Face leaderboard: an end-to-end example with Vectara's hallucination leaderboard](https://huggingface.co/blog/leaderboard-vectara) （Hugging Face Blog，2024-01-12T00:00:00+00:00）
+- [Make LLM Fine-tuning 2x faster with Unsloth and 🤗 TRL](https://huggingface.co/blog/unsloth-trl) （Hugging Face Blog，2024-01-10T00:00:00+00:00）
+- [Welcome aMUSEd: Efficient Text-to-Image Generation](https://huggingface.co/blog/amused) （Hugging Face Blog，2024-01-04T00:00:00+00:00）
+- [LoRA training scripts of the world, unite!](https://huggingface.co/blog/sdxl_lora_advanced_script) （Hugging Face Blog，2024-01-02T00:00:00+00:00）
+- [Speculative Decoding for 2x Faster Whisper Inference](https://huggingface.co/blog/whisper-speculative-decoding) （Hugging Face Blog，2023-12-20T00:00:00+00:00）
+- [2023, year of open LLMs](https://huggingface.co/blog/2023-in-llms) （Hugging Face Blog，2023-12-18T00:00:00+00:00）
+- [Welcome Mixtral - a SOTA Mixture of Experts on Hugging Face](https://huggingface.co/blog/mixtral) （Hugging Face Blog，2023-12-11T00:00:00+00:00）
+- [Mixture of Experts Explained](https://huggingface.co/blog/moe) （Hugging Face Blog，2023-12-11T00:00:00+00:00）
+- [SetFitABSA: Few-Shot Aspect Based Sentiment Analysis using SetFit](https://huggingface.co/blog/setfit-absa) （Hugging Face Blog，2023-12-06T00:00:00+00:00）
+- [AMD + 🤗: Large Language Models Out-of-the-Box Acceleration with AMD GPU](https://huggingface.co/blog/huggingface-and-optimum-amd) （Hugging Face Blog，2023-12-05T00:00:00+00:00）
+- [Optimum-NVIDIA Unlocking blazingly fast LLM inference in just 1 line of code](https://huggingface.co/blog/optimum-nvidia) （Hugging Face Blog，2023-12-05T00:00:00+00:00）
+- [Goodbye cold boot - how we made LoRA Inference 300% faster](https://huggingface.co/blog/lora-adapters-dynamic-loading) （Hugging Face Blog，2023-12-05T00:00:00+00:00）
+- [Open LLM Leaderboard: DROP deep dive](https://huggingface.co/blog/open-llm-leaderboard-drop) （Hugging Face Blog，2023-12-01T00:00:00+00:00）
+- [SDXL in 4 steps with Latent Consistency LoRAs](https://huggingface.co/blog/lcm_lora) （Hugging Face Blog，2023-11-09T00:00:00+00:00）
+- [Make your llama generation time fly with AWS Inferentia2](https://huggingface.co/blog/inferentia-llama2) （Hugging Face Blog，2023-11-07T00:00:00+00:00）
+- [Introducing Prodigy-HF: a direct integration with Hugging Face](https://huggingface.co/blog/prodigy-hf) （Hugging Face Blog，2023-11-07T00:00:00+00:00）
+- [Comparing the Performance of LLMs: A Deep Dive into Roberta, Llama 2, and Mistral for Disaster Tweets Analysis with Lora](https://huggingface.co/blog/Lora-for-sequence-classification-with-Roberta-Llama-Mistral) （Hugging Face Blog，2023-11-07T00:00:00+00:00）
+- [Introducing Storage Regions on the HF Hub](https://huggingface.co/blog/regions) （Hugging Face Blog，2023-11-03T00:00:00+00:00）
+- [Personal Copilot: Train Your Own Coding Assistant](https://huggingface.co/blog/personal-copilot) （Hugging Face Blog，2023-10-27T00:00:00+00:00）
+- [Interactively explore your Huggingface dataset with one line of code](https://huggingface.co/blog/scalable-data-inspection) （Hugging Face Blog，2023-10-25T00:00:00+00:00）
+- [Deploy Embedding Models with Hugging Face Inference Endpoints](https://huggingface.co/blog/inference-endpoints-embeddings) （Hugging Face Blog，2023-10-24T00:00:00+00:00）
+- [The N Implementation Details of RLHF with PPO](https://huggingface.co/blog/the_n_implementation_details_of_rlhf_with_ppo) （Hugging Face Blog，2023-10-24T00:00:00+00:00）
+- [Exploring simple optimizations for SDXL](https://huggingface.co/blog/simple_sdxl_optimizations) （Hugging Face Blog，2023-10-24T00:00:00+00:00）
+- [Gradio-Lite: Serverless Gradio Running Entirely in Your Browser](https://huggingface.co/blog/gradio-lite) （Hugging Face Blog，2023-10-19T00:00:00+00:00）
+- [Accelerating over 130,000 Hugging Face models with ONNX Runtime](https://huggingface.co/blog/ort-accelerating-hf-models) （Hugging Face Blog，2023-10-04T00:00:00+00:00）
+- [🧨 Accelerating Stable Diffusion XL Inference with JAX on Cloud TPU v5e](https://huggingface.co/blog/sdxl_jax) （Hugging Face Blog，2023-10-03T00:00:00+00:00）
+- [Chat Templates: An End to the Silent Performance Killer](https://huggingface.co/blog/chat-templates) （Hugging Face Blog，2023-10-03T00:00:00+00:00）
+- [Deploying the AI Comic Factory using the Inference API](https://huggingface.co/blog/ai-comic-factory) （Hugging Face Blog，2023-10-02T00:00:00+00:00）
+- [Ethics and Society Newsletter #5: Hugging Face Goes To Washington and Other Summer 2023 Musings](https://huggingface.co/blog/ethics-soc-5) （Hugging Face Blog，2023-09-29T00:00:00+00:00）
+- [Finetune Stable Diffusion Models with DDPO via TRL](https://huggingface.co/blog/trl-ddpo) （Hugging Face Blog，2023-09-29T00:00:00+00:00）
+- [Non-engineers guide: Train a LLaMA 2 chatbot](https://huggingface.co/blog/Llama2-for-non-engineers) （Hugging Face Blog，2023-09-28T00:00:00+00:00）
+- [Llama 2 on Amazon SageMaker a Benchmark](https://huggingface.co/blog/llama-sagemaker-benchmark) （Hugging Face Blog，2023-09-26T00:00:00+00:00）
+- [Inference for PROs](https://huggingface.co/blog/inference-pro) （Hugging Face Blog，2023-09-22T00:00:00+00:00）
+- [Rocket Money x Hugging Face: Scaling Volatile ML Models in Production​](https://huggingface.co/blog/rocketmoney-case-study) （Hugging Face Blog，2023-09-19T00:00:00+00:00）
+- [Introduction to 3D Gaussian Splatting](https://huggingface.co/blog/gaussian-splatting) （Hugging Face Blog，2023-09-18T00:00:00+00:00）
+- [Object Detection Leaderboard](https://huggingface.co/blog/object-detection-leaderboard) （Hugging Face Blog，2023-09-18T00:00:00+00:00）
+- [Optimizing your LLM in production](https://huggingface.co/blog/optimize-llm) （Hugging Face Blog，2023-09-15T00:00:00+00:00）
+- [Introducing Würstchen: Fast Diffusion for Image Generation](https://huggingface.co/blog/wuerstchen) （Hugging Face Blog，2023-09-13T00:00:00+00:00）
+- [Fine-tuning Llama 2 70B using PyTorch FSDP](https://huggingface.co/blog/ram-efficient-pytorch-fsdp) （Hugging Face Blog，2023-09-13T00:00:00+00:00）
+- [Overview of natively supported quantization schemes in 🤗 Transformers](https://huggingface.co/blog/overview-quantization-transformers) （Hugging Face Blog，2023-09-12T00:00:00+00:00）
+- [SafeCoder vs. Closed-source Code Assistants](https://huggingface.co/blog/safecoder-vs-closed-source-code-assistants) （Hugging Face Blog，2023-09-11T00:00:00+00:00）
+- [Efficient Controllable Generation for SDXL with T2I-Adapters](https://huggingface.co/blog/t2i-sdxl-adapters) （Hugging Face Blog，2023-09-08T00:00:00+00:00）
+- [Spread Your Wings: Falcon 180B is here](https://huggingface.co/blog/falcon-180b) （Hugging Face Blog，2023-09-06T00:00:00+00:00）
+- [Fetch Cuts ML Processing Latency by 50% Using Amazon SageMaker & Hugging Face](https://huggingface.co/blog/fetch-case-study) （Hugging Face Blog，2023-09-01T00:00:00+00:00）
+- [AudioLDM 2, but faster ⚡️](https://huggingface.co/blog/audioldm2) （Hugging Face Blog，2023-08-30T00:00:00+00:00）
+- [Code Llama: Llama 2 learns to code](https://huggingface.co/blog/codellama) （Hugging Face Blog，2023-08-25T00:00:00+00:00）
+- [Deprecation of Git Authentication using password](https://huggingface.co/blog/password-git-deprecation) （Hugging Face Blog，2023-08-25T00:00:00+00:00）
+- [Making LLMs lighter with AutoGPTQ and transformers](https://huggingface.co/blog/gptq-integration) （Hugging Face Blog，2023-08-23T00:00:00+00:00）
+- [Introducing SafeCoder](https://huggingface.co/blog/safecoder) （Hugging Face Blog，2023-08-22T00:00:00+00:00）
+- [Introducing IDEFICS: An Open Reproduction of State-of-the-art Visual Langage Model](https://huggingface.co/blog/idefics) （Hugging Face Blog，2023-08-22T00:00:00+00:00）
+- [Hugging Face Hub on the AWS Marketplace: Pay with your AWS Account](https://huggingface.co/blog/aws-marketplace) （Hugging Face Blog，2023-08-10T00:00:00+00:00）
+- [Optimizing Bark using 🤗 Transformers](https://huggingface.co/blog/optimizing-bark) （Hugging Face Blog，2023-08-09T00:00:00+00:00）
+- [Deploying Hugging Face Models with BentoML: DeepFloyd IF in Action](https://huggingface.co/blog/deploy-deepfloydif-using-bentoml) （Hugging Face Blog，2023-08-09T00:00:00+00:00）
+- [Fine-tune Llama 2 with DPO](https://huggingface.co/blog/dpo-trl) （Hugging Face Blog，2023-08-08T00:00:00+00:00）
+- [Releasing Swift Transformers: Run On-Device LLMs in Apple Devices](https://huggingface.co/blog/swift-coreml-llm) （Hugging Face Blog，2023-08-08T00:00:00+00:00）
+- [Deploy MusicGen in no time with Inference Endpoints](https://huggingface.co/blog/run-musicgen-as-an-api) （Hugging Face Blog，2023-08-04T00:00:00+00:00）
+- [Huggy Lingo: Using Machine Learning to Improve Language Metadata on the Hugging Face Hub](https://huggingface.co/blog/huggy-lingo) （Hugging Face Blog，2023-08-02T00:00:00+00:00）
+- [Towards Encrypted Large Language Models with FHE](https://huggingface.co/blog/encrypted-llm) （Hugging Face Blog，2023-08-02T00:00:00+00:00）
+- [Practical 3D Asset Generation: A Step-by-Step Guide](https://huggingface.co/blog/3d-assets) （Hugging Face Blog，2023-08-01T00:00:00+00:00）
+- [Open-sourcing Knowledge Distillation Code and Weights of SD-Small and SD-Tiny](https://huggingface.co/blog/sd_distillation) （Hugging Face Blog，2023-08-01T00:00:00+00:00）
+- [Stable Diffusion XL on Mac with Advanced Core ML Quantization](https://huggingface.co/blog/stable-diffusion-xl-coreml) （Hugging Face Blog，2023-07-27T00:00:00+00:00）
+- [AI Policy @🤗: Open ML Considerations in the EU AI Act](https://huggingface.co/blog/eu-ai-act-oss) （Hugging Face Blog，2023-07-24T00:00:00+00:00）
+- [Introducing Agents.js: Give tools to your LLMs using JavaScript](https://huggingface.co/blog/agents-js) （Hugging Face Blog，2023-07-24T00:00:00+00:00）
+- [Results of the Open Source AI Game Jam](https://huggingface.co/blog/game-jam-first-edition-results) （Hugging Face Blog，2023-07-21T00:00:00+00:00）
+- [Happy 1st anniversary 🤗 Diffusers!](https://huggingface.co/blog/diffusers-turns-1) （Hugging Face Blog，2023-07-20T00:00:00+00:00）
+- [Llama 2 is here - get it on Hugging Face](https://huggingface.co/blog/llama2) （Hugging Face Blog，2023-07-18T00:00:00+00:00）
+- [Building an AI WebTV](https://huggingface.co/blog/ai-webtv) （Hugging Face Blog，2023-07-17T00:00:00+00:00）
+- [Open-Source Text Generation & LLM Ecosystem at Hugging Face](https://huggingface.co/blog/os-llms) （Hugging Face Blog，2023-07-17T00:00:00+00:00）
+- [Fine-tuning Stable Diffusion models on Intel CPUs](https://huggingface.co/blog/stable-diffusion-finetuning-intel) （Hugging Face Blog，2023-07-14T00:00:00+00:00）
+- [Making ML-powered web games with Transformers.js](https://huggingface.co/blog/ml-web-games) （Hugging Face Blog，2023-07-05T00:00:00+00:00）
+- [Deploy LLMs with Hugging Face Inference Endpoints](https://huggingface.co/blog/inference-endpoints-llm) （Hugging Face Blog，2023-07-04T00:00:00+00:00）
+- [Making a web app generator with open ML models](https://huggingface.co/blog/text-to-webapp) （Hugging Face Blog，2023-07-03T00:00:00+00:00）
+- [Leveraging Hugging Face for complex generative AI use cases](https://huggingface.co/blog/writer-case-study) （Hugging Face Blog，2023-07-01T00:00:00+00:00）
+- [Accelerating Vision-Language Models: BridgeTower on Habana Gaudi2](https://huggingface.co/blog/bridgetower) （Hugging Face Blog，2023-06-29T00:00:00+00:00）
+- [Ethics and Society Newsletter #4: Bias in Text-to-Image Models](https://huggingface.co/blog/ethics-soc-4) （Hugging Face Blog，2023-06-26T00:00:00+00:00）
+- [What's going on with the Open LLM Leaderboard?](https://huggingface.co/blog/open-llm-leaderboard-mmlu) （Hugging Face Blog，2023-06-23T00:00:00+00:00）
+- [Panel on Hugging Face](https://huggingface.co/blog/panel-on-hugging-face) （Hugging Face Blog，2023-06-22T00:00:00+00:00）
+- [AI Policy @🤗: Response to the U.S. NTIA's Request for Comment on AI Accountability](https://huggingface.co/blog/policy-ntia-rfc) （Hugging Face Blog，2023-06-20T00:00:00+00:00）
+- [Fine-Tune MMS Adapter Models for low-resource ASR](https://huggingface.co/blog/mms_adapters) （Hugging Face Blog，2023-06-19T00:00:00+00:00）
+- [Yes, Transformers are Effective for Time Series Forecasting (+ Autoformer)](https://huggingface.co/blog/autoformer) （Hugging Face Blog，2023-06-16T00:00:00+00:00）
+- [Faster Stable Diffusion with Core ML on iPhone, iPad, and Mac](https://huggingface.co/blog/fast-diffusers-coreml) （Hugging Face Blog，2023-06-15T00:00:00+00:00）
+- [Deploy Livebook notebooks as apps to Hugging Face Spaces](https://huggingface.co/blog/livebook-app-deployment) （Hugging Face Blog，2023-06-15T00:00:00+00:00）
+- [Announcing our new Content Guidelines and Policy](https://huggingface.co/blog/content-guidelines-update) （Hugging Face Blog，2023-06-15T00:00:00+00:00）
+- [Hugging Face and AMD partner on accelerating state-of-the-art models for CPU and GPU platforms](https://huggingface.co/blog/huggingface-and-amd) （Hugging Face Blog，2023-06-13T00:00:00+00:00）
+- [Can foundation models label data like humans?](https://huggingface.co/blog/open-llm-leaderboard-rlhf) （Hugging Face Blog，2023-06-12T00:00:00+00:00）
+- [The Hugging Face Hub for Galleries, Libraries, Archives and Museums](https://huggingface.co/blog/hf-hub-glam-guide) （Hugging Face Blog，2023-06-12T00:00:00+00:00）
+- [DuckDB: analyze 50,000+ datasets stored on the Hugging Face Hub](https://huggingface.co/blog/hub-duckdb) （Hugging Face Blog，2023-06-07T00:00:00+00:00）
+- [Welcome fastText to the Hugging Face Hub](https://huggingface.co/blog/fasttext) （Hugging Face Blog，2023-06-06T00:00:00+00:00）
+- [The Falcon has landed in the Hugging Face ecosystem](https://huggingface.co/blog/falcon) （Hugging Face Blog，2023-06-05T00:00:00+00:00）
+- [AI Speech Recognition in Unity](https://huggingface.co/blog/unity-asr) （Hugging Face Blog，2023-06-02T00:00:00+00:00）
+- [Announcing the Open Source AI Game Jam 🎮](https://huggingface.co/blog/game-jam) （Hugging Face Blog，2023-06-01T00:00:00+00:00）
+- [Introducing the Hugging Face LLM Inference Container for Amazon SageMaker](https://huggingface.co/blog/sagemaker-huggingface-llm) （Hugging Face Blog，2023-05-31T00:00:00+00:00）
+- [Introducing BERTopic Integration with the Hugging Face Hub](https://huggingface.co/blog/bertopic) （Hugging Face Blog，2023-05-31T00:00:00+00:00）
+- [Optimizing Stable Diffusion for Intel CPUs with NNCF and 🤗 Optimum](https://huggingface.co/blog/train-optimize-sd-intel) （Hugging Face Blog，2023-05-25T00:00:00+00:00）
+- [Making LLMs even more accessible with bitsandbytes, 4-bit quantization and QLoRA](https://huggingface.co/blog/4bit-transformers-bitsandbytes) （Hugging Face Blog，2023-05-24T00:00:00+00:00）
+- [Hugging Face Collaborates with Microsoft to launch Hugging Face Model Catalog on Azure](https://huggingface.co/blog/hugging-face-endpoints-on-azure) （Hugging Face Blog，2023-05-24T00:00:00+00:00）
+- [Hugging Face and IBM partner on watsonx.ai, the next-generation enterprise studio for AI builders](https://huggingface.co/blog/huggingface-and-ibm) （Hugging Face Blog，2023-05-23T00:00:00+00:00）
+- [🐶Safetensors audited as really safe and becoming the default](https://huggingface.co/blog/safetensors-security-audit) （Hugging Face Blog，2023-05-23T00:00:00+00:00）
+- [Instruction-tuning Stable Diffusion with InstructPix2Pix](https://huggingface.co/blog/instruction-tuning-sd) （Hugging Face Blog，2023-05-23T00:00:00+00:00）
+- [Large-scale Near-deduplication Behind BigCode](https://huggingface.co/blog/dedup) （Hugging Face Blog，2023-05-16T00:00:00+00:00）
+- [Smaller is better: Q8-Chat, an efficient generative AI experience on Xeon](https://huggingface.co/blog/generative-ai-models-on-intel-cpu) （Hugging Face Blog，2023-05-16T00:00:00+00:00）
+- [Hugging Face Selected for the French Data Protection Agency Enhanced Support Program](https://huggingface.co/blog/cnil) （Hugging Face Blog，2023-05-15T00:00:00+00:00）
+- [Run a Chatgpt-like Chatbot on a Single GPU with ROCm](https://huggingface.co/blog/chatbot-amd-gpu) （Hugging Face Blog，2023-05-15T00:00:00+00:00）
+- [Introducing RWKV - An RNN with the advantages of a transformer](https://huggingface.co/blog/rwkv) （Hugging Face Blog，2023-05-15T00:00:00+00:00）
+- [Assisted Generation: a new direction toward low-latency text generation](https://huggingface.co/blog/assisted-generation) （Hugging Face Blog，2023-05-11T00:00:00+00:00）
+- [Creating a Coding Assistant with StarCoder](https://huggingface.co/blog/starchat-alpha) （Hugging Face Blog，2023-05-09T00:00:00+00:00）
+- [A Dive into Text-to-Video Models](https://huggingface.co/blog/text-to-video) （Hugging Face Blog，2023-05-08T00:00:00+00:00）
+- [StarCoder: A State-of-the-Art LLM for Code](https://huggingface.co/blog/starcoder) （Hugging Face Blog，2023-05-04T00:00:00+00:00）
+- [How to Install and Use the Hugging Face Unity API](https://huggingface.co/blog/unity-api) （Hugging Face Blog，2023-05-01T00:00:00+00:00）
+- [Training a language model with 🤗 Transformers using TensorFlow and TPUs](https://huggingface.co/blog/tf_tpu) （Hugging Face Blog，2023-04-27T00:00:00+00:00）
+- [Running IF with 🧨 diffusers on a Free Tier Google Colab](https://huggingface.co/blog/if) （Hugging Face Blog，2023-04-26T00:00:00+00:00）
+- [Databricks ❤️ Hugging Face: up to 40% faster training and tuning of Large Language Models](https://huggingface.co/blog/databricks-case-study) （Hugging Face Blog，2023-04-26T00:00:00+00:00）
+- [Introducing HuggingFace blog for Chinese speakers: Fostering Collaboration with the Chinese AI community](https://huggingface.co/blog/chinese-language-blog) （Hugging Face Blog，2023-04-24T00:00:00+00:00）
+- [How to host a Unity game in a Space](https://huggingface.co/blog/unity-in-spaces) （Hugging Face Blog，2023-04-21T00:00:00+00:00）
+- [Accelerating Hugging Face Transformers with AWS Inferentia2](https://huggingface.co/blog/accelerate-transformers-with-inferentia2) （Hugging Face Blog，2023-04-17T00:00:00+00:00）
+- [Graph Classification with Transformers](https://huggingface.co/blog/graphml-classification) （Hugging Face Blog，2023-04-14T00:00:00+00:00）
+- [Creating Privacy Preserving AI with Substra](https://huggingface.co/blog/owkin-substra) （Hugging Face Blog，2023-04-12T00:00:00+00:00）
+- [Snorkel AI x Hugging Face: unlock foundation models for enterprises](https://huggingface.co/blog/snorkel-case-study) （Hugging Face Blog，2023-04-06T00:00:00+00:00）
+- [StackLLaMA: A hands-on guide to train LLaMA with RLHF](https://huggingface.co/blog/stackllama) （Hugging Face Blog，2023-04-05T00:00:00+00:00）
+- [Ethics and Society Newsletter #3: Ethical Openness at Hugging Face](https://huggingface.co/blog/ethics-soc-3) （Hugging Face Blog，2023-03-30T00:00:00+00:00）
+- [Fast Inference on Large Language Models: BLOOMZ on Habana Gaudi2 Accelerator](https://huggingface.co/blog/habana-gaudi-2-bloom) （Hugging Face Blog，2023-03-28T00:00:00+00:00）
+- [Accelerating Stable Diffusion Inference on Intel CPUs](https://huggingface.co/blog/stable-diffusion-inference-intel) （Hugging Face Blog，2023-03-28T00:00:00+00:00）
+- [Federated Learning using Hugging Face and Flower](https://huggingface.co/blog/fl-with-flower) （Hugging Face Blog，2023-03-27T00:00:00+00:00）
+- [Train your ControlNet with diffusers](https://huggingface.co/blog/train-your-controlnet) （Hugging Face Blog，2023-03-24T00:00:00+00:00）
+- [Jupyter X Hugging Face](https://huggingface.co/blog/notebooks-hub) （Hugging Face Blog，2023-03-23T00:00:00+00:00）
+- [Multivariate Probabilistic Time Series Forecasting with Informer](https://huggingface.co/blog/informer) （Hugging Face Blog，2023-03-10T00:00:00+00:00）
+- [Fine-tuning 20B LLMs with RLHF on a 24GB consumer GPU](https://huggingface.co/blog/trl-peft) （Hugging Face Blog，2023-03-09T00:00:00+00:00）
+- [New ViT and ALIGN Models From Kakao Brain](https://huggingface.co/blog/vit-align) （Hugging Face Blog，2023-03-06T00:00:00+00:00）
+- [Using Machine Learning to Aid Survivors and Race through Time](https://huggingface.co/blog/using-ml-for-disasters) （Hugging Face Blog，2023-03-03T00:00:00+00:00）
+- [ControlNet in 🧨 Diffusers](https://huggingface.co/blog/controlnet) （Hugging Face Blog，2023-03-03T00:00:00+00:00）
+- [Ethical Guidelines for developing the Diffusers library](https://huggingface.co/blog/ethics-diffusers) （Hugging Face Blog，2023-03-02T00:00:00+00:00）
+- [How Hugging Face Accelerated Development of Witty Works Writing Assistant](https://huggingface.co/blog/classification-use-cases) （Hugging Face Blog，2023-03-01T00:00:00+00:00）
+- [Red-Teaming Large Language Models](https://huggingface.co/blog/red-teaming) （Hugging Face Blog，2023-02-24T00:00:00+00:00）
+- [Swift 🧨Diffusers - Fast Stable Diffusion for Mac](https://huggingface.co/blog/fast-mac-diffusers) （Hugging Face Blog，2023-02-24T00:00:00+00:00）
+- [Fetch Consolidates AI Tools and Saves 30% Development Time with Hugging Face on AWS](https://huggingface.co/blog/fetch-eap-case-study) （Hugging Face Blog，2023-02-23T00:00:00+00:00）
+- [Hugging Face and AWS partner to make AI more accessible](https://huggingface.co/blog/aws-partnership) （Hugging Face Blog，2023-02-21T00:00:00+00:00）
+- [Zero-shot image-to-text generation with BLIP-2](https://huggingface.co/blog/blip-2) （Hugging Face Blog，2023-02-15T00:00:00+00:00）
+- [Why we’re switching to Hugging Face Inference Endpoints, and maybe you should too](https://huggingface.co/blog/mantis-case-study) （Hugging Face Blog，2023-02-15T00:00:00+00:00）
+- [Parameter-Efficient Fine-Tuning using 🤗 PEFT](https://huggingface.co/blog/peft) （Hugging Face Blog，2023-02-10T00:00:00+00:00）
+- [Speech Synthesis, Recognition, and More With SpeechT5](https://huggingface.co/blog/speecht5) （Hugging Face Blog，2023-02-08T00:00:00+00:00）
+- [Generating Stories: AI for Game Development #5](https://huggingface.co/blog/ml-for-games-5) （Hugging Face Blog，2023-02-07T00:00:00+00:00）
+- [Introducing ⚔️ AI vs. AI ⚔️ a deep reinforcement learning multi-agents competition system](https://huggingface.co/blog/aivsai) （Hugging Face Blog，2023-02-07T00:00:00+00:00）
+- [Accelerating PyTorch Transformers with Intel Sapphire Rapids - part 2](https://huggingface.co/blog/intel-sapphire-rapids-inference) （Hugging Face Blog，2023-02-06T00:00:00+00:00）
+- [A Dive into Vision-Language Models](https://huggingface.co/blog/vision_language_pretraining) （Hugging Face Blog，2023-02-03T00:00:00+00:00）
+- [The State of Computer Vision at Hugging Face 🤗](https://huggingface.co/blog/cv_state) （Hugging Face Blog，2023-01-30T00:00:00+00:00）
+- [2D Asset Generation: AI for Game Development #4](https://huggingface.co/blog/ml-for-games-4) （Hugging Face Blog，2023-01-26T00:00:00+00:00）
+- [Using LoRA for Efficient Stable Diffusion Fine-Tuning](https://huggingface.co/blog/lora) （Hugging Face Blog，2023-01-26T00:00:00+00:00）
+- [What Makes a Dialog Agent Useful?](https://huggingface.co/blog/dialog-agents) （Hugging Face Blog，2023-01-24T00:00:00+00:00）
+- [Optimum+ONNX Runtime - Easier, Faster training for your Hugging Face models](https://huggingface.co/blog/optimum-onnxruntime-training) （Hugging Face Blog，2023-01-24T00:00:00+00:00）
+- [3D Asset Generation: AI for Game Development #3](https://huggingface.co/blog/ml-for-games-3) （Hugging Face Blog，2023-01-20T00:00:00+00:00）
+- [Universal Image Segmentation with Mask2Former and OneFormer](https://huggingface.co/blog/mask2former) （Hugging Face Blog，2023-01-19T00:00:00+00:00）
+- [Welcome PaddlePaddle to the Hugging Face Hub](https://huggingface.co/blog/paddlepaddle) （Hugging Face Blog，2023-01-17T00:00:00+00:00）
+- [Image Similarity with Hugging Face Datasets and Transformers](https://huggingface.co/blog/image-similarity) （Hugging Face Blog，2023-01-16T00:00:00+00:00）
+- [AI for Game Development: Creating a Farming Game in 5 Days. Part 2](https://huggingface.co/blog/ml-for-games-2) （Hugging Face Blog，2023-01-09T00:00:00+00:00）
+- [Introduction to Graph Machine Learning](https://huggingface.co/blog/intro-graphml) （Hugging Face Blog，2023-01-03T00:00:00+00:00）
+- [AI for Game Development: Creating a Farming Game in 5 Days. Part 1](https://huggingface.co/blog/ml-for-games-1) （Hugging Face Blog，2023-01-02T00:00:00+00:00）
+- [Accelerating PyTorch Transformers with Intel Sapphire Rapids - part 1](https://huggingface.co/blog/intel-sapphire-rapids) （Hugging Face Blog，2023-01-02T00:00:00+00:00）
+- [Zero-shot image segmentation with CLIPSeg](https://huggingface.co/blog/clipseg-zero-shot) （Hugging Face Blog，2022-12-21T00:00:00+00:00）
+- [Model Cards](https://huggingface.co/blog/model-cards) （Hugging Face Blog，2022-12-20T00:00:00+00:00）
+- [Let's talk about biases in machine learning! Ethics and Society Newsletter #2](https://huggingface.co/blog/ethics-soc-2) （Hugging Face Blog，2022-12-15T00:00:00+00:00）
+- [A Complete Guide to Audio Datasets](https://huggingface.co/blog/audio-datasets) （Hugging Face Blog，2022-12-15T00:00:00+00:00）
+- [Faster Training and Inference: Habana Gaudi®2 vs Nvidia A100 80GB](https://huggingface.co/blog/habana-gaudi-2-benchmark) （Hugging Face Blog，2022-12-14T00:00:00+00:00）
+- [Illustrating Reinforcement Learning from Human Feedback (RLHF)](https://huggingface.co/blog/rlhf) （Hugging Face Blog，2022-12-09T00:00:00+00:00）
+- [From GPT2 to Stable Diffusion: Hugging Face arrives to the Elixir community](https://huggingface.co/blog/elixir-bumblebee) （Hugging Face Blog，2022-12-09T00:00:00+00:00）
+- [Deep Learning with Proteins](https://huggingface.co/blog/deep-learning-with-proteins) （Hugging Face Blog，2022-12-02T00:00:00+00:00）
+- [Using Stable Diffusion with Core ML on Apple Silicon](https://huggingface.co/blog/diffusers-coreml) （Hugging Face Blog，2022-12-01T00:00:00+00:00）
+- [Probabilistic Time Series Forecasting with 🤗 Transformers](https://huggingface.co/blog/time-series-transformers) （Hugging Face Blog，2022-12-01T00:00:00+00:00）
+- [VQ-Diffusion](https://huggingface.co/blog/vq-diffusion) （Hugging Face Blog，2022-11-30T00:00:00+00:00）
+- [We are hiring interns!](https://huggingface.co/blog/interns-2023) （Hugging Face Blog，2022-11-29T00:00:00+00:00）
+- [Diffusion Models Live Event](https://huggingface.co/blog/diffusion-models-event) （Hugging Face Blog，2022-11-25T00:00:00+00:00）
+- [Director of Machine Learning Insights [Part 4]](https://huggingface.co/blog/ml-director-insights-4) （Hugging Face Blog，2022-11-23T00:00:00+00:00）
+- [Accelerating Document AI](https://huggingface.co/blog/document-ai) （Hugging Face Blog，2022-11-21T00:00:00+00:00）
+- [An overview of inference solutions on Hugging Face](https://huggingface.co/blog/inference-update) （Hugging Face Blog，2022-11-21T00:00:00+00:00）
+- [Hugging Face Machine Learning Demos on arXiv](https://huggingface.co/blog/arxiv) （Hugging Face Blog，2022-11-17T00:00:00+00:00）
+- [Sentiment Analysis on Encrypted Data with Homomorphic Encryption](https://huggingface.co/blog/sentiment-analysis-fhe) （Hugging Face Blog，2022-11-17T00:00:00+00:00）
+- [Generating Human-level Text with Contrastive Search in Transformers 🤗](https://huggingface.co/blog/introducing-csearch) （Hugging Face Blog，2022-11-08T00:00:00+00:00）
+- [Introducing our new pricing](https://huggingface.co/blog/pricing-update) （Hugging Face Blog，2022-11-08T00:00:00+00:00）
+- [Training Stable Diffusion with Dreambooth using Diffusers](https://huggingface.co/blog/dreambooth) （Hugging Face Blog，2022-11-07T00:00:00+00:00）
+- [Fine-Tune Whisper For Multilingual ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-whisper) （Hugging Face Blog，2022-11-03T00:00:00+00:00）
+- [Accelerate your models with 🤗 Optimum Intel and OpenVINO](https://huggingface.co/blog/openvino) （Hugging Face Blog，2022-11-02T00:00:00+00:00）
+- [Evaluating Language Model Bias with 🤗 Evaluate](https://huggingface.co/blog/evaluating-llm-bias) （Hugging Face Blog，2022-10-24T00:00:00+00:00）
+- [From PyTorch DDP to Accelerate to Trainer, mastery of distributed training with ease](https://huggingface.co/blog/pytorch-ddp-accelerate-transformers) （Hugging Face Blog，2022-10-21T00:00:00+00:00）
+- [MTEB: Massive Text Embedding Benchmark](https://huggingface.co/blog/mteb) （Hugging Face Blog，2022-10-19T00:00:00+00:00）
+- [Getting Started with Hugging Face Inference Endpoints](https://huggingface.co/blog/inference-endpoints) （Hugging Face Blog，2022-10-14T00:00:00+00:00）
+- [🧨 Stable Diffusion in JAX / Flax !](https://huggingface.co/blog/stable_diffusion_jax) （Hugging Face Blog，2022-10-13T00:00:00+00:00）
+- [Optimization story: Bloom inference](https://huggingface.co/blog/bloom-inference-optimization) （Hugging Face Blog，2022-10-12T00:00:00+00:00）
+- [Introducing DOI: the Digital Object Identifier to Datasets and Models](https://huggingface.co/blog/introducing-doi) （Hugging Face Blog，2022-10-07T00:00:00+00:00）
+- [Japanese Stable Diffusion](https://huggingface.co/blog/japanese-stable-diffusion) （Hugging Face Blog，2022-10-05T00:00:00+00:00）
+- [Very Large Language Models and How to Evaluate Them](https://huggingface.co/blog/zero-shot-eval-on-the-hub) （Hugging Face Blog，2022-10-03T00:00:00+00:00）
+- [Image Classification with AutoTrain](https://huggingface.co/blog/autotrain-image-classification) （Hugging Face Blog，2022-09-28T00:00:00+00:00）
+- [How 🤗 Accelerate runs very large models thanks to PyTorch](https://huggingface.co/blog/accelerate-large-models) （Hugging Face Blog，2022-09-27T00:00:00+00:00）
+- [SetFit: Efficient Few-Shot Learning Without Prompts](https://huggingface.co/blog/setfit) （Hugging Face Blog，2022-09-26T00:00:00+00:00）
+- [Ethics and Society Newsletter #1](https://huggingface.co/blog/ethics-soc-1) （Hugging Face Blog，2022-09-22T00:00:00+00:00）
+- [Incredibly Fast BLOOM Inference with DeepSpeed and Accelerate](https://huggingface.co/blog/bloom-inference-pytorch-scripts) （Hugging Face Blog，2022-09-16T00:00:00+00:00）
+- [What's new in Diffusers? 🎨](https://huggingface.co/blog/diffusers-2nd-month) （Hugging Face Blog，2022-09-12T00:00:00+00:00）
+- [Train your first Decision Transformer](https://huggingface.co/blog/train-decision-transformers) （Hugging Face Blog，2022-09-08T00:00:00+00:00）
+- [How to train a Language Model with Megatron-LM](https://huggingface.co/blog/megatron-training) （Hugging Face Blog，2022-09-07T00:00:00+00:00）
+- [OpenRAIL: Towards open and responsible AI licensing frameworks](https://huggingface.co/blog/open_rail) （Hugging Face Blog，2022-08-31T00:00:00+00:00）
+- [Visualize proteins on Hugging Face Spaces](https://huggingface.co/blog/spaces_3dmoljs) （Hugging Face Blog，2022-08-24T00:00:00+00:00）
+- [Stable Diffusion with 🧨 Diffusers](https://huggingface.co/blog/stable_diffusion) （Hugging Face Blog，2022-08-22T00:00:00+00:00）
+- [Pre-Train BERT with Hugging Face Transformers and Habana Gaudi](https://huggingface.co/blog/pretraining-bert) （Hugging Face Blog，2022-08-22T00:00:00+00:00）
+- [Deploying 🤗 ViT on Vertex AI](https://huggingface.co/blog/deploy-vertex-ai) （Hugging Face Blog，2022-08-19T00:00:00+00:00）
+- [Deep Dive: Vision Transformers On Hugging Face Optimum Graphcore](https://huggingface.co/blog/vision-transformers) （Hugging Face Blog，2022-08-18T00:00:00+00:00）
+- [A Gentle Introduction to 8-bit Matrix Multiplication for transformers at scale using transformers, accelerate and bitsandbytes](https://huggingface.co/blog/hf-bitsandbytes-integration) （Hugging Face Blog，2022-08-17T00:00:00+00:00）
+- [Introducing Skops](https://huggingface.co/blog/skops) （Hugging Face Blog，2022-08-12T00:00:00+00:00）
+- [Hugging Face's TensorFlow Philosophy](https://huggingface.co/blog/tensorflow-philosophy) （Hugging Face Blog，2022-08-12T00:00:00+00:00）
+- [Deploying 🤗 ViT on Kubernetes with TF Serving](https://huggingface.co/blog/deploy-tfserving-kubernetes) （Hugging Face Blog，2022-08-11T00:00:00+00:00）
+- [Train and Fine-Tune Sentence Transformers Models](https://huggingface.co/blog/how-to-train-sentence-transformers) （Hugging Face Blog，2022-08-10T00:00:00+00:00）
+- [Proximal Policy Optimization (PPO)](https://huggingface.co/blog/deep-rl-ppo) （Hugging Face Blog，2022-08-05T00:00:00+00:00）
+- [Introducing the Private Hub: A New Way to Build With Machine Learning](https://huggingface.co/blog/introducing-private-hub) （Hugging Face Blog，2022-08-03T00:00:00+00:00）
+- [Nyströmformer: Approximating self-attention in linear time and memory via the Nyström method](https://huggingface.co/blog/nystromformer) （Hugging Face Blog，2022-08-02T00:00:00+00:00）
+- [Comments on U.S. National AI Research Resource Interim Report](https://huggingface.co/blog/us-national-ai-research-resource) （Hugging Face Blog，2022-08-01T00:00:00+00:00）
+- [Introducing new audio and vision documentation in 🤗 Datasets](https://huggingface.co/blog/datasets-docs-update) （Hugging Face Blog，2022-07-28T00:00:00+00:00）
+- [Faster Text Generation with TensorFlow and XLA](https://huggingface.co/blog/tf-xla-generate) （Hugging Face Blog，2022-07-27T00:00:00+00:00）
+- [Deploying TensorFlow Vision Models in Hugging Face with TF Serving](https://huggingface.co/blog/tf-serving-vision) （Hugging Face Blog，2022-07-25T00:00:00+00:00）
+- [Advantage Actor Critic (A2C)](https://huggingface.co/blog/deep-rl-a2c) （Hugging Face Blog，2022-07-22T00:00:00+00:00）
+- [How to train your model dynamically using adversarial data](https://huggingface.co/blog/mnist-adversarial) （Hugging Face Blog，2022-07-16T00:00:00+00:00）
+- [The Technology Behind BLOOM Training](https://huggingface.co/blog/bloom-megatron-deepspeed) （Hugging Face Blog，2022-07-14T00:00:00+00:00）
+- [Building a Playlist Generator with Sentence Transformers](https://huggingface.co/blog/playlist-generator) （Hugging Face Blog，2022-07-13T00:00:00+00:00）
+- [Introducing The World's Largest Open Multilingual Language Model: BLOOM](https://huggingface.co/blog/bloom) （Hugging Face Blog，2022-07-12T00:00:00+00:00）
+- [Getting Started with Sentiment Analysis on Twitter](https://huggingface.co/blog/sentiment-analysis-twitter) （Hugging Face Blog，2022-07-07T00:00:00+00:00）
+- [Policy Gradient with PyTorch](https://huggingface.co/blog/deep-rl-pg) （Hugging Face Blog，2022-06-30T00:00:00+00:00）
+- [Liftoff! How to get started with your first ML project 🚀](https://huggingface.co/blog/your-first-ml-project) （Hugging Face Blog，2022-06-29T00:00:00+00:00）
+- [Accelerate Large Model Training using DeepSpeed](https://huggingface.co/blog/accelerate-deepspeed) （Hugging Face Blog，2022-06-28T00:00:00+00:00）
+- [Announcing Evaluation on the Hub](https://huggingface.co/blog/eval-on-the-hub) （Hugging Face Blog，2022-06-28T00:00:00+00:00）
+- [Getting Started With Embeddings](https://huggingface.co/blog/getting-started-with-embeddings) （Hugging Face Blog，2022-06-23T00:00:00+00:00）
+- [Convert Transformers to ONNX with Hugging Face Optimum](https://huggingface.co/blog/convert-transformers-to-onnx) （Hugging Face Blog，2022-06-22T00:00:00+00:00）
+- [Intel and Hugging Face Partner to Democratize Machine Learning Hardware Acceleration](https://huggingface.co/blog/intel) （Hugging Face Blog，2022-06-15T00:00:00+00:00）
+- [Director of Machine Learning Insights [Part 3: Finance Edition]](https://huggingface.co/blog/ml-director-insights-3) （Hugging Face Blog，2022-06-14T00:00:00+00:00）
+- [The Annotated Diffusion Model](https://huggingface.co/blog/annotated-diffusion) （Hugging Face Blog，2022-06-07T00:00:00+00:00）
+- [Deep Q-Learning with Space Invaders](https://huggingface.co/blog/deep-rl-dqn) （Hugging Face Blog，2022-06-07T00:00:00+00:00）
+- [Graphcore and Hugging Face Launch New Lineup of IPU-Ready Transformers](https://huggingface.co/blog/graphcore-update) （Hugging Face Blog，2022-05-26T00:00:00+00:00）
+- [Introducing Pull Requests and Discussions 🥳](https://huggingface.co/blog/community-update) （Hugging Face Blog，2022-05-25T00:00:00+00:00）
+- [Efficient Table Pre-training without Real Data: An Introduction to TAPEX](https://huggingface.co/blog/tapex) （Hugging Face Blog，2022-05-23T00:00:00+00:00）
+- [An Introduction to Q-Learning Part 2/2](https://huggingface.co/blog/deep-rl-q-part2) （Hugging Face Blog，2022-05-20T00:00:00+00:00）
+- [How Sempre Health is leveraging the Expert Acceleration Program to accelerate their ML roadmap](https://huggingface.co/blog/sempre-health-eap-case-study) （Hugging Face Blog，2022-05-19T00:00:00+00:00）
+- [Putting ethical principles at the core of the research lifecycle](https://huggingface.co/blog/ethical-charter-multimodal) （Hugging Face Blog，2022-05-19T00:00:00+00:00）
+- [An Introduction to Q-Learning Part 1](https://huggingface.co/blog/deep-rl-q-part1) （Hugging Face Blog，2022-05-18T00:00:00+00:00）
+- [Machine Learning Experts - Sasha Luccioni](https://huggingface.co/blog/sasha-luccioni-interview) （Hugging Face Blog，2022-05-17T00:00:00+00:00）
+- [Announcing the Hugging Face Fellowship Program](https://huggingface.co/blog/fellowship) （Hugging Face Blog，2022-05-17T00:00:00+00:00）
+- [Gradio 3.0 is Out!](https://huggingface.co/blog/gradio-blocks) （Hugging Face Blog，2022-05-16T00:00:00+00:00）
+- [Director of Machine Learning Insights [Part 2: SaaS Edition]](https://huggingface.co/blog/ml-director-insights-2) （Hugging Face Blog，2022-05-13T00:00:00+00:00）
+- [Student Ambassador Program’s call for applications is open!](https://huggingface.co/blog/ambassadors) （Hugging Face Blog，2022-05-13T00:00:00+00:00）
+- [Accelerated Inference with Optimum and Transformers Pipelines](https://huggingface.co/blog/optimum-inference) （Hugging Face Blog，2022-05-10T00:00:00+00:00）
+- [We Raised $100 Million for Open & Collaborative Machine Learning 🚀](https://huggingface.co/blog/series-c) （Hugging Face Blog，2022-05-09T00:00:00+00:00）
+- [Welcome fastai to the Hugging Face Hub](https://huggingface.co/blog/fastai) （Hugging Face Blog，2022-05-06T00:00:00+00:00）
+- [An Introduction to Deep Reinforcement Learning](https://huggingface.co/blog/deep-rl-intro) （Hugging Face Blog，2022-05-04T00:00:00+00:00）
+- [Accelerate Large Model Training using PyTorch Fully Sharded Data Parallel](https://huggingface.co/blog/pytorch-fsdp) （Hugging Face Blog，2022-05-02T00:00:00+00:00）
+- [Opinion Classification with Kili and HuggingFace AutoTrain](https://huggingface.co/blog/opinion-classification-with-kili) （Hugging Face Blog，2022-04-28T00:00:00+00:00）
+- [Director of Machine Learning Insights](https://huggingface.co/blog/ml-director-insights) （Hugging Face Blog，2022-04-27T00:00:00+00:00）
+- [Getting Started with Transformers on Habana Gaudi](https://huggingface.co/blog/getting-started-habana) （Hugging Face Blog，2022-04-26T00:00:00+00:00）
+- [Introducing Hugging Face for Education 🤗](https://huggingface.co/blog/education) （Hugging Face Blog，2022-04-25T00:00:00+00:00）
+- [Supercharged Customer Service with Machine Learning](https://huggingface.co/blog/supercharge-customer-service-with-machine-learning) （Hugging Face Blog，2022-04-25T00:00:00+00:00）
+- [CO2 Emissions and the 🤗 Hub: Leading the Charge](https://huggingface.co/blog/carbon-emissions-on-the-hub) （Hugging Face Blog，2022-04-22T00:00:00+00:00）
+- [Machine Learning Experts - Lewis Tunstall](https://huggingface.co/blog/lewis-tunstall-interview) （Hugging Face Blog，2022-04-13T00:00:00+00:00）
+- [Habana Labs and Hugging Face Partner to Accelerate Transformer Model Training](https://huggingface.co/blog/habana) （Hugging Face Blog，2022-04-12T00:00:00+00:00）
+- [~Don't~ Repeat Yourself](https://huggingface.co/blog/transformers-design-philosophy) （Hugging Face Blog，2022-04-05T00:00:00+00:00）
+- [Introducing Decision Transformers on Hugging Face 🤗](https://huggingface.co/blog/decision-transformers) （Hugging Face Blog，2022-03-28T00:00:00+00:00）
+- [Machine Learning Experts - Margaret Mitchell](https://huggingface.co/blog/meg-mitchell-interview) （Hugging Face Blog，2022-03-23T00:00:00+00:00）
+- [Announcing the 🤗 AI Research Residency Program](https://huggingface.co/blog/ai-residency) （Hugging Face Blog，2022-03-22T00:00:00+00:00）
+- [Fine-Tune a Semantic Segmentation Model with a Custom Dataset](https://huggingface.co/blog/fine-tune-segformer) （Hugging Face Blog，2022-03-17T00:00:00+00:00）
+- [Accelerate BERT inference with Hugging Face Transformers and AWS Inferentia](https://huggingface.co/blog/bert-inferentia-sagemaker) （Hugging Face Blog，2022-03-16T00:00:00+00:00）
+- [Image search with 🤗 datasets](https://huggingface.co/blog/image-search-datasets) （Hugging Face Blog，2022-03-16T00:00:00+00:00）
+- [Guiding Text Generation with Constrained Beam Search in 🤗 Transformers](https://huggingface.co/blog/constrained-beam-search) （Hugging Face Blog，2022-03-11T00:00:00+00:00）
+- [BERT 101 - State Of The Art NLP Model Explained](https://huggingface.co/blog/bert-101) （Hugging Face Blog，2022-03-02T00:00:00+00:00）
+- [Fine-Tune ViT for Image Classification with 🤗 Transformers](https://huggingface.co/blog/fine-tune-vit) （Hugging Face Blog，2022-02-11T00:00:00+00:00）
+- [Getting Started with Sentiment Analysis using Python](https://huggingface.co/blog/sentiment-analysis-python) （Hugging Face Blog，2022-02-02T00:00:00+00:00）
+- [Making automatic speech recognition work on large files with Wav2Vec2 in 🤗 Transformers](https://huggingface.co/blog/asr-chunking) （Hugging Face Blog，2022-02-01T00:00:00+00:00）
+- [Supercharged Searching on the 🤗 Hub](https://huggingface.co/blog/searching-the-hub) （Hugging Face Blog，2022-01-25T00:00:00+00:00）
+- [Welcome Stable-baselines3 to the Hugging Face Hub 🤗](https://huggingface.co/blog/sb3) （Hugging Face Blog，2022-01-21T00:00:00+00:00）
+- [Case Study: Millisecond Latency using Hugging Face Infinity and modern CPUs](https://huggingface.co/blog/infinity-cpu-performance) （Hugging Face Blog，2022-01-13T00:00:00+00:00）
+- [Boosting Wav2Vec2 with n-grams in 🤗 Transformers](https://huggingface.co/blog/wav2vec2-with-ngram) （Hugging Face Blog，2022-01-12T00:00:00+00:00）
+- [Deploy GPT-J 6B for inference using Hugging Face Transformers and Amazon SageMaker](https://huggingface.co/blog/gptj-sagemaker) （Hugging Face Blog，2022-01-11T00:00:00+00:00）
+- [Active Learning with AutoNLP and Prodigy](https://huggingface.co/blog/autonlp-prodigy) （Hugging Face Blog，2021-12-23T00:00:00+00:00）
+- [Gradio is joining Hugging Face!](https://huggingface.co/blog/gradio-joins-hf) （Hugging Face Blog，2021-12-21T00:00:00+00:00）
+- [Perceiver IO: a scalable, fully-attentional model that works on any modality](https://huggingface.co/blog/perceiver) （Hugging Face Blog，2021-12-15T00:00:00+00:00）
+- [Training CodeParrot 🦜 from Scratch](https://huggingface.co/blog/codeparrot) （Hugging Face Blog，2021-12-08T00:00:00+00:00）
+- [Introducing Snowball Fight ☃️, our first ML-Agents environment](https://huggingface.co/blog/snowball-fight) （Hugging Face Blog，2021-12-02T00:00:00+00:00）
+- [Getting Started with Hugging Face Transformers for IPUs with Optimum](https://huggingface.co/blog/graphcore-getting-started) （Hugging Face Blog，2021-11-30T00:00:00+00:00）
+- [Introducing the Data Measurements Tool: an Interactive Tool for Looking at Datasets](https://huggingface.co/blog/data-measurements-tool) （Hugging Face Blog，2021-11-29T00:00:00+00:00）
+- [Accelerating PyTorch distributed fine-tuning with Intel technologies](https://huggingface.co/blog/accelerating-pytorch) （Hugging Face Blog，2021-11-19T00:00:00+00:00）
+- [Fine-Tune XLSR-Wav2Vec2 for low-resource ASR with 🤗 Transformers](https://huggingface.co/blog/fine-tune-xlsr-wav2vec2) （Hugging Face Blog，2021-11-15T00:00:00+00:00）
+- [Scaling up BERT-like model Inference on modern CPU - Part 2](https://huggingface.co/blog/bert-cpu-scaling-part-2) （Hugging Face Blog，2021-11-04T00:00:00+00:00）
+- [Course Launch Community Event](https://huggingface.co/blog/course-launch-event) （Hugging Face Blog，2021-10-26T00:00:00+00:00）
+- [Large Language Models: A New Moore's Law?](https://huggingface.co/blog/large-language-models) （Hugging Face Blog，2021-10-26T00:00:00+00:00）
+- [Train a Sentence Embedding Model with 1B Training Pairs](https://huggingface.co/blog/1b-sentence-embeddings) （Hugging Face Blog，2021-10-25T00:00:00+00:00）
+- [The Age of Machine Learning As Code Has Arrived](https://huggingface.co/blog/the-age-of-ml-as-code) （Hugging Face Blog，2021-10-20T00:00:00+00:00）
+- [Fine tuning CLIP with Remote Sensing (Satellite) images and captions](https://huggingface.co/blog/fine-tune-clip-rsicd) （Hugging Face Blog，2021-10-13T00:00:00+00:00）
+- [Hosting your Models and Datasets on Hugging Face Spaces using Streamlit](https://huggingface.co/blog/streamlit-spaces) （Hugging Face Blog，2021-10-05T00:00:00+00:00）
+- [Showcase Your Projects in Spaces using Gradio](https://huggingface.co/blog/gradio-spaces) （Hugging Face Blog，2021-10-05T00:00:00+00:00）
+- [Summer at Hugging Face](https://huggingface.co/blog/summer-at-huggingface) （Hugging Face Blog，2021-09-24T00:00:00+00:00）
+- [Hugging Face and Graphcore partner for IPU-optimized Transformers](https://huggingface.co/blog/graphcore) （Hugging Face Blog，2021-09-14T00:00:00+00:00）
+- [Introducing Optimum: The Optimization Toolkit for Transformers at Scale](https://huggingface.co/blog/hardware-partners-program) （Hugging Face Blog，2021-09-14T00:00:00+00:00）
+- [Deep Learning over the Internet: Training Language Models Collaboratively](https://huggingface.co/blog/collaborative-training) （Hugging Face Blog，2021-07-15T00:00:00+00:00）
+- [Welcome spaCy to the Hugging Face Hub](https://huggingface.co/blog/spacy) （Hugging Face Blog，2021-07-13T00:00:00+00:00）
+- [Deploy Hugging Face models easily with Amazon SageMaker](https://huggingface.co/blog/deploy-hugging-face-models-easily-with-amazon-sagemaker) （Hugging Face Blog，2021-07-08T00:00:00+00:00）
+- [Sentence Transformers in the Hugging Face Hub](https://huggingface.co/blog/sentence-transformers-in-the-hub) （Hugging Face Blog，2021-06-28T00:00:00+00:00）
+- [Few-shot learning in practice: GPT-Neo and the 🤗 Accelerated Inference API](https://huggingface.co/blog/few-shot-learning-gpt-neo-and-inference-api) （Hugging Face Blog，2021-06-03T00:00:00+00:00）
+- [Using & Mixing Hugging Face Models with Gradio 2.0](https://huggingface.co/blog/gradio) （Hugging Face Blog，2021-05-25T00:00:00+00:00）
+- [Scaling-up BERT Inference on CPU (Part 1)](https://huggingface.co/blog/bert-cpu-scaling-part-1) （Hugging Face Blog，2021-04-20T00:00:00+00:00）
+- [Introducing 🤗 Accelerate](https://huggingface.co/blog/accelerate-library) （Hugging Face Blog，2021-04-16T00:00:00+00:00）
+- [Distributed Training: Train BART/T5 for Summarization using 🤗 Transformers and Amazon SageMaker](https://huggingface.co/blog/sagemaker-distributed-training-seq2seq) （Hugging Face Blog，2021-04-08T00:00:00+00:00）
+- [Understanding BigBird's Block Sparse Attention](https://huggingface.co/blog/big-bird) （Hugging Face Blog，2021-03-31T00:00:00+00:00）
+- [The Partnership: Amazon SageMaker and Hugging Face](https://huggingface.co/blog/the-partnership-amazon-sagemaker-and-hugging-face) （Hugging Face Blog，2021-03-23T00:00:00+00:00）
+- [My Journey to a serverless transformers pipeline on Google Cloud](https://huggingface.co/blog/how-to-deploy-a-pipeline-to-google-clouds) （Hugging Face Blog，2021-03-18T00:00:00+00:00）
+- [Fine-Tune Wav2Vec2 for English ASR in Hugging Face with 🤗 Transformers](https://huggingface.co/blog/fine-tune-wav2vec2-english) （Hugging Face Blog，2021-03-12T00:00:00+00:00）
+- [Hugging Face Reads, Feb. 2021 - Long-range Transformers](https://huggingface.co/blog/long-range-transformers) （Hugging Face Blog，2021-03-09T00:00:00+00:00）
+- [Simple considerations for simple people building fancy neural networks](https://huggingface.co/blog/simple-considerations) （Hugging Face Blog，2021-02-25T00:00:00+00:00）
+- [Retrieval Augmented Generation with Huggingface Transformers and Ray](https://huggingface.co/blog/ray-rag) （Hugging Face Blog，2021-02-10T00:00:00+00:00）
+- [Hugging Face on PyTorch / XLA TPUs](https://huggingface.co/blog/pytorch-xla) （Hugging Face Blog，2021-02-09T00:00:00+00:00）
+- [Faster TensorFlow models in Hugging Face Transformers](https://huggingface.co/blog/tf-serving) （Hugging Face Blog，2021-01-26T00:00:00+00:00）
+- [Fit More and Train Faster With ZeRO via DeepSpeed and FairScale](https://huggingface.co/blog/zero-deepspeed-fairscale) （Hugging Face Blog，2021-01-19T00:00:00+00:00）
+- [How we sped up transformer inference 100x for 🤗 API customers](https://huggingface.co/blog/accelerated-inference) （Hugging Face Blog，2021-01-18T00:00:00+00:00）
+- [Leveraging Pre-trained Language Model Checkpoints for Encoder-Decoder Models](https://huggingface.co/blog/warm-starting-encoder-decoder) （Hugging Face Blog，2020-11-09T00:00:00+00:00）
+- [Porting fairseq wmt19 translation system to transformers](https://huggingface.co/blog/porting-fsmt) （Hugging Face Blog，2020-11-03T00:00:00+00:00）
+- [Hyperparameter Search with Transformers and Ray Tune](https://huggingface.co/blog/ray-tune) （Hugging Face Blog，2020-11-02T00:00:00+00:00）
+- [Transformer-based Encoder-Decoder Models](https://huggingface.co/blog/encoder-decoder) （Hugging Face Blog，2020-10-10T00:00:00+00:00）
+- [Block Sparse Matrices for Smaller and Faster Language Models](https://huggingface.co/blog/pytorch_block_sparse) （Hugging Face Blog，2020-09-10T00:00:00+00:00）
+- [The Reformer - Pushing the limits of language modeling](https://huggingface.co/blog/reformer) （Hugging Face Blog，2020-07-03T00:00:00+00:00）
+- [How to generate text: using different decoding methods for language generation with Transformers](https://huggingface.co/blog/how-to-generate) （Hugging Face Blog，2020-03-01T00:00:00+00:00）
+- [How to train a new language model from scratch using Transformers and Tokenizers](https://huggingface.co/blog/how-to-train) （Hugging Face Blog，2020-02-14T00:00:00+00:00）
 
-## 后续观察问题
+## 重要论文 / 技术趋势
 
-- 假数据：哪些 AI 产品更新真正改善了日常工作流？
-- 假数据：哪些开发者工具值得进入下一阶段的真实数据观察清单？
+- [We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks](https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/) （Google DeepMind News，2026-05-21T19:46:42+00:00）
+- [Fast-tracking genetic leads to reverse cellular aging](https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/) （Google DeepMind News，2026-05-18T18:21:39+00:00）：Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.
+- [Simulate real-world places with Project Genie and Street View](https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/) （Google DeepMind News，2026-05-17T19:53:18+00:00）：We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.
+- [Introducing Gemini Omni](https://deepmind.google/blog/introducing-gemini-omni/) （Google DeepMind News，2026-05-17T19:50:57+00:00）
+- [Introducing Google Antigravity 2.0](https://deepmind.google/blog/introducing-google-antigravity-2-0/) （Google DeepMind News，2026-05-17T19:43:45+00:00）
+- [Gemini for Science: AI experiments and tools for a new era of discovery](https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/) （Google DeepMind News，2026-05-17T13:50:34+00:00）：A collection of science tools and experiments to expand the scale and precision of scientific exploration.
+- [Making it easier to understand how content was created and edited](https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/) （Google DeepMind News，2026-05-17T13:43:50+00:00）：We're expanding our tools to help you understand how content was created and edited across the web.
+- [Strengthening Singapore’s AI Future: A New National Partnership](https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/) （Google DeepMind News，2026-05-16T09:13:34+00:00）：Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more.
+- [Finding the molecular switches behind new infectious diseases](https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/) （Google DeepMind News，2026-05-16T08:16:06+00:00）：Clare Bryant uses Co-Scientist to identify genetic triggers in emerging infectious diseases.
+- [Opening new paths in aging research](https://deepmind.google/blog/opening-new-paths-in-aging-research/) （Google DeepMind News，2026-05-16T08:08:44+00:00）：Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research.
+- [Accelerating discovery of liver disease mechanisms](https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/) （Google DeepMind News，2026-05-16T08:00:15+00:00）：Filippo Menolascina uses Co-Scientist to identify new liver disease treatments and explain why existing drugs only help certain patients.
+- [Uniting biological toolkits for a new approach to ALS](https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als/) （Google DeepMind News，2026-05-16T07:53:11+00:00）：Co-Scientist unites Boston Children’s Hospital and MIT’s labs to explore new RNA-based treatments for ALS.
+- [Uncovering repurposed medicines to fight liver fibrosis](https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/) （Google DeepMind News，2026-05-16T07:40:27+00:00）：Stanford geneticist uses Co-Scientist to help find new treatments for chronic liver disease and liver fibrosis.
+- [How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa’s historic landfall in Jamaica](https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/) （Google DeepMind News，2026-05-16T03:14:17+00:00）：Learn how our WeatherNext AI model help forecasters give communities unprecedented time to prepare ahead of the historic Hurricane Melissa.
+- [Gemini 3.5: frontier intelligence with action](https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/) （Google DeepMind News，2026-05-15T22:50:12+00:00）：Gemini 3.5 is built to help you execute complex, agentic workflows.
+- [Co-Scientist: A multi-agent AI partner to accelerate research](https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/) （Google DeepMind News，2026-05-12T14:40:07+00:00）：Introducing Co-Scientist, a collaborative AI partner built with Gemini to help researchers accelerate scientific breakthroughs.
+- [AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields](https://deepmind.google/blog/alphaevolve-impact/) （Google DeepMind News，2026-05-06T10:43:49+00:00）：Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.
+- [Enabling a new model for healthcare with AI co-clinician](https://deepmind.google/blog/ai-co-clinician/) （Google DeepMind News，2026-04-30T12:14:15+00:00）：Researching the path to AI-augmented care and development of an AI co-clinician.
+- [Announcing our partnership with the Republic of Korea](https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/) （Google DeepMind News，2026-04-27T07:00:06+00:00）：Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models
+- [Decoupled DiLoCo: A new frontier for resilient, distributed AI training](https://deepmind.google/blog/decoupled-diloco/) （Google DeepMind News，2026-04-22T10:20:03+00:00）
+- [Partnering with industry leaders to accelerate AI transformation](https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/) （Google DeepMind News，2026-04-21T14:54:15+00:00）：Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.
+- [Gemini 3.1 Flash TTS: the next generation of expressive AI speech](https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/) （Google DeepMind News，2026-04-15T16:03:19+00:00）：Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.
+- [Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning](https://deepmind.google/blog/gemini-robotics-er-1-6/) （Google DeepMind News，2026-04-13T15:52:13+00:00）：Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.
+- [Gemma 4: Byte for byte, the most capable open models](https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/) （Google DeepMind News，2026-04-02T16:00:49+00:00）：Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows.
+- [Reimagining the mouse pointer for the AI era](https://deepmind.google/blog/ai-pointer/) （Google DeepMind News，2026-03-29T10:50:49+00:00）：Google DeepMind is transforming the mouse pointer into a context-aware AI partner. Move beyond the friction of traditional prompting with intuitive AI collaboration in Chrome and…
+- [Gemini 3.1 Flash Live: Making audio AI more natural and reliable](https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/) （Google DeepMind News，2026-03-26T15:23:35+00:00）：Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise.
+- [Protecting people from harmful manipulation](https://deepmind.google/blog/protecting-people-from-harmful-manipulation/) （Google DeepMind News，2026-03-25T16:46:20+00:00）：Google DeepMind researches AI's harmful manipulation risks across areas like finance and health, leading to new safety measures.
+- [Lyria 3 Pro: Create longer tracks in more](https://deepmind.google/blog/lyria-3-pro-create-longer-tracks-in-more/) （Google DeepMind News，2026-03-25T16:01:39+00:00）：Introducing Lyria 3 Pro, which unlocks longer tracks with structural awareness. We’re also bringing Lyria to more Google products and surfaces.
+- [Measuring progress toward AGI: A cognitive framework](https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/) （Google DeepMind News，2026-03-17T16:03:47+00:00）：We’re introducing a framework to measure progress toward AGI, and launching a Kaggle hackathon to build the relevant evaluations.
+- [From games to biology and beyond: 10 years of AlphaGo’s impact](https://deepmind.google/blog/10-years-of-alphago/) （Google DeepMind News，2026-03-09T13:52:36+00:00）：Ten years since AlphaGo, we explore how it is catalyzing scientific discovery and paving a path to AGI.
+- [Gemini 3.1 Flash-Lite: Built for intelligence at scale](https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/) （Google DeepMind News，2026-03-03T16:35:55+00:00）：Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet.
+- [Nano Banana 2: Combining Pro capabilities with lightning-fast speed](https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/) （Google DeepMind News，2026-02-26T16:01:50+00:00）：Our latest image generation model offers advanced world knowledge, production ready specs, subject consistency and more, all at Flash speed.
+- [Gemini 3.1 Pro: A smarter model for your most complex tasks](https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/) （Google DeepMind News，2026-02-19T16:06:14+00:00）：3.1 Pro is designed for tasks where a simple answer isn’t enough.
+- [A new way to express yourself: Gemini can now create music](https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/) （Google DeepMind News，2026-02-18T16:01:38+00:00）：The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images.
+- [Accelerating discovery in India through AI-powered science and education](https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/) （Google DeepMind News，2026-02-17T13:42:20+00:00）：Google DeepMind brings National Partnerships for AI initiative to India, scaling AI for science and education
+- [Gemini 3 Deep Think: Advancing science, research and engineering](https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/) （Google DeepMind News，2026-02-12T16:15:09+00:00）：Our most specialized reasoning mode is now updated to solve modern science, research and engineering challenges.
+- [Accelerating Mathematical and Scientific Discovery with Gemini Deep Think](https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/) （Google DeepMind News，2026-02-09T16:12:06+00:00）：Research papers point to the growing impact of Deep Think across fields
+- [Project Genie: Experimenting with infinite, interactive worlds](https://deepmind.google/blog/project-genie-experimenting-with-infinite-interactive-worlds/) （Google DeepMind News，2026-01-29T17:01:05+00:00）：Google AI Ultra subscribers in the U.S. can try out Project Genie, an experimental research prototype that lets you create and explore worlds.
+- [D4RT: Teaching AI to see the world in four dimensions](https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/) （Google DeepMind News，2026-01-16T10:39:00+00:00）：D4RT: Unified, efficient 4D reconstruction and tracking up to 300x faster than prior methods.
+- [Veo 3.1 Ingredients to Video: More consistency, creativity and control](https://deepmind.google/blog/veo-3-1-ingredients-to-video-more-consistency-creativity-and-control/) （Google DeepMind News，2026-01-13T17:00:18+00:00）：Our latest Veo update generates lively, dynamic clips that feel natural and engaging — and supports vertical video generation.
+- [Google's year in review: 8 areas with research breakthroughs in 2025](https://deepmind.google/blog/googles-year-in-review-8-areas-with-research-breakthroughs-in-2025/) （Google DeepMind News，2025-12-23T17:01:02+00:00）：Google 2025 recap: Research breakthroughs of the year
+- [Gemini 3 Flash: frontier intelligence built for speed](https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/) （Google DeepMind News，2025-12-17T11:58:17+00:00）：Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost.
+- [Gemma Scope 2: helping the AI safety community deepen understanding of complex language model behavior](https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/) （Google DeepMind News，2025-12-16T10:14:24+00:00）：Open interpretability tools for language models are now available across the entire Gemma 3 family with the release of Gemma Scope 2.
+- [Improved Gemini audio models for powerful voice experiences](https://deepmind.google/blog/improved-gemini-audio-models-for-powerful-voice-experiences/) （Google DeepMind News，2025-12-12T17:50:50+00:00）
+- [Deepening our partnership with the UK AI Security Institute](https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/) （Google DeepMind News，2025-12-11T00:06:40+00:00）：Google DeepMind and UK AI Security Institute (AISI) strengthen collaboration on critical AI safety and security research
+- [Strengthening our partnership with the UK government to support prosperity and security in the AI era](https://deepmind.google/blog/strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era/) （Google DeepMind News，2025-12-10T14:59:21+00:00）：Deepening our partnership with the UK government to support prosperity and security in the AI era
+- [FACTS Benchmark Suite: Systematically evaluating the factuality of large language models](https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/) （Google DeepMind News，2025-12-09T11:29:03+00:00）：Systematically evaluating the factuality of large language models with the FACTS Benchmark Suite.
+- [Engineering more resilient crops for a warming climate](https://deepmind.google/blog/engineering-more-resilient-crops-for-a-warming-climate/) （Google DeepMind News，2025-12-04T16:23:24+00:00）：Scientists are using AlphaFold to strengthen a photosynthesis enzyme for resilient, heat-tolerant crops.
+- [AlphaFold: Five years of impact](https://deepmind.google/blog/alphafold-five-years-of-impact/) （Google DeepMind News，2025-11-25T16:00:12+00:00）：Explore how AlphaFold has accelerated science and fueled a global wave of biological discovery.
+- [Revealing a key protein behind heart disease](https://deepmind.google/blog/revealing-a-key-protein-behind-heart-disease/) （Google DeepMind News，2025-11-25T15:52:51+00:00）：AlphaFold has revealed the structure of a key protein behind heart disease
+- [Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery](https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/) （Google DeepMind News，2025-11-24T14:12:03+00:00）：Google DeepMind and the DOE partner on Genesis, a new effort to accelerate science with AI.
+- [How we’re bringing AI image verification to the Gemini app](https://deepmind.google/blog/how-were-bringing-ai-image-verification-to-the-gemini-app/) （Google DeepMind News，2025-11-20T15:13:19+00:00）
+- [Build with Nano Banana Pro, our Gemini 3 Pro Image model](https://deepmind.google/blog/build-with-nano-banana-pro-our-gemini-3-pro-image-model/) （Google DeepMind News，2025-11-20T15:11:14+00:00）
+- [Introducing Nano Banana Pro](https://deepmind.google/blog/introducing-nano-banana-pro/) （Google DeepMind News，2025-11-20T15:05:02+00:00）
+- [Start building with Gemini 3](https://deepmind.google/blog/start-building-with-gemini-3/) （Google DeepMind News，2025-11-18T17:49:13+00:00）
+- [We’re expanding our presence in Singapore to advance AI in the Asia-Pacific region](https://deepmind.google/blog/were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region/) （Google DeepMind News，2025-11-18T17:00:00+00:00）：Google DeepMind opens a new Singapore research lab, accelerating AI progress in the Asia-Pacific region.
+- [A new era of intelligence with Gemini 3](https://deepmind.google/blog/a-new-era-of-intelligence-with-gemini-3/) （Google DeepMind News，2025-11-18T16:06:41+00:00）
+- [Introducing Google Antigravity](https://deepmind.google/blog/introducing-google-antigravity/) （Google DeepMind News，2025-11-18T16:06:32+00:00）
+- [WeatherNext 2: Our most advanced weather forecasting model](https://deepmind.google/blog/weathernext-2-our-most-advanced-weather-forecasting-model/) （Google DeepMind News，2025-11-17T15:09:23+00:00）：The new AI model delivers more efficient, more accurate and higher-resolution global weather predictions.
+- [SIMA 2: An Agent that Plays, Reasons, and Learns With You in Virtual 3D Worlds](https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/) （Google DeepMind News，2025-11-13T14:52:18+00:00）：Introducing SIMA 2, a Gemini-powered AI agent that can think, understand, and take actions in interactive environments.
+- [Teaching AI to see the world more like we do](https://deepmind.google/blog/teaching-ai-to-see-the-world-more-like-we-do/) （Google DeepMind News，2025-11-11T11:49:13+00:00）：Our new paper analyzes the important ways AI systems organize the visual world differently from humans.
+- [How AI is giving Northern Ireland teachers time back](https://deepmind.google/blog/how-ai-is-giving-northern-ireland-teachers-time-back/) （Google DeepMind News，2025-11-10T16:50:39+00:00）：A six-month long pilot program with the Northern Ireland Education Authority’s C2k initiative found that integrating Gemini and other generative AI tools saved participating teach…
+- [Mapping, modeling, and understanding nature with AI](https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/) （Google DeepMind News，2025-11-05T16:59:46+00:00）：AI models can help map species, protect forests and listen to birds around the world
+- [Accelerating discovery with the AI for Math Initiative](https://deepmind.google/blog/accelerating-discovery-with-the-ai-for-math-initiative/) （Google DeepMind News，2025-10-29T14:31:13+00:00）：The initiative brings together some of the world's most prestigious research institutions to pioneer the use of AI in mathematical research.
+- [T5Gemma: A new collection of encoder-decoder Gemma models](https://deepmind.google/blog/t5gemma-a-new-collection-of-encoder-decoder-gemma-models/) （Google DeepMind News，2025-10-25T18:14:00+00:00）：Introducing T5Gemma, a new collection of encoder-decoder LLMs.
+- [MedGemma: Our most capable open models for health AI development](https://deepmind.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/) （Google DeepMind News，2025-10-25T18:02:50+00:00）：We’re announcing new multimodal models in the MedGemma collection, our most capable open models for health AI development.
+- [Introducing Gemma 3n: The developer guide](https://deepmind.google/blog/introducing-gemma-3n-the-developer-guide/) （Google DeepMind News，2025-10-25T17:54:47+00:00）：Gemma 3n is designed for the developer community that helped shape Gemma.
+- [Gemini 2.5 Flash-Lite is now ready for scaled production use](https://deepmind.google/blog/gemini-25-flash-lite-is-now-ready-for-scaled-production-use/) （Google DeepMind News，2025-10-25T17:34:32+00:00）：Gemini 2.5 Flash-Lite, previously in preview, is now stable and generally available. This cost-efficient model provides high quality in a small size, and includes 2.5 family featu…
+- [Behind “ANCESTRA”: combining Veo with live-action filmmaking](https://deepmind.google/blog/behind-ancestra-combining-veo-with-live-action-filmmaking/) （Google DeepMind News，2025-10-25T17:27:10+00:00）：We partnered with Darren Aronofsky, Eliza McNitt and a team of more than 200 people to make a film using Veo and live-action filmmaking.
+- [AlphaEarth Foundations helps map our planet in unprecedented detail](https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/) （Google DeepMind News，2025-10-24T19:06:32+00:00）：New AI model integrates petabytes of Earth observation data to generate a unified data representation that revolutionizes global mapping and monitoring
+- [Exploring the context of online images with Backstory](https://deepmind.google/blog/exploring-the-context-of-online-images-with-backstory/) （Google DeepMind News，2025-10-24T03:17:11+00:00）：New experimental AI tool helps people explore the context and origin of images seen online.
+- [Advanced version of Gemini with Deep Think officially achieves gold-medal standard at the International Mathematical Olympiad](https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/) （Google DeepMind News，2025-10-24T03:12:29+00:00）：The International Mathematical Olympiad (“IMO”) is the world’s most prestigious competition for young mathematicians, and has been held annually since 1959. Each country taking pa…
+- [Aeneas transforms how historians connect the past](https://deepmind.google/blog/aeneas-transforms-how-historians-connect-the-past/) （Google DeepMind News，2025-10-24T02:58:37+00:00）：Introducing the first model for contextualizing ancient inscriptions, designed to help historians better interpret, attribute and restore fragmentary texts.
+- [Genie 3: A new frontier for world models](https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/) （Google DeepMind News，2025-10-24T02:54:30+00:00）：Genie 3 can generate dynamic worlds that you can navigate in real time at 24 frames per second, retaining consistency for a few minutes at a resolution of 720p.
+- [How AI is helping advance the science of bioacoustics to save endangered species](https://deepmind.google/blog/how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species/) （Google DeepMind News，2025-10-24T02:30:54+00:00）：Our new Perch model helps conservationists analyze audio faster to protect endangered species, from Hawaiian honeycreepers to coral reefs.
+- [Using AI to perceive the universe in greater depth](https://deepmind.google/blog/using-ai-to-perceive-the-universe-in-greater-depth/) （Google DeepMind News，2025-10-24T02:21:07+00:00）：Using AI to perceive the universe in greater depth
+- [Gemini achieves gold-medal level at the International Collegiate Programming Contest World Finals](https://deepmind.google/blog/gemini-achieves-gold-medal-level-at-the-international-collegiate-programming-contest-world-finals/) （Google DeepMind News，2025-10-24T00:22:10+00:00）：Gemini 2.5 Deep Think achieves breakthrough performance at the world’s most prestigious computer programming competition, demonstrating a profound leap in abstract problem solving.
+- [Discovering new solutions to century-old problems in fluid dynamics](https://deepmind.google/blog/discovering-new-solutions-to-century-old-problems-in-fluid-dynamics/) （Google DeepMind News，2025-10-24T00:02:06+00:00）：Our new method could help mathematicians leverage AI techniques to tackle long-standing challenges in mathematics, physics and engineering.
+- [Strengthening our Frontier Safety Framework](https://deepmind.google/blog/strengthening-our-frontier-safety-framework/) （Google DeepMind News，2025-10-23T23:44:10+00:00）：We’re strengthening the Frontier Safety Framework (FSF) to help identify and mitigate severe risks from advanced AI models.
+- [Gemini Robotics 1.5 brings AI agents into the physical world](https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/) （Google DeepMind News，2025-10-23T23:33:58+00:00）：We’re powering an era of physical agents — enabling robots to perceive, plan, think, use tools and act to better solve complex, multi-step tasks.
+- [Introducing CodeMender: an AI agent for code security](https://deepmind.google/blog/introducing-codemender-an-ai-agent-for-code-security/) （Google DeepMind News，2025-10-23T23:05:51+00:00）：Using advanced AI to fix critical software vulnerabilities
+- [Bringing AI to the next generation of fusion energy](https://deepmind.google/blog/bringing-ai-to-the-next-generation-of-fusion-energy/) （Google DeepMind News，2025-10-23T22:04:14+00:00）：We’re partnering with Commonwealth Fusion Systems (CFS) to bring clean, safe, limitless fusion energy closer to reality.
+- [Try Deep Think in the Gemini app](https://deepmind.google/blog/try-deep-think-in-the-gemini-app/) （Google DeepMind News，2025-10-23T18:54:19+00:00）：We're rolling out Deep Think in the Gemini app for Google AI Ultra subscribers, and we're giving select mathematicians access to the full version of the Gemini 2.5 Deep Think mode…
+- [Rethinking how we measure AI intelligence](https://deepmind.google/blog/rethinking-how-we-measure-ai-intelligence/) （Google DeepMind News，2025-10-23T18:52:06+00:00）：Game Arena is a new, open-source platform for rigorous evaluation of AI models. It allows for head-to-head comparison of frontier systems in environments with clear winning condit…
+- [Introducing Gemma 3 270M: The compact model for hyper-efficient AI](https://deepmind.google/blog/introducing-gemma-3-270m-the-compact-model-for-hyper-efficient-ai/) （Google DeepMind News，2025-10-23T18:50:11+00:00）：Today, we're adding a new, highly specialized tool to the Gemma 3 toolkit: Gemma 3 270M, a compact, 270-million parameter model.
+- [Image editing in Gemini just got a major upgrade](https://deepmind.google/blog/image-editing-in-gemini-just-got-a-major-upgrade/) （Google DeepMind News，2025-10-23T18:48:30+00:00）：Transform images in amazing new ways with updated native image editing in the Gemini app.
+- [VaultGemma: The world's most capable differentially private LLM](https://deepmind.google/blog/vaultgemma-the-worlds-most-capable-differentially-private-llm/) （Google DeepMind News，2025-10-23T18:42:54+00:00）：We introduce VaultGemma, the most capable model trained from scratch with differential privacy.
+- [Introducing the Gemini 2.5 Computer Use model](https://deepmind.google/blog/introducing-the-gemini-25-computer-use-model/) （Google DeepMind News，2025-10-23T18:40:34+00:00）：Available in preview via the API, our Computer Use model is a specialized model built on Gemini 2.5 Pro’s capabilities to power agents that can interact with user interfaces.
+- [Introducing Veo 3.1 and advanced creative capabilities](https://deepmind.google/blog/introducing-veo-31-and-advanced-creative-capabilities/) （Google DeepMind News，2025-10-23T18:38:55+00:00）：We’re rolling out significant updates to Veo that give people even more creative control.
+- [How a Gemma model helped discover a new potential cancer therapy pathway](https://deepmind.google/blog/how-a-gemma-model-helped-discover-a-new-potential-cancer-therapy-pathway/) （Google DeepMind News，2025-10-23T18:22:55+00:00）：We’re launching a new 27 billion parameter foundation model for single-cell analysis built on the Gemma family of open models.
+- [AlphaGenome: AI for better understanding the genome](https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/) （Google DeepMind News，2025-06-25T13:59:00+00:00）：Introducing a new, unifying DNA sequence model that advances regulatory variant-effect prediction and promises to shed new light on genome function — now available via API.
+- [Gemini Robotics On-Device brings AI to local robotic devices](https://deepmind.google/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/) （Google DeepMind News，2025-06-24T14:00:00+00:00）：We’re introducing an efficient, on-device robotics model with general-purpose dexterity and fast task adaptation.
+- [Gemini 2.5: Updates to our family of thinking models](https://deepmind.google/blog/gemini-25-updates-to-our-family-of-thinking-models/) （Google DeepMind News，2025-06-17T16:00:00+00:00）：Explore the latest Gemini 2.5 model updates with enhanced performance and accuracy: Gemini 2.5 Pro now stable, Flash generally available, and the new Flash-Lite in preview.
+- [We’re expanding our Gemini 2.5 family of models](https://deepmind.google/blog/were-expanding-our-gemini-25-family-of-models/) （Google DeepMind News，2025-06-17T16:00:00+00:00）：Gemini 2.5 Flash and Pro are now generally available, and we’re introducing 2.5 Flash-Lite, our most cost-efficient and fastest 2.5 model yet.
+- [How we're supporting better tropical cyclone prediction with AI](https://deepmind.google/blog/how-were-supporting-better-tropical-cyclone-prediction-with-ai/) （Google DeepMind News，2025-06-12T15:00:00+00:00）：We’re launching Weather Lab, featuring our experimental cyclone predictions, and we’re partnering with the U.S. National Hurricane Center to support their forecasts and warnings t…
+- [Advanced audio dialog and generation with Gemini 2.5](https://deepmind.google/blog/advanced-audio-dialog-and-generation-with-gemini-25/) （Google DeepMind News，2025-06-03T17:15:47+00:00）：Gemini 2.5 has new capabilities in AI-powered audio dialog and generation.
+- [Our vision for building a universal AI assistant](https://deepmind.google/blog/our-vision-for-building-a-universal-ai-assistant/) （Google DeepMind News，2025-05-20T09:45:00+00:00）：We’re extending Gemini to become a world model that can make plans and imagine new experiences by simulating aspects of the world.
+- [Gemini 2.5: Our most intelligent models are getting even better](https://deepmind.google/blog/gemini-25-our-world-leading-model-is-getting-even-better/) （Google DeepMind News，2025-05-20T09:45:00+00:00）：Gemini 2.5 Pro continues to be loved by developers as the best model for coding, and 2.5 Flash is getting even better with a new update. We’re bringing new capabilities to our mod…
+- [SynthID Detector — a new portal to help identify AI-generated content](https://deepmind.google/blog/synthid-detector--a-new-portal-to-help-identify-ai-generated-content/) （Google DeepMind News，2025-05-20T09:45:00+00:00）：Learn about the new SynthID Detector portal we announced at I/O to help people understand how the content they see online was generated.
+- [Announcing Gemma 3n preview: Powerful, efficient, mobile-first AI](https://deepmind.google/blog/announcing-gemma-3n-preview-powerful-efficient-mobile-first-ai/) （Google DeepMind News，2025-05-20T09:45:00+00:00）：Gemma 3n is a cutting-edge open model designed for fast, multimodal AI on devices, featuring optimized performance, unique flexibility with a 2-in-1 model, and expanded multimodal…
+
+## 对我学习 Codex、agent、AI 应用的启发
+
+- 优先记录来源、标题、发布时间和链接，能让后续用 Codex 做复盘时快速回到原文。
+- 第一版只做可追溯整理，不做自动判断；等来源稳定后再考虑摘要、标签和优先级评分。
+- Agent、MCP、Workflow 和开发者工具类条目适合沉淀成后续实验清单。
+
+## 来源列表
+
+- Hugging Face Blog: https://huggingface.co/blog/nvidia/nemotron-labs-diffusion
+- Google AI Blog: https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/
+- Hugging Face Blog: https://huggingface.co/blog/Dharma-AI/specialization-beats-scale
+- OpenAI News: https://openai.com/index/gartner-2026-agentic-coding-leader
+- OpenAI News: https://openai.com/index/virgin-atlantic
+- Google DeepMind News: https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/
+- OpenAI News: https://openai.com/index/adventhealth
+- Google AI Blog: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/
+- Google AI Blog: https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/
+- Google AI Blog: https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/
+- OpenAI News: https://openai.com/index/model-disproves-discrete-geometry-conjecture
+- OpenAI News: https://openai.com/index/the-next-phase-of-education-for-countries
+- OpenAI News: https://openai.com/index/ramp
+- OpenAI News: https://openai.com/index/introducing-openai-for-singapore
+- Hugging Face Blog: https://huggingface.co/blog/allenai/olmoearth-v1-1
+- Google AI Blog: https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/
+- Google AI Blog: https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/
+- Google AI Blog: https://blog.google/products-and-platforms/products/workspace/workspace-updates/
+- Google AI Blog: https://blog.google/innovation-and-ai/sundar-pichai-io-2026/
+- Google AI Blog: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/
+- Google AI Blog: https://blog.google/products-and-platforms/products/search/search-io-2026/
+- Google AI Blog: https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/
+- OpenAI News: https://openai.com/index/advancing-content-provenance
+- Hugging Face Blog: https://huggingface.co/blog/ettin-reranker
+- Google DeepMind News: https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/
+- Hugging Face Blog: https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers
+- Hugging Face Blog: https://huggingface.co/blog/ibm-research/open-agent-leaderboard
+- OpenAI News: https://openai.com/index/dell-codex-enterprise-partnership
+- Google DeepMind News: https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/
+- Google DeepMind News: https://deepmind.google/blog/introducing-gemini-omni/
+- Google DeepMind News: https://deepmind.google/blog/introducing-google-antigravity-2-0/
+- Google DeepMind News: https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/
+- Google DeepMind News: https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/
+- Google DeepMind News: https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/
+- Google DeepMind News: https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/
+- Google DeepMind News: https://deepmind.google/blog/opening-new-paths-in-aging-research/
+- Google DeepMind News: https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/
+- Google DeepMind News: https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als/
+- Google DeepMind News: https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/
+- Google DeepMind News: https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/
+- OpenAI News: https://openai.com/index/malta-chatgpt-plus-partnership
+- Google DeepMind News: https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/
+- OpenAI News: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex
+- OpenAI News: https://openai.com/index/databricks
+- OpenAI News: https://openai.com/index/personal-finance-chatgpt
+- OpenAI News: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex
+- OpenAI News: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex
+- OpenAI News: https://openai.com/index/sea-david-chen
+- Hugging Face Blog: https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2
+- OpenAI News: https://openai.com/index/work-with-codex-from-anywhere
+- OpenAI News: https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations
+- Hugging Face Blog: https://huggingface.co/blog/continuous_async
+- OpenAI News: https://openai.com/index/building-codex-windows-sandbox
+- OpenAI News: https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack
+- OpenAI News: https://openai.com/academy/how-finance-teams-use-codex
+- Google DeepMind News: https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/
+- OpenAI News: https://openai.com/index/autoscout24
+- OpenAI News: https://openai.com/index/nvidia
+- OpenAI News: https://openai.com/index/what-parameter-golf-taught-us
+- Hugging Face Blog: https://huggingface.co/blog/amazon/foundation-model-building-blocks
+- OpenAI News: https://openai.com/signals/research/2026q1-update
+- OpenAI News: https://openai.com/index/openai-campus-network-student-club-interest-form
+- OpenAI News: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai
+- OpenAI News: https://openai.com/index/openai-launches-the-deployment-company
+- Google AI Blog: https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/
+- Google AI Blog: https://blog.google/company-news/inside-google/company-announcements/the-small-brief/
+- OpenAI News: https://openai.com/index/running-codex-safely
+- OpenAI News: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber
+- OpenAI News: https://openai.com/index/parloa
+- OpenAI News: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api
+- OpenAI News: https://openai.com/index/introducing-trusted-contact-in-chatgpt
+- OpenAI News: https://openai.com/index/testing-ads-in-chatgpt
+- OpenAI News: https://openai.com/index/simplex
+- Hugging Face Blog: https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections
+- Google AI Blog: https://blog.google/products-and-platforms/products/search/gardening-tips/
+- Google DeepMind News: https://deepmind.google/blog/alphaevolve-impact/
+- OpenAI News: https://openai.com/index/how-chatgpt-protects-privacy
+- OpenAI News: https://openai.com/index/singular-bank
+- OpenAI News: https://openai.com/index/introducing-chatgpt-futures-class-of-2026
+- OpenAI News: https://openai.com/index/uber
+- OpenAI News: https://openai.com/index/introducing-b2b-signals
+- Hugging Face Blog: https://huggingface.co/blog/open-asr-leaderboard-private-data
+- Google AI Blog: https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/
+- OpenAI News: https://openai.com/index/gpt-5-5-instant-system-card
+- OpenAI News: https://openai.com/index/gpt-5-5-instant
+- OpenAI News: https://openai.com/index/mrc-supercomputer-networking
+- OpenAI News: https://openai.com/index/advancing-youth-safety-in-emea
+- OpenAI News: https://openai.com/index/new-ways-to-buy-chatgpt-ads
+- OpenAI News: https://openai.com/index/openai-pwc-finance-collaboration
+- Google AI Blog: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/
+- Google AI Blog: https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/
+- OpenAI News: https://openai.com/index/delivering-low-latency-voice-ai-at-scale
+- Google DeepMind News: https://deepmind.google/blog/ai-co-clinician/
+- OpenAI News: https://openai.com/index/advanced-account-security
+- OpenAI News: https://openai.com/index/where-the-goblins-came-from
+- Hugging Face Blog: https://huggingface.co/blog/ibm-granite/granite-4-1
+- OpenAI News: https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age
+- OpenAI News: https://openai.com/index/cybersecurity-in-the-intelligence-age
+- Hugging Face Blog: https://huggingface.co/blog/inference-providers-deepinfra
+- Google AI Blog: https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/
+- Hugging Face Blog: https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence
+- OpenAI News: https://openai.com/index/our-commitment-to-community-safety
+- OpenAI News: https://openai.com/index/openai-on-aws
+- OpenAI News: https://openai.com/index/openai-available-at-fedramp-moderate
+- Google AI Blog: https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/
+- Google DeepMind News: https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/
+- OpenAI News: https://openai.com/index/next-phase-of-microsoft-partnership
+- OpenAI News: https://openai.com/index/open-source-codex-orchestration-symphony
+- OpenAI News: https://openai.com/index/choco
+- Hugging Face Blog: https://huggingface.co/blog/openai-privacy-filter-web-apps
+- OpenAI News: https://openai.com/index/our-principles
+- Google AI Blog: https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/
+- Hugging Face Blog: https://huggingface.co/blog/deepseekv4
+- OpenAI News: https://openai.com/index/gpt-5-5-system-card
+- OpenAI News: https://openai.com/index/introducing-gpt-5-5
+- OpenAI News: https://openai.com/academy/what-is-codex
+- OpenAI News: https://openai.com/academy/top-10-use-cases-codex-for-work
+- OpenAI News: https://openai.com/academy/codex-plugins-and-skills
+- OpenAI News: https://openai.com/academy/working-with-codex
+- OpenAI News: https://openai.com/academy/codex-settings
+- OpenAI News: https://openai.com/academy/codex-how-to-start
+- OpenAI News: https://openai.com/academy/codex-automations
+- OpenAI News: https://openai.com/index/gpt-5-5-bio-bug-bounty
+- Hugging Face Blog: https://huggingface.co/blog/transformersjs-chrome-extension
+- OpenAI News: https://openai.com/index/making-chatgpt-better-for-clinicians
+- Google DeepMind News: https://deepmind.google/blog/decoupled-diloco/
+- OpenAI News: https://openai.com/academy/workspace-agents
+- OpenAI News: https://openai.com/index/introducing-workspace-agents-in-chatgpt
+- OpenAI News: https://openai.com/index/speeding-up-agentic-workflows-with-websockets
+- OpenAI News: https://openai.com/index/introducing-openai-privacy-filter
+- Google DeepMind News: https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/
+- OpenAI News: https://openai.com/index/introducing-chatgpt-images-2-0
+- Hugging Face Blog: https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard
+- OpenAI News: https://openai.com/index/scaling-codex-to-enterprises-worldwide
+- Hugging Face Blog: https://huggingface.co/blog/cybersecurity-openness
+- OpenAI News: https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise
+- OpenAI News: https://openai.com/index/codex-for-almost-everything
+- OpenAI News: https://openai.com/index/introducing-gpt-rosalind
+- OpenAI News: https://openai.com/index/accelerating-cyber-defense-ecosystem
+- Hugging Face Blog: https://huggingface.co/blog/ecom-rlve
+- Hugging Face Blog: https://huggingface.co/blog/transformers-to-mlx
+- Hugging Face Blog: https://huggingface.co/blog/train-multimodal-sentence-transformers
+- Google DeepMind News: https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/
+- Hugging Face Blog: https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis
+- OpenAI News: https://openai.com/index/the-next-evolution-of-the-agents-sdk
+- Hugging Face Blog: https://huggingface.co/blog/Hcompany/holotab
+- OpenAI News: https://openai.com/index/scaling-trusted-access-for-cyber-defense
+- Google DeepMind News: https://deepmind.google/blog/gemini-robotics-er-1-6/
+- OpenAI News: https://openai.com/index/cloudflare-openai-agent-cloud
+- OpenAI News: https://openai.com/academy/finance
+- OpenAI News: https://openai.com/academy/customer-success
+- OpenAI News: https://openai.com/academy/what-is-ai
+- OpenAI News: https://openai.com/academy/getting-started
+- OpenAI News: https://openai.com/academy/applications-of-ai
+- OpenAI News: https://openai.com/academy/sales
+- OpenAI News: https://openai.com/academy/healthcare
+- OpenAI News: https://openai.com/academy/financial-services
+- OpenAI News: https://openai.com/academy/data-analysis
+- OpenAI News: https://openai.com/academy/brainstorming
+- OpenAI News: https://openai.com/academy/custom-gpts
+- OpenAI News: https://openai.com/academy/skills
+- OpenAI News: https://openai.com/academy/image-generation
+- OpenAI News: https://openai.com/index/axios-developer-tool-compromise
+- OpenAI News: https://openai.com/academy/working-with-files
+- OpenAI News: https://openai.com/academy/prompting
+- OpenAI News: https://openai.com/academy/marketing
+- OpenAI News: https://openai.com/academy/personalization
+- OpenAI News: https://openai.com/academy/operations
+- OpenAI News: https://openai.com/academy/projects
+- OpenAI News: https://openai.com/academy/managers
+- OpenAI News: https://openai.com/academy/search-and-deep-research
+- OpenAI News: https://openai.com/academy/responsible-and-safe-use
+- OpenAI News: https://openai.com/academy/research
+- OpenAI News: https://openai.com/academy/writing
+- OpenAI News: https://openai.com/index/cyberagent
+- Hugging Face Blog: https://huggingface.co/blog/waypoint-1-5
+- Hugging Face Blog: https://huggingface.co/blog/multimodal-sentence-transformers
+- OpenAI News: https://openai.com/index/next-phase-of-enterprise-ai
+- OpenAI News: https://openai.com/index/introducing-child-safety-blueprint
+- Hugging Face Blog: https://huggingface.co/blog/safetensors-joins-pytorch-foundation
+- OpenAI News: https://openai.com/index/introducing-openai-safety-fellowship
+- OpenAI News: https://openai.com/index/industrial-policy-for-the-intelligence-age
+- Google DeepMind News: https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/
+- OpenAI News: https://openai.com/index/openai-acquires-tbpn
+- OpenAI News: https://openai.com/index/codex-flexible-pricing-for-teams
+- Hugging Face Blog: https://huggingface.co/blog/gemma4
+- Hugging Face Blog: https://huggingface.co/blog/tiiuae/falcon-perception
+- OpenAI News: https://openai.com/index/gradient-labs
+- Hugging Face Blog: https://huggingface.co/blog/introducing-gradio-server
+- Hugging Face Blog: https://huggingface.co/blog/ibm-granite/granite-4-vision
+- OpenAI News: https://openai.com/index/accelerating-the-next-phase-ai
+- Hugging Face Blog: https://huggingface.co/blog/OpenMed/training-mrna-models-25-species
+- Hugging Face Blog: https://huggingface.co/blog/trl-v1
+- OpenAI News: https://openai.com/index/helping-disaster-response-teams-asia
+- Google DeepMind News: https://deepmind.google/blog/ai-pointer/
+- OpenAI News: https://openai.com/index/stadler
+- Hugging Face Blog: https://huggingface.co/blog/liberate-your-openclaw
+- Google DeepMind News: https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/
+- Google DeepMind News: https://deepmind.google/blog/protecting-people-from-harmful-manipulation/
+- Google DeepMind News: https://deepmind.google/blog/lyria-3-pro-create-longer-tracks-in-more/
+- OpenAI News: https://openai.com/index/our-approach-to-the-model-spec
+- OpenAI News: https://openai.com/index/safety-bug-bounty
+- OpenAI News: https://openai.com/index/teen-safety-policies-gpt-oss-safeguard
+- OpenAI News: https://openai.com/index/powering-product-discovery-in-chatgpt
+- OpenAI News: https://openai.com/index/update-on-the-openai-foundation
+- Hugging Face Blog: https://huggingface.co/blog/ServiceNow-AI/eva
+- OpenAI News: https://openai.com/index/creating-with-sora-safely
+- Hugging Face Blog: https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune
+- OpenAI News: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment
+- OpenAI News: https://openai.com/index/openai-to-acquire-astral
+- Hugging Face Blog: https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026
+- Google DeepMind News: https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/
+- Hugging Face Blog: https://huggingface.co/blog/Hcompany/holotron-12b
+- OpenAI News: https://openai.com/index/introducing-gpt-5-4-mini-and-nano
+- OpenAI News: https://openai.com/index/japan-teen-safety-blueprint
+- OpenAI News: https://openai.com/index/equipping-workers-with-insights-about-compensation
+- OpenAI News: https://openai.com/index/why-codex-security-doesnt-include-sast
+- OpenAI News: https://openai.com/index/designing-agents-to-resist-prompt-injection
+- OpenAI News: https://openai.com/index/equip-responses-api-computer-environment
+- OpenAI News: https://openai.com/index/wayfair
+- OpenAI News: https://openai.com/index/rakuten
+- OpenAI News: https://openai.com/index/instruction-hierarchy-challenge
+- OpenAI News: https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt
+- Hugging Face Blog: https://huggingface.co/blog/storage-buckets
+- Hugging Face Blog: https://huggingface.co/blog/async-rl-training-landscape
+- Google DeepMind News: https://deepmind.google/blog/10-years-of-alphago/
+- OpenAI News: https://openai.com/index/openai-to-acquire-promptfoo
+- Hugging Face Blog: https://huggingface.co/blog/ulysses-sp
+- Hugging Face Blog: https://huggingface.co/blog/lerobot-release-v050
+- OpenAI News: https://openai.com/index/codex-security-now-in-research-preview
+- OpenAI News: https://openai.com/index/balyasny-asset-management
+- OpenAI News: https://openai.com/index/descript
+- Hugging Face Blog: https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms
+- OpenAI News: https://openai.com/index/reasoning-models-chain-of-thought-controllability
+- OpenAI News: https://openai.com/index/introducing-gpt-5-4
+- OpenAI News: https://openai.com/index/gpt-5-4-thinking-system-card
+- OpenAI News: https://openai.com/index/ai-education-opportunity
+- OpenAI News: https://openai.com/index/the-five-ai-value-models-driving-business-reinvention
+- OpenAI News: https://openai.com/index/introducing-the-adoption-news-channel
+- OpenAI News: https://openai.com/index/chatgpt-for-excel
+- OpenAI News: https://openai.com/index/vfl-wolfsburg
+- Hugging Face Blog: https://huggingface.co/blog/modular-diffusers
+- OpenAI News: https://openai.com/index/extending-single-minus-amplitudes-to-gravitons
+- OpenAI News: https://openai.com/index/axios-allison-murphy
+- OpenAI News: https://openai.com/index/understanding-ai-and-learning-outcomes
+- Hugging Face Blog: https://huggingface.co/blog/Photoroom/prx-part3
+- Google DeepMind News: https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/
+- OpenAI News: https://openai.com/index/gpt-5-3-instant-system-card
+- OpenAI News: https://openai.com/index/gpt-5-3-instant
+- OpenAI News: https://openai.com/index/our-agreement-with-the-department-of-war
+- OpenAI News: https://openai.com/index/scaling-ai-for-everyone
+- OpenAI News: https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock
+- OpenAI News: https://openai.com/index/amazon-partnership
+- OpenAI News: https://openai.com/index/continuing-microsoft-partnership
+- OpenAI News: https://openai.com/index/update-on-mental-health-related-work
+- Google DeepMind News: https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/
+- OpenAI News: https://openai.com/index/pacific-northwest-national-laboratory
+- OpenAI News: https://openai.com/index/figma-partnership
+- Hugging Face Blog: https://huggingface.co/blog/moe-transformers
+- OpenAI News: https://openai.com/index/disrupting-malicious-ai-uses
+- OpenAI News: https://openai.com/index/arvind-kc-chief-people-officer
+- OpenAI News: https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified
+- OpenAI News: https://openai.com/index/frontier-alliance-partners
+- OpenAI News: https://openai.com/index/first-proof-submissions
+- Hugging Face Blog: https://huggingface.co/blog/ggml-joins-hf
+- Hugging Face Blog: https://huggingface.co/blog/unsloth-jobs
+- Google DeepMind News: https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/
+- OpenAI News: https://openai.com/index/advancing-independent-research-ai-alignment
+- OpenAI News: https://openai.com/index/openai-for-india
+- Hugging Face Blog: https://huggingface.co/blog/ibm-research/itbenchandmast
+- Google DeepMind News: https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/
+- OpenAI News: https://openai.com/index/introducing-evmbench
+- Hugging Face Blog: https://huggingface.co/blog/gradio-html-one-shot-apps
+- Google DeepMind News: https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/
+- OpenAI News: https://openai.com/index/new-result-theoretical-physics
+- OpenAI News: https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt
+- OpenAI News: https://openai.com/index/beyond-rate-limits
+- OpenAI News: https://openai.com/index/scaling-social-science-research
+- Hugging Face Blog: https://huggingface.co/blog/custom-cuda-kernels-agent-skills
+- Google DeepMind News: https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/
+- OpenAI News: https://openai.com/index/introducing-gpt-5-3-codex-spark
+- Hugging Face Blog: https://huggingface.co/blog/openenv-turing
+- OpenAI News: https://openai.com/index/harness-engineering
+- Google DeepMind News: https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/
+- OpenAI News: https://openai.com/index/bringing-chatgpt-to-genaimil
+- Hugging Face Blog: https://huggingface.co/blog/transformersjs-v4
+- OpenAI News: https://openai.com/index/our-approach-to-localization
+- Hugging Face Blog: https://huggingface.co/blog/ServiceNow-AI/sygra-studio
+- OpenAI News: https://openai.com/index/gpt-5-lowers-protein-synthesis-cost
+- OpenAI News: https://openai.com/index/trusted-access-for-cyber
+- OpenAI News: https://openai.com/index/introducing-openai-frontier
+- OpenAI News: https://openai.com/index/introducing-gpt-5-3-codex
+- OpenAI News: https://openai.com/index/gpt-5-3-codex-system-card
+- OpenAI News: https://openai.com/index/unlocking-the-codex-harness
+- Hugging Face Blog: https://huggingface.co/blog/community-evals
+- Hugging Face Blog: https://huggingface.co/blog/Hcompany/introducing-holo2-235b-a22b
+- Hugging Face Blog: https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-3
+- Hugging Face Blog: https://huggingface.co/blog/Photoroom/prx-part2
+- OpenAI News: https://openai.com/index/sora-feed-philosophy
+- OpenAI News: https://openai.com/index/snowflake-partnership
+- OpenAI News: https://openai.com/index/introducing-the-codex-app
+- Google DeepMind News: https://deepmind.google/blog/project-genie-experimenting-with-infinite-interactive-worlds/
+- OpenAI News: https://openai.com/index/inside-our-in-house-data-agent
+- OpenAI News: https://openai.com/index/taisei
+- OpenAI News: https://openai.com/index/retiring-gpt-4o-and-older-models
+- Hugging Face Blog: https://huggingface.co/blog/daggr
+- OpenAI News: https://openai.com/index/the-next-chapter-for-ai-in-the-eu
+- OpenAI News: https://openai.com/index/emea-youth-and-wellbeing-grant
+- OpenAI News: https://openai.com/index/ai-agent-link-safety
+- Hugging Face Blog: https://huggingface.co/blog/upskill
+- Hugging Face Blog: https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-2
+- Hugging Face Blog: https://huggingface.co/blog/tiiuae/emirati-benchmarks
+- OpenAI News: https://openai.com/index/pvh-future-of-fashion
+- Hugging Face Blog: https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl
+- OpenAI News: https://openai.com/index/introducing-prism
+- OpenAI News: https://openai.com/index/trustbank
+- OpenAI News: https://openai.com/index/indeed-maggie-hulce
+- OpenAI News: https://openai.com/index/unrolling-the-codex-agent-loop
+- OpenAI News: https://openai.com/index/scaling-postgresql
+- OpenAI News: https://openai.com/index/praktika
+- OpenAI News: https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work
+- OpenAI News: https://openai.com/index/higgsfield
+- Hugging Face Blog: https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face
+- OpenAI News: https://openai.com/index/edu-for-countries
+- OpenAI News: https://openai.com/index/how-countries-can-end-the-capability-overhang
+- OpenAI News: https://openai.com/index/horizon-1000
+- OpenAI News: https://openai.com/index/stargate-community
+- Hugging Face Blog: https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment
+- OpenAI News: https://openai.com/index/cisco
+- OpenAI News: https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai
+- Hugging Face Blog: https://huggingface.co/blog/microsoft/diff-attn-v2
+- OpenAI News: https://openai.com/index/our-approach-to-age-prediction
+- Hugging Face Blog: https://huggingface.co/blog/waypoint-1
+- OpenAI News: https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence
+- Google DeepMind News: https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/
+- OpenAI News: https://openai.com/index/introducing-chatgpt-go
+- OpenAI News: https://openai.com/index/our-approach-to-advertising-and-expanding-access
+- OpenAI News: https://openai.com/index/investing-in-merge-labs
+- OpenAI News: https://openai.com/index/strengthening-the-us-ai-supply-chain
+- Hugging Face Blog: https://huggingface.co/blog/open-responses
+- OpenAI News: https://openai.com/index/cerebras-partnership
+- Google DeepMind News: https://deepmind.google/blog/veo-3-1-ingredients-to-video-more-consistency-creativity-and-control/
+- OpenAI News: https://openai.com/index/zenken
+- OpenAI News: https://openai.com/index/stargate-sb-energy-partnership
+- OpenAI News: https://openai.com/index/datadog
+- OpenAI News: https://openai.com/index/openai-for-healthcare
+- OpenAI News: https://openai.com/index/netomi
+- OpenAI News: https://openai.com/index/tolan
+- OpenAI News: https://openai.com/index/introducing-chatgpt-health
+- Hugging Face Blog: https://huggingface.co/blog/nvidia/nvidia-cosmos-reason-2-brings-advanced-reasoning
+- Hugging Face Blog: https://huggingface.co/blog/tiiuae/falcon-h1-arabic
+- Hugging Face Blog: https://huggingface.co/blog/nvidia-reachy-mini
+- OpenAI News: https://openai.com/index/openai-grove
+- Google DeepMind News: https://deepmind.google/blog/googles-year-in-review-8-areas-with-research-breakthroughs-in-2025/
+- Hugging Face Blog: https://huggingface.co/blog/ServiceNow-AI/aprielguard
+- OpenAI News: https://openai.com/index/one-in-a-million-customers
+- OpenAI News: https://openai.com/index/hardening-atlas-against-prompt-injection
+- OpenAI News: https://openai.com/index/evaluating-chain-of-thought-monitorability
+- OpenAI News: https://openai.com/index/updating-model-spec-with-teen-protections
+- OpenAI News: https://openai.com/index/us-department-of-energy-collaboration
+- OpenAI News: https://openai.com/index/ai-literacy-resources-for-teens-and-parents
+- OpenAI News: https://openai.com/index/introducing-gpt-5-2-codex
+- OpenAI News: https://openai.com/index/gpt-5-2-codex-system-card
+- Hugging Face Blog: https://huggingface.co/blog/tokenizers
+- Hugging Face Blog: https://huggingface.co/blog/nvidia/nemotron-3-nano-evaluation-recipe
+- Google DeepMind News: https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/
+- OpenAI News: https://openai.com/index/openai-academy-for-news-organizations
+- OpenAI News: https://openai.com/business/guides-and-resources/the-state-of-enterprise-ai-2025-report
+- OpenAI News: https://openai.com/index/developers-can-now-submit-apps-to-chatgpt
+- Google DeepMind News: https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/
+- OpenAI News: https://openai.com/index/frontierscience
+- OpenAI News: https://openai.com/index/accelerating-biological-research-in-the-wet-lab
+- OpenAI News: https://openai.com/index/new-chatgpt-images-is-here
+- OpenAI News: https://openai.com/business/guides-and-resources/staying-ahead-in-the-age-of-ai
+- Hugging Face Blog: https://huggingface.co/blog/ibm-research/cuga-on-hugging-face
+- Google DeepMind News: https://deepmind.google/blog/improved-gemini-audio-models-for-powerful-voice-experiences/
+- OpenAI News: https://openai.com/index/shipping-sora-for-android-with-codex
+- OpenAI News: https://openai.com/index/bbva-collaboration-expansion
+- OpenAI News: https://openai.com/index/bny
+- Hugging Face Blog: https://huggingface.co/blog/ggml-org/model-management-in-llamacpp
+- OpenAI News: https://openai.com/index/gpt-5-2-for-science-and-math
+- Google DeepMind News: https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/
+- OpenAI News: https://openai.com/index/introducing-gpt-5-2
+- OpenAI News: https://openai.com/index/ten-years
+- OpenAI News: https://openai.com/index/gpt-5-system-card-update-gpt-5-2
+- OpenAI News: https://openai.com/index/disney-sora-agreement
+- OpenAI News: https://openai.com/index/podium
+- Hugging Face Blog: https://huggingface.co/blog/hf-skills-training-codex
+- Google DeepMind News: https://deepmind.google/blog/strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era/
+- OpenAI News: https://openai.com/index/strengthening-cyber-resilience
+- OpenAI News: https://openai.com/index/scout24
+- Google DeepMind News: https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/
+- OpenAI News: https://openai.com/index/agentic-ai-foundation
+- OpenAI News: https://openai.com/index/openai-certificate-courses
+- OpenAI News: https://openai.com/index/commonwealth-bank-of-australia
+- OpenAI News: https://openai.com/index/deutsche-telekom-collaboration
+- OpenAI News: https://openai.com/index/openai-appoints-denise-dresser
+- OpenAI News: https://openai.com/index/instacart-partnership
+- OpenAI News: https://openai.com/index/the-state-of-enterprise-ai-2025-report
+- OpenAI News: https://openai.com/index/virgin-atlantic-oliver-byers
+- Hugging Face Blog: https://huggingface.co/blog/swift-huggingface
+- OpenAI News: https://openai.com/global-affairs/openai-for-australia
+- Google DeepMind News: https://deepmind.google/blog/engineering-more-resilient-crops-for-a-warming-climate/
+- Hugging Face Blog: https://huggingface.co/blog/intel-deepmath
+- Hugging Face Blog: https://huggingface.co/blog/hf-skills-training
+- OpenAI News: https://openai.com/index/openai-to-acquire-neptune
+- OpenAI News: https://openai.com/index/how-confessions-can-keep-language-models-honest
+- OpenAI News: https://openai.com/index/people-first-ai-fund-grantees
+- OpenAI News: https://openai.com/index/mirakl
+- OpenAI News: https://openai.com/index/ai-mental-health-research-grants
+- OpenAI News: https://openai.com/index/norad-holiday-collaboration
+- OpenAI News: https://openai.com/index/thrive-holdings
+- OpenAI News: https://openai.com/index/accenture-partnership
+- Hugging Face Blog: https://huggingface.co/blog/transformers-v5
+- OpenAI News: https://openai.com/index/mixpanel-incident
+- OpenAI News: https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide
+- Google DeepMind News: https://deepmind.google/blog/alphafold-five-years-of-impact/
+- Google DeepMind News: https://deepmind.google/blog/revealing-a-key-protein-behind-heart-disease/
+- OpenAI News: https://openai.com/index/jetbrains-2025
+- Hugging Face Blog: https://huggingface.co/blog/flux-2
+- Hugging Face Blog: https://huggingface.co/blog/continuous_batching
+- Hugging Face Blog: https://huggingface.co/blog/Tavily/tavily-deep-research
+- Hugging Face Blog: https://huggingface.co/blog/OVHcloud/inference-providers-ovhcloud
+- Google DeepMind News: https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/
+- OpenAI News: https://openai.com/index/gpt-5-mathematical-discovery
+- OpenAI News: https://openai.com/index/chatgpt-shopping-research
+- Hugging Face Blog: https://huggingface.co/blog/rapidfireai
+- Hugging Face Blog: https://huggingface.co/blog/open-asr-leaderboard
+- Google DeepMind News: https://deepmind.google/blog/how-were-bringing-ai-image-verification-to-the-gemini-app/
+- Google DeepMind News: https://deepmind.google/blog/build-with-nano-banana-pro-our-gemini-3-pro-image-model/
+- Google DeepMind News: https://deepmind.google/blog/introducing-nano-banana-pro/
+- OpenAI News: https://openai.com/index/openai-and-foxconn-collaborate
+- OpenAI News: https://openai.com/index/small-business-ai-jam
+- OpenAI News: https://openai.com/index/accelerating-science-gpt-5
+- Hugging Face Blog: https://huggingface.co/blog/anylanguagemodel
+- OpenAI News: https://openai.com/index/strengthening-safety-with-external-testing
+- OpenAI News: https://openai.com/index/evals-drive-next-chapter-of-ai
+- OpenAI News: https://openai.com/index/target-partnership
+- Hugging Face Blog: https://huggingface.co/blog/ServiceNow-AI/apriel-h1
+- OpenAI News: https://openai.com/index/gpt-5-1-codex-max
+- OpenAI News: https://openai.com/index/scania
+- OpenAI News: https://openai.com/index/chatgpt-for-teachers
+- OpenAI News: https://openai.com/index/gpt-5-1-codex-max-system-card
+- Google DeepMind News: https://deepmind.google/blog/start-building-with-gemini-3/
+- Google DeepMind News: https://deepmind.google/blog/were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region/
+- Google DeepMind News: https://deepmind.google/blog/a-new-era-of-intelligence-with-gemini-3/
+- Google DeepMind News: https://deepmind.google/blog/introducing-google-antigravity/
+- OpenAI News: https://openai.com/index/intuit-partnership
+- Google DeepMind News: https://deepmind.google/blog/weathernext-2-our-most-advanced-weather-forecasting-model/
+- OpenAI News: https://openai.com/index/gartner-2025-emerging-leader
+- Hugging Face Blog: https://huggingface.co/blog/build-rocm-kernels
+- OpenAI News: https://openai.com/index/openai-for-ireland
+- Hugging Face Blog: https://huggingface.co/blog/amd/openroboticshackathon
+- Google DeepMind News: https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/
+- OpenAI News: https://openai.com/index/understanding-neural-networks-through-sparse-circuits
+- OpenAI News: https://openai.com/index/gpt-5-1-for-developers
+- OpenAI News: https://openai.com/index/philips
+- OpenAI News: https://openai.com/index/group-chats-in-chatgpt
+- Hugging Face Blog: https://huggingface.co/blog/google-cloud
+- OpenAI News: https://openai.com/index/neurogum
+- OpenAI News: https://openai.com/index/fighting-nyt-user-privacy-invasion
+- OpenAI News: https://openai.com/index/gpt-5-1
+- OpenAI News: https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1
+- Google DeepMind News: https://deepmind.google/blog/teaching-ai-to-see-the-world-more-like-we-do/
+- Google DeepMind News: https://deepmind.google/blog/how-ai-is-giving-northern-ireland-teachers-time-back/
+- OpenAI News: https://openai.com/index/chatgpt-for-veterans
+- OpenAI News: https://openai.com/index/prompt-injections
+- OpenAI News: https://openai.com/index/notion
+- OpenAI News: https://openai.com/index/introducing-the-teen-safety-blueprint
+- OpenAI News: https://openai.com/index/ai-progress-and-recommendations
+- OpenAI News: https://openai.com/index/cred-swamy-seetharaman
+- Google DeepMind News: https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/
+- OpenAI News: https://openai.com/index/chime-vineet-mehra
+- OpenAI News: https://openai.com/index/1-million-businesses-putting-ai-to-work
+- OpenAI News: https://openai.com/index/introducing-indqa
+- OpenAI News: https://openai.com/index/aws-and-openai-partnership
+- OpenAI News: https://openai.com/index/expanding-stargate-to-michigan
+- OpenAI News: https://openai.com/index/introducing-aardvark
+- Hugging Face Blog: https://huggingface.co/blog/MiniMax-AI/aligning-to-what
+- OpenAI News: https://openai.com/index/building-chatgpt-atlas
+- Google DeepMind News: https://deepmind.google/blog/accelerating-discovery-with-the-ai-for-math-initiative/
+- Hugging Face Blog: https://huggingface.co/blog/huggingface/shifting-compute-landscape
+- OpenAI News: https://openai.com/index/introducing-gpt-oss-safeguard
+- OpenAI News: https://openai.com/index/gpt-oss-safeguard-technical-report
+- Hugging Face Blog: https://huggingface.co/blog/lerobotxnvidia-healthcare
+- Hugging Face Blog: https://huggingface.co/blog/nvidia/nvidia-isaac-for-healthcare
+- OpenAI News: https://openai.com/index/dai-nippon-printing
+- Hugging Face Blog: https://huggingface.co/blog/ibm-granite/granite-4-nano
+- OpenAI News: https://openai.com/index/doppel
+- OpenAI News: https://openai.com/index/built-to-benefit-everyone
+- OpenAI News: https://openai.com/index/next-chapter-of-microsoft-openai-partnership
+- Hugging Face Blog: https://huggingface.co/blog/voice-consent-gate
+- OpenAI News: https://openai.com/global-affairs/seizing-the-ai-opportunity
+- OpenAI News: https://openai.com/index/gpt-5-system-card-sensitive-conversations
+- OpenAI News: https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations
+- OpenAI News: https://openai.com/index/steuerrecht
+- Hugging Face Blog: https://huggingface.co/blog/streaming-datasets
+- Hugging Face Blog: https://huggingface.co/blog/huggingface-hub-v1
+- Google DeepMind News: https://deepmind.google/blog/t5gemma-a-new-collection-of-encoder-decoder-gemma-models/
+- Google DeepMind News: https://deepmind.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/
+- Google DeepMind News: https://deepmind.google/blog/introducing-gemma-3n-the-developer-guide/
+- Google DeepMind News: https://deepmind.google/blog/gemini-25-flash-lite-is-now-ready-for-scaled-production-use/
+- Google DeepMind News: https://deepmind.google/blog/behind-ancestra-combining-veo-with-live-action-filmmaking/
+- Google DeepMind News: https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/
+- Google DeepMind News: https://deepmind.google/blog/exploring-the-context-of-online-images-with-backstory/
+- Google DeepMind News: https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/
+- Google DeepMind News: https://deepmind.google/blog/aeneas-transforms-how-historians-connect-the-past/
+- Google DeepMind News: https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/
+- Google DeepMind News: https://deepmind.google/blog/how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species/
+- Google DeepMind News: https://deepmind.google/blog/using-ai-to-perceive-the-universe-in-greater-depth/
+- Google DeepMind News: https://deepmind.google/blog/gemini-achieves-gold-medal-level-at-the-international-collegiate-programming-contest-world-finals/
+- Google DeepMind News: https://deepmind.google/blog/discovering-new-solutions-to-century-old-problems-in-fluid-dynamics/
+- Hugging Face Blog: https://huggingface.co/blog/lerobot-release-v040
+- Google DeepMind News: https://deepmind.google/blog/strengthening-our-frontier-safety-framework/
+- Google DeepMind News: https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/
+- Google DeepMind News: https://deepmind.google/blog/introducing-codemender-an-ai-agent-for-code-security/
+- Google DeepMind News: https://deepmind.google/blog/bringing-ai-to-the-next-generation-of-fusion-energy/
+- Google DeepMind News: https://deepmind.google/blog/try-deep-think-in-the-gemini-app/
+- Google DeepMind News: https://deepmind.google/blog/rethinking-how-we-measure-ai-intelligence/
+- Google DeepMind News: https://deepmind.google/blog/introducing-gemma-3-270m-the-compact-model-for-hyper-efficient-ai/
+- Google DeepMind News: https://deepmind.google/blog/image-editing-in-gemini-just-got-a-major-upgrade/
+- Google DeepMind News: https://deepmind.google/blog/vaultgemma-the-worlds-most-capable-differentially-private-llm/
+- Google DeepMind News: https://deepmind.google/blog/introducing-the-gemini-25-computer-use-model/
+- Google DeepMind News: https://deepmind.google/blog/introducing-veo-31-and-advanced-creative-capabilities/
+- Google DeepMind News: https://deepmind.google/blog/how-a-gemma-model-helped-discover-a-new-potential-cancer-therapy-pathway/
+- OpenAI News: https://openai.com/index/openai-acquires-software-applications-incorporated
+- OpenAI News: https://openai.com/index/consensus
+- OpenAI News: https://openai.com/index/south-korea-economic-blueprint
+- OpenAI News: https://openai.com/index/introducing-company-knowledge
+- Hugging Face Blog: https://huggingface.co/blog/openenv
+- OpenAI News: https://openai.com/index/the-next-chapter-for-uk-sovereign-ai
+- OpenAI News: https://openai.com/index/japan-economic-blueprint
+- Hugging Face Blog: https://huggingface.co/blog/virustotal
+- Hugging Face Blog: https://huggingface.co/blog/sentence-transformers-joins-hf
+- OpenAI News: https://openai.com/index/chatgpt-whatsapp-transition
+- OpenAI News: https://openai.com/index/introducing-chatgpt-atlas
+- Hugging Face Blog: https://huggingface.co/blog/ocr-open-models
+- Hugging Face Blog: https://huggingface.co/blog/aisheets-unlock-images
+- Hugging Face Blog: https://huggingface.co/blog/hugging-science/ai-for-food-allergies
+- Hugging Face Blog: https://huggingface.co/blog/gpt-oss-on-intel-xeon
+- OpenAI News: https://openai.com/index/plex-coffee
+- Hugging Face Blog: https://huggingface.co/blog/openvino-vlm
+- OpenAI News: https://openai.com/index/expert-council-on-well-being-and-ai
+- OpenAI News: https://openai.com/global-affairs/argentinas-ai-opportunity
+- Hugging Face Blog: https://huggingface.co/blog/nvidia/nemotron-personas-india
+- OpenAI News: https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration
+- Hugging Face Blog: https://huggingface.co/blog/Arm/arm-at-pytorch-conference
+- OpenAI News: https://openai.com/index/hygh
+- OpenAI News: https://openai.com/index/defining-and-evaluating-political-bias-in-llms
+- OpenAI News: https://openai.com/index/hibob
+- Hugging Face Blog: https://huggingface.co/blog/bigcode/arena
+- OpenAI News: https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-october-2025
+- OpenAI News: https://openai.com/index/codex-now-generally-available
+- OpenAI News: https://openai.com/index/introducing-apps-in-chatgpt
+- OpenAI News: https://openai.com/index/openai-amd-strategic-partnership
+- OpenAI News: https://openai.com/index/introducing-agentkit
+- OpenAI News: https://openai.com/global-affairs/accelerating-ai-uptake-in-europe
+- OpenAI News: https://openai.com/index/wrtn
+- OpenAI News: https://openai.com/global-affairs/strategic-collaboration-with-japan-digital-agency
+- Hugging Face Blog: https://huggingface.co/blog/dots-ocr-ne
+- OpenAI News: https://openai.com/index/samsung-and-sk-join-stargate
+- Hugging Face Blog: https://huggingface.co/blog/rteb
+- OpenAI News: https://openai.com/index/sora-2-system-card
+- OpenAI News: https://openai.com/index/sora-2
+- OpenAI News: https://openai.com/index/launching-sora-responsibly
+- OpenAI News: https://openai.com/index/building-openai-with-openai
+- OpenAI News: https://openai.com/index/openai-contract-data-agent
+- OpenAI News: https://openai.com/index/openai-inbound-sales-assistant
+- OpenAI News: https://openai.com/index/openai-support-model
+- OpenAI News: https://openai.com/index/openai-research-assistant
+- OpenAI News: https://openai.com/index/openai-gtm-assistant
+- OpenAI News: https://openai.com/index/introducing-parental-controls
+- OpenAI News: https://openai.com/index/combating-online-child-sexual-exploitation-abuse
+- OpenAI News: https://openai.com/index/buy-it-in-chatgpt
+- Hugging Face Blog: https://huggingface.co/blog/intel-qwen3-agent
+- Hugging Face Blog: https://huggingface.co/blog/vibegame
+- Hugging Face Blog: https://huggingface.co/blog/nvidia/nemotron-personas-japan-ja
+- OpenAI News: https://openai.com/index/aarp-partnership-older-adults-online-safety
+- Hugging Face Blog: https://huggingface.co/blog/swift-transformers
+- OpenAI News: https://openai.com/index/more-ways-to-work-with-your-team
+- OpenAI News: https://openai.com/index/gdpval
+- OpenAI News: https://openai.com/index/introducing-chatgpt-pulse
+- OpenAI News: https://openai.com/index/eneos-materials
+- OpenAI News: https://openai.com/global-affairs/openai-for-germany
+- OpenAI News: https://openai.com/index/five-new-stargate-sites
+- Hugging Face Blog: https://huggingface.co/blog/smol2operator
+- OpenAI News: https://openai.com/index/cna-walter-fernandez
+- OpenAI News: https://openai.com/index/schoolai
+- OpenAI News: https://openai.com/index/openai-nvidia-systems-partnership
+- Hugging Face Blog: https://huggingface.co/blog/ServiceNow-AI/sygra-data-gen-framework
+- Hugging Face Blog: https://huggingface.co/blog/gaia2
+- Hugging Face Blog: https://huggingface.co/blog/inference-providers-scaleway
+- Hugging Face Blog: https://huggingface.co/blog/riskrubric
+- OpenAI News: https://openai.com/index/detecting-and-reducing-scheming-in-ai-models
+- Hugging Face Blog: https://huggingface.co/blog/inference-providers-publicai
+- OpenAI News: https://openai.com/index/introducing-stargate-uk
+- OpenAI News: https://openai.com/index/building-towards-age-prediction
+- OpenAI News: https://openai.com/index/teen-safety-freedom-and-privacy
+- Hugging Face Blog: https://huggingface.co/blog/lerobot-datasets-v3
+- OpenAI News: https://openai.com/index/introducing-upgrades-to-codex
+- OpenAI News: https://openai.com/index/how-people-are-using-chatgpt
+- OpenAI News: https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex
+- Hugging Face Blog: https://huggingface.co/blog/watermarking-with-gradio
+- OpenAI News: https://openai.com/index/us-caisi-uk-aisi-ai-update
+- Hugging Face Blog: https://huggingface.co/blog/Writer/announcing-palmyra-mini
+- OpenAI News: https://openai.com/index/statement-on-openai-nonprofit-and-pbc
+- OpenAI News: https://openai.com/index/joint-statement-from-openai-and-microsoft
+- Hugging Face Blog: https://huggingface.co/blog/faster-transformers
+- Hugging Face Blog: https://huggingface.co/blog/togethercomputer/together-ft
+- Hugging Face Blog: https://huggingface.co/blog/jupyter-agent-2
+- OpenAI News: https://openai.com/index/safetykit
+- Hugging Face Blog: https://huggingface.co/blog/mmbert
+- OpenAI News: https://openai.com/index/people-first-ai-fund
+- OpenAI News: https://openai.com/index/why-language-models-hallucinate
+- OpenAI News: https://openai.com/global-affairs/openai-for-greece
+- OpenAI News: https://openai.com/index/expanding-economic-opportunity-with-ai
+- Hugging Face Blog: https://huggingface.co/blog/embeddinggemma
+- Hugging Face Blog: https://huggingface.co/blog/SandboxAQ/sair-data-accelerating-drug-discovery-with-ai
+- OpenAI News: https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig
+- OpenAI News: https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone
+- Hugging Face Blog: https://huggingface.co/blog/zerogpu-aoti
+- OpenAI News: https://openai.com/index/introducing-gpt-realtime
+- OpenAI News: https://openai.com/index/supporting-nonprofit-and-community-innovation
+- OpenAI News: https://openai.com/index/collective-alignment-aug-2025-updates
+- OpenAI News: https://openai.com/index/openai-anthropic-safety-evaluation
+- OpenAI News: https://openai.com/index/helping-people-when-they-need-it-most
+- OpenAI News: https://openai.com/global-affairs/learning-accelerator
+- OpenAI News: https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences
+- OpenAI News: https://openai.com/index/blue-j
+- Hugging Face Blog: https://huggingface.co/blog/nvidia/multilingual-reasoning-v1
+- OpenAI News: https://openai.com/index/mixi
+- Hugging Face Blog: https://huggingface.co/blog/claude-and-mcp
+- OpenAI News: https://openai.com/index/doordash-mariana-garavaglia
+- Hugging Face Blog: https://huggingface.co/blog/kernel-builder
+- Hugging Face Blog: https://huggingface.co/blog/mcp-for-research
+- Hugging Face Blog: https://huggingface.co/blog/AI-MO/kimina-prover-rl
+- Hugging Face Blog: https://huggingface.co/blog/Arm/executorch-0-dot-7
+- Hugging Face Blog: https://huggingface.co/blog/Arm/neural-super-sampling
+- OpenAI News: https://openai.com/global-affairs/letter-to-governor-newsom-on-harmonized-regulation
+- OpenAI News: https://openai.com/index/basis
+- Hugging Face Blog: https://huggingface.co/blog/textquests
+- Hugging Face Blog: https://huggingface.co/blog/filbench
+- Hugging Face Blog: https://huggingface.co/blog/aisheets
+- Hugging Face Blog: https://huggingface.co/blog/accelerate-nd-parallel
+- OpenAI News: https://openai.com/index/gpt-5-new-era-of-work
+- OpenAI News: https://openai.com/index/introducing-gpt-5-for-developers
+- OpenAI News: https://openai.com/index/gpt-5-coding-design
+- OpenAI News: https://openai.com/index/gpt-5-creative-writing
+- OpenAI News: https://openai.com/index/gpt-5-medical-research
+- OpenAI News: https://openai.com/index/gpt-5-system-card
+- OpenAI News: https://openai.com/index/gpt-5-amgen
+- OpenAI News: https://openai.com/index/gpt-5-safe-completions
+- OpenAI News: https://openai.com/index/gpt-5-first-look
+- OpenAI News: https://openai.com/index/introducing-gpt-5
+- OpenAI News: https://openai.com/index/gpt-5-cursor
+- Hugging Face Blog: https://huggingface.co/blog/trl-vlm-alignment
+- OpenAI News: https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce
+- OpenAI News: https://openai.com/index/gpt-oss-model-card
+- OpenAI News: https://openai.com/global-affairs/open-weights-and-ai-for-all
+- OpenAI News: https://openai.com/index/introducing-gpt-oss
+- OpenAI News: https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms
+- Hugging Face Blog: https://huggingface.co/blog/welcome-openai-gpt-oss
+- Hugging Face Blog: https://huggingface.co/blog/nvidia/ai-q-top-ranking-open-portable-deep-research-agent
+- OpenAI News: https://openai.com/index/optimizing-chatgpt
+- Hugging Face Blog: https://huggingface.co/blog/tiiuae/3lm-benchmark
+- OpenAI News: https://openai.com/index/figma-david-kossnick
+- OpenAI News: https://openai.com/index/introducing-stargate-norway
+- Hugging Face Blog: https://huggingface.co/blog/gradio-vton-mcp
+- OpenAI News: https://openai.com/index/intercom
+- OpenAI News: https://openai.com/index/chatgpt-study-mode
+- Hugging Face Blog: https://huggingface.co/blog/trackio
+- Hugging Face Blog: https://huggingface.co/blog/hf-cli
+- Hugging Face Blog: https://huggingface.co/blog/parquet-cdc
+- OpenAI News: https://openai.com/index/outtake
+- OpenAI News: https://openai.com/index/announcing-devday-2025
+- OpenAI News: https://openai.com/index/model-ml-chaz-englander
+- Hugging Face Blog: https://huggingface.co/blog/timescope-video-lmm-benchmark
+- Hugging Face Blog: https://huggingface.co/blog/lora-fast
+- OpenAI News: https://openai.com/index/ai-clinical-copilot-penda-health
+- OpenAI News: https://openai.com/global-affairs/new-economic-analysis
+- OpenAI News: https://openai.com/index/stargate-advances-with-partnership-with-oracle
+- Hugging Face Blog: https://huggingface.co/blog/nvidia/multi-llm-nim
+- OpenAI News: https://openai.com/global-affairs/openai-and-uk-government-partnership
+- OpenAI News: https://openai.com/index/ai-as-the-greatest-source-of-empowerment-for-all
+- OpenAI News: https://openai.com/index/50-million-fund-to-build-with-communities
+- Hugging Face Blog: https://huggingface.co/blog/virtual-cell-challenge
+- OpenAI News: https://openai.com/index/introducing-chatgpt-agent
+- OpenAI News: https://openai.com/index/chatgpt-agent-system-card
+- OpenAI News: https://openai.com/index/nonprofit-commission-report
+- OpenAI News: https://openai.com/index/invideo-ai
+- OpenAI News: https://openai.com/global-affairs/openai-nonprofit-jam
+- Hugging Face Blog: https://huggingface.co/blog/consilium-multi-llm
+- Hugging Face Blog: https://huggingface.co/blog/futurebench
+- Hugging Face Blog: https://huggingface.co/blog/gradio-mcp-updates
+- Hugging Face Blog: https://huggingface.co/blog/ettin
+- OpenAI News: https://openai.com/global-affairs/intellectual-freedom-by-design
+- Hugging Face Blog: https://huggingface.co/blog/migrating-the-hub-to-xet
+- OpenAI News: https://openai.com/global-affairs/eu-code-of-practice
+- Hugging Face Blog: https://huggingface.co/blog/AI-MO/kimina-prover
+- Hugging Face Blog: https://huggingface.co/blog/async-robot-inference
+- Hugging Face Blog: https://huggingface.co/blog/screenenv
+- Hugging Face Blog: https://huggingface.co/blog/building-hf-mcp
+- Hugging Face Blog: https://huggingface.co/blog/reachy-mini
+- Hugging Face Blog: https://huggingface.co/blog/mi300kernels
+- Hugging Face Blog: https://huggingface.co/blog/gradio-mcp-servers
+- OpenAI News: https://openai.com/global-affairs/aft
+- Hugging Face Blog: https://huggingface.co/blog/smollm3
+- Hugging Face Blog: https://huggingface.co/blog/infrastructure-alerting
+- Hugging Face Blog: https://huggingface.co/blog/mmdp
+- Hugging Face Blog: https://huggingface.co/blog/tiiuae/e2lm-competition
+- OpenAI News: https://openai.com/index/genspark
+- Hugging Face Blog: https://huggingface.co/blog/train-sparse-encoder
+- OpenAI News: https://openai.com/global-affairs/openais-australia-economic-blueprint
+- Hugging Face Blog: https://huggingface.co/blog/nvidia/llama-nemotron-nano-vl
+- OpenAI News: https://openai.com/index/retell-ai
+- Hugging Face Blog: https://huggingface.co/blog/gemma3n
+- Google DeepMind News: https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/
+- Google DeepMind News: https://deepmind.google/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/
+- OpenAI News: https://openai.com/index/unify
+- Hugging Face Blog: https://huggingface.co/blog/transformers-backend-sglang
+- Hugging Face Blog: https://huggingface.co/blog/flux-qlora
+- OpenAI News: https://openai.com/index/emergent-misalignment
+- OpenAI News: https://openai.com/index/preparing-for-future-ai-capabilities-in-biology
+- Google DeepMind News: https://deepmind.google/blog/gemini-25-updates-to-our-family-of-thinking-models/
+- Google DeepMind News: https://deepmind.google/blog/were-expanding-our-gemini-25-family-of-models/
+- OpenAI News: https://openai.com/global-affairs/introducing-openai-for-government
+- Hugging Face Blog: https://huggingface.co/blog/inference-providers-groq
+- Google DeepMind News: https://deepmind.google/blog/how-were-supporting-better-tropical-cyclone-prediction-with-ai/
+- Hugging Face Blog: https://huggingface.co/blog/tngtech/llm-performance-blocked-by-long-prompts
+- OpenAI News: https://openai.com/index/mattels-iconic-brands
+- Hugging Face Blog: https://huggingface.co/blog/hello-hf-kernels
+- Hugging Face Blog: https://huggingface.co/blog/inference-providers-featherless
+- Hugging Face Blog: https://huggingface.co/blog/nvidia/gr00t-n1-5-so101-tuning
+- Hugging Face Blog: https://huggingface.co/blog/nvidia-training-cluster
+- OpenAI News: https://openai.com/index/scaling-coordinated-vulnerability-disclosure
+- Hugging Face Blog: https://huggingface.co/blog/screensuite
+- OpenAI News: https://openai.com/index/response-to-nyt-data-demands
+- OpenAI News: https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-june-2025
+- Hugging Face Blog: https://huggingface.co/blog/kv-cache
+- Google DeepMind News: https://deepmind.google/blog/advanced-audio-dialog-and-generation-with-gemini-25/
+- Hugging Face Blog: https://huggingface.co/blog/Arm/ai-sound-gen-on-arm
+- Hugging Face Blog: https://huggingface.co/blog/Hcompany/holo1
+- Hugging Face Blog: https://huggingface.co/blog/smolvla
+- Hugging Face Blog: https://huggingface.co/blog/vllm-colocate
+- OpenAI News: https://openai.com/index/wix
+- Hugging Face Blog: https://huggingface.co/blog/structured-codeagent
+- Hugging Face Blog: https://huggingface.co/blog/liger-grpo
+- OpenAI News: https://openai.com/index/o3-o4-mini-system-card-addendum-operator-o3
+- Hugging Face Blog: https://huggingface.co/blog/dell-ai-applications
+- Hugging Face Blog: https://huggingface.co/blog/python-tiny-agents
+- OpenAI News: https://openai.com/index/openai-deutschland
+- OpenAI News: https://openai.com/index/coderabbit
+- OpenAI News: https://openai.com/index/introducing-stargate-uae
+- OpenAI News: https://openai.com/index/new-tools-and-features-in-the-responses-api
+- Hugging Face Blog: https://huggingface.co/blog/tiiuae/falcon-h1
+- Hugging Face Blog: https://huggingface.co/blog/tiiuae/falcon-arabic
+- Hugging Face Blog: https://huggingface.co/blog/diffusers-quantization
+- Hugging Face Blog: https://huggingface.co/blog/nanovlm
+- Google DeepMind News: https://deepmind.google/blog/our-vision-for-building-a-universal-ai-assistant/
+- Google DeepMind News: https://deepmind.google/blog/gemini-25-our-world-leading-model-is-getting-even-better/
+- Google DeepMind News: https://deepmind.google/blog/synthid-detector--a-new-portal-to-help-identify-ai-generated-content/
+- Google DeepMind News: https://deepmind.google/blog/announcing-gemma-3n-preview-powerful-efficient-mobile-first-ai/
+- Hugging Face Blog: https://huggingface.co/blog/azure-ai-foundry
+- OpenAI News: https://openai.com/index/introducing-codex
+- OpenAI News: https://openai.com/index/o3-o4-mini-codex-system-card-addendum
+- Hugging Face Blog: https://huggingface.co/blog/tiiuae/falcon-edge
+- Hugging Face Blog: https://huggingface.co/blog/transformers-model-definition
+- OpenAI News: https://openai.com/index/expedia-jochen-koedijk
+- Hugging Face Blog: https://huggingface.co/blog/kaggle-integration
+- Hugging Face Blog: https://huggingface.co/blog/fast-whisper-endpoints
+- OpenAI News: https://openai.com/index/healthbench
+- Hugging Face Blog: https://huggingface.co/blog/vlms-2025
+- Hugging Face Blog: https://huggingface.co/blog/lerobot-datasets
+- OpenAI News: https://openai.com/index/leadership-expansion-with-fidji-simo
+- OpenAI News: https://openai.com/global-affairs/response-to-department-of-energy
+- OpenAI News: https://openai.com/index/introducing-data-residency-in-asia
+- OpenAI News: https://openai.com/index/san-antonio-spurs
+- OpenAI News: https://openai.com/index/lowes
+- OpenAI News: https://openai.com/global-affairs/openai-for-countries
+- OpenAI News: https://openai.com/global-affairs/ai-stories-daily-benefits-bigger-opportunities
+- OpenAI News: https://openai.com/index/john-deere-justin-rose
+- OpenAI News: https://openai.com/index/evolving-our-structure
+- OpenAI News: https://openai.com/index/lowes-chandhu-nair
+- OpenAI News: https://openai.com/index/expanding-on-sycophancy
+- Hugging Face Blog: https://huggingface.co/blog/gradio-mcp
+- Hugging Face Blog: https://huggingface.co/blog/qwen-3-chat-template-deep-dive
+- OpenAI News: https://openai.com/index/sycophancy-in-gpt-4o
+- Hugging Face Blog: https://huggingface.co/blog/llama-guard-4
+- Hugging Face Blog: https://huggingface.co/blog/autoround
+- Hugging Face Blog: https://huggingface.co/blog/ServiceNow/pipelinerl
+- Hugging Face Blog: https://huggingface.co/blog/tiny-agents
+- OpenAI News: https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025
+- OpenAI News: https://openai.com/index/image-generation-api
+- Hugging Face Blog: https://huggingface.co/blog/tngtech/finetuning-olmocr-to-be-a-faithful-ocr-engine
+- OpenAI News: https://openai.com/index/speak-connor-zwick
+- OpenAI News: https://openai.com/global-affairs/the-washington-post-partners-with-openai
+- Hugging Face Blog: https://huggingface.co/blog/tngtech/llm-performance-prefill-decode-concurrent-requests
+- OpenAI News: https://openai.com/index/thinking-with-images
+- OpenAI News: https://openai.com/index/o3-o4-mini-system-card
+- OpenAI News: https://openai.com/index/introducing-o3-and-o4-mini
+- Hugging Face Blog: https://huggingface.co/blog/why-gradio-stands-out
+- Hugging Face Blog: https://huggingface.co/blog/inference-providers-cohere
+- Hugging Face Blog: https://huggingface.co/blog/helmet
+- OpenAI News: https://openai.com/index/nonprofit-commission-advisors
+- OpenAI News: https://openai.com/index/updating-our-preparedness-framework
+- OpenAI News: https://openai.com/index/gpt-4-1
+- Hugging Face Blog: https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition
+- Hugging Face Blog: https://huggingface.co/blog/pai-6-month
+- Hugging Face Blog: https://huggingface.co/blog/BSC-LT/visualsalamandra7b
+- OpenAI News: https://openai.com/index/browsecomp
+- OpenAI News: https://openai.com/index/openai-pioneers-program
+- Hugging Face Blog: https://huggingface.co/blog/fastrtc-cloudflare
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-3c3h-aragen-ifeval
+- OpenAI News: https://openai.com/index/canva-cam-adams
+- OpenAI News: https://openai.com/global-affairs/openais-eu-economic-blueprint
+- Hugging Face Blog: https://huggingface.co/blog/llama4-release
+- Hugging Face Blog: https://huggingface.co/blog/gradio-1m
+- Hugging Face Blog: https://huggingface.co/blog/llm-course
+- Hugging Face Blog: https://huggingface.co/blog/tngtech/llm-performance-request-queueing
+- OpenAI News: https://openai.com/index/nonprofit-commission-guidance
+- OpenAI News: https://openai.com/index/paperbench
+- OpenAI News: https://openai.com/global-affairs/response-to-uk-copyright-consultation
+- OpenAI News: https://openai.com/index/march-funding-updates
+- Hugging Face Blog: https://huggingface.co/blog/scaling-secrets-management
+- Hugging Face Blog: https://huggingface.co/blog/intel-gaudi-backend-for-tgi
+- OpenAI News: https://openai.com/index/zendesk
+- Hugging Face Blog: https://huggingface.co/blog/open-r1/update-4
+- OpenAI News: https://openai.com/index/security-on-the-path-to-agi
+- Hugging Face Blog: https://huggingface.co/blog/train-reranker
+- OpenAI News: https://openai.com/index/introducing-4o-image-generation
+- OpenAI News: https://openai.com/index/gpt-4o-image-generation-system-card-addendum
+- OpenAI News: https://openai.com/index/hebbia
+- OpenAI News: https://openai.com/index/leadership-updates-march-2025
+- Hugging Face Blog: https://huggingface.co/blog/gradio-dataframe-upgrade
+- OpenAI News: https://openai.com/index/affective-use-study
+- Hugging Face Blog: https://huggingface.co/blog/endpoint-analytics
+- OpenAI News: https://openai.com/index/booking-com
+- OpenAI News: https://openai.com/index/introducing-our-next-generation-audio-models
+- Hugging Face Blog: https://huggingface.co/blog/olympic-coder-lmstudio
+- Hugging Face Blog: https://huggingface.co/blog/ai-action-wh-2025
+- OpenAI News: https://openai.com/index/eliseai-minna-song
+- OpenAI News: https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025
+- Hugging Face Blog: https://huggingface.co/blog/nvidia-physical-ai
+- Hugging Face Blog: https://huggingface.co/blog/xet-on-the-hub
+- OpenAI News: https://openai.com/index/court-rejects-elon
+- OpenAI News: https://openai.com/index/ly-corporation
+- Hugging Face Blog: https://huggingface.co/blog/gemma3
+- Hugging Face Blog: https://huggingface.co/blog/open-r1/update-3
+- OpenAI News: https://openai.com/index/new-tools-for-building-agents
+- Hugging Face Blog: https://huggingface.co/blog/lerobot-goes-to-driving-school
+- OpenAI News: https://openai.com/index/chain-of-thought-monitoring
+- OpenAI News: https://openai.com/index/nubank
+- Hugging Face Blog: https://huggingface.co/blog/llm-inference-on-edge
+- OpenAI News: https://openai.com/index/factory
+- OpenAI News: https://openai.com/index/launchdarkly-claire-vo
+- OpenAI News: https://openai.com/index/introducing-nextgenai
+- Hugging Face Blog: https://huggingface.co/blog/jfrog
+- Hugging Face Blog: https://huggingface.co/blog/aya-vision
+- OpenAI News: https://openai.com/global-affairs/1000-scientist-ai-jam-session
+- Hugging Face Blog: https://huggingface.co/blog/smolagents-phoenix
+- OpenAI News: https://openai.com/index/mercari
+- OpenAI News: https://openai.com/index/gpt-4-5-system-card
+- OpenAI News: https://openai.com/index/endex
+- Hugging Face Blog: https://huggingface.co/blog/iisc-huggingface-collab
+- OpenAI News: https://openai.com/index/deep-research-system-card
+- Hugging Face Blog: https://huggingface.co/blog/fastrtc
+- Hugging Face Blog: https://huggingface.co/blog/remote_vae
+- OpenAI News: https://openai.com/global-affairs/disrupting-malicious-uses-of-ai
+- Hugging Face Blog: https://huggingface.co/blog/siglip2
+- OpenAI News: https://openai.com/index/uber-enables-outstanding-experiences
+- Hugging Face Blog: https://huggingface.co/blog/smolvlm2
+- Hugging Face Blog: https://huggingface.co/blog/paligemma2mix
+- OpenAI News: https://openai.com/index/swe-lancer
+- Hugging Face Blog: https://huggingface.co/blog/inference-providers-nebius-novita-hyperbolic
+- OpenAI News: https://openai.com/index/openai-and-guardian-media-group-launch-content-partnership
+- Hugging Face Blog: https://huggingface.co/blog/fireworks-ai
+- Hugging Face Blog: https://huggingface.co/blog/math_verify_leaderboard
+- OpenAI News: https://openai.com/index/fanatics-betting-gaming-andrea-ellis
+- OpenAI News: https://openai.com/index/wayfair-fiona-tan
+- OpenAI News: https://openai.com/index/rogo
+- Hugging Face Blog: https://huggingface.co/blog/billion-classifications
+- OpenAI News: https://openai.com/index/sharing-the-latest-model-spec
+- Hugging Face Blog: https://huggingface.co/blog/from-chunks-to-blocks
+- Hugging Face Blog: https://huggingface.co/blog/vid_ds_scripts
+- Hugging Face Blog: https://huggingface.co/blog/open-r1/update-2
+- OpenAI News: https://openai.com/index/openai-partners-with-schibsted-media-group
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-arabic-v2
+- OpenAI News: https://openai.com/global-affairs/introducing-the-intelligence-age
+- OpenAI News: https://openai.com/index/introducing-data-residency-in-europe
+- OpenAI News: https://openai.com/index/openai-and-the-csu-system
+- OpenAI News: https://openai.com/index/ten-tiny-canvases
+- OpenAI News: https://openai.com/index/my-dog-the-math-tutor
+- OpenAI News: https://openai.com/index/fishing-for-first-timers
+- Hugging Face Blog: https://huggingface.co/blog/open-deep-research
+- Hugging Face Blog: https://huggingface.co/blog/pi0
+- Hugging Face Blog: https://huggingface.co/blog/dabstep
+- OpenAI News: https://openai.com/index/deep-research
+- OpenAI News: https://openai.com/index/introducing-deep-research
+- Hugging Face Blog: https://huggingface.co/blog/open-r1/update-1
+- OpenAI News: https://openai.com/index/o3-mini-system-card
+- OpenAI News: https://openai.com/index/openai-o3-mini
+- Hugging Face Blog: https://huggingface.co/blog/open-r1/mini-r1-contdown-game
+- Hugging Face Blog: https://huggingface.co/blog/ai-art-newsletter-jan-25
+- OpenAI News: https://openai.com/index/strengthening-americas-ai-leadership-with-the-us-national-laboratories
+- Hugging Face Blog: https://huggingface.co/blog/deepseek-r1-aws
+- Hugging Face Blog: https://huggingface.co/blog/inference-providers
+- Hugging Face Blog: https://huggingface.co/blog/open-r1
+- Hugging Face Blog: https://huggingface.co/blog/video_gen
+- Hugging Face Blog: https://huggingface.co/blog/smolagents-can-see
+- OpenAI News: https://openai.com/index/computer-using-agent
+- OpenAI News: https://openai.com/index/operator-system-card
+- OpenAI News: https://openai.com/index/introducing-operator
+- Hugging Face Blog: https://huggingface.co/blog/nvidia/kvpress
+- Hugging Face Blog: https://huggingface.co/blog/smolervlm
+- OpenAI News: https://openai.com/index/bertelsmann-powers-creativity-and-productivity-with-openai
+- OpenAI News: https://openai.com/index/trading-inference-time-compute-for-adversarial-robustness
+- Hugging Face Blog: https://huggingface.co/blog/friendliai-partnership
+- OpenAI News: https://openai.com/form/stargate-infrastructure
+- OpenAI News: https://openai.com/index/announcing-the-stargate-project
+- Hugging Face Blog: https://huggingface.co/blog/huggingface/blog-articles-for-orgs
+- Hugging Face Blog: https://huggingface.co/blog/timm-transformers
+- Hugging Face Blog: https://huggingface.co/blog/tgi-multi-backend
+- OpenAI News: https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry
+- Hugging Face Blog: https://huggingface.co/blog/static-embeddings
+- OpenAI News: https://openai.com/index/adebayo-ogunlesi-joins-openais-board-of-directors
+- Hugging Face Blog: https://huggingface.co/blog/ethics-soc-7
+- Hugging Face Blog: https://huggingface.co/blog/vdr-2b-multilingual
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-emissions-analysis
+- Hugging Face Blog: https://huggingface.co/blog/smolagents
+- OpenAI News: https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission
+- Hugging Face Blog: https://huggingface.co/blog/train_memory
+- Hugging Face Blog: https://huggingface.co/blog/logits-processor-zoo
+- OpenAI News: https://openai.com/index/deliberative-alignment
+- Hugging Face Blog: https://huggingface.co/blog/big-bench-audio-release
+- Hugging Face Blog: https://huggingface.co/blog/modernbert
+- Hugging Face Blog: https://huggingface.co/blog/bamba
+- OpenAI News: https://openai.com/index/o1-and-new-tools-for-developers
+- Hugging Face Blog: https://huggingface.co/blog/falcon3
+- Hugging Face Blog: https://huggingface.co/blog/intel-gcp-c4
+- Hugging Face Blog: https://huggingface.co/blog/synthetic-data-generator
+- OpenAI News: https://openai.com/index/elon-musk-wanted-an-openai-for-profit
+- Hugging Face Blog: https://huggingface.co/blog/lematerial
+- OpenAI News: https://openai.com/index/sora-is-here
+- OpenAI News: https://openai.com/index/sora-minne-atairu
+- OpenAI News: https://openai.com/index/sora-lyndon-barrois
+- OpenAI News: https://openai.com/index/sora-system-card
+- OpenAI News: https://openai.com/index/sora-vallee-duhamel
+- OpenAI News: https://openai.com/index/put-ai-to-work-for-your-product-team
+- Hugging Face Blog: https://huggingface.co/blog/bedrock-marketplace
+- Hugging Face Blog: https://huggingface.co/blog/image-preferences
+- OpenAI News: https://openai.com/index/introducing-chatgpt-pro
+- OpenAI News: https://openai.com/index/openai-o1-system-card
+- Hugging Face Blog: https://huggingface.co/blog/paligemma2
+- Hugging Face Blog: https://huggingface.co/blog/keras-chatbot-arena
+- OpenAI News: https://openai.com/index/openai-and-future-partner-on-specialist-content
+- OpenAI News: https://openai.com/index/morgan-stanley
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-3c3h-aragen
+- Hugging Face Blog: https://huggingface.co/blog/cfm-case-study
+- Hugging Face Blog: https://huggingface.co/blog/eu-ai-act-for-oss-developers
+- Hugging Face Blog: https://huggingface.co/blog/rearchitecting-uploads-and-downloads
+- Hugging Face Blog: https://huggingface.co/blog/smolvlm
+- Hugging Face Blog: https://huggingface.co/blog/designing-positional-encoding
+- OpenAI News: https://openai.com/index/advancing-red-teaming-with-people-and-ai
+- OpenAI News: https://openai.com/index/grab
+- Hugging Face Blog: https://huggingface.co/blog/debate
+- Hugging Face Blog: https://huggingface.co/blog/from-files-to-chunks
+- Hugging Face Blog: https://huggingface.co/blog/layerskip
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-japanese
+- OpenAI News: https://openai.com/index/rox
+- Hugging Face Blog: https://huggingface.co/blog/arena-atla
+- OpenAI News: https://openai.com/index/openai-en-france
+- OpenAI News: https://openai.com/index/estee-lauder
+- Hugging Face Blog: https://huggingface.co/blog/researcher-dataset-sharing
+- Hugging Face Blog: https://huggingface.co/blog/pycharm-integration
+- Hugging Face Blog: https://huggingface.co/blog/argilla-ui-hub
+- OpenAI News: https://openai.com/index/introducing-chatgpt-search
+- OpenAI News: https://openai.com/index/promega
+- OpenAI News: https://openai.com/index/introducing-simpleqa
+- OpenAI News: https://openai.com/index/decagon
+- Hugging Face Blog: https://huggingface.co/blog/universal_assisted_generation
+- Hugging Face Blog: https://huggingface.co/blog/digital-green-llm-judge
+- Hugging Face Blog: https://huggingface.co/blog/aya-expanse
+- OpenAI News: https://openai.com/index/simplifying-stabilizing-and-scaling-continuous-time-consistency-models
+- Hugging Face Blog: https://huggingface.co/blog/synthid-text
+- Hugging Face Blog: https://huggingface.co/blog/hugs
+- Hugging Face Blog: https://huggingface.co/blog/cinepile2
+- OpenAI News: https://openai.com/index/lenfest-institute
+- Hugging Face Blog: https://huggingface.co/blog/protectai
+- Hugging Face Blog: https://huggingface.co/blog/transformersjs-v3
+- Hugging Face Blog: https://huggingface.co/blog/sd3-5
+- Hugging Face Blog: https://huggingface.co/blog/outlines-core
+- Hugging Face Blog: https://huggingface.co/blog/s2s_endpoint
+- Hugging Face Blog: https://huggingface.co/blog/keras-llama-32
+- Hugging Face Blog: https://huggingface.co/blog/gradient_accumulation
+- OpenAI News: https://openai.com/index/evaluating-fairness-in-chatgpt
+- OpenAI News: https://openai.com/index/mle-bench
+- Hugging Face Blog: https://huggingface.co/blog/huggingface-amd-turin
+- Hugging Face Blog: https://huggingface.co/blog/gradio-5-security
+- Hugging Face Blog: https://huggingface.co/blog/gradio-5
+- Hugging Face Blog: https://huggingface.co/blog/dask-scaling
+- OpenAI News: https://openai.com/index/hearst
+- Hugging Face Blog: https://huggingface.co/blog/dynamic_speculation_lookahead
+- Hugging Face Blog: https://huggingface.co/blog/improve_parquet_dedupe
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-finbench
+- OpenAI News: https://openai.com/index/introducing-canvas
+- OpenAI News: https://openai.com/index/new-credit-facility-enhances-financial-flexibility
+- Hugging Face Blog: https://huggingface.co/blog/chinese-ai-expansion
+- OpenAI News: https://openai.com/index/scale-the-benefits-of-ai
+- OpenAI News: https://openai.com/index/introducing-the-realtime-api
+- OpenAI News: https://openai.com/index/introducing-vision-to-the-fine-tuning-api
+- OpenAI News: https://openai.com/index/api-prompt-caching
+- OpenAI News: https://openai.com/index/api-model-distillation
+- OpenAI News: https://openai.com/index/altera
+- Hugging Face Blog: https://huggingface.co/blog/benczechmark
+- Hugging Face Blog: https://huggingface.co/blog/vertex-colored-to-textured-mesh
+- OpenAI News: https://openai.com/index/upgrading-the-moderation-api-with-our-new-multimodal-moderation-model
+- OpenAI News: https://openai.com/index/state-of-minnesota
+- OpenAI News: https://openai.com/index/gedi
+- Hugging Face Blog: https://huggingface.co/blog/llama32
+- OpenAI News: https://openai.com/index/mercado-libre
+- Hugging Face Blog: https://huggingface.co/blog/fine-video
+- Hugging Face Blog: https://huggingface.co/blog/daily-papers
+- Hugging Face Blog: https://huggingface.co/blog/deploy-with-openvino
+- OpenAI News: https://openai.com/index/genmab
+- Hugging Face Blog: https://huggingface.co/blog/1_58_llm_extreme_quantization
+- OpenAI News: https://openai.com/index/arco-education
+- Hugging Face Blog: https://huggingface.co/blog/sql-console
+- OpenAI News: https://openai.com/index/update-on-safety-and-security-practices
+- Hugging Face Blog: https://huggingface.co/blog/community-tools
+- Hugging Face Blog: https://huggingface.co/blog/accelerate-v1
+- OpenAI News: https://openai.com/index/introducing-openai-o1-preview
+- OpenAI News: https://openai.com/index/learning-to-reason-with-llms
+- OpenAI News: https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning
+- OpenAI News: https://openai.com/openai-o1-contributions
+- OpenAI News: https://openai.com/index/o1-coding
+- OpenAI News: https://openai.com/index/o1-quantum-physics
+- OpenAI News: https://openai.com/index/o1-genetics
+- OpenAI News: https://openai.com/index/o1-economics
+- OpenAI News: https://openai.com/index/ada
+- Hugging Face Blog: https://huggingface.co/blog/trufflesecurity-partnership
+- Hugging Face Blog: https://huggingface.co/blog/video-encoding
+- OpenAI News: https://openai.com/index/asu
+- Hugging Face Blog: https://huggingface.co/blog/unsung-heroes
+- Hugging Face Blog: https://huggingface.co/blog/packing-with-FA2
+- OpenAI News: https://openai.com/index/conde-nast
+- OpenAI News: https://openai.com/index/upwork
+- OpenAI News: https://openai.com/index/gpt-4o-fine-tuning
+- Hugging Face Blog: https://huggingface.co/blog/llama31-on-vertex-ai
+- OpenAI News: https://openai.com/index/disrupting-a-covert-iranian-influence-operation
+- OpenAI News: https://openai.com/index/indeed
+- OpenAI News: https://openai.com/index/the-met-museum
+- Hugging Face Blog: https://huggingface.co/blog/infini-attention
+- OpenAI News: https://openai.com/index/introducing-swe-bench-verified
+- Hugging Face Blog: https://huggingface.co/blog/introduction-to-ggml
+- Hugging Face Blog: https://huggingface.co/blog/falconmamba
+- Hugging Face Blog: https://huggingface.co/blog/unified-tool-use
+- OpenAI News: https://openai.com/index/zico-kolter-joins-openais-board-of-directors
+- OpenAI News: https://openai.com/index/gpt-4o-system-card
+- Hugging Face Blog: https://huggingface.co/blog/xethub-joins-hf
+- OpenAI News: https://openai.com/index/rakuten-2024
+- OpenAI News: https://openai.com/index/introducing-structured-outputs-in-the-api
+- Hugging Face Blog: https://huggingface.co/blog/2024-security-features
+- Hugging Face Blog: https://huggingface.co/blog/doc_aug_hf_alb
+- Hugging Face Blog: https://huggingface.co/blog/gemma-july-update
+- Hugging Face Blog: https://huggingface.co/blog/quanto-diffusers
+- Hugging Face Blog: https://huggingface.co/blog/inference-dgx-cloud
+- OpenAI News: https://openai.com/index/searchgpt-prototype
+- Hugging Face Blog: https://huggingface.co/blog/zero-shot-vqa-docmatix
+- OpenAI News: https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards
+- Hugging Face Blog: https://huggingface.co/blog/llama31
+- Hugging Face Blog: https://huggingface.co/blog/mistral-coreml
+- OpenAI News: https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence
+- OpenAI News: https://openai.com/index/new-tools-for-chatgpt-enterprise
+- Hugging Face Blog: https://huggingface.co/blog/docmatix
+- Hugging Face Blog: https://huggingface.co/blog/multi-lora-serving
+- OpenAI News: https://openai.com/index/prover-verifier-games-improve-legibility
+- Hugging Face Blog: https://huggingface.co/blog/smollm
+- Hugging Face Blog: https://huggingface.co/blog/argilla-chatbot
+- Hugging Face Blog: https://huggingface.co/blog/winning-aimo-progress-prize
+- OpenAI News: https://openai.com/index/openai-and-los-alamos-national-laboratory-work-together
+- Hugging Face Blog: https://huggingface.co/blog/keras-hub-integration
+- Hugging Face Blog: https://huggingface.co/blog/presidio-pii-detection
+- Hugging Face Blog: https://huggingface.co/blog/dpo_vlm
+- Hugging Face Blog: https://huggingface.co/blog/tpu-inference-endpoints-spaces
+- Hugging Face Blog: https://huggingface.co/blog/sovereign-data-solution-case-study
+- Hugging Face Blog: https://huggingface.co/blog/datasets-filters
+- Hugging Face Blog: https://huggingface.co/blog/intel-protein-language-model-protst
+- Hugging Face Blog: https://huggingface.co/blog/beating-gaia
+- OpenAI News: https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4
+- OpenAI News: https://openai.com/index/strategic-content-partnership-with-time
+- Hugging Face Blog: https://huggingface.co/blog/gemma2
+- Hugging Face Blog: https://huggingface.co/blog/xlscout-case-study
+- Hugging Face Blog: https://huggingface.co/blog/finetune-florence2
+- Hugging Face Blog: https://huggingface.co/blog/ethics-soc-6
+- OpenAI News: https://openai.com/index/openai-acquires-rockset
+- OpenAI News: https://openai.com/index/empowering-defenders-through-our-cybersecurity-grant-program
+- OpenAI News: https://openai.com/index/improved-techniques-for-training-consistency-models
+- OpenAI News: https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world
+- OpenAI News: https://openai.com/index/consistency-models
+- Hugging Face Blog: https://huggingface.co/blog/dibt
+- Hugging Face Blog: https://huggingface.co/blog/prezi-case-study
+- OpenAI News: https://openai.com/index/paf
+- OpenAI News: https://openai.com/index/clay
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-bigcodebench
+- OpenAI News: https://openai.com/index/color-health
+- OpenAI News: https://openai.com/index/openai-appoints-retired-us-army-general
+- Hugging Face Blog: https://huggingface.co/blog/deepspeed-to-fsdp-and-back
+- Hugging Face Blog: https://huggingface.co/blog/sd3
+- Hugging Face Blog: https://huggingface.co/blog/putting_rl_back_in_rlhf_with_rloo
+- OpenAI News: https://openai.com/index/openai-and-apple-announce-partnership
+- OpenAI News: https://openai.com/index/openai-welcomes-cfo-cpo
+- OpenAI News: https://openai.com/index/expanding-on-how-voice-engine-works-and-our-safety-research
+- Hugging Face Blog: https://huggingface.co/blog/transformers-docs-redesign
+- Hugging Face Blog: https://huggingface.co/blog/sagemaker-huggingface-embedding
+- OpenAI News: https://openai.com/index/10bedicu
+- OpenAI News: https://openai.com/index/extracting-concepts-from-gpt-4
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-artificial-analysis2
+- Hugging Face Blog: https://huggingface.co/blog/npc-gigax-cubzh
+- Hugging Face Blog: https://huggingface.co/blog/assisted-generation-support-gaudi
+- Hugging Face Blog: https://huggingface.co/blog/space-secrets-disclosure
+- OpenAI News: https://openai.com/index/disrupting-deceptive-uses-of-ai-by-covert-influence-operations
+- OpenAI News: https://openai.com/index/introducing-openai-for-nonprofits
+- OpenAI News: https://openai.com/index/introducing-chatgpt-edu
+- OpenAI News: https://openai.com/index/mavenagi
+- OpenAI News: https://openai.com/index/newsroom-ai-catalyst-global-program-with-wan-ifra
+- OpenAI News: https://openai.com/index/enhancing-news-in-chatgpt-with-the-atlantic
+- OpenAI News: https://openai.com/index/a-content-and-product-partnership-with-vox-media
+- Hugging Face Blog: https://huggingface.co/blog/tgi-benchmarking
+- OpenAI News: https://openai.com/index/openai-board-forms-safety-and-security-committee
+- Hugging Face Blog: https://huggingface.co/blog/train-sentence-transformers
+- Hugging Face Blog: https://huggingface.co/blog/falcon2-11b
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-llamaguard
+- OpenAI News: https://openai.com/index/news-corp-and-openai-sign-landmark-multi-year-global-partnership
+- Hugging Face Blog: https://huggingface.co/blog/inferentia-inference-endpoints
+- OpenAI News: https://openai.com/index/openai-safety-update
+- Hugging Face Blog: https://huggingface.co/blog/spaces-dev-mode
+- Hugging Face Blog: https://huggingface.co/blog/dell-enterprise-hub
+- Hugging Face Blog: https://huggingface.co/blog/huggingface-amd-mi300
+- Hugging Face Blog: https://huggingface.co/blog/microsoft-collaboration
+- OpenAI News: https://openai.com/index/how-the-voices-for-chatgpt-were-chosen
+- OpenAI News: https://openai.com/index/improvements-to-data-analysis-in-chatgpt
+- OpenAI News: https://openai.com/index/openai-and-reddit-partnership
+- OpenAI News: https://openai.com/index/canva
+- Hugging Face Blog: https://huggingface.co/blog/kv-cache-quantization
+- OpenAI News: https://openai.com/index/jakub-pachocki-announced-as-chief-scientist
+- Hugging Face Blog: https://huggingface.co/blog/paligemma
+- Hugging Face Blog: https://huggingface.co/blog/langchain
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-arabic
+- OpenAI News: https://openai.com/index/hello-gpt-4o
+- OpenAI News: https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free
+- OpenAI News: https://openai.com/index/spring-update
+- Hugging Face Blog: https://huggingface.co/blog/agents
+- Hugging Face Blog: https://huggingface.co/blog/enterprise-hub-aws-marketplace
+- Hugging Face Blog: https://huggingface.co/blog/cost-efficient-rag-applications-with-intel
+- OpenAI News: https://openai.com/index/introducing-the-model-spec
+- OpenAI News: https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online
+- OpenAI News: https://openai.com/index/approach-to-data-and-ai
+- OpenAI News: https://openai.com/index/api-partnership-with-stack-overflow
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-hebrew
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-artificial-analysis
+- Hugging Face Blog: https://huggingface.co/blog/asr-diarization
+- Hugging Face Blog: https://huggingface.co/blog/evaluation-structured-outputs
+- OpenAI News: https://openai.com/index/content-partnership-with-financial-times
+- Hugging Face Blog: https://huggingface.co/blog/sc2-instruct
+- OpenAI News: https://openai.com/index/moderna
+- OpenAI News: https://openai.com/index/gpt-4-api-general-availability
+- OpenAI News: https://openai.com/index/introducing-chatgpt-and-whisper-apis
+- OpenAI News: https://openai.com/index/more-enterprise-grade-features-for-api-customers
+- OpenAI News: https://openai.com/index/child-safety-adopting-sbd-principles
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-cot
+- Hugging Face Blog: https://huggingface.co/blog/jat
+- OpenAI News: https://openai.com/index/the-instruction-hierarchy
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-medicalllm
+- Hugging Face Blog: https://huggingface.co/blog/llama3
+- Hugging Face Blog: https://huggingface.co/blog/gradio-reload
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-livecodebench
+- Hugging Face Blog: https://huggingface.co/blog/fhe-endpoints
+- Hugging Face Blog: https://huggingface.co/blog/ryght-case-study
+- Hugging Face Blog: https://huggingface.co/blog/idefics2
+- OpenAI News: https://openai.com/index/introducing-openai-japan
+- Hugging Face Blog: https://huggingface.co/blog/vlms
+- Hugging Face Blog: https://huggingface.co/blog/google-cloud-model-garden
+- Hugging Face Blog: https://huggingface.co/blog/codegemma
+- Hugging Face Blog: https://huggingface.co/blog/policy-blog
+- OpenAI News: https://openai.com/index/klarna
+- OpenAI News: https://openai.com/index/introducing-improvements-to-the-fine-tuning-api-and-expanding-our-custom-models-program
+- Hugging Face Blog: https://huggingface.co/blog/hugging-face-wiz-security-blog
+- Hugging Face Blog: https://huggingface.co/blog/duckdb-nsql-7b
+- Hugging Face Blog: https://huggingface.co/blog/setfit-optimum-intel
+- OpenAI News: https://openai.com/index/harvey
+- Hugging Face Blog: https://huggingface.co/blog/cloudflare-workers-ai
+- OpenAI News: https://openai.com/index/start-using-chatgpt-instantly
+- OpenAI News: https://openai.com/index/oscar
+- OpenAI News: https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices
+- OpenAI News: https://openai.com/index/zelma
+- OpenAI News: https://openai.com/index/sora-first-impressions
+- Hugging Face Blog: https://huggingface.co/blog/pollen-vision
+- Hugging Face Blog: https://huggingface.co/blog/noob_intro_transformers
+- Hugging Face Blog: https://huggingface.co/blog/embedding-quantization
+- OpenAI News: https://openai.com/index/jetbrains
+- Hugging Face Blog: https://huggingface.co/blog/arena-lighthouz
+- Hugging Face Blog: https://huggingface.co/blog/phi2-intel-meteor-lake
+- Hugging Face Blog: https://huggingface.co/blog/cosmopedia
+- Hugging Face Blog: https://huggingface.co/blog/galore
+- OpenAI News: https://openai.com/index/salesforce
+- OpenAI News: https://openai.com/index/holiday-extras
+- OpenAI News: https://openai.com/index/superhuman
+- Hugging Face Blog: https://huggingface.co/blog/train-dgx-cloud
+- Hugging Face Blog: https://huggingface.co/blog/quanto-introduction
+- Hugging Face Blog: https://huggingface.co/blog/intel-fast-embedding
+- Hugging Face Blog: https://huggingface.co/blog/websight
+- OpenAI News: https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media
+- OpenAI News: https://openai.com/index/healthify
+- OpenAI News: https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai
+- OpenAI News: https://openai.com/index/openai-announces-new-members-to-board-of-directors
+- OpenAI News: https://openai.com/index/paradigm
+- OpenAI News: https://openai.com/index/lifespan
+- OpenAI News: https://openai.com/index/match-group
+- OpenAI News: https://openai.com/index/openai-elon-musk
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-contextual
+- Hugging Face Blog: https://huggingface.co/blog/community-datasets
+- Hugging Face Blog: https://huggingface.co/blog/textgen-pipe-gaudi
+- Hugging Face Blog: https://huggingface.co/blog/starcoder2
+- Hugging Face Blog: https://huggingface.co/blog/arena-tts
+- Hugging Face Blog: https://huggingface.co/blog/watermarking
+- Hugging Face Blog: https://huggingface.co/blog/gemma-peft
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-haizelab
+- Hugging Face Blog: https://huggingface.co/blog/matryoshka
+- Hugging Face Blog: https://huggingface.co/blog/gemma
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-upstage
+- Hugging Face Blog: https://huggingface.co/blog/peft_merging
+- Hugging Face Blog: https://huggingface.co/blog/synthetic-data-save-costs
+- OpenAI News: https://openai.com/index/video-generation-models-as-world-simulators
+- OpenAI News: https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors
+- Hugging Face Blog: https://huggingface.co/blog/amd_pervasive_developer_ai_contest
+- OpenAI News: https://openai.com/index/memory-and-new-controls-for-chatgpt
+- Hugging Face Blog: https://huggingface.co/blog/tgi-messages-api
+- Hugging Face Blog: https://huggingface.co/blog/segmoe
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-nphardeval
+- Hugging Face Blog: https://huggingface.co/blog/constitutional_ai
+- Hugging Face Blog: https://huggingface.co/blog/text-generation-inference-on-inferentia2
+- Hugging Face Blog: https://huggingface.co/blog/patchtst
+- OpenAI News: https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-patronus
+- Hugging Face Blog: https://huggingface.co/blog/intel-starcoder-quantization
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-hallucinations
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-decodingtrust
+- OpenAI News: https://openai.com/index/new-embedding-models-and-api-updates
+- Hugging Face Blog: https://huggingface.co/blog/gcp-partnership
+- Hugging Face Blog: https://huggingface.co/blog/open-source-llms-as-agents
+- Hugging Face Blog: https://huggingface.co/blog/fine-tune-w2v2-bert
+- Hugging Face Blog: https://huggingface.co/blog/patchtsmixer
+- Hugging Face Blog: https://huggingface.co/blog/pref-tuning
+- OpenAI News: https://openai.com/index/democratic-inputs-to-ai-grant-program-update
+- OpenAI News: https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections
+- Hugging Face Blog: https://huggingface.co/blog/sdxl_ort_inference
+- Hugging Face Blog: https://huggingface.co/blog/run-comfyui-workflows-on-spaces
+- OpenAI News: https://openai.com/index/digital-green
+- Hugging Face Blog: https://huggingface.co/blog/leaderboard-vectara
+- OpenAI News: https://openai.com/index/introducing-the-gpt-store
+- OpenAI News: https://openai.com/index/introducing-chatgpt-team
+- Hugging Face Blog: https://huggingface.co/blog/unsloth-trl
+- OpenAI News: https://openai.com/index/openai-and-journalism
+- OpenAI News: https://openai.com/index/whoop
+- Hugging Face Blog: https://huggingface.co/blog/amused
+- Hugging Face Blog: https://huggingface.co/blog/sdxl_lora_advanced_script
+- Hugging Face Blog: https://huggingface.co/blog/whisper-speculative-decoding
+- Hugging Face Blog: https://huggingface.co/blog/2023-in-llms
+- OpenAI News: https://openai.com/index/summer-health
+- OpenAI News: https://openai.com/index/practices-for-governing-agentic-ai-systems
+- OpenAI News: https://openai.com/index/superalignment-fast-grants
+- OpenAI News: https://openai.com/index/weak-to-strong-generalization
+- OpenAI News: https://openai.com/index/axel-springer-partnership
+- Hugging Face Blog: https://huggingface.co/blog/mixtral
+- Hugging Face Blog: https://huggingface.co/blog/moe
+- Hugging Face Blog: https://huggingface.co/blog/setfit-absa
+- Hugging Face Blog: https://huggingface.co/blog/huggingface-and-optimum-amd
+- Hugging Face Blog: https://huggingface.co/blog/optimum-nvidia
+- Hugging Face Blog: https://huggingface.co/blog/lora-adapters-dynamic-loading
+- Hugging Face Blog: https://huggingface.co/blog/open-llm-leaderboard-drop
+- OpenAI News: https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board
+- OpenAI News: https://openai.com/index/openai-announces-leadership-transition
+- OpenAI News: https://openai.com/index/data-partnerships
+- Hugging Face Blog: https://huggingface.co/blog/lcm_lora
+- Hugging Face Blog: https://huggingface.co/blog/inferentia-llama2
+- Hugging Face Blog: https://huggingface.co/blog/prodigy-hf
+- Hugging Face Blog: https://huggingface.co/blog/Lora-for-sequence-classification-with-Roberta-Llama-Mistral
+- OpenAI News: https://openai.com/index/introducing-gpts
+- OpenAI News: https://openai.com/index/new-models-and-developer-products-announced-at-devday
+- Hugging Face Blog: https://huggingface.co/blog/regions
+- Hugging Face Blog: https://huggingface.co/blog/personal-copilot
+- OpenAI News: https://openai.com/index/frontier-risk-and-preparedness
+- OpenAI News: https://openai.com/index/frontier-model-forum-updates
+- Hugging Face Blog: https://huggingface.co/blog/scalable-data-inspection
+- Hugging Face Blog: https://huggingface.co/blog/inference-endpoints-embeddings
+- Hugging Face Blog: https://huggingface.co/blog/the_n_implementation_details_of_rlhf_with_ppo
+- Hugging Face Blog: https://huggingface.co/blog/simple_sdxl_optimizations
+- OpenAI News: https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise
+- Hugging Face Blog: https://huggingface.co/blog/gradio-lite
+- OpenAI News: https://openai.com/index/typeform
+- OpenAI News: https://openai.com/index/retool
+- OpenAI News: https://openai.com/index/ironclad
+- Hugging Face Blog: https://huggingface.co/blog/ort-accelerating-hf-models
+- OpenAI News: https://openai.com/index/dall-e-3-system-card
+- Hugging Face Blog: https://huggingface.co/blog/sdxl_jax
+- Hugging Face Blog: https://huggingface.co/blog/chat-templates
+- Hugging Face Blog: https://huggingface.co/blog/ai-comic-factory
+- Hugging Face Blog: https://huggingface.co/blog/ethics-soc-5
+- Hugging Face Blog: https://huggingface.co/blog/trl-ddpo
+- Hugging Face Blog: https://huggingface.co/blog/Llama2-for-non-engineers
+- Hugging Face Blog: https://huggingface.co/blog/llama-sagemaker-benchmark
+- OpenAI News: https://openai.com/index/chatgpt-can-now-see-hear-and-speak
+- OpenAI News: https://openai.com/index/gpt-4v-system-card
+- Hugging Face Blog: https://huggingface.co/blog/inference-pro
+- OpenAI News: https://openai.com/index/red-teaming-network
+- Hugging Face Blog: https://huggingface.co/blog/rocketmoney-case-study
+- Hugging Face Blog: https://huggingface.co/blog/gaussian-splatting
+- Hugging Face Blog: https://huggingface.co/blog/object-detection-leaderboard
+- Hugging Face Blog: https://huggingface.co/blog/optimize-llm
+- OpenAI News: https://openai.com/index/introducing-openai-dublin
+- Hugging Face Blog: https://huggingface.co/blog/wuerstchen
+- Hugging Face Blog: https://huggingface.co/blog/ram-efficient-pytorch-fsdp
+- Hugging Face Blog: https://huggingface.co/blog/overview-quantization-transformers
+- Hugging Face Blog: https://huggingface.co/blog/safecoder-vs-closed-source-code-assistants
+- Hugging Face Blog: https://huggingface.co/blog/t2i-sdxl-adapters
+- OpenAI News: https://openai.com/index/announcing-openai-devday
+- Hugging Face Blog: https://huggingface.co/blog/falcon-180b
+- Hugging Face Blog: https://huggingface.co/blog/fetch-case-study
+- OpenAI News: https://openai.com/index/teaching-with-ai
+- Hugging Face Blog: https://huggingface.co/blog/audioldm2
+- OpenAI News: https://openai.com/index/introducing-chatgpt-enterprise
+- Hugging Face Blog: https://huggingface.co/blog/codellama
+- Hugging Face Blog: https://huggingface.co/blog/password-git-deprecation
+- OpenAI News: https://openai.com/index/openai-partners-with-scale-to-provide-support-for-enterprises-fine-tuning-models
+- Hugging Face Blog: https://huggingface.co/blog/gptq-integration
+- OpenAI News: https://openai.com/index/gpt-3-5-turbo-fine-tuning-and-api-updates
+- Hugging Face Blog: https://huggingface.co/blog/safecoder
+- Hugging Face Blog: https://huggingface.co/blog/idefics
+- OpenAI News: https://openai.com/index/openai-acquires-global-illumination
+- OpenAI News: https://openai.com/index/using-gpt-4-for-content-moderation
+- Hugging Face Blog: https://huggingface.co/blog/aws-marketplace
+- Hugging Face Blog: https://huggingface.co/blog/optimizing-bark
+- Hugging Face Blog: https://huggingface.co/blog/deploy-deepfloydif-using-bentoml
+- Hugging Face Blog: https://huggingface.co/blog/dpo-trl
+- Hugging Face Blog: https://huggingface.co/blog/swift-coreml-llm
+- Hugging Face Blog: https://huggingface.co/blog/run-musicgen-as-an-api
+- Hugging Face Blog: https://huggingface.co/blog/huggy-lingo
+- Hugging Face Blog: https://huggingface.co/blog/encrypted-llm
+- OpenAI News: https://openai.com/index/confidence-building-measures-for-artificial-intelligence
+- Hugging Face Blog: https://huggingface.co/blog/3d-assets
+- Hugging Face Blog: https://huggingface.co/blog/sd_distillation
+- Hugging Face Blog: https://huggingface.co/blog/stable-diffusion-xl-coreml
+- OpenAI News: https://openai.com/index/frontier-model-forum
+- Hugging Face Blog: https://huggingface.co/blog/eu-ai-act-oss
+- Hugging Face Blog: https://huggingface.co/blog/agents-js
+- OpenAI News: https://openai.com/index/moving-ai-governance-forward
+- Hugging Face Blog: https://huggingface.co/blog/game-jam-first-edition-results
+- OpenAI News: https://openai.com/index/custom-instructions-for-chatgpt
+- Hugging Face Blog: https://huggingface.co/blog/diffusers-turns-1
+- OpenAI News: https://openai.com/index/partnership-with-american-journalism-project-to-support-local-news
+- Hugging Face Blog: https://huggingface.co/blog/llama2
+- Hugging Face Blog: https://huggingface.co/blog/ai-webtv
+- Hugging Face Blog: https://huggingface.co/blog/os-llms
+- Hugging Face Blog: https://huggingface.co/blog/stable-diffusion-finetuning-intel
+- OpenAI News: https://openai.com/index/viable
+- OpenAI News: https://openai.com/index/frontier-ai-regulation
+- Hugging Face Blog: https://huggingface.co/blog/ml-web-games
+- Hugging Face Blog: https://huggingface.co/blog/inference-endpoints-llm
+- Hugging Face Blog: https://huggingface.co/blog/text-to-webapp
+- Hugging Face Blog: https://huggingface.co/blog/writer-case-study
+- OpenAI News: https://openai.com/index/insights-from-global-conversations
+- Hugging Face Blog: https://huggingface.co/blog/bridgetower
+- OpenAI News: https://openai.com/index/introducing-openai-london
+- Hugging Face Blog: https://huggingface.co/blog/ethics-soc-4
+- Hugging Face Blog: https://huggingface.co/blog/open-llm-leaderboard-mmlu
+- Hugging Face Blog: https://huggingface.co/blog/panel-on-hugging-face
+- Hugging Face Blog: https://huggingface.co/blog/policy-ntia-rfc
+- Hugging Face Blog: https://huggingface.co/blog/mms_adapters
+- Hugging Face Blog: https://huggingface.co/blog/autoformer
+- Hugging Face Blog: https://huggingface.co/blog/fast-diffusers-coreml
+- Hugging Face Blog: https://huggingface.co/blog/livebook-app-deployment
+- Hugging Face Blog: https://huggingface.co/blog/content-guidelines-update
+- OpenAI News: https://openai.com/index/function-calling-and-other-api-updates
+- Hugging Face Blog: https://huggingface.co/blog/huggingface-and-amd
+- Hugging Face Blog: https://huggingface.co/blog/open-llm-leaderboard-rlhf
+- Hugging Face Blog: https://huggingface.co/blog/hf-hub-glam-guide
+- Hugging Face Blog: https://huggingface.co/blog/hub-duckdb
+- Hugging Face Blog: https://huggingface.co/blog/fasttext
+- Hugging Face Blog: https://huggingface.co/blog/falcon
+- Hugging Face Blog: https://huggingface.co/blog/unity-asr
+- OpenAI News: https://openai.com/index/openai-cybersecurity-grant-program
+- Hugging Face Blog: https://huggingface.co/blog/game-jam
+- OpenAI News: https://openai.com/index/improving-mathematical-reasoning-with-process-supervision
+- Hugging Face Blog: https://huggingface.co/blog/sagemaker-huggingface-llm
+- Hugging Face Blog: https://huggingface.co/blog/bertopic
+- OpenAI News: https://openai.com/index/democratic-inputs-to-ai
+- Hugging Face Blog: https://huggingface.co/blog/train-optimize-sd-intel
+- Hugging Face Blog: https://huggingface.co/blog/4bit-transformers-bitsandbytes
+- Hugging Face Blog: https://huggingface.co/blog/hugging-face-endpoints-on-azure
+- Hugging Face Blog: https://huggingface.co/blog/huggingface-and-ibm
+- Hugging Face Blog: https://huggingface.co/blog/safetensors-security-audit
+- Hugging Face Blog: https://huggingface.co/blog/instruction-tuning-sd
+- OpenAI News: https://openai.com/index/governance-of-superintelligence
+- OpenAI News: https://openai.com/index/introducing-the-chatgpt-app-for-ios
+- Hugging Face Blog: https://huggingface.co/blog/dedup
+- Hugging Face Blog: https://huggingface.co/blog/generative-ai-models-on-intel-cpu
+- Hugging Face Blog: https://huggingface.co/blog/cnil
+- Hugging Face Blog: https://huggingface.co/blog/chatbot-amd-gpu
+- Hugging Face Blog: https://huggingface.co/blog/rwkv
+- Hugging Face Blog: https://huggingface.co/blog/assisted-generation
+- OpenAI News: https://openai.com/index/language-models-can-explain-neurons-in-language-models
+- Hugging Face Blog: https://huggingface.co/blog/starchat-alpha
+- Hugging Face Blog: https://huggingface.co/blog/text-to-video
+- Hugging Face Blog: https://huggingface.co/blog/starcoder
+- Hugging Face Blog: https://huggingface.co/blog/unity-api
+- Hugging Face Blog: https://huggingface.co/blog/tf_tpu
+- Hugging Face Blog: https://huggingface.co/blog/if
+- Hugging Face Blog: https://huggingface.co/blog/databricks-case-study
+- OpenAI News: https://openai.com/index/new-ways-to-manage-your-data-in-chatgpt
+- Hugging Face Blog: https://huggingface.co/blog/chinese-language-blog
+- Hugging Face Blog: https://huggingface.co/blog/unity-in-spaces
+- Hugging Face Blog: https://huggingface.co/blog/accelerate-transformers-with-inferentia2
+- Hugging Face Blog: https://huggingface.co/blog/graphml-classification
+- Hugging Face Blog: https://huggingface.co/blog/owkin-substra
+- OpenAI News: https://openai.com/index/bug-bounty-program
+- Hugging Face Blog: https://huggingface.co/blog/snorkel-case-study
+- OpenAI News: https://openai.com/index/our-approach-to-ai-safety
+- Hugging Face Blog: https://huggingface.co/blog/stackllama
+- Hugging Face Blog: https://huggingface.co/blog/ethics-soc-3
+- Hugging Face Blog: https://huggingface.co/blog/habana-gaudi-2-bloom
+- Hugging Face Blog: https://huggingface.co/blog/stable-diffusion-inference-intel
+- Hugging Face Blog: https://huggingface.co/blog/fl-with-flower
+- OpenAI News: https://openai.com/index/march-20-chatgpt-outage
+- Hugging Face Blog: https://huggingface.co/blog/train-your-controlnet
+- OpenAI News: https://openai.com/index/chatgpt-plugins
+- Hugging Face Blog: https://huggingface.co/blog/notebooks-hub
+- OpenAI News: https://openai.com/index/gpts-are-gpts
+- OpenAI News: https://openai.com/index/government-of-iceland
+- OpenAI News: https://openai.com/index/khan-academy
+- OpenAI News: https://openai.com/index/duolingo
+- OpenAI News: https://openai.com/index/gpt-4-research
+- OpenAI News: https://openai.com/index/be-my-eyes
+- OpenAI News: https://openai.com/index/stripe
+- Hugging Face Blog: https://huggingface.co/blog/informer
+- Hugging Face Blog: https://huggingface.co/blog/trl-peft
+- Hugging Face Blog: https://huggingface.co/blog/vit-align
+- Hugging Face Blog: https://huggingface.co/blog/using-ml-for-disasters
+- Hugging Face Blog: https://huggingface.co/blog/controlnet
+- Hugging Face Blog: https://huggingface.co/blog/ethics-diffusers
+- Hugging Face Blog: https://huggingface.co/blog/classification-use-cases
+- OpenAI News: https://openai.com/index/planning-for-agi-and-beyond
+- Hugging Face Blog: https://huggingface.co/blog/red-teaming
+- Hugging Face Blog: https://huggingface.co/blog/fast-mac-diffusers
+- Hugging Face Blog: https://huggingface.co/blog/fetch-eap-case-study
+- Hugging Face Blog: https://huggingface.co/blog/aws-partnership
+- OpenAI News: https://openai.com/index/how-should-ai-systems-behave
+- Hugging Face Blog: https://huggingface.co/blog/blip-2
+- Hugging Face Blog: https://huggingface.co/blog/mantis-case-study
+- Hugging Face Blog: https://huggingface.co/blog/peft
+- Hugging Face Blog: https://huggingface.co/blog/speecht5
+- Hugging Face Blog: https://huggingface.co/blog/ml-for-games-5
+- Hugging Face Blog: https://huggingface.co/blog/aivsai
+- Hugging Face Blog: https://huggingface.co/blog/intel-sapphire-rapids-inference
+- Hugging Face Blog: https://huggingface.co/blog/vision_language_pretraining
+- OpenAI News: https://openai.com/index/chatgpt-plus
+- OpenAI News: https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text
+- Hugging Face Blog: https://huggingface.co/blog/cv_state
+- Hugging Face Blog: https://huggingface.co/blog/ml-for-games-4
+- Hugging Face Blog: https://huggingface.co/blog/lora
+- Hugging Face Blog: https://huggingface.co/blog/dialog-agents
+- Hugging Face Blog: https://huggingface.co/blog/optimum-onnxruntime-training
+- OpenAI News: https://openai.com/index/openai-and-microsoft-extend-partnership
+- Hugging Face Blog: https://huggingface.co/blog/ml-for-games-3
+- Hugging Face Blog: https://huggingface.co/blog/mask2former
+- Hugging Face Blog: https://huggingface.co/blog/paddlepaddle
+- Hugging Face Blog: https://huggingface.co/blog/image-similarity
+- OpenAI News: https://openai.com/index/forecasting-misuse
+- Hugging Face Blog: https://huggingface.co/blog/ml-for-games-2
+- OpenAI News: https://openai.com/index/yabble
+- OpenAI News: https://openai.com/index/waymark
+- Hugging Face Blog: https://huggingface.co/blog/intro-graphml
+- Hugging Face Blog: https://huggingface.co/blog/ml-for-games-1
+- Hugging Face Blog: https://huggingface.co/blog/intel-sapphire-rapids
+- OpenAI News: https://openai.com/index/inworld-ai-DO-NOT-PUBLISH
+- OpenAI News: https://openai.com/index/the-power-of-continuous-learning
+- Hugging Face Blog: https://huggingface.co/blog/clipseg-zero-shot
+- Hugging Face Blog: https://huggingface.co/blog/model-cards
+- OpenAI News: https://openai.com/index/point-e
+- OpenAI News: https://openai.com/index/new-and-improved-embedding-model
+- Hugging Face Blog: https://huggingface.co/blog/ethics-soc-2
+- Hugging Face Blog: https://huggingface.co/blog/audio-datasets
+- Hugging Face Blog: https://huggingface.co/blog/habana-gaudi-2-benchmark
+- Hugging Face Blog: https://huggingface.co/blog/rlhf
+- Hugging Face Blog: https://huggingface.co/blog/elixir-bumblebee
+- OpenAI News: https://openai.com/index/discovering-the-minutiae-of-backend-systems
+- Hugging Face Blog: https://huggingface.co/blog/deep-learning-with-proteins
+- Hugging Face Blog: https://huggingface.co/blog/diffusers-coreml
+- Hugging Face Blog: https://huggingface.co/blog/time-series-transformers
+- OpenAI News: https://openai.com/index/chatgpt
+- Hugging Face Blog: https://huggingface.co/blog/vq-diffusion
+- Hugging Face Blog: https://huggingface.co/blog/interns-2023
+- Hugging Face Blog: https://huggingface.co/blog/diffusion-models-event
+- Hugging Face Blog: https://huggingface.co/blog/ml-director-insights-4
+- Hugging Face Blog: https://huggingface.co/blog/document-ai
+- Hugging Face Blog: https://huggingface.co/blog/inference-update
+- Hugging Face Blog: https://huggingface.co/blog/arxiv
+- Hugging Face Blog: https://huggingface.co/blog/sentiment-analysis-fhe
+- Hugging Face Blog: https://huggingface.co/blog/introducing-csearch
+- Hugging Face Blog: https://huggingface.co/blog/pricing-update
+- Hugging Face Blog: https://huggingface.co/blog/dreambooth
+- OpenAI News: https://openai.com/index/dall-e-api-now-available-in-public-beta
+- Hugging Face Blog: https://huggingface.co/blog/fine-tune-whisper
+- Hugging Face Blog: https://huggingface.co/blog/openvino
+- Hugging Face Blog: https://huggingface.co/blog/evaluating-llm-bias
+- Hugging Face Blog: https://huggingface.co/blog/pytorch-ddp-accelerate-transformers
+- OpenAI News: https://openai.com/index/scaling-laws-for-reward-model-overoptimization
+- Hugging Face Blog: https://huggingface.co/blog/mteb
+- Hugging Face Blog: https://huggingface.co/blog/inference-endpoints
+- Hugging Face Blog: https://huggingface.co/blog/stable_diffusion_jax
+- Hugging Face Blog: https://huggingface.co/blog/bloom-inference-optimization
+- Hugging Face Blog: https://huggingface.co/blog/introducing-doi
+- Hugging Face Blog: https://huggingface.co/blog/japanese-stable-diffusion
+- Hugging Face Blog: https://huggingface.co/blog/zero-shot-eval-on-the-hub
+- OpenAI News: https://openai.com/index/dall-e-now-available-without-waitlist
+- Hugging Face Blog: https://huggingface.co/blog/autotrain-image-classification
+- Hugging Face Blog: https://huggingface.co/blog/accelerate-large-models
+- Hugging Face Blog: https://huggingface.co/blog/setfit
+- Hugging Face Blog: https://huggingface.co/blog/ethics-soc-1
+- OpenAI News: https://openai.com/index/whisper
+- Hugging Face Blog: https://huggingface.co/blog/bloom-inference-pytorch-scripts
+- Hugging Face Blog: https://huggingface.co/blog/diffusers-2nd-month
+- Hugging Face Blog: https://huggingface.co/blog/train-decision-transformers
+- Hugging Face Blog: https://huggingface.co/blog/megatron-training
+- OpenAI News: https://openai.com/index/dall-e-introducing-outpainting
+- Hugging Face Blog: https://huggingface.co/blog/open_rail
+- OpenAI News: https://openai.com/index/our-approach-to-alignment-research
+- Hugging Face Blog: https://huggingface.co/blog/spaces_3dmoljs
+- Hugging Face Blog: https://huggingface.co/blog/stable_diffusion
+- Hugging Face Blog: https://huggingface.co/blog/pretraining-bert
+- Hugging Face Blog: https://huggingface.co/blog/deploy-vertex-ai
+- Hugging Face Blog: https://huggingface.co/blog/vision-transformers
+- Hugging Face Blog: https://huggingface.co/blog/hf-bitsandbytes-integration
+- Hugging Face Blog: https://huggingface.co/blog/skops
+- Hugging Face Blog: https://huggingface.co/blog/tensorflow-philosophy
+- Hugging Face Blog: https://huggingface.co/blog/deploy-tfserving-kubernetes
+- OpenAI News: https://openai.com/index/new-and-improved-content-moderation-tooling
+- Hugging Face Blog: https://huggingface.co/blog/how-to-train-sentence-transformers
+- Hugging Face Blog: https://huggingface.co/blog/deep-rl-ppo
+- Hugging Face Blog: https://huggingface.co/blog/introducing-private-hub
+- Hugging Face Blog: https://huggingface.co/blog/nystromformer
+- Hugging Face Blog: https://huggingface.co/blog/us-national-ai-research-resource
+- OpenAI News: https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle
+- Hugging Face Blog: https://huggingface.co/blog/datasets-docs-update
+- Hugging Face Blog: https://huggingface.co/blog/tf-xla-generate
+- OpenAI News: https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models
+- Hugging Face Blog: https://huggingface.co/blog/tf-serving-vision
+- Hugging Face Blog: https://huggingface.co/blog/deep-rl-a2c
+- OpenAI News: https://openai.com/index/dall-e-now-available-in-beta
+- OpenAI News: https://openai.com/index/reducing-bias-and-improving-safety-in-dall-e-2
+- Hugging Face Blog: https://huggingface.co/blog/mnist-adversarial
+- OpenAI News: https://openai.com/index/dall-e-2-extending-creativity
+- Hugging Face Blog: https://huggingface.co/blog/bloom-megatron-deepspeed
+- Hugging Face Blog: https://huggingface.co/blog/playlist-generator
+- Hugging Face Blog: https://huggingface.co/blog/bloom
+- Hugging Face Blog: https://huggingface.co/blog/sentiment-analysis-twitter
+- Hugging Face Blog: https://huggingface.co/blog/deep-rl-pg
+- Hugging Face Blog: https://huggingface.co/blog/your-first-ml-project
+- OpenAI News: https://openai.com/index/dall-e-2-pre-training-mitigations
+- Hugging Face Blog: https://huggingface.co/blog/accelerate-deepspeed
+- Hugging Face Blog: https://huggingface.co/blog/eval-on-the-hub
+- OpenAI News: https://openai.com/index/vpt
+- Hugging Face Blog: https://huggingface.co/blog/getting-started-with-embeddings
+- Hugging Face Blog: https://huggingface.co/blog/convert-transformers-to-onnx
+- OpenAI News: https://openai.com/index/evolution-through-large-models
+- Hugging Face Blog: https://huggingface.co/blog/intel
+- Hugging Face Blog: https://huggingface.co/blog/ml-director-insights-3
+- OpenAI News: https://openai.com/index/critiques
+- OpenAI News: https://openai.com/index/techniques-for-training-large-neural-networks
+- Hugging Face Blog: https://huggingface.co/blog/annotated-diffusion
+- Hugging Face Blog: https://huggingface.co/blog/deep-rl-dqn
+- OpenAI News: https://openai.com/index/best-practices-for-deploying-language-models
+- OpenAI News: https://openai.com/index/teaching-models-to-express-their-uncertainty-in-words
+- Hugging Face Blog: https://huggingface.co/blog/graphcore-update
+- Hugging Face Blog: https://huggingface.co/blog/community-update
+- OpenAI News: https://openai.com/index/codex-apps
+- Hugging Face Blog: https://huggingface.co/blog/tapex
+- Hugging Face Blog: https://huggingface.co/blog/deep-rl-q-part2
+- Hugging Face Blog: https://huggingface.co/blog/sempre-health-eap-case-study
+- Hugging Face Blog: https://huggingface.co/blog/ethical-charter-multimodal
+- OpenAI News: https://openai.com/index/dall-e-2-update
+- Hugging Face Blog: https://huggingface.co/blog/deep-rl-q-part1
+- Hugging Face Blog: https://huggingface.co/blog/sasha-luccioni-interview
+- Hugging Face Blog: https://huggingface.co/blog/fellowship
+- Hugging Face Blog: https://huggingface.co/blog/gradio-blocks
+- Hugging Face Blog: https://huggingface.co/blog/ml-director-insights-2
+- Hugging Face Blog: https://huggingface.co/blog/ambassadors
+- Hugging Face Blog: https://huggingface.co/blog/optimum-inference
+- Hugging Face Blog: https://huggingface.co/blog/series-c
+- Hugging Face Blog: https://huggingface.co/blog/fastai
+- OpenAI News: https://openai.com/index/leadership-team-update
+- Hugging Face Blog: https://huggingface.co/blog/deep-rl-intro
+- Hugging Face Blog: https://huggingface.co/blog/pytorch-fsdp
+- Hugging Face Blog: https://huggingface.co/blog/opinion-classification-with-kili
+- Hugging Face Blog: https://huggingface.co/blog/ml-director-insights
+- Hugging Face Blog: https://huggingface.co/blog/getting-started-habana
+- Hugging Face Blog: https://huggingface.co/blog/education
+- Hugging Face Blog: https://huggingface.co/blog/supercharge-customer-service-with-machine-learning
+- Hugging Face Blog: https://huggingface.co/blog/carbon-emissions-on-the-hub
+- OpenAI News: https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents
+- OpenAI News: https://openai.com/index/measuring-goodharts-law
+- Hugging Face Blog: https://huggingface.co/blog/lewis-tunstall-interview
+- Hugging Face Blog: https://huggingface.co/blog/habana
+- Hugging Face Blog: https://huggingface.co/blog/transformers-design-philosophy
+- Hugging Face Blog: https://huggingface.co/blog/decision-transformers
+- Hugging Face Blog: https://huggingface.co/blog/meg-mitchell-interview
+- Hugging Face Blog: https://huggingface.co/blog/ai-residency
+- Hugging Face Blog: https://huggingface.co/blog/fine-tune-segformer
+- Hugging Face Blog: https://huggingface.co/blog/bert-inferentia-sagemaker
+- Hugging Face Blog: https://huggingface.co/blog/image-search-datasets
+- OpenAI News: https://openai.com/index/gpt-3-edit-insert
+- Hugging Face Blog: https://huggingface.co/blog/constrained-beam-search
+- OpenAI News: https://openai.com/index/economic-impacts-research
+- OpenAI News: https://openai.com/index/economic-impacts
+- OpenAI News: https://openai.com/index/language-model-safety-and-misuse
+- Hugging Face Blog: https://huggingface.co/blog/bert-101
+- Hugging Face Blog: https://huggingface.co/blog/fine-tune-vit
+- OpenAI News: https://openai.com/index/formal-math
+- Hugging Face Blog: https://huggingface.co/blog/sentiment-analysis-python
+- Hugging Face Blog: https://huggingface.co/blog/asr-chunking
+- OpenAI News: https://openai.com/index/instruction-following
+- OpenAI News: https://openai.com/index/introducing-text-and-code-embeddings
+- Hugging Face Blog: https://huggingface.co/blog/searching-the-hub
+- OpenAI News: https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training
+- Hugging Face Blog: https://huggingface.co/blog/sb3
+- Hugging Face Blog: https://huggingface.co/blog/infinity-cpu-performance
+- Hugging Face Blog: https://huggingface.co/blog/wav2vec2-with-ngram
+- Hugging Face Blog: https://huggingface.co/blog/gptj-sagemaker
+- Hugging Face Blog: https://huggingface.co/blog/autonlp-prodigy
+- Hugging Face Blog: https://huggingface.co/blog/gradio-joins-hf
+- OpenAI News: https://openai.com/index/webgpt
+- Hugging Face Blog: https://huggingface.co/blog/perceiver
+- OpenAI News: https://openai.com/index/customizing-gpt-3
+- Hugging Face Blog: https://huggingface.co/blog/codeparrot
+- Hugging Face Blog: https://huggingface.co/blog/snowball-fight
+- OpenAI News: https://openai.com/index/openai-residency
+- Hugging Face Blog: https://huggingface.co/blog/graphcore-getting-started
+- Hugging Face Blog: https://huggingface.co/blog/data-measurements-tool
+- Hugging Face Blog: https://huggingface.co/blog/accelerating-pytorch
+- OpenAI News: https://openai.com/index/api-no-waitlist
+- Hugging Face Blog: https://huggingface.co/blog/fine-tune-xlsr-wav2vec2
+- Hugging Face Blog: https://huggingface.co/blog/bert-cpu-scaling-part-2
+- OpenAI News: https://openai.com/index/solving-math-word-problems
+- Hugging Face Blog: https://huggingface.co/blog/course-launch-event
+- Hugging Face Blog: https://huggingface.co/blog/large-language-models
+- Hugging Face Blog: https://huggingface.co/blog/1b-sentence-embeddings
+- Hugging Face Blog: https://huggingface.co/blog/the-age-of-ml-as-code
+- Hugging Face Blog: https://huggingface.co/blog/fine-tune-clip-rsicd
+- Hugging Face Blog: https://huggingface.co/blog/streamlit-spaces
+- Hugging Face Blog: https://huggingface.co/blog/gradio-spaces
+- Hugging Face Blog: https://huggingface.co/blog/summer-at-huggingface
+- OpenAI News: https://openai.com/index/summarizing-books
+- Hugging Face Blog: https://huggingface.co/blog/graphcore
+- Hugging Face Blog: https://huggingface.co/blog/hardware-partners-program
+- OpenAI News: https://openai.com/index/helen-toner-joins
+- OpenAI News: https://openai.com/index/truthfulqa
+- OpenAI News: https://openai.com/index/openai-codex
+- OpenAI News: https://openai.com/index/triton
+- Hugging Face Blog: https://huggingface.co/blog/collaborative-training
+- Hugging Face Blog: https://huggingface.co/blog/spacy
+- Hugging Face Blog: https://huggingface.co/blog/deploy-hugging-face-models-easily-with-amazon-sagemaker
+- OpenAI News: https://openai.com/index/evaluating-large-language-models-trained-on-code
+- Hugging Face Blog: https://huggingface.co/blog/sentence-transformers-in-the-hub
+- OpenAI News: https://openai.com/index/improving-language-model-behavior
+- Hugging Face Blog: https://huggingface.co/blog/few-shot-learning-gpt-neo-and-inference-api
+- Hugging Face Blog: https://huggingface.co/blog/gradio
+- OpenAI News: https://openai.com/index/openai-scholars-2021-final-projects
+- OpenAI News: https://openai.com/index/will-hurd-joins
+- Hugging Face Blog: https://huggingface.co/blog/bert-cpu-scaling-part-1
+- Hugging Face Blog: https://huggingface.co/blog/accelerate-library
+- Hugging Face Blog: https://huggingface.co/blog/sagemaker-distributed-training-seq2seq
+- Hugging Face Blog: https://huggingface.co/blog/big-bird
+- OpenAI News: https://openai.com/index/gpt-3-apps
+- Hugging Face Blog: https://huggingface.co/blog/the-partnership-amazon-sagemaker-and-hugging-face
+- Hugging Face Blog: https://huggingface.co/blog/how-to-deploy-a-pipeline-to-google-clouds
+- Hugging Face Blog: https://huggingface.co/blog/fine-tune-wav2vec2-english
+- Hugging Face Blog: https://huggingface.co/blog/long-range-transformers
+- OpenAI News: https://openai.com/index/multimodal-neurons
+- Hugging Face Blog: https://huggingface.co/blog/simple-considerations
+- Hugging Face Blog: https://huggingface.co/blog/ray-rag
+- Hugging Face Blog: https://huggingface.co/blog/pytorch-xla
+- OpenAI News: https://openai.com/index/understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models
+- Hugging Face Blog: https://huggingface.co/blog/tf-serving
+- OpenAI News: https://openai.com/index/scaling-kubernetes-to-7500-nodes
+- Hugging Face Blog: https://huggingface.co/blog/zero-deepspeed-fairscale
+- Hugging Face Blog: https://huggingface.co/blog/accelerated-inference
+- OpenAI News: https://openai.com/index/clip
+- OpenAI News: https://openai.com/index/dall-e
+- OpenAI News: https://openai.com/index/organizational-update
+- Hugging Face Blog: https://huggingface.co/blog/warm-starting-encoder-decoder
+- Hugging Face Blog: https://huggingface.co/blog/porting-fsmt
+- Hugging Face Blog: https://huggingface.co/blog/ray-tune
+- Hugging Face Blog: https://huggingface.co/blog/encoder-decoder
+- OpenAI News: https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft
+- Hugging Face Blog: https://huggingface.co/blog/pytorch_block_sparse
+- OpenAI News: https://openai.com/index/generative-language-modeling-for-automated-theorem-proving
+- OpenAI News: https://openai.com/index/learning-to-summarize-with-human-feedback
+- OpenAI News: https://openai.com/index/openai-scholars-2020-final-projects
+- Hugging Face Blog: https://huggingface.co/blog/reformer
+- OpenAI News: https://openai.com/index/procgen-minerl-competitions
+- OpenAI News: https://openai.com/index/image-gpt
+- OpenAI News: https://openai.com/index/openai-api
+- OpenAI News: https://openai.com/index/language-models-are-few-shot-learners
+- OpenAI News: https://openai.com/index/ai-and-efficiency
+- OpenAI News: https://openai.com/index/jukebox
+- OpenAI News: https://openai.com/index/improving-verifiability
+- OpenAI News: https://openai.com/index/microscope
+- Hugging Face Blog: https://huggingface.co/blog/how-to-generate
+- Hugging Face Blog: https://huggingface.co/blog/how-to-train
+- OpenAI News: https://openai.com/index/openai-pytorch
+- OpenAI News: https://openai.com/index/scaling-laws-for-neural-language-models
+- OpenAI News: https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning
+- OpenAI News: https://openai.com/index/deep-double-descent
+- OpenAI News: https://openai.com/index/procgen-benchmark
+- OpenAI News: https://openai.com/index/safety-gym
+- OpenAI News: https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement-learning
+- OpenAI News: https://openai.com/index/gpt-2-1-5b-release
+- OpenAI News: https://openai.com/index/solving-rubiks-cube
+- OpenAI News: https://openai.com/index/openai-scholars-2020
+- OpenAI News: https://openai.com/index/fine-tuning-gpt-2
+- OpenAI News: https://openai.com/index/emergent-tool-use
+- OpenAI News: https://openai.com/index/testing-robustness
+- OpenAI News: https://openai.com/index/gpt-2-6-month-follow-up
+- OpenAI News: https://openai.com/index/learning-day
+- OpenAI News: https://openai.com/index/microsoft-invests-in-and-partners-with-openai
+- OpenAI News: https://openai.com/index/cooperation-on-safety
+- OpenAI News: https://openai.com/index/symposium-2019
+- OpenAI News: https://openai.com/index/openai-scholars-2019-final-projects
+- OpenAI News: https://openai.com/index/openai-fellows-fall-2018
+- OpenAI News: https://openai.com/index/transfer-of-adversarial-robustness-between-perturbation-types
+- OpenAI News: https://openai.com/index/musenet
+- OpenAI News: https://openai.com/index/sparse-transformer
+- OpenAI News: https://openai.com/index/openai-five-defeats-dota-2-world-champions
+- OpenAI News: https://openai.com/index/openai-five-finals
+- OpenAI News: https://openai.com/index/energy-based-models
+- OpenAI News: https://openai.com/index/openai-scholars-2019-meet-our-scholars
+- OpenAI News: https://openai.com/index/openai-lp
+- OpenAI News: https://openai.com/index/introducing-activation-atlases
+- OpenAI News: https://openai.com/index/neural-mmo
+- OpenAI News: https://openai.com/index/spinning-up-in-deep-rl-workshop-review
+- OpenAI News: https://openai.com/index/ai-safety-needs-social-scientists
+- OpenAI News: https://openai.com/index/better-language-models
+- OpenAI News: https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results
+- OpenAI News: https://openai.com/index/openai-summer-fellows-2018
+- OpenAI News: https://openai.com/index/how-ai-training-scales
+- OpenAI News: https://openai.com/index/quantifying-generalization-in-reinforcement-learning
+- OpenAI News: https://openai.com/index/spinning-up-in-deep-rl
+- OpenAI News: https://openai.com/index/learning-concepts-with-energy-functions
+- OpenAI News: https://openai.com/index/plan-online-learn-offline
+- OpenAI News: https://openai.com/index/reinforcement-learning-with-prediction-based-rewards
+- OpenAI News: https://openai.com/index/learning-complex-goals-with-iterated-amplification
+- OpenAI News: https://openai.com/index/openai-scholars-2019
+- OpenAI News: https://openai.com/index/openai-fellows-interns-2019
+- OpenAI News: https://openai.com/index/ffjord
+- OpenAI News: https://openai.com/index/openai-scholars-2018-final-projects
+- OpenAI News: https://openai.com/index/the-international-2018-results
+- OpenAI News: https://openai.com/index/large-scale-study-of-curiosity-driven-learning
+- OpenAI News: https://openai.com/index/openai-five-benchmark-results
+- OpenAI News: https://openai.com/index/learning-dexterity
+- OpenAI News: https://openai.com/index/variational-option-discovery-algorithms
+- OpenAI News: https://openai.com/index/openai-scholars-2018-meet-our-scholars
+- OpenAI News: https://openai.com/index/openai-five-benchmark
+- OpenAI News: https://openai.com/index/glow
+- OpenAI News: https://openai.com/index/learning-montezumas-revenge-from-a-single-demonstration
+- OpenAI News: https://openai.com/index/openai-five
+- OpenAI News: https://openai.com/index/retro-contest-results
+- OpenAI News: https://openai.com/index/learning-policy-representations-in-multiagent-systems
+- OpenAI News: https://openai.com/index/language-unsupervised
+- OpenAI News: https://openai.com/index/gamepad
+- OpenAI News: https://openai.com/index/openai-fellows
+- OpenAI News: https://openai.com/index/gym-retro
+- OpenAI News: https://openai.com/index/ai-and-compute
+- OpenAI News: https://openai.com/index/debate
+- OpenAI News: https://openai.com/index/evolved-policy-gradients
+- OpenAI News: https://openai.com/index/gotta-learn-fast
+- OpenAI News: https://openai.com/index/retro-contest
+- OpenAI News: https://openai.com/index/variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines
+- OpenAI News: https://openai.com/index/hackathon-follow-up
+- OpenAI News: https://openai.com/index/improving-gans-using-optimal-transport
+- OpenAI News: https://openai.com/index/on-first-order-meta-learning-algorithms
+- OpenAI News: https://openai.com/index/reptile
+- OpenAI News: https://openai.com/index/openai-scholars
+- OpenAI News: https://openai.com/index/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning
+- OpenAI News: https://openai.com/index/ingredients-for-robotics-research
+- OpenAI News: https://openai.com/index/multi-goal-reinforcement-learning
+- OpenAI News: https://openai.com/index/openai-hackathon
+- OpenAI News: https://openai.com/index/openai-supporters
+- OpenAI News: https://openai.com/index/preparing-for-malicious-uses-of-ai
+- OpenAI News: https://openai.com/index/interpretable-machine-learning-through-teaching
+- OpenAI News: https://openai.com/index/discovering-types-for-entity-disambiguation
+- OpenAI News: https://openai.com/index/requests-for-research-2
+- OpenAI News: https://openai.com/index/scaling-kubernetes-to-2500-nodes
+- OpenAI News: https://openai.com/index/block-sparse-gpu-kernels
+- OpenAI News: https://openai.com/index/learning-sparse-neural-networks-through-l0-regularization
+- OpenAI News: https://openai.com/index/interpretable-and-pedagogical-examples
+- OpenAI News: https://openai.com/index/learning-a-hierarchy
+- OpenAI News: https://openai.com/index/generalizing-from-simulation
+- OpenAI News: https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization
+- OpenAI News: https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning
+- OpenAI News: https://openai.com/index/domain-randomization-and-generative-models-for-robotic-grasping
+- OpenAI News: https://openai.com/index/meta-learning-for-wrestling
+- OpenAI News: https://openai.com/index/competitive-self-play
+- OpenAI News: https://openai.com/index/nonlinear-computation-in-deep-linear-networks
+- OpenAI News: https://openai.com/index/learning-to-model-other-minds
+- OpenAI News: https://openai.com/index/learning-with-opponent-learning-awareness
+- OpenAI News: https://openai.com/index/openai-baselines-acktr-a2c
+- OpenAI News: https://openai.com/index/more-on-dota-2
+- OpenAI News: https://openai.com/index/dota-2
+- OpenAI News: https://openai.com/index/gathering-human-feedback
+- OpenAI News: https://openai.com/index/better-exploration-with-parameter-noise
+- OpenAI News: https://openai.com/index/openai-baselines-ppo
+- OpenAI News: https://openai.com/index/robust-adversarial-inputs
+- OpenAI News: https://openai.com/index/hindsight-experience-replay
+- OpenAI News: https://openai.com/index/teacher-student-curriculum-learning
+- OpenAI News: https://openai.com/index/faster-physics-in-python
+- OpenAI News: https://openai.com/index/learning-from-human-preferences
+- OpenAI News: https://openai.com/index/learning-to-cooperate-compete-and-communicate
+- OpenAI News: https://openai.com/index/ucb-exploration-via-q-ensembles
+- OpenAI News: https://openai.com/index/openai-baselines-dqn
+- OpenAI News: https://openai.com/index/robots-that-learn
+- OpenAI News: https://openai.com/index/roboschool
+- OpenAI News: https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning
+- OpenAI News: https://openai.com/index/stochastic-neural-networks-for-hierarchical-reinforcement-learning
+- OpenAI News: https://openai.com/index/unsupervised-sentiment-neuron
+- OpenAI News: https://openai.com/index/spam-detection-in-the-physical-world
+- OpenAI News: https://openai.com/index/evolution-strategies
+- OpenAI News: https://openai.com/index/one-shot-imitation-learning
+- OpenAI News: https://openai.com/index/distill
+- OpenAI News: https://openai.com/index/learning-to-communicate
+- OpenAI News: https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations
+- OpenAI News: https://openai.com/index/prediction-and-control-with-temporal-segment-models
+- OpenAI News: https://openai.com/index/third-person-imitation-learning
+- OpenAI News: https://openai.com/index/attacking-machine-learning-with-adversarial-examples
+- OpenAI News: https://openai.com/index/adversarial-attacks-on-neural-network-policies
+- OpenAI News: https://openai.com/index/team-update-january
+- OpenAI News: https://openai.com/index/pixelcnn-plus-plus
+- OpenAI News: https://openai.com/index/faulty-reward-functions
+- OpenAI News: https://openai.com/index/universe
+- OpenAI News: https://openai.com/index/exploration
+- OpenAI News: https://openai.com/index/openai-and-microsoft
+- OpenAI News: https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models
+- OpenAI News: https://openai.com/index/a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models
+- OpenAI News: https://openai.com/index/rl2
+- OpenAI News: https://openai.com/index/variational-lossy-autoencoder
+- OpenAI News: https://openai.com/index/extensions-and-limitations-of-the-neural-gpu
+- OpenAI News: https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data
+- OpenAI News: https://openai.com/index/report-from-the-self-organizing-conference
+- OpenAI News: https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model
+- OpenAI News: https://openai.com/index/infrastructure-for-deep-learning
+- OpenAI News: https://openai.com/index/machine-learning-unconference
+- OpenAI News: https://openai.com/index/team-update-august
+- OpenAI News: https://openai.com/index/special-projects
+- OpenAI News: https://openai.com/index/concrete-ai-safety-problems
+- OpenAI News: https://openai.com/index/openai-technical-goals
+- OpenAI News: https://openai.com/index/generative-models
+- OpenAI News: https://openai.com/index/adversarial-training-methods-for-semi-supervised-text-classification
+- OpenAI News: https://openai.com/index/team-update
+- OpenAI News: https://openai.com/index/openai-gym-beta
+- OpenAI News: https://openai.com/index/welcome-pieter-and-shivon
+- OpenAI News: https://openai.com/index/team-plus-plus
+- OpenAI News: https://openai.com/index/weight-normalization
+- OpenAI News: https://openai.com/index/introducing-openai
