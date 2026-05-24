@@ -1,0 +1,36 @@
+sources:
+  - name: OpenAI News
+    url: https://openai.com/news/rss.xml
+    type: rss
+    category: model
+    enabled: true
+
+  - name: Google AI Blog
+    url: https://blog.google/technology/ai/rss/
+    type: rss
+    category: product
+    enabled: true
+
+  - name: Google DeepMind News
+    url: https://deepmind.google/blog/rss.xml
+    type: rss
+    category: research
+    enabled: true
+
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    type: rss
+    category: open_source
+    enabled: true
+
+  - name: GitHub Trending AI
+    url: https://github.com/trending?since=daily
+    type: html
+    category: tool
+    enabled: false
+
+  - name: GitHub Releases AI
+    url: https://github.com/topics/artificial-intelligence
+    type: html
+    category: tool
+    enabled: false
