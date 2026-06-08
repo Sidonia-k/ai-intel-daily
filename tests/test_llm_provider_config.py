@@ -26,6 +26,15 @@ def test_provider_config_defaults_to_mock():
     assert config.api_key_env == ""
 
 
+def test_provider_config_deepseek_defaults():
+    config = ProviderConfig(provider="deepseek")
+
+    assert config.provider == "deepseek"
+    assert config.model == "deepseek-v4-flash"
+    assert config.base_url == "https://api.deepseek.com"
+    assert config.api_key_env == "DEEPSEEK_API_KEY"
+
+
 def test_provider_config_stores_secret_env_name_not_secret_value():
     config = ProviderConfig(provider="openai", model="future-model")
 

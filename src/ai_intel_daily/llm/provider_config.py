@@ -25,6 +25,24 @@ DEFAULT_API_KEY_ENV_BY_PROVIDER: dict[str, str] = {
 }
 
 
+DEFAULT_MODEL_BY_PROVIDER: dict[str, str] = {
+    "openai": "",
+    "deepseek": "deepseek-v4-flash",
+    "litellm": "",
+    "local": "",
+    "mock": "",
+}
+
+
+DEFAULT_BASE_URL_BY_PROVIDER: dict[str, str] = {
+    "openai": "",
+    "deepseek": "https://api.deepseek.com",
+    "litellm": "",
+    "local": "",
+    "mock": "",
+}
+
+
 @dataclass(frozen=True)
 class ProviderConfig:
     """Configuration shape for future model providers.
@@ -49,6 +67,18 @@ class ProviderConfig:
                 self,
                 "api_key_env",
                 DEFAULT_API_KEY_ENV_BY_PROVIDER[normalized_provider],
+            )
+        if not self.model:
+            object.__setattr__(
+                self,
+                "model",
+                DEFAULT_MODEL_BY_PROVIDER[normalized_provider],
+            )
+        if not self.base_url:
+            object.__setattr__(
+                self,
+                "base_url",
+                DEFAULT_BASE_URL_BY_PROVIDER[normalized_provider],
             )
 
     @property
