@@ -6,6 +6,7 @@ from ai_intel_daily.collectors.market_collector import (
     SECTOR_NAMES,
     collect_market_research_snapshot,
 )
+from ai_intel_daily.committee.roles import CYBER_ROLES
 from ai_intel_daily.main import generate_stock_research_report
 from ai_intel_daily.reports.ai_stock_report import (
     FINANCIAL_DISCLAIMER,
@@ -61,18 +62,43 @@ def test_ai_stock_report_contains_stable_sector_and_risk_categories():
         assert risk_category in report
 
 
+def test_ai_stock_report_contains_cyber_committee_section():
+    report = _render_sample_report()
+
+    required_sections = [
+        "赛博投资委员会辅助分析",
+        "事实基础",
+        "委员会共识",
+        "主要分歧",
+        "不确定性",
+        "后续观察指标",
+        "金融安全免责声明",
+    ]
+    for section in required_sections:
+        assert section in report
+
+    for role in CYBER_ROLES:
+        assert role["name"] in report
+
+
 def test_ai_stock_report_avoids_dangerous_investment_advice_phrases():
     report = _render_sample_report()
+
+    assert "不提供买入、卖出或持有建议" in report
 
     banned_phrases = [
         "建议买入",
         "建议卖出",
+        "推荐买入",
+        "推荐卖出",
         "强烈买入",
         "强烈卖出",
+        "必然上涨",
+        "保证收益",
+        "稳赚",
+        "目标价",
         "必涨",
         "肯定上涨",
-        "稳赚",
-        "保证收益",
         "可以重仓",
         "梭哈",
         "无脑买入",
