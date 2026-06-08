@@ -63,6 +63,36 @@ data/reports/agent/YYYY-MM-DD-agent-daily-report.md
 - 阶段 7D 才考虑 OpenAI Agents SDK 正式接入实验。
 - 原计划阶段 8 保留给 LangGraph。
 
+## 阶段 7C：DeepSeek provider 本地小范围试验
+
+阶段 7C 增加了一个可替换的 DeepSeek LLM provider，用于本地小范围连通性试验。默认 provider 仍然是 `mock`，普通 pytest 和 GitHub Actions 默认不得调用真实 DeepSeek API。
+
+真实 DeepSeek 调用需要用户在本地系统环境变量中设置 `DEEPSEEK_API_KEY`。`.env.example` 只是配置模板，真实 `.env` 不应提交。当前项目没有引入 `python-dotenv`，也没有实现 `.env` 自动加载器，所以把 key 写进 `.env` 并不会被 Python 自动读取。
+
+PowerShell 示例：
+
+```powershell
+$env:DEEPSEEK_API_KEY="your-local-key"
+$env:LLM_PROVIDER="deepseek"
+$env:LLM_MODEL="deepseek-v4-flash"
+$env:LLM_BASE_URL="https://api.deepseek.com"
+```
+
+手动 smoke test：
+
+```powershell
+$env:PYTHONPATH="src"
+python -m ai_intel_daily.llm.deepseek_smoke
+```
+
+DeepSeek smoke test 默认使用 `thinking: {"type": "disabled"}`，因为阶段 7C 只验证连通性。切回 mock：
+
+```powershell
+$env:LLM_PROVIDER="mock"
+```
+
+后续可以单独做配置加载增强；本阶段不引入 `python-dotenv`，不新增依赖。
+
 ## 本地设置
 
 安装依赖：
