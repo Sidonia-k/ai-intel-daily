@@ -1,116 +1,122 @@
 # ai-intel-daily
 
-`ai-intel-daily` is a local-first project for generating daily AI intelligence reports.
+`ai-intel-daily` 是一个本地优先的项目，用于生成 AI 情报日报。
 
-Stage 4 adds a first AI daily report flow that reads configurable RSS/Atom
-sources, deduplicates entries, and writes a Markdown report:
+阶段 4 增加了第一版 AI 日报流程：读取可配置的 RSS/Atom 来源，去重条目，并写出 Markdown 报告。报告主要覆盖：
 
-- AI industry changes worth watching
-- AI-related stock market research notes
+- 值得关注的 AI 行业变化
+- AI 相关股票市场研究笔记
 
-This project does not use API keys, does not automate schedules, does not use
-agents, and does not provide investment advice.
+本项目不使用真实 API key，不创建自动化日程，不运行真实 agent，也不提供投资建议。
 
-## Features
+## 功能
 
-- Generate a Markdown AI daily report from RSS/Atom sources in `config/ai_sources.yaml`.
-- Continue when one RSS source fails.
-- Deduplicate collected items by URL, then normalized title.
-- Generate a "暂无有效数据" report when no valid items are collected.
-- Keep report output folders under `data/reports/`.
-- Include clear financial safety disclaimers in the stock research report.
-- Provide a pytest suite that does not request real networks.
+- 从 `config/ai_sources.yaml` 中配置的 RSS/Atom 来源生成 Markdown AI 日报。
+- 当单个 RSS 来源失败时继续运行。
+- 按 URL 和规范化标题对采集条目去重。
+- 当没有有效条目时，生成“暂无有效数据”报告。
+- 将报告输出目录保持在 `data/reports/` 下。
+- 在股票研究报告中包含清晰的金融安全免责声明。
+- 提供不会请求真实网络的 pytest 测试套件。
 
-## Local Setup
+## 阶段 7：多 Agent 架构
 
-Install dependencies:
+阶段 7 增加了面向未来多 Agent 日报架构的设计文档和轻量代码骨架。当前实现只包含文档、静态 agent specs、workflow 设计、guardrails 定义、模型供应商配置，以及确定性的 mock 模型客户端。
+
+这个骨架的目标是让后续阶段可以接入真实 Agents SDK、OpenAI、DeepSeek、LiteLLM 或本地模型适配器，而不是把某一个供应商写死在报告逻辑中。本阶段不导入 `openai-agents`，不调用 OpenAI 或 DeepSeek，也不连接真实市场数据 API。
+
+股票相关报告内容仍然只用于研究辅助，不构成投资建议，也不提供买入、卖出或持有建议。
+
+## 本地设置
+
+安装依赖：
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-This project uses a `src/` layout. Set `PYTHONPATH=src` when running commands locally.
+本项目使用 `src/` 布局。本地运行命令时需要设置 `PYTHONPATH=src`。
 
-## Run Locally
+## 本地运行
 
-PowerShell:
+PowerShell：
 
 ```powershell
 $env:PYTHONPATH="src"
 python -m ai_intel_daily.main
 ```
 
-macOS / Linux:
+macOS / Linux：
 
 ```bash
 PYTHONPATH=src python -m ai_intel_daily.main
 ```
 
-To generate only the AI daily report:
+只生成 AI 日报：
 
 ```powershell
 $env:PYTHONPATH="src"
 python -m ai_intel_daily.main --report ai
 ```
 
-To generate reports for a specific date:
+指定日期生成报告：
 
 ```powershell
 $env:PYTHONPATH="src"
 python -m ai_intel_daily.main --report ai --date 2026-05-22
 ```
 
-macOS / Linux:
+macOS / Linux：
 
 ```bash
 PYTHONPATH=src python -m ai_intel_daily.main --report ai --date 2026-05-22
 ```
 
-Generated reports are written to:
+生成的报告会写入：
 
 ```text
 data/reports/ai/
 data/reports/stocks/
 ```
 
-## Test Locally
+## 本地测试
 
-Install dependencies:
+安装依赖：
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-PowerShell:
+PowerShell：
 
 ```powershell
 $env:PYTHONPATH="src"
 python -m pytest -q
 ```
 
-macOS / Linux:
+macOS / Linux：
 
 ```bash
 PYTHONPATH=src python -m pytest -q
 ```
 
-## Recommended Git / GitHub Workflow
+## 推荐 Git / GitHub 工作流
 
-Do not develop directly on the default primary branch `main` or `master`. For each stage, create a separate feature branch.
+不要直接在默认主分支 `main` 或 `master` 上开发。每个阶段都应创建独立功能分支。
 
-Recommended flow:
+推荐流程：
 
-1. Confirm the stage goal.
-2. Update the default primary branch.
-3. Create a feature branch for the stage.
-4. Make small, easy-to-review changes.
-5. Run local tests.
-6. Commit the changes.
-7. Push the branch to GitHub.
-8. Open a Pull Request.
-9. Merge only after review and CI pass.
+1. 确认当前阶段目标。
+2. 更新默认主分支。
+3. 创建阶段功能分支。
+4. 做小而容易检查的改动。
+5. 运行本地测试。
+6. 提交改动。
+7. 推送分支到 GitHub。
+8. 打开 Pull Request。
+9. 仅在 review 和 CI 通过后合并。
 
-Example:
+示例：
 
 ```bash
 git switch main
@@ -122,9 +128,9 @@ git commit -m "docs: update project workflow"
 git push -u origin stage2-github-workflow
 ```
 
-If the repository uses `master` as the default primary branch, replace `main` with `master`.
+如果仓库使用 `master` 作为默认主分支，请把示例中的 `main` 替换为 `master`。
 
-More details:
+更多说明：
 
 - `docs/git_workflow.md`
 - `docs/github_actions.md`
@@ -132,29 +138,29 @@ More details:
 
 ## GitHub Actions
 
-This project includes a CI workflow at `.github/workflows/ci.yml`.
+本项目包含 CI workflow：`.github/workflows/ci.yml`。
 
-The workflow runs on:
+workflow 会在以下事件触发：
 
 - `push`
 - `pull_request`
 
-It uses Python 3.11, installs dependencies from `requirements.txt`, sets `PYTHONPATH=src`, and runs:
+它使用 Python 3.11，安装 `requirements.txt` 中的依赖，设置 `PYTHONPATH=src`，并运行：
 
 ```bash
 python -m pytest -q
 ```
 
-Current CI only runs tests. It does not connect to real APIs and does not create daily scheduled reports.
+当前 CI 只运行测试，不连接真实 API，也不创建每日定时报告。
 
-## Current Limits
+## 当前限制
 
-- RSS/Atom only for the AI daily report; no HTML collectors yet.
-- No paper, social media, market, earnings, or brokerage APIs.
-- No complex agent or multi-agent system.
-- No n8n workflow, cron job, daily report scheduler, or real automation against external services.
-- No database, vector store, cache service, or external storage.
-- No buy, sell, or hold recommendations.
-- No API keys, passwords, tokens, or real credentials in code.
-- No email, Slack, Feishu, Notion, or other distribution integration.
-- No frontend, backend service, or deployment setup.
+- AI 日报当前只支持 RSS/Atom；暂不支持 HTML collector。
+- 不接论文、社交媒体、市场、财报或券商 API。
+- 没有可执行的复杂 agent 或多 Agent runtime；阶段 7 只包含设计骨架和 mock 模型客户端。
+- 没有 n8n workflow、cron、日报 scheduler，或针对外部服务的真实自动化。
+- 没有数据库、向量库、缓存服务或外部存储。
+- 不提供买入、卖出或持有建议。
+- 代码中没有 API key、密码、token 或真实凭据。
+- 没有 email、Slack、飞书、Notion 或其他分发集成。
+- 没有前端、后端服务或部署设置。
