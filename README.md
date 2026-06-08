@@ -27,6 +27,42 @@
 
 股票相关报告内容仍然只用于研究辅助，不构成投资建议，也不提供买入、卖出或持有建议。
 
+## 阶段 7B：本地 mock 多 Agent 工作流模拟运行
+
+阶段 7B 增加了一个完全本地、确定性的 mock 多 Agent workflow，用于模拟：
+
+1. News Agent
+2. Market Agent
+3. Cyber Committee Agent
+4. Fact Check Agent
+5. Financial Safety Agent
+6. Editor Agent
+
+当前阶段仍然不接真实 OpenAI API、DeepSeek API 或财经 API，也不导入 `openai-agents`。workflow 只使用本地假数据、现有 agent specs、确定性的 mock client 和本地 guardrails。
+
+报告输出默认使用中文内容；保留英文 agent 名称仅用于和 `agent_specs.py` 中的结构化名称保持一致。
+
+生成 mock agent 日报：
+
+```powershell
+$env:PYTHONPATH="src"
+python -m ai_intel_daily.main --mock-agent
+```
+
+输出路径：
+
+```text
+data/reports/agent/YYYY-MM-DD-agent-daily-report.md
+```
+
+股票和市场相关内容仍然只作为研究辅助，不构成投资建议，不提供买入、卖出或持有建议，也不承诺收益。
+
+后续规划：
+
+- 阶段 7C 才考虑 DeepSeek API 小范围接入。
+- 阶段 7D 才考虑 OpenAI Agents SDK 正式接入实验。
+- 原计划阶段 8 保留给 LangGraph。
+
 ## 本地设置
 
 安装依赖：

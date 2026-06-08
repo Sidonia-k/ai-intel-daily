@@ -8,7 +8,9 @@ from pathlib import Path
 
 from ai_intel_daily.collectors.market_collector import collect_market_research_snapshot
 from ai_intel_daily.collectors.rss_collector import collect_from_config
+from ai_intel_daily.agents.mock_workflow import run_mock_daily_agent_workflow
 from ai_intel_daily.processors.dedupe import dedupe_items
+from ai_intel_daily.reports.agent_daily_report import write_agent_daily_report
 from ai_intel_daily.reports.ai_daily_report import render_ai_daily_report
 from ai_intel_daily.reports.ai_stock_report import render_ai_stock_report
 
@@ -55,6 +57,16 @@ def generate_stock_research_report(
     return _write_report(reports_dir / "stocks" / f"{date_text}-ai-stock-report.md", content)
 
 
+def generate_mock_agent_daily_report(
+    output_dir: str | Path | None = None,
+    report_date: date | None = None,
+) -> Path:
+    """Generate the Stage 7B local mock agent Markdown report."""
+    reports_dir = Path(output_dir) if output_dir is not None else DEFAULT_REPORTS_DIR
+    workflow_result = run_mock_daily_agent_workflow(report_date=report_date)
+    return write_agent_daily_report(workflow_result, output_dir=reports_dir)
+
+
 def generate_reports(
     output_dir: str | Path | None = None,
     report_date: date | None = None,
@@ -81,7 +93,17 @@ def main(argv: list[str] | None = None) -> None:
         default="all",
         help="Report to generate. Defaults to all for compatibility.",
     )
+    parser.add_argument(
+        "--mock-agent",
+        action="store_true",
+        help="Generate the Stage 7B local mock agent report.",
+    )
     args = parser.parse_args(argv)
+
+    if args.mock_agent:
+        agent_path = generate_mock_agent_daily_report(report_date=args.date)
+        print(f"Generated mock agent report: {agent_path}")
+        return
 
     if args.report == "ai":
         ai_path = generate_ai_daily_report(report_date=args.date)
