@@ -155,6 +155,7 @@ def test_stock_report_contains_required_sections_and_disclaimer():
     stock_report = stock_path.read_text(encoding="utf-8")
 
     required_sections = [
+        "赛博投资委员会辅助分析",
         "安全声明",
         "事实区",
         "合理推断区",
