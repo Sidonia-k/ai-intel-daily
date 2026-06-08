@@ -39,6 +39,9 @@ PROHIBITED_INVESTMENT_ADVICE_PHRASES: tuple[str, ...] = (
     "保证盈利",
     "目标价",
     "必然上涨",
+    "必涨",
+    "稳赚",
+    "满仓",
 )
 
 

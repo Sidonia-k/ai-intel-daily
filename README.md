@@ -59,8 +59,8 @@ data/reports/agent/YYYY-MM-DD-agent-daily-report.md
 
 后续规划：
 
-- 阶段 7C 才考虑 DeepSeek API 小范围接入。
-- 阶段 7D 才考虑 OpenAI Agents SDK 正式接入实验。
+- 阶段 7C 已加入 DeepSeek provider 小范围连通性试验。
+- 阶段 7D 加入 DeepSeek Agent Runtime 手动 smoke。
 - 原计划阶段 8 保留给 LangGraph。
 
 ## 阶段 7C：DeepSeek provider 本地小范围试验
@@ -92,6 +92,27 @@ $env:LLM_PROVIDER="mock"
 ```
 
 后续可以单独做配置加载增强；本阶段不引入 `python-dotenv`，不新增依赖。
+
+## 阶段 7D：DeepSeek Agent Runtime 小范围接入
+
+阶段 7D 增加一个轻量 agent runtime 层，把现有本地多 Agent 架构和 Stage 7C DeepSeek provider 串起来。当前默认仍然是 `mock`，普通运行、pytest 和 GitHub Actions 不调用真实 API。
+
+DeepSeek 是本阶段唯一真实 LLM provider。手动运行 DeepSeek runtime smoke 前，需要在本地设置 `DEEPSEEK_API_KEY`，并建议设置 `LLM_PROVIDER=deepseek`：
+
+```powershell
+$env:DEEPSEEK_API_KEY="your-local-key"
+$env:LLM_PROVIDER="deepseek"
+$env:PYTHONPATH="src"
+python scripts/deepseek_agent_runtime_smoke.py
+```
+
+这个 smoke 会调用真实 DeepSeek API，可能产生费用；输出写入：
+
+```text
+data/reports/agent_runtime/
+```
+
+本阶段不使用 OpenAI API，不导入 `openai-agents`，也不接真实财经 API。股票相关内容仍然只作为研究辅助，不构成投资建议，不提供买入、卖出或持有建议，也不承诺收益。
 
 ## 本地设置
 
